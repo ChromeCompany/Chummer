@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema priorities.xsd">
+
+  <priorities>
+    <!-- Region Metatypes-->
+    <priority>
+      <name>A - Any metatype</name>
+      <metatypes>
+        <metatype amendoperation="replace">
+          <name>Ork</name>
+          <value>8</value>
+          <karma>0</karma>
+          <metavariants>
+            <metavariant>
+              <name>Hobgoblin</name>
+              <value>8</value>
+              <karma>5</karma>
+            </metavariant>
+            <metavariant>
+              <name>Ogre</name>
+              <value>8</value>
+              <karma>8</karma>
+            </metavariant>
+            <metavariant>
+              <name>Oni</name>
+              <value>8</value>
+              <karma>4</karma>
+            </metavariant>
+            <metavariant>
+              <name>Satyr</name>
+              <value>8</value>
+              <karma>10</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
+        <metatype amendoperation="replace">
+          <name>Troll</name>
+          <value>7</value>
+          <karma>0</karma>
+          <metavariants>
+            <metavariant>
+              <name>Cyclops</name>
+              <value>7</value>
+              <karma>2</karma>
+            </metavariant>
+            <metavariant>
+              <name>Fomorian</name>
+              <value>7</value>
+              <karma>12</karma>
+            </metavariant>
+            <metavariant>
+              <name>Giant</name>
+              <value>7</value>
+              <karma>2</karma>
+            </metavariant>
+            <metavariant>
+              <name>Minotaur</name>
+              <value>7  </value>
+              <karma>2</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+    </priority>
+    <priority>
+      <name>B - Any metatype</name>
+      <metatypes>
+        <metatype amendoperation="replace">
+          <name>Ork</name>
+          <value>6</value>
+          <karma>0</karma>
+          <metavariants>
+            <metavariant>
+              <name>Ogre</name>
+              <value>6</value>
+              <karma>8</karma>
+            </metavariant>
+            <metavariant>
+              <name>Oni</name>
+              <value>6</value>
+              <karma>4</karma>
+            </metavariant>
+            <metavariant>
+              <name>Satyr</name>
+              <value>6</value>
+              <karma>10</karma>
+            </metavariant>
+            <metavariant>
+              <name>Hobgoblin</name>
+              <value>6</value>
+              <karma>5</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
+        <metatype amendoperation="replace">
+          <name>Troll</name>
+          <value>4</value>
+          <karma>0</karma>
+          <metavariants>
+            <metavariant>
+              <name>Cyclops</name>
+              <value>4</value>
+              <karma>2</karma>
+            </metavariant>
+            <metavariant>
+              <name>Fomorian</name>
+              <value>4</value>
+              <karma>12</karma>
+            </metavariant>
+            <metavariant>
+              <name>Giant</name>
+              <value>4</value>
+              <karma>2</karma>
+            </metavariant>
+            <metavariant>
+              <name>Minotaur</name>
+              <value>4</value>
+              <karma>2</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+    </priority>
+    <priority>
+      <id>988b7ce3-5739-4300-bc21-a6c92b869262</id>
+      <name>C - Any metatype</name>
+      <metatypes>
+        <metatype amendoperation = "replace">
+          <name>Ork</name>
+          <value>3</value>
+          <karma>0</karma>
+          <metavariants>
+            <metavariant>
+              <name>Ogre</name>
+              <value>3</value>
+              <karma>8</karma>
+            </metavariant>
+            <metavariant>
+              <name>Oni</name>
+              <value>3</value>
+              <karma>4</karma>
+            </metavariant>
+            <metavariant>
+              <name>Satyr</name>
+              <value>3</value>
+              <karma>10</karma>
+            </metavariant>
+            <metavariant>
+              <name>Hobgoblin</name>
+              <value>3</value>
+              <karma>5</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+      <metatypes amendoperation="append">
+        <metatype>
+          <name>Troll</name>
+          <value>1</value>
+          <karma>0</karma>
+          <metavariants>
+            <metavariant>
+              <name>Cyclops</name>
+              <value>1</value>
+              <karma>2</karma>
+            </metavariant>
+            <metavariant>
+              <name>Fomorian</name>
+              <value>1</value>
+              <karma>12</karma>
+            </metavariant>
+            <metavariant>
+              <name>Giant</name>
+              <value>1</value>
+              <karma>2</karma>
+            </metavariant>
+            <metavariant>
+              <name>Minotaur</name>
+              <value>1</value>
+              <karma>2</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+    </priority>
+    <priority>
+      <id>255da2ba-8d21-4a73-9f81-37156901db72</id>
+      <name>D - Human, Elf or Ork</name>
+      <metatypes amendoperation="append">
+        <metatype>
+          <name>Ork</name>
+          <value>0</value>
+          <karma>0</karma>
+          <metavariants>
+            <metavariant>
+              <name>Ogre</name>
+              <value>0</value>
+              <karma>8</karma>
+            </metavariant>
+            <metavariant>
+              <name>Oni</name>
+              <value>0</value>
+              <karma>-4</karma>
+            </metavariant>
+            <metavariant>
+              <name>Satyr</name>
+              <value>0</value>
+              <karma>10</karma>
+            </metavariant>
+            <metavariant>
+              <name>Hobgoblin</name>
+              <value>0</value>
+              <karma>-5</karma>
+            </metavariant>
+          </metavariants>
+        </metatype>
+      </metatypes>
+    </priority>
+    <!-- End Region -->
+    <!-- Region Talents -->
+    <!-- End Region -->
+    <!-- Region Attributes -->
+    <!-- End Region -->
+    <!-- Region Skills -->
+    <!-- Region Default -->
+    <!-- End Region -->
+    <!-- End Region -->
+    <!-- Region Resources    -->
+    <!-- Region Standard -->
+    <!-- End Region -->
+    <!-- Region Street Level -->
+    <!-- End Region    -->
+    <!-- End Region    -->
+  </priorities>
+</chummer>

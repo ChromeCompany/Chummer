@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+  <metatypes>
+  <!--Adds tusks to Orks and Ork Shifters.-->
+    <metatype>
+      <name>Ork</name>
+      <qualities>
+        <negative amendoperation="addnode">
+          <quality removable="True">Tusks</quality>
+        </negative>
+      </qualities>
+      </metatype>
+      <metatype xpathfilter="contains(name,'Shapeshifter')">
+        <metavariants>
+          <metavariant xpathfilter="name = 'Ork'">
+            <qualities>
+              <negative amendoperation="addnode">
+                <quality removable="True">Tusks</quality>
+              </negative>
+            </qualities>
+          </metavariant>
+        </metavariants>
+      </metatype>
+    
+    <!--Currently banned metatypes.-->
+    <!-- Adds the Chrome Company AI rules -->
+    <metatype>
+      <name>A.I.</name>
+      <hide />
+      <chamin>2</chamin>
+      <chamax>7</chamax>
+      <chaaug>11</chaaug>
+      <intmin>1</intmin>
+      <intmax>6</intmax>
+      <intaug>10</intaug>
+      <logmin>3</logmin>
+      <logmax>8</logmax>
+      <logaug>12</logaug>
+      <wilmin>2</wilmin>
+      <wilmax>7</wilmax>
+      <wilaug>11</wilaug>
+      <inimin>3</inimin>
+      <inimax>12</inimax>
+      <iniaug>20</iniaug>
+      <qualityrestriction>
+        <positive amendoperation="append">
+          <quality>Chrome Company</quality>
+          <quality>AI Attribute Adjustment</quality>
+          <quality>Alibi</quality>
+          <quality>Analytical Mind</quality>
+          <quality>Battle Hardened</quality>
+          <quality>Barrens Rat</quality>
+          <quality>Brilliant Heuristics</quality>
+          <quality>Black Market Pipeline</quality>
+          <quality>Born Rich</quality>
+          <quality>Candle in the Darkness</quality>
+          <quality>Catlike</quality>
+          <quality>Chaser</quality>
+          <quality>Closer</quality>
+          <quality>Common Sense</quality>
+          <quality>Corporate Loyalist</quality>
+          <quality>Cynic</quality>
+          <quality>Daredevil</quality>
+          <quality>Dealer Connection</quality>
+          <quality>Deck Builder</quality>
+          <quality>Disgraced</quality>
+          <quality>Empathic Listening</quality>
+          <quality>Exceptional Attribute</quality>
+          <quality>Fractal Punch</quality>
+          <quality>Grease Monkey</quality>
+          <quality>Groupthink</quality>
+          <quality>Hold the Door</quality>
+          <quality>Honest Face</quality>
+          <quality>Impenetrable Logic</quality>
+          <quality>Innocuous</quality>
+          <quality>Instinctive Hack</quality>
+          <quality>Jack of All Trades Master of None</quality>
+          <quality>Lone Wolf</quality>
+          <quality>Made Man</quality>
+          <quality>Master Debator</quality>
+          <quality>Memory Palace</quality>
+          <quality>Method Actor</quality>
+          <quality>Mnemonic Vault</quality>
+          <quality>Natural Hacker</quality>
+          <quality>Natural Leader</quality>
+          <quality>Observant</quality>
+          <quality>One Trick Pony</quality>
+          <quality>Out For Myself</quality>
+          <quality>Perfect Time</quality>
+          <quality>Poisoner</quality>
+          <quality>Practice, Practice, Practice</quality>
+          <quality>Profiler</quality>
+          <quality>Quick Config</quality>
+          <quality>Rabble Rouser</quality>
+          <quality>Reverberant</quality>
+          <quality>Rootkit</quality>
+          <quality>School of Hard Knocks</quality>
+          <quality>Shoot First, Don't Ask</quality>
+          <quality>Social Chameleon</quality>
+          <quality>Speed Demon</quality>
+          <quality>Stunt Driver</quality>
+          <quality>Subtle Pilot</quality>
+          <quality>Team Player</quality>
+          <quality>Trust Data, Not Lore</quality>
+          <quality>Trust Lore, Not Data</quality>
+          <quality>Unique Avatar</quality>
+        </positive>
+        <negative amendoperation="append">
+          <quality>Accident Prone</quality>
+          <quality>Alpha Junkie</quality>
+          <quality>Antipathy</quality>
+          <quality>Buddy System</quality>
+          <quality>Basement Dweller</quality>
+          <quality>Big Baby</quality>
+          <quality>Big Regret</quality>
+          <quality>Bipolar</quality>
+          <quality>Combat Junkie</quality>
+          <quality>Consummate Professional</quality>
+          <quality>Corporate Pariah I</quality>
+          <quality>Corporate Pariah II</quality>
+          <quality>Data Hog</quality>
+          <quality>Data Liberator</quality>
+          <quality>Dependent (Nuisance)</quality>
+          <quality>Dependent (Inconvenience)</quality>
+          <quality>Dependent (Demanding)</quality>
+          <quality>Designated Omega</quality>
+          <quality>Dimmer Bulb</quality>
+          <quality>Down the Rabbit Hole</quality>
+          <quality>Escaped Custody</quality>
+          <quality>Emotional Attachment</quality>
+          <quality>Every Man For Himself</quality>
+          <quality>Ex-Con</quality>
+          <quality>Favored (Common Target, Biased)</quality>
+          <quality>Favored (Common Target, Outspoken)</quality>
+          <quality>Favored (Common Target, Fanatic)</quality>
+          <quality>Favored (Specific Target, Biased)</quality>
+          <quality>Favored (Specific Target, Outspoken)</quality>
+          <quality>Favored (Specific Target, Fanatic)</quality>
+          <quality>Flashbacks I</quality>
+          <quality>Flashbacks II</quality>
+          <quality>Force of Chaos</quality>
+          <quality>Frostbite</quality>
+          <quality>Hard Luck</quality>
+          <quality>Impassive</quality>
+          <quality>Insomnia (Basic)</quality>
+          <quality>Insomnia (Full)</quality>
+          <quality>Lack of Focus</quality>
+          <quality>Lazy Fingers</quality>
+          <quality>Leeeeeeeroy Jenkins</quality>
+          <quality>Liar</quality>
+          <quality>Malware Infection</quality>
+          <quality>Matrix Troll</quality>
+          <quality>Nerdrage</quality>
+          <quality>No Man Left Behind</quality>
+          <quality>Oblivious I</quality>
+          <quality>Oblivious II</quality>
+          <quality>One Born Every Minute</quality>
+          <quality>Phobia (Uncommon, Mild)</quality>
+          <quality>Phobia (Uncommon, Moderate)</quality>
+          <quality>Phobia (Uncommon, Severe)</quality>
+          <quality>Phobia (Common, Mild)</quality>
+          <quality>Phobia (Common, Moderate)</quality>
+          <quality>Phobia (Common, Severe)</quality>
+          <quality>Poor Self Control (Braggart)</quality>
+          <quality>Poor Self Control (Compulsive I, Personal)</quality>
+          <quality>Poor Self Control (Compulsive II, Personal)</quality>
+          <quality>Poor Self Control (Compulsive III, Personal)</quality>
+          <quality>Poor Self Control (Compulsive IV, Personal)</quality>
+          <quality>Poor Self Control (Compulsive I, Public Single Aspect)</quality>
+          <quality>Poor Self Control (Compulsive II, Public Single Aspect)</quality>
+          <quality>Poor Self Control (Compulsive III, Public Single Aspect)</quality>
+          <quality>Poor Self Control (Compulsive IV, Public Single Aspect)</quality>
+          <quality>Poor Self Control (Compulsive I, Public Broad Aspect)</quality>
+          <quality>Poor Self Control (Compulsive II, Public Broad Aspect)</quality>
+          <quality>Poor Self Control (Compulsive III, Public Broad Aspect)</quality>
+          <quality>Poor Self Control (Compulsive IV, Public Broad Aspect)</quality>
+          <quality>Poor Self Control (Thrill Seeker)</quality>
+          <quality>Poor Self Control (Vindictive)</quality>
+          <quality>Poor Self Control (Combat Monster)</quality>
+          <quality>Sloppy Code</quality>
+          <quality>Superhuman Psychosis</quality>
+          <quality>The Goat</quality>
+          <quality>Thousand-Yard Stare</quality>
+          <quality>Too Much Data</quality>
+          <quality>Well, Actually...</quality>
+        </negative>
+      </qualityrestriction>
+      <metavariants>
+        <metavariant>
+          <name>E-Ghost</name>
+          <chamin>2</chamin>
+          <chamax>7</chamax>
+          <chaaug>11</chaaug>
+          <intmin>2</intmin>
+          <intmax>7</intmax>
+          <intaug>11</intaug>
+          <logmin>2</logmin>
+          <logmax>7</logmax>
+          <logaug>11</logaug>
+          <wilmin>2</wilmin>
+          <wilmax>7</wilmax>
+          <wilaug>11</wilaug>
+          <inimin>3</inimin>
+          <inimax>12</inimax>
+          <iniaug>20</iniaug>
+          <qualityrestriction>
+            <positive amendoperation="append">
+              <quality>Chrome Company</quality>
+              <quality>AI Attribute Adjustment</quality>
+              <quality>Alibi</quality>
+              <quality>Analytical Mind</quality>
+              <quality>Battle Hardened</quality>
+              <quality>Barrens Rat</quality>
+              <quality>Brilliant Heuristics</quality>
+              <quality>Black Market Pipeline</quality>
+              <quality>Born Rich</quality>
+              <quality>Candle in the Darkness</quality>
+              <quality>Catlike</quality>
+              <quality>Chaser</quality>
+              <quality>Closer</quality>
+              <quality>Common Sense</quality>
+              <quality>Corporate Loyalist</quality>
+              <quality>Cynic</quality>
+              <quality>Daredevil</quality>
+              <quality>Dealer Connection</quality>
+              <quality>Deck Builder</quality>
+              <quality>Disgraced</quality>
+              <quality>Empathic Listening</quality>
+              <quality>Exceptional Attribute</quality>
+              <quality>Fractal Punch</quality>
+              <quality>Grease Monkey</quality>
+              <quality>Groupthink</quality>
+              <quality>Hold the Door</quality>
+              <quality>Honest Face</quality>
+              <quality>Impenetrable Logic</quality>
+              <quality>Innocuous</quality>
+              <quality>Instinctive Hack</quality>
+              <quality>Jack of All Trades Master of None</quality>
+              <quality>Lone Wolf</quality>
+              <quality>Made Man</quality>
+              <quality>Master Debator</quality>
+              <quality>Memory Palace</quality>
+              <quality>Method Actor</quality>
+              <quality>Mnemonic Vault</quality>
+              <quality>Natural Hacker</quality>
+              <quality>Natural Leader</quality>
+              <quality>Observant</quality>
+              <quality>One Trick Pony</quality>
+              <quality>Out For Myself</quality>
+              <quality>Perfect Time</quality>
+              <quality>Poisoner</quality>
+              <quality>Practice, Practice, Practice</quality>
+              <quality>Profiler</quality>
+              <quality>Quick Config</quality>
+              <quality>Rabble Rouser</quality>
+              <quality>Reverberant</quality>
+              <quality>Rootkit</quality>
+              <quality>School of Hard Knocks</quality>
+              <quality>Shoot First, Don't Ask</quality>
+              <quality>Social Chameleon</quality>
+              <quality>Speed Demon</quality>
+              <quality>Stunt Driver</quality>
+              <quality>Subtle Pilot</quality>
+              <quality>Team Player</quality>
+              <quality>Trust Data, Not Lore</quality>
+              <quality>Trust Lore, Not Data</quality>
+              <quality>Unique Avatar</quality>
+            </positive>
+            <negative amendoperation="append">
+              <quality>Accident Prone</quality>
+              <quality>Alpha Junkie</quality>
+              <quality>Antipathy</quality>
+              <quality>Buddy System</quality>
+              <quality>Basement Dweller</quality>
+              <quality>Big Baby</quality>
+              <quality>Big Regret</quality>
+              <quality>Bipolar</quality>
+              <quality>Combat Junkie</quality>
+              <quality>Consummate Professional</quality>
+              <quality>Corporate Pariah I</quality>
+              <quality>Corporate Pariah II</quality>
+              <quality>Data Hog</quality>
+              <quality>Data Liberator</quality>
+              <quality>Dependent (Nuisance)</quality>
+              <quality>Dependent (Inconvenience)</quality>
+              <quality>Dependent (Demanding)</quality>
+              <quality>Designated Omega</quality>
+              <quality>Dimmer Bulb</quality>
+              <quality>Down the Rabbit Hole</quality>
+              <quality>Escaped Custody</quality>
+              <quality>Emotional Attachment</quality>
+              <quality>Every Man For Himself</quality>
+              <quality>Ex-Con</quality>
+              <quality>Favored (Common Target, Biased)</quality>
+              <quality>Favored (Common Target, Outspoken)</quality>
+              <quality>Favored (Common Target, Fanatic)</quality>
+              <quality>Favored (Specific Target, Biased)</quality>
+              <quality>Favored (Specific Target, Outspoken)</quality>
+              <quality>Favored (Specific Target, Fanatic)</quality>
+              <quality>Flashbacks I</quality>
+              <quality>Flashbacks II</quality>
+              <quality>Force of Chaos</quality>
+              <quality>Frostbite</quality>
+              <quality>Hard Luck</quality>
+              <quality>Impassive</quality>
+              <quality>Insomnia (Basic)</quality>
+              <quality>Insomnia (Full)</quality>
+              <quality>Lack of Focus</quality>
+              <quality>Lazy Fingers</quality>
+              <quality>Leeeeeeeroy Jenkins</quality>
+              <quality>Liar</quality>
+              <quality>Malware Infection</quality>
+              <quality>Matrix Troll</quality>
+              <quality>Nerdrage</quality>
+              <quality>No Man Left Behind</quality>
+              <quality>Oblivious I</quality>
+              <quality>Oblivious II</quality>
+              <quality>One Born Every Minute</quality>
+              <quality>Phobia (Uncommon, Mild)</quality>
+              <quality>Phobia (Uncommon, Moderate)</quality>
+              <quality>Phobia (Uncommon, Severe)</quality>
+              <quality>Phobia (Common, Mild)</quality>
+              <quality>Phobia (Common, Moderate)</quality>
+              <quality>Phobia (Common, Severe)</quality>
+              <quality>Poor Self Control (Braggart)</quality>
+              <quality>Poor Self Control (Compulsive I, Personal)</quality>
+              <quality>Poor Self Control (Compulsive II, Personal)</quality>
+              <quality>Poor Self Control (Compulsive III, Personal)</quality>
+              <quality>Poor Self Control (Compulsive IV, Personal)</quality>
+              <quality>Poor Self Control (Compulsive I, Public Single Aspect)</quality>
+              <quality>Poor Self Control (Compulsive II, Public Single Aspect)</quality>
+              <quality>Poor Self Control (Compulsive III, Public Single Aspect)</quality>
+              <quality>Poor Self Control (Compulsive IV, Public Single Aspect)</quality>
+              <quality>Poor Self Control (Compulsive I, Public Broad Aspect)</quality>
+              <quality>Poor Self Control (Compulsive II, Public Broad Aspect)</quality>
+              <quality>Poor Self Control (Compulsive III, Public Broad Aspect)</quality>
+              <quality>Poor Self Control (Compulsive IV, Public Broad Aspect)</quality>
+              <quality>Poor Self Control (Thrill Seeker)</quality>
+              <quality>Poor Self Control (Vindictive)</quality>
+              <quality>Poor Self Control (Combat Monster)</quality>
+              <quality>Sloppy Code</quality>
+              <quality>Superhuman Psychosis</quality>
+              <quality>The Goat</quality>
+              <quality>Thousand-Yard Stare</quality>
+              <quality>Too Much Data</quality>
+              <quality>Well, Actually...</quality>
+            </negative>
+          </qualityrestriction>
+        </metavariant>
+        <metavariant>
+          <name>Xenosapient</name>
+          <hide />
+        </metavariant>
+        <metavariant>
+          <name>Protosapient</name>
+          <hide />
+        </metavariant>
+      </metavariants>
+    </metatype>
+    <metatype>
+      <name>Centaur</name>
+      <hide />
+    </metatype>
+    <metatype>
+      <name>Naga</name>
+      <hide />
+    </metatype>
+    <metatype>
+      <name>Pixie</name>
+      <hide />
+    </metatype>
+    <metatype>
+      <name>Sasquatch</name>
+      <hide />
+    </metatype>
+  </metatypes>
+
+</chummer>
