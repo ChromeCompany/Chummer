@@ -567,7 +567,7 @@
         </accessory>
       </accessories>
     </weapon>
-	<!-- 4e Light Pistols-->
+	<!-- 4e Light Pistols (Don't know how to do the PB-120's extended clip though)-->
 	<weapon>
       <id>e01da70e-bd63-4954-8988-866095b202cf</id>
       <name>Beretta 200ST</name>
@@ -625,7 +625,7 @@
       <category>Light Pistols</category>
       <type>Ranged</type>
       <conceal>-2</conceal>
-      <accuracy>6</accuracy>
+      <accuracy>7</accuracy>
       <reach>0</reach>
       <damage>7P</damage>
       <ap>-1</ap>
@@ -643,6 +643,56 @@
       <spec>Semi-Automatics</spec>
 	  <spec2>Revolvers</spec2>
     </weapon>
+		<weapon>
+      <id>8fdc714a-7525-4f82-8376-c0353fff52df</id>
+      <name>Walther PB-120</name>
+      <category>Light Pistols</category>
+      <type>Ranged</type>
+      <conceal>-2</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>-1</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>10(c)</ammo>
+      <avail>9R</avail>
+      <cost>350</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+      </accessorymounts>
+      <spec>Semi-Automatics</spec>
+    </weapon>
+	<!-- 4e Machine Pistols-->
+	<weapon>
+      <id>c8e3d921-45df-4850-8619-7fcca279d774</id>
+      <name>FN 5-7C</name>
+      <category>Machine Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>-</ap>
+      <mode>SA/BF</mode>
+      <rc>1</rc>
+      <ammo>20(c)</ammo>
+      <avail>8R</avail>
+      <cost>600</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+      </accessorymounts>
+      <spec>Semi-Automatics</spec>
+    </weapon>
+	<!-- 4e Heavy Pistols-->
 	
 
     <!-- Adds the new biospike needed for R4 density -->
