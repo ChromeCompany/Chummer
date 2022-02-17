@@ -668,7 +668,7 @@
     </weapon>
 	<!-- 4e Machine Pistols-->
 	<weapon>
-      <id>c8e3d921-45df-4850-8619-7fcca279d774</id>
+      <id>b0aa12a1-1883-4446-a163-41ce1aeca00d</id>
       <name>FN 5-7C</name>
       <category>Machine Pistols</category>
       <type>Ranged</type>
@@ -693,7 +693,67 @@
       <spec>Semi-Automatics</spec>
     </weapon>
 	<!-- 4e Heavy Pistols-->
-	
+	<weapon>
+      <id>eaaba741-6c65-4977-9921-fd10ce512f56</id>
+      <name>Eichiro Hatamoto II</name>
+      <category>Heavy Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-1</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>1(m)</ammo>
+      <avail>10R</avail>
+      <cost>1150</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+      <ammocategory>Shotguns</ammocategory>
+    </weapon>
+	<weapon>
+      <id>8870c5bf-8c69-432c-9b6b-b2b246f6c787</id>
+      <name>Nitama NeMax</name>
+      <category>Heavy Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-1</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>10(c)</ammo>
+      <avail>16</avail>
+      <cost>1700</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+		<accessory>
+          <name>Safe Target System, Base</name>
+        </accessory>
+        <accessory>
+          <name>Advanced Safety System, Basic</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+      <spec>Semi-Automatics</spec>
+    </weapon>
 
     <!-- Adds the new biospike needed for R4 density -->
     <weapon>
