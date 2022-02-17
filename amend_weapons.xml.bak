@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema weapons.xsd">
+  <weapons>
+    <weapon>
+      <name>Ranger Silver Pistol Crossbow</name>
+      <concealability>0</concealability>
+    </weapon>
+    <weapon>
+      <name>Light Crossbow</name>
+      <concealability>5</concealability>
+    </weapon>
+    <weapon>
+      <name>Medium Crossbow</name>
+      <concealability>6</concealability>
+    </weapon>
+    <weapon>
+      <name>Heavy Crossbow</name>
+      <concealability>7</concealability>
+    </weapon>
+    <weapon>
+      <name>Pepper Punch Pen</name>
+      <range>Spray Pens</range>
+    </weapon>
+    <weapon>
+      <name>Modified Spray Pen</name>
+      <range>Spray Pens</range>
+    </weapon>
+    
+    <!-- Corrects Run and Gun stat blocks -->
+    <weapon>
+      <name>Onotari Arms JP-K50</name>
+      <rc>0</rc>
+    </weapon>
+
+<!-- TODO: Add Atomizer too? -->
+    
+    <!--Adds the Semi-auto spec to the Gemini-->
+    <weapon>
+      <name>Hammerli Gemini</name>
+      <spec>Semi-Automatics</spec>
+    </weapon>
+    
+    <!--Adds the Natural Weapons spec to all natural weapons-->
+    <weapon>
+      <name>Digging Claws</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Razor Claws</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Claws (Sasquatch)</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Claws (Bio-Weapon)</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Retractable Claws (Bio-Weapon)</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Fangs (Bio-Weapon)</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Retractable Fangs (Bio-Weapon)</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Bone Spike I</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Bone Spike II</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Bone Spike III</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Functional Tail (Thagomizer)</name>
+      <useskill>Unarmed Combat</useskill>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Goring Horns</name>
+      <useskill>Unarmed Combat</useskill>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Larger Tusks</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Proboscis</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Fangs</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Bite (Infected)</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    <weapon>
+      <name>Bite (Naga)</name>
+      <spec>Natural Weapons</spec>
+    </weapon>
+    
+    <!--Cyberweapons missing the Cyber Implants spec-->
+    <weapon>
+      <name>Cyberfangs</name>
+      <spec>Cyber Implants</spec>
+    </weapon>
+    <weapon>
+      <name>Extreme Cyberimplant</name>
+      <spec>Cyber Implants</spec>
+    </weapon>
+    <weapon>
+      <name>Junkyard Jaw</name>
+      <spec>Cyber Implants</spec>
+    </weapon>
+    
+    <!-- Minor chummer tweaks -->
+    <weapon>
+      <name>Nodachi</name>
+      <conceal>+10</conceal>
+    </weapon>
+    <weapon>
+      <name>Razor Claws</name>
+      <hide />
+    </weapon>
+  
+  <!--Adds the Polearms spec to all weapons that are a polearm-->
+   <weapon>
+      <name>Pole Arm</name>
+      <spec>Polearms</spec>
+    </weapon>
+    <weapon>
+      <name>Cougar Collapsible Spear</name>
+      <spec>Polearms</spec>
+    </weapon>
+    <weapon>
+      <name>Krime Bill</name>
+      <spec>Polearms</spec>
+    </weapon>
+    
+    <!--Removes the combat boots AP-->
+    <weapon>
+      <name>Lone Star Bates-Brown Tactical Combat Boots</name>
+      <ap>0</ap>
+    </weapon>
+    
+    <!-- Makes Garrotes unarmed -->
+    <weapon>
+      <name>Garrote</name>
+      <category>Unarmed</category>
+    </weapon>
+    
+    <!-- Gives UZI full auto -->
+    <weapon>
+      <name>Uzi III (2050)</name>
+      <mode>BF/FA</mode>
+    </weapon>
+    
+    <!-- Banned items-->
+    <weapon>
+      <name>Stoner-Ares M-22A1</name>
+      <hide />
+    </weapon>
+    
+    <weapon>
+      <name>Underbarrel Grenade Launcher</name>
+      <avail>10F</avail>
+      <cost>3500</cost>
+    </weapon>
+    
+    <!-- Krime Katalog Adjustments -->
+    <weapon>
+      <name>Krime Heater</name>
+      <accuracy>4</accuracy>
+      <damage>8P</damage>
+      <ap>-2</ap>
+      <cost>475</cost>
+    </weapon>
+    <weapon>
+      <name>Krime Varmint</name>
+      <accuracy>4</accuracy>
+      <damage>8P</damage>
+      <ap>-2</ap>
+      <rc>-1</rc>
+      <cost>600</cost>
+    </weapon>
+    <weapon>
+      <name>Krime Chatter</name>
+      <accuracy>4</accuracy>
+      <damage>6P</damage>
+      <cost>380</cost>
+    </weapon>
+    <weapon>
+      <name>Krime Tradition</name>
+      <accuracy>5</accuracy>
+      <damage>7P</damage>
+      <rc>-3</rc>
+      <cost>500</cost>
+      <avail>15R</avail>
+    </weapon>
+    <weapon>
+      <name>Krime Ditch (Shotgun)</name>
+      <damage>13P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Ditch (Rifle)</name>
+      <damage>12P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Stopper-II (Homeguard)</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Stopper-II (Shopkeeper)</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Stopper-II</name>
+      <damage>10P</damage>
+    </weapon>
+    <weapon>
+      <name>Krime Soldier</name>
+      <accuracy>4</accuracy>
+      <cost>8500</cost>
+    </weapon>
+    <weapon>
+      <name>Krime KAR-97-H</name>
+      <accuracy>5</accuracy>
+    </weapon>
+    <weapon>
+      <name>Krime Monster</name>
+      <accuracy>3</accuracy>
+      <damage>13P</damage>
+      <ap>-4</ap>
+      <mode>FA</mode>
+      <ammo>100(belt)</ammo>
+      <cost>14000</cost>
+    </weapon>
+    <weapon>
+      <name>Krime Confederate</name>
+      <accuracy>4</accuracy>
+      <damage>15P</damage>
+      <cost>18500</cost>
+    </weapon>
+    <weapon>
+      <name>Krime Escalation</name>
+      <damage>Missile</damage>
+    </weapon>
+    
+    <!-- Changes weapons according to the CC patch notes -->
+    <weapon>
+      <name>Ares HVAR</name>
+      <ap>-5</ap>
+    </weapon>
+    <weapon>
+      <name>Krupp Arms Kriegfaust</name>
+      <accuracy>5</accuracy>
+      <damage>11P</damage>
+      <ap>-2</ap>
+    </weapon>
+    <weapon>
+      <name>SVD</name>
+      <damage>11P</damage>
+    </weapon>
+    <weapon>
+      <name>Morrissey Alta</name>
+      <avail>7R</avail>
+    </weapon>
+    
+    <!-- Banned items from the Krime Katalog-->
+    <weapon>
+      <name>Krime Saint Nicholas</name>
+      <hide />
+    </weapon>
+    <weapon>
+      <name>Krime T-Shirt Cannon</name>
+      <hide />
+    </weapon>
+    <weapon>
+      <name>Krime Calliope</name>
+      <hide />
+    </weapon>
+    <weapon>
+      <name>Krime Ripper</name>
+      <hide />
+    </weapon>
+    <weapon>
+      <name>Krime Carpet</name>
+      <hide />
+    </weapon>
+  </weapons>
+  
+  <!-- Adds Shock Frills as a weapon -->
+  <weapons amendoperation="append">
+    <weapon>
+      <id>496145fa-2e92-4e43-9aba-0ec8df0aedbd</id>
+      <name>Shock Frills</name>
+      <category>Unarmed</category>
+      <type>Melee</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>8S(e)</damage>
+      <ap>-5</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>438</page>
+      <useskill>Unarmed Combat</useskill>
+      <hide />
+    </weapon>
+    <weapon>
+      <id>60aaa95b-e27d-4ccd-95d8-65b537ac15e9</id>
+      <name>Arm Blade</name>
+      <category>Blades</category>
+      <type>Melee</type>
+      <conceal>-2</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>1</reach>
+      <damage>(STR+3)P</damage>
+      <ap>-2</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <hide />
+      <source>SR5</source>
+      <page>1</page>
+      <spec>Cyber Implants</spec>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+    <weapon>
+      <id>50ed0e98-1239-481e-b38e-3103d7b3a508</id>
+      <name>Quills (Bio-Weapon)</name>
+      <category>Unarmed</category>
+      <type>Melee</type>
+      <conceal>-2</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>(STR+1)P</damage>
+      <ap>+1</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <hide />
+      <source>SR5</source>
+      <page>1</page>
+      <spec>Natural Weapons</spec>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+    <weapon>
+      <id>f53dbb68-0bd0-4328-b553-2a2e20892577</id>
+      <name>Eye/Oral Dart</name>
+      <category>Exotic Ranged Weapons</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>2P</damage>
+      <ap>-</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>5(m)</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <hide />
+      <range>Tasers</range>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <id>3304b37f-8558-47cd-8a9a-71b94aed853c</id>
+      <name>Oral Gun</name>
+      <category>Exotic Ranged Weapons</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>4P</damage>
+      <ap>-</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>4(m)</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <hide />
+      <range>Holdouts</range>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <id>0402484b-47f4-4635-9e3c-ba5d59f7c568</id>
+      <name>Fingertip Dartgun</name>
+      <category>Exotic Ranged Weapons</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>3P</damage>
+      <ap>-</ap>
+      <mode>SA/FA</mode>
+      <rc>0</rc>
+      <ammo>5(m)</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <range>Tasers</range>
+      <hide />
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <id>82d8a3d8-dab8-4ac2-9004-ed25c7b3bae5</id>
+      <name>Squirtgun</name>
+      <category>Exotic Ranged Weapons</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>3</accuracy>
+      <reach>0</reach>
+      <damage>As Chemical</damage>
+      <ap>-</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>10(m)/15(c)</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <hide />
+      <range>Light Pistols</range>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+      </accessorymounts>
+    </weapon>
+    <weapon>
+      <id>7be9cecc-b890-4530-8174-1d27597cd1c0</id>
+      <name>Taser</name>
+      <category>Tasers</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>6S(e)</damage>
+      <ap>-5</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>4(m)</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <range>Tasers</range>
+      <hide />
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+      </accessorymounts>
+    </weapon>
+    <!-- Adds the new biospike needed for R4 density -->
+    <weapon>
+      <id>dc13033e-29b9-47ad-91b6-be590ed970d5</id>
+      <name>Bone Spike IV</name>
+      <category>Bio-Weapon</category>
+      <type>Melee</type>
+      <conceal>-10</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>(STR+5)P</damage>
+      <ap>0</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>HT</source>
+      <page>185</page>
+      <cyberware>True</cyberware>
+      <hide />
+      <spec>Cyber Implants</spec>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+  </weapons>
+  
+  <accessories>
+    <accessory>
+      <name>Shock Pad</name>
+      <mount>Stock</mount>
+    </accessory>
+    <accessory>
+      <name>Underbarrel Weight</name>
+      <notes>Only adds +1 RC when using the weapon in Full Auto</notes>
+    </accessory>
+    <accessory>
+      <name>Overclocked</name>
+      <damage>-1</damage>
+    </accessory>
+  </accessories>
+</chummer>
