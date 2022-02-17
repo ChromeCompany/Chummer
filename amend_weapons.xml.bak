@@ -182,7 +182,7 @@
     
     <!-- Gives UZI full auto -->
     <weapon>
-      <name>Uzi III (2050)</name>
+      <name>Uzi IV</name>
       <mode>BF/FA</mode>
     </weapon>
     
@@ -320,7 +320,7 @@
     </weapon>
   </weapons>
   
-  <!-- Adds Shock Frills as a weapon -->
+  <!-- Adds Shock Frills and other stuff as weapons -->
   <weapons amendoperation="append">
     <weapon>
       <id>496145fa-2e92-4e43-9aba-0ec8df0aedbd</id>
@@ -524,6 +524,50 @@
         <mount>Barrel</mount>
       </accessorymounts>
     </weapon>
+	<!-- New 4e Holdouts-->
+	<weapon>
+      <id>80d0a92c-f84c-4b8d-b842-dad54389c477</id>
+      <name>Cavalier Scout</name>
+      <category>Holdouts</category>
+      <type>Ranged</type>
+      <conceal>-4</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>6P</damage>
+      <ap>-</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>7(c)</ammo>
+      <avail>7R</avail>
+      <cost>375</cost>
+      <source>SR5</source>
+      <page>0</page>
+    </weapon>
+	    <weapon>
+      <id>7be8832b-6939-48d7-8824-d655b2cb1c54</id>
+      <name>Raecor Sting</name>
+      <category>Holdouts</category>
+      <type>Ranged</type>
+      <conceal>-4</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>5P</damage>
+      <ap>-</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>5(c)</ammo>
+      <avail>7R</avail>
+      <cost>450</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessories>
+        <accessory>
+          <name>Ceramic/Plasteel Components</name>
+          <rating>6</rating>
+        </accessory>
+      </accessories>
+    </weapon>
+
     <!-- Adds the new biospike needed for R4 density -->
     <weapon>
       <id>dc13033e-29b9-47ad-91b6-be590ed970d5</id>
@@ -548,7 +592,7 @@
       <useskill>Unarmed Combat</useskill>
     </weapon>
   </weapons>
-  
+    <!-- Minor changes to certain weapon accessories (ask Atrum for details) -->
   <accessories>
     <accessory>
       <name>Shock Pad</name>
