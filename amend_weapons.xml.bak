@@ -911,18 +911,82 @@
       <cost>1200</cost>
       <source>SR5</source>
       <page>0</page>
-      <accessories>
-        <accessory>
-          <name>Extreme Environment Modification</name>
-		  <rating>2</rating>
-        </accessory>
-      </accessories>
       <accessorymounts>
         <mount>Stock</mount>
         <mount>Side</mount>
         <mount>Barrel</mount>
         <mount>Under</mount>
         <mount>Top</mount>
+      </accessorymounts>
+    </weapon>
+	<!-- 4e Assault Rifles-->
+	<weapon>
+      <id>dc3d3eb0-e203-48d9-b960-b2d5ad844b5a</id>
+      <name>Heckler and Koch G12a3z</name>
+      <category>Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>0</rc>
+      <ammo>32(c)</ammo>
+      <avail>9F</avail>
+      <cost>3250</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessories>
+        <accessory>
+          <name>Laser Sight</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 2 System</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+		<weapon>
+      <id>e8388c10-7779-4b4b-a37f-4095affb6db8</id>
+      <name>Sernopal vz/88v</name>
+      <category>Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>0</rc>
+      <ammo>35(c)</ammo>
+      <avail>8F</avail>
+      <cost>3400</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessories>
+        <accessory>
+          <name>Laser Sight</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 2 System</name>
+        </accessory>
+        <accessory>
+          <name>Folding Stock</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
       </accessorymounts>
     </weapon>
 

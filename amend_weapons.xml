@@ -919,6 +919,226 @@
         <mount>Top</mount>
       </accessorymounts>
     </weapon>
+	<!-- 4e Assault Rifles-->
+	<weapon>
+      <id>dc3d3eb0-e203-48d9-b960-b2d5ad844b5a</id>
+      <name>Heckler and Koch G12a3z</name>
+      <category>Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>0</rc>
+      <ammo>32(c)</ammo>
+      <avail>9F</avail>
+      <cost>3250</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessories>
+        <accessory>
+          <name>Laser Sight</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 2 System</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+		<weapon>
+      <id>e8388c10-7779-4b4b-a37f-4095affb6db8</id>
+      <name>Sernopal vz/88v</name>
+      <category>Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>0</rc>
+      <ammo>35(c)</ammo>
+      <avail>8F</avail>
+      <cost>3400</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessories>
+        <accessory>
+          <name>Laser Sight</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 2 System</name>
+        </accessory>
+        <accessory>
+          <name>Folding Stock</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+	<weapon>
+      <id>dcecf72a-4456-4cc4-8a38-a3bd3eebf8f7</id>
+      <name>Steyr AUG-CSL</name>
+      <category>Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>0</rc>
+      <ammo>30(c)</ammo>
+      <avail>13F</avail>
+      <cost>8000</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessories>
+        <accessory>
+          <name>Laser Sight</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 1 System</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <addweapon>Steyr AUG-CSL SMG</addweapon>
+      <addweapon>Steyr AUG-CSL LMG</addweapon>
+      <addweapon>Steyr AUG-CSL Sniper</addweapon>
+    </weapon>
+    <weapon>
+      <id>ba74acce-b4a5-4164-a0c2-f9a814621f71</id>
+      <name>Steyr AUG-CSL SMG</name>
+      <category>Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>25(c)</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessories>
+        <accessory>
+          <name>Laser Sight</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 1 System</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <hide />
+      <range>Submachine Guns</range>
+      <spec>Submachine Guns</spec>
+      <useskill>Automatics</useskill>
+	  <ammocategory>Assault Rifles</ammocategory>
+    </weapon>
+    <weapon>
+      <id>0427180b-4ec4-4d8b-a065-90723a76a7a4</id>
+      <name>Steyr AUG-CSL LMG</name>
+      <category>Light Machine Guns</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-2</ap>
+      <mode>BF/FA</mode>
+      <rc>0</rc>
+      <ammo>50(c)</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>RG</source>
+      <page>37</page>
+      <accessories>
+        <accessory>
+          <name>Laser Sight</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 1 System</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <hide />
+      <range>Light Machine Guns</range>
+      <spec>Machine Guns</spec>
+      <useskill>Heavy Weapons</useskill>
+	  <ammocategory>Assault Rifles</ammocategory>
+    </weapon>
+    <weapon>
+      <id>6797323e-7299-4962-b8ba-89f857d3de97</id>
+      <name>Steyr AUG-CSL Sniper</name>
+      <category>Sniper Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-3</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>20(c)</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>RG</source>
+      <page>37</page>
+      <accessories>
+        <accessory>
+          <name>Laser Sight</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 1 System</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <hide />
+      <range>Sniper Rifles</range>
+      <spec>Sniper Rifles</spec>
+      <useskill>Longarms</useskill>
+	  <ammocategory>Assault Rifles</ammocategory>
+    </weapon>
 
     <!-- Adds the new biospike needed for R4 density -->
     <weapon>
