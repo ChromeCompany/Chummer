@@ -1178,5 +1178,161 @@
       <name>Overclocked</name>
       <damage>-1</damage>
     </accessory>
+	  <accessory>
+		<name>Extended Clip</name>
+			<forbidden amendoperation="replace">
+				<weapondetails>
+					<OR>
+						<name>Ares Crusader II</name>
+						<name>Ceska Black Scorpion</name>
+						<name>PPSK-4 Collapsible Machine Pistol</name>
+						<name>Steyr TMP</name>
+						<name>Walther PB-120</name>
+					</OR>
+				</weapondetails>
+			</forbidden>
+    </accessory>
+  </accessories>
+  <accessories amendoperation="append">
+  <!-- 4e Accessories for the 4e weapons-->
+  	<accessory>
+      <id>90796c00-08dd-4fd6-8815-8ef137c91ddb</id>
+      <name>Belt-Feed, 50-round</name>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <ammoreplace>50(belt)</ammoreplace>
+      <ammoslots>1</ammoslots>
+      <rating>0</rating>
+	  <required>
+        <weapondetails>
+          <name>Steyr AUG-CSL LMG</name>
+        </weapondetails>
+      </required>
+    </accessory>
+	<accessory>
+      <id>e3fbf35f-4b07-422c-9f5c-7de925b47dc4</id>
+      <name>Clip, 15-round</name>
+      <mount />
+      <avail>9R</avail>
+      <cost>12</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <ammobonus>50</ammobonus>
+      <ammoslots>1</ammoslots>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <name>Walther PB-120</name>
+        </weapondetails>
+      </required>
+    </accessory>
+    <accessory>
+      <id>c7b01cc8-90f5-48ec-b7d3-20d65afa3093</id>
+      <name>Extended Clip (Walther PB-120)</name>
+      <mount />
+      <avail>6R</avail>
+      <cost>35</cost>
+      <source>HT</source>
+      <page>180</page>
+      <ammobonus>50</ammobonus>
+      <conceal>2</conceal>
+      <rating>1</rating>
+      <required>
+        <weapondetails>
+			<name>Walther PB-120</name>
+        </weapondetails>
+      </required>
+    </accessory>
+	<accessory>
+      <id>6b75c8f3-5484-41a2-b9c4-b8275710be88</id>
+      <name>Walther PB-120 15-Round Spare Clip</name>
+      <mount />
+      <avail>9R</avail>
+      <cost>12</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <ammoslots>1</ammoslots>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <name>Walther PB-120</name>
+        </weapondetails>
+      </required>
+    </accessory>
+    <accessory>
+      <id>2eacc796-1402-491e-b0fb-ab4865563a75</id>
+      <name>Walther Secura Smartgun System</name>
+      <mount />
+      <avail>0</avail>
+      <cost>150</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accuracy>2</accuracy>
+      <forbidden>
+        <oneof>
+          <accessory>Ceramic/Plasteel Components</accessory>
+          <accessory>Collapsible Traditional Bow</accessory>
+          <accessory>Vintage</accessory>
+        </oneof>
+        <weapondetails>
+          <type>Melee</type>
+        </weapondetails>
+      </forbidden>
+      <gears>
+        <usegear>
+          <name>Laser Range Finder</name>
+          <category>Sensor Functions</category>
+        </usegear>
+        <usegear>
+          <name>Camera, Micro</name>
+          <category>Vision Devices</category>
+        </usegear>
+      </gears>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <name>Walther Secura</name>
+        </weapondetails>
+      </required>
+    </accessory>
+    <accessory>
+      <id>747c0929-c738-4127-90b9-d8a784a52b7e</id>
+      <name>Walther Secura Kompakt Smartgun System</name>
+      <mount />
+      <avail>0</avail>
+      <cost>200</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accuracy>2</accuracy>
+      <forbidden>
+        <oneof>
+          <accessory>Ceramic/Plasteel Components</accessory>
+          <accessory>Collapsible Traditional Bow</accessory>
+          <accessory>Vintage</accessory>
+        </oneof>
+        <weapondetails>
+          <type>Melee</type>
+        </weapondetails>
+      </forbidden>
+      <gears>
+        <usegear>
+          <name>Laser Range Finder</name>
+          <category>Sensor Functions</category>
+        </usegear>
+        <usegear>
+          <name>Camera, Micro</name>
+          <category>Vision Devices</category>
+        </usegear>
+      </gears>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <name>Walther Secura Kompakt</name>
+        </weapondetails>
+      </required>
+    </accessory>
   </accessories>
 </chummer>

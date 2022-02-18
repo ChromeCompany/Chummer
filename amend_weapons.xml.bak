@@ -989,6 +989,156 @@
         <mount>Under</mount>
       </accessorymounts>
     </weapon>
+	<weapon>
+      <id>dcecf72a-4456-4cc4-8a38-a3bd3eebf8f7</id>
+      <name>Steyr AUG-CSL</name>
+      <category>Assault Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>10P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>0</rc>
+      <ammo>30(c)</ammo>
+      <avail>13F</avail>
+      <cost>8000</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessories>
+        <accessory>
+          <name>Laser Sight</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 1 System</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <addweapon>Steyr AUG-CSL SMG</addweapon>
+      <addweapon>Steyr AUG-CSL LMG</addweapon>
+      <addweapon>Steyr AUG-CSL Sniper</addweapon>
+    </weapon>
+    <weapon>
+      <id>ba74acce-b4a5-4164-a0c2-f9a814621f71</id>
+      <name>Steyr AUG-CSL SMG</name>
+      <category>Submachine Guns</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>7P</damage>
+      <ap>-2</ap>
+      <mode>SA/BF/FA</mode>
+      <rc>1</rc>
+      <ammo>25(c)</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessories>
+        <accessory>
+          <name>Laser Sight</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 1 System</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <hide />
+      <range>Submachine Guns</range>
+      <spec>Submachine Guns</spec>
+      <useskill>Automatics</useskill>
+	  <ammocategory>Assault Rifles</ammocategory>
+    </weapon>
+    <weapon>
+      <id>0427180b-4ec4-4d8b-a065-90723a76a7a4</id>
+      <name>Steyr AUG-CSL LMG</name>
+      <category>Light Machine Guns</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>9P</damage>
+      <ap>-2</ap>
+      <mode>BF/FA</mode>
+      <rc>0</rc>
+      <ammo>50(c)</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>RG</source>
+      <page>37</page>
+      <accessories>
+        <accessory>
+          <name>Laser Sight</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 1 System</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <hide />
+      <range>Light Machine Guns</range>
+      <spec>Machine Guns</spec>
+      <useskill>Heavy Weapons</useskill>
+	  <ammocategory>Assault Rifles</ammocategory>
+    </weapon>
+    <weapon>
+      <id>6797323e-7299-4962-b8ba-89f857d3de97</id>
+      <name>Steyr AUG-CSL Sniper</name>
+      <category>Sniper Rifles</category>
+      <type>Ranged</type>
+      <conceal>6</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>11P</damage>
+      <ap>-3</ap>
+      <mode>SA</mode>
+      <rc>0</rc>
+      <ammo>20(c)</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>RG</source>
+      <page>37</page>
+      <accessories>
+        <accessory>
+          <name>Laser Sight</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 1 System</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+      <hide />
+      <range>Sniper Rifles</range>
+      <spec>Sniper Rifles</spec>
+      <useskill>Longarms</useskill>
+	  <ammocategory>Assault Rifles</ammocategory>
+    </weapon>
 
     <!-- Adds the new biospike needed for R4 density -->
     <weapon>
@@ -1027,6 +1177,162 @@
     <accessory>
       <name>Overclocked</name>
       <damage>-1</damage>
+    </accessory>
+	  <accessory>
+		<name>Extended Clip</name>
+			<forbidden amendoperation="replace">
+				<weapondetails>
+					<OR>
+						<name>Ares Crusader II</name>
+						<name>Ceska Black Scorpion</name>
+						<name>PPSK-4 Collapsible Machine Pistol</name>
+						<name>Steyr TMP</name>
+						<name>Walther PB-120</name>
+					</OR>
+				</weapondetails>
+			</forbidden>
+    </accessory>
+  </accessories>
+  <accessories amendoperation="append">
+  <!-- 4e Accessories for the 4e weapons-->
+  	<accessory>
+      <id>90796c00-08dd-4fd6-8815-8ef137c91ddb</id>
+      <name>Belt-Feed, 50-round</name>
+      <mount />
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <ammoreplace>50(belt)</ammoreplace>
+      <ammoslots>1</ammoslots>
+      <rating>0</rating>
+	  <required>
+        <weapondetails>
+          <name>Steyr AUG-CSL LMG</name>
+        </weapondetails>
+      </required>
+    </accessory>
+	<accessory>
+      <id>e3fbf35f-4b07-422c-9f5c-7de925b47dc4</id>
+      <name>Clip, 15-round</name>
+      <mount />
+      <avail>9R</avail>
+      <cost>12</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <ammobonus>50</ammobonus>
+      <ammoslots>1</ammoslots>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <name>Walther PB-120</name>
+        </weapondetails>
+      </required>
+    </accessory>
+    <accessory>
+      <id>c7b01cc8-90f5-48ec-b7d3-20d65afa3093</id>
+      <name>Extended Clip (Walther PB-120)</name>
+      <mount />
+      <avail>6R</avail>
+      <cost>35</cost>
+      <source>HT</source>
+      <page>180</page>
+      <ammobonus>50</ammobonus>
+      <conceal>2</conceal>
+      <rating>1</rating>
+      <required>
+        <weapondetails>
+			<name>Walther PB-120</name>
+        </weapondetails>
+      </required>
+    </accessory>
+	<accessory>
+      <id>6b75c8f3-5484-41a2-b9c4-b8275710be88</id>
+      <name>Walther PB-120 15-Round Spare Clip</name>
+      <mount />
+      <avail>9R</avail>
+      <cost>12</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <ammoslots>1</ammoslots>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <name>Walther PB-120</name>
+        </weapondetails>
+      </required>
+    </accessory>
+    <accessory>
+      <id>2eacc796-1402-491e-b0fb-ab4865563a75</id>
+      <name>Walther Secura Smartgun System</name>
+      <mount />
+      <avail>0</avail>
+      <cost>150</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accuracy>2</accuracy>
+      <forbidden>
+        <oneof>
+          <accessory>Ceramic/Plasteel Components</accessory>
+          <accessory>Collapsible Traditional Bow</accessory>
+          <accessory>Vintage</accessory>
+        </oneof>
+        <weapondetails>
+          <type>Melee</type>
+        </weapondetails>
+      </forbidden>
+      <gears>
+        <usegear>
+          <name>Laser Range Finder</name>
+          <category>Sensor Functions</category>
+        </usegear>
+        <usegear>
+          <name>Camera, Micro</name>
+          <category>Vision Devices</category>
+        </usegear>
+      </gears>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <name>Walther Secura</name>
+        </weapondetails>
+      </required>
+    </accessory>
+    <accessory>
+      <id>747c0929-c738-4127-90b9-d8a784a52b7e</id>
+      <name>Walther Secura Kompakt Smartgun System</name>
+      <mount />
+      <avail>0</avail>
+      <cost>200</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accuracy>2</accuracy>
+      <forbidden>
+        <oneof>
+          <accessory>Ceramic/Plasteel Components</accessory>
+          <accessory>Collapsible Traditional Bow</accessory>
+          <accessory>Vintage</accessory>
+        </oneof>
+        <weapondetails>
+          <type>Melee</type>
+        </weapondetails>
+      </forbidden>
+      <gears>
+        <usegear>
+          <name>Laser Range Finder</name>
+          <category>Sensor Functions</category>
+        </usegear>
+        <usegear>
+          <name>Camera, Micro</name>
+          <category>Vision Devices</category>
+        </usegear>
+      </gears>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <name>Walther Secura Kompakt</name>
+        </weapondetails>
+      </required>
     </accessory>
   </accessories>
 </chummer>
