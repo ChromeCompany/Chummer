@@ -1078,8 +1078,8 @@
       <ammo>50(c)</ammo>
       <avail>0</avail>
       <cost>0</cost>
-      <source>RG</source>
-      <page>37</page>
+      <source>SR5</source>
+      <page>0</page>
       <accessories>
         <accessory>
           <name>Laser Sight</name>
@@ -1116,8 +1116,8 @@
       <ammo>20(c)</ammo>
       <avail>0</avail>
       <cost>0</cost>
-      <source>RG</source>
-      <page>37</page>
+      <source>SR5</source>
+      <page>0</page>
       <accessories>
         <accessory>
           <name>Laser Sight</name>
@@ -1280,6 +1280,173 @@
       <cost>2800</cost>
       <source>SR5</source>
       <page>436</page>
+    </weapon>
+	
+	<!-- 4e Melee Weapons -->
+	<weapon>
+      <id>64db4586-c8c2-4fac-beda-fc2e6c9d19a5</id>
+      <name>Katar</name>
+      <category>Blades</category>
+      <type>Melee</type>
+      <conceal>4</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>({STR}+2)P</damage>
+      <ap>-4</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>9R</avail>
+      <cost>750</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <spec>Knives</spec>
+    </weapon>
+	<weapon>
+      <id>2018fb54-d22a-4857-b618-2427f7b25ac9</id>
+      <name>AZ-150 Stun Baton</name>
+      <category>Clubs</category>
+      <type>Melee</type>
+      <conceal>6</conceal>
+      <accuracy>4</accuracy>
+      <reach>2</reach>
+      <damage>11S(e)</damage>
+      <ap>-5</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>10</ammo>
+      <avail>8R</avail>
+      <cost>1500</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <requireammo>False</requireammo>
+      <spec>Electrical-Stun</spec>
+    </weapon>
+	<weapon>
+      <id>ac4e96f8-e3fa-4fec-9db1-15229bec122f</id>
+      <name>Jupiter Taser Club</name>
+      <category>Clubs</category>
+      <type>Melee</type>
+      <conceal>2</conceal>
+      <accuracy>4</accuracy>
+      <reach>1</reach>
+      <damage>9S(e)</damage>
+      <ap>-5</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>10</ammo>
+      <avail>8R</avail>
+      <cost>1200</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <requireammo>False</requireammo>
+      <spec>Batons</spec>
+	  <spec2>Electrical-Stun</spec2>
+	  <addweapon>Jupiter Taser Club Taser</addweapon>
+    </weapon>
+	<weapon>
+      <id>c37cb759-505a-4ac6-a57a-fb15c7cceac8</id>
+      <name>Jupiter Taser Club Taser</name>
+      <category>Tasers</category>
+      <type>Ranged</type>
+      <conceal>2</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>9S(e)</damage>
+      <ap>-5</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>1</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessorymounts>
+        <mount>Top</mount>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+      </accessorymounts>
+	  <hide />
+      <range>Tasers</range>
+      <spec>Tasers</spec>
+      <useskill>Pistols</useskill>
+	  <ammocategory>Tasers</ammocategory>
+    </weapon>
+	<weapon>
+      <id>4affe41f-82b1-4c45-a5b0-780df327eb9e</id>
+      <name>Sai</name>
+      <category>Exotic Melee Weapons</category>
+      <type>Melee</type>
+      <conceal>-2</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>({STR}+1)P or S</damage>
+      <ap>-2</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>4</avail>
+      <cost>75</cost>
+      <source>SR5</source>
+      <page>0</page>
+    </weapon>
+	<weapon>
+      <id>2e192f7d-a938-4945-8a5d-d23b703764d0</id>
+      <name>Kusarigama</name>
+      <category>Exotic Melee Weapons</category>
+      <type>Melee</type>
+      <conceal>4</conceal>
+      <accuracy>-</accuracy>
+      <reach>-</reach>
+      <damage>-</damage>
+      <ap>-</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>8F</avail>
+      <cost>150</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <addweapon>Kusarigama Sickle</addweapon>
+	  <addweapon>Kusarigama Weighted Chain</addweapon>
+    </weapon>
+	<weapon>
+      <id>2be05107-751e-437f-a5b3-e48eab7965a2</id>
+      <name>Kusarigama Sickle</name>
+      <category>Exotic Melee Weapons</category>
+      <type>Melee</type>
+      <conceal>4</conceal>
+      <accuracy>6</accuracy>
+      <reach>1</reach>
+      <damage>({STR}+2)P</damage>
+      <ap>-1</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <hide />
+    </weapon>
+	<weapon>
+      <id>066f0176-8815-4cc7-b85a-9adb22c6e4ef</id>
+      <name>Kusarigama Weighted Chain</name>
+      <category>Exotic Melee Weapons</category>
+      <type>Melee</type>
+      <conceal>3</conceal>
+      <accuracy>5</accuracy>
+      <reach>2</reach>
+      <damage>({STR}+1)P</damage>
+      <ap>-</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <hide />
     </weapon>
 	
     <!-- Adds the new biospike needed for R4 density -->
