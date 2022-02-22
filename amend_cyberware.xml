@@ -125,6 +125,14 @@
       <capacity>[6]</capacity>
       <avail>12R</avail>
     </cyberware>
+    
+    <!-- Adjusts additional eye mounts to fit cybereyes-->
+    <cyberware>
+      <name>Additional Eye Mount</name>
+      <allowsubsystems>
+        <category>Eyeware</category>
+      </allowsubsystems>
+    </cyberware>
   </cyberwares>
   
   <!-- Adds the Arm Blades cyberware -->
