@@ -1208,6 +1208,80 @@
       </accessorymounts>
       <spec>Machine Guns</spec>
     </weapon>
+	
+	<!-- 4e Missile Launchers -->
+	<weapon>
+      <id>15dc328c-fa34-4179-92ee-702b1bf5bf78</id>
+      <name>Arbelast II MAW Rocket Launcher</name>
+      <category>Missile Launchers</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>Rocket</damage>
+      <ap>Rocket</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>1</ammo>
+      <avail>14F</avail>
+      <cost>1400</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+	<weapon>
+      <id>affac900-5d75-459e-99fd-92d40a18194d</id>
+      <name>Great Dragon ATGM Launcher</name>
+      <category>Missile Launchers</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>Missile</damage>
+      <ap>Missile</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>1 (ml)</ammo>
+      <avail>17F</avail>
+      <cost>3000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <accessories>
+        <accessory>
+          <name>Imaging Scope</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Stock</mount>
+        <mount>Side</mount>
+        <mount>Top</mount>
+        <mount>Under</mount>
+      </accessorymounts>
+    </weapon>
+	<weapon>
+      <id>db72a958-62cd-410b-9b49-92a755f4c663</id>
+      <name>Missile: Great Dragon</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>10</conceal>
+      <accuracy>0</accuracy>
+      <reach>0</reach>
+      <damage>24P (-4/m)</damage>
+      <ap>-4//-10</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>22F</avail>
+      <cost>2800</cost>
+      <source>SR5</source>
+      <page>436</page>
+    </weapon>
+	
     <!-- Adds the new biospike needed for R4 density -->
     <weapon>
       <id>dc13033e-29b9-47ad-91b6-be590ed970d5</id>

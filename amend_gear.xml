@@ -489,6 +489,28 @@
       <avail>16F</avail>
       <cost>1000</cost>
     </gear>
+	<gear>
+      <id>725c1b82-9bc5-4365-93ca-ce05309946d4</id>
+      <name>Arbelast II MAW Rocket Launcher Canister</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>50</cost>
+    </gear>
+	<gear>
+      <id>7631ddd9-7eaf-432f-8ac1-fc8ad673720f</id>
+      <name>Missile: Great Dragon</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>436</page>
+      <avail>22F</avail>
+      <addweapon>Missile: Great Dragon</addweapon>
+      <cost>2800</cost>
+      <ammoforweapontype noextra="True">mlauncher</ammoforweapontype>
+    </gear>
     
     <!-- Homunculus Materials -->
     <gear>
