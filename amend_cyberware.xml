@@ -125,19 +125,11 @@
       <capacity>[6]</capacity>
       <avail>12R</avail>
     </cyberware>
-    
-    <!-- Adjusts additional eye mounts to fit cybereyes-->
-    <cyberware>
-      <name>Additional Eye Mount</name>
-      <allowsubsystems>
-        <category>Eyeware</category>
-      </allowsubsystems>
-    </cyberware>
   </cyberwares>
   
   <!-- Adds the Arm Blades cyberware -->
   <cyberwares amendoperation="append">
-  <cyberware>
+    <cyberware>
       <id>3ff423f7-1b16-474c-9965-c95866db9048</id>
       <name>Arm Blade (Retractable)</name>
       <limit>{arm}</limit>
@@ -545,6 +537,55 @@
       <cost>10000</cost>
       <source>SR5</source>
       <page>0</page>
+    </cyberware>
+    <!-- Adds the new additional eye mounts for the single cybereyes-->
+    <cyberware>
+      <id>8403c597-c394-4efb-b69e-b97cd21c7a97</id>
+      <name>Additional Eye Mount R1</name>
+      <limit>False</limit>
+      <category>Eyeware</category>
+      <ess>0.2</ess>
+      <capacity>[2]</capacity>
+      <avail>8</avail>
+      <cost>3000</cost>
+      <source>CF</source>
+      <page>75</page>
+      <bonus>
+        <limitmodifier>
+          <limit>Physical</limit>
+          <value>-1</value>
+        </limitmodifier>
+      </bonus>
+      <subsystems>
+        <cyberware>
+          <name>Single Cybereye</name>
+          <rating>1</rating>
+        </cyberware>
+      </subsystems>
+    </cyberware>
+    <cyberware>
+      <id>fb71097d-1850-48b1-a518-6048e8cfd608</id>
+      <name>Additional Eye Mount R2</name>
+      <limit>False</limit>
+      <category>Eyeware</category>
+      <ess>0.2</ess>
+      <capacity>[2]</capacity>
+      <avail>8</avail>
+      <cost>4000</cost>
+      <source>CF</source>
+      <page>75</page>
+      <bonus>
+        <limitmodifier>
+          <limit>Physical</limit>
+          <value>-1</value>
+        </limitmodifier>
+      </bonus>
+      <subsystems>
+        <cyberware>
+          <name>Single Cybereye</name>
+          <rating>2</rating>
+        </cyberware>
+      </subsystems>
     </cyberware>
   </cyberwares>
 </chummer>
