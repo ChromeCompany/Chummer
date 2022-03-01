@@ -1428,7 +1428,6 @@
       <source>SR5</source>
       <page>0</page>
 	  <hide />
-      <useskill>Exotic Melee Weapon: Kusarigama</useskill>
     </weapon>
 	<weapon>
       <id>066f0176-8815-4cc7-b85a-9adb22c6e4ef</id>
@@ -1448,7 +1447,6 @@
       <source>SR5</source>
       <page>0</page>
 	  <hide />
-	  <useskill>Exotic Melee Weapon: Kusarigama</useskill>
     </weapon>
 	
     <!-- Adds the new biospike needed for R4 density -->

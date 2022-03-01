@@ -567,7 +567,7 @@
         </accessory>
       </accessories>
     </weapon>
-	<!-- 4e Light Pistols (Don't know how to do the PB-120's extended clip though)-->
+	<!-- 4e Light Pistols-->
 	<weapon>
       <id>e01da70e-bd63-4954-8988-866095b202cf</id>
       <name>Beretta 200ST</name>
@@ -692,7 +692,7 @@
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
-	<!-- 4e Heavy Pistols (Needs Secura (and Kompakt version) Smartlinks)-->
+	<!-- 4e Heavy Pistols-->
 	<weapon>
       <id>eaaba741-6c65-4977-9921-fd10ce512f56</id>
       <name>Eichiro Hatamoto II</name>

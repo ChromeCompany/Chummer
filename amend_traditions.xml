@@ -150,4 +150,21 @@
       <hide />
     </spirit>
   </spirits>
+  <traditions amendoperation="append">
+	<tradition>
+      <id>ee9aad4f-09e1-41c7-969d-00381841d731</id>
+      <name>Chaos Magic [Alt]</name>
+      <drain>{WIL} + {INT}</drain>
+      <source>SR5</source>
+      <page>0</page>
+	  <spiritform>Possession</spiritform>
+      <spirits>
+        <spiritcombat>Spirit of Fire</spiritcombat>
+        <spiritdetection>Spirit of Air</spiritdetection>
+        <spirithealth>Spirit of Earth</spirithealth>
+        <spiritillusion>Spirit of Man</spiritillusion>
+        <spiritmanipulation>Spirit of Water</spiritmanipulation>
+      </spirits>
+    </tradition>
+  </traditions>
 </chummer>
