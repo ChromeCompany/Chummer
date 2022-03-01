@@ -35,4 +35,32 @@
       <avail>FixedValues(6R,6R,6R,9R,9R,9R)</avail>
     </mod>
   </mods>
+  
+  <!-- Adds the new armor mods based on the house rules -->
+  <mods amendoperation = "append">
+    <mod>
+      <id>a1852e9f-028e-439a-94f5-7306d5d2d69a</id>
+      <name>Urban Explorer Jumpsuit: Melter</name>
+      <category>Urban Explorer Jumpsuit Accessories</category>
+      <maxrating>1</maxrating>
+      <armorcapacity>[0]</armorcapacity>
+      <gearcapacity>0</gearcapacity>
+      <avail>0</avail>
+      <cost>50</cost>
+      <source>SR5</source>
+      <page>0</page>
+    </mod>
+    <mod>
+      <id>65357521-6601-4d36-9a6b-3bf8053c5c6a</id>
+      <name>Rapid Transit Jumpsuit: Melter</name>
+      <category>Rapid Transit Detailing</category>
+      <maxrating>1</maxrating>
+      <armorcapacity>[0]</armorcapacity>
+      <gearcapacity>0</gearcapacity>
+      <avail>0</avail>
+      <cost>50</cost>
+      <source>SR5</source>
+      <page>0</page>
+    </mod>
+  </mods>
 </chummer>

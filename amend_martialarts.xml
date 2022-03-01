@@ -27,5 +27,11 @@
       <name>Mana Strike</name>
       <required amendoperation="remove" />
     </technique>
+    
+    <!-- Changes Randori Vitals to allow Weak Point -->
+    <technique>
+      <id>2747d8d5-022d-4477-a7ce-43d88806bb35</id>
+      <name>Randori (Vitals/Weak Point)</name>
+    </technique>
   </techniques>
 </chummer>
