@@ -296,6 +296,10 @@
       <name>Morrissey Alta</name>
       <avail>7R</avail>
     </weapon>
+    <weapon>
+      <name>Underbarrel Grenade Launcher</name>
+      <accuracy>4</accuracy>
+    </weapon>
     
     <!-- Banned items from the Krime Katalog-->
     <weapon>

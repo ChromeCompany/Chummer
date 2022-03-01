@@ -29,9 +29,11 @@
     </technique>
     
     <!-- Changes Randori Vitals to allow Weak Point -->
-    <technique>
+    <technique amendoperation="replace">
       <id>2747d8d5-022d-4477-a7ce-43d88806bb35</id>
       <name>Randori (Vitals/Weak Point)</name>
+      <source>RG</source>
+      <page>140</page>
     </technique>
   </techniques>
 </chummer>
