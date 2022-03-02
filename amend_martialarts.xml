@@ -27,13 +27,145 @@
       <name>Mana Strike</name>
       <required amendoperation="remove" />
     </technique>
-    
+  </techniques>
+  
+  <techniques amendoperation="append">
     <!-- Changes Randori Vitals to allow Weak Point -->
-    <technique amendoperation="replace">
-      <id>2747d8d5-022d-4477-a7ce-43d88806bb35</id>
-      <name>Randori (Vitals/Weak Point)</name>
+    <technique>
+      <id>a73eed0f-90f2-49be-9b57-1d803b6a9cb6</id>
+      <name>Randori (Weak Point)</name>
       <source>RG</source>
       <page>140</page>
     </technique>
-  </techniques>
+  <techniques>
+  
+  <martialarts>
+    <martialart>
+      <name>Arnis De Mano</name>
+      <techniques amendoperation="replace">
+        <technique>
+          <name>Close Quarter Defense Against Firearms</name>
+        </technique>
+        <technique>
+          <name>Multiple Opponent Combat</name>
+        </technique>
+        <technique>
+          <name>Opposing Force (Parry)</name>
+        </technique>
+        <technique>
+          <name>Randori (Vitals)</name>
+        </technique>
+        <technique>
+          <name>Two-Weapon Style Attack</name>
+        </technique>
+        <technique>
+          <name>Two-Weapon Style Defense</name>
+        </technique>
+        <technique>
+          <name>Neijia</name>
+        </technique>
+        <technique>
+          <name>Strike the Darkness</name>
+        </technique>
+        <technique>
+          <name>Randori (Weak Point)</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Jeet Kune Do</name>
+      <techniques amendoperation="replace">
+        <technique>
+          <name>Bending of the Reed</name>
+        </technique>
+        <technique>
+          <name>Counterstrike</name>
+        </technique>
+        <technique>
+          <name>Kick Attack</name>
+        </technique>
+        <technique>
+          <name>Opposing Force (Block)</name>
+        </technique>
+        <technique>
+          <name>Randori (Vitals)</name>
+        </technique>
+        <technique>
+          <name>Yielding Force (Counterstrike)</name>
+        </technique>
+        <technique>
+          <name>Neijia</name>
+        </technique>
+        <technique>
+          <name>Strike the Darkness</name>
+        </technique>
+        <technique>
+          <name>Randori (Weak Point)</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Okichitaw</name>
+      <techniques amendoperation="replace">
+        <technique>
+          <name>Called Shot (Pin)</name>
+        </technique>
+        <technique>
+          <name>Counterstrike</name>
+        </technique>
+        <technique>
+          <name>Opposing Force (Parry)</name>
+        </technique>
+        <technique>
+          <name>Randori (Vitals)</name>
+        </technique>
+        <technique>
+          <name>Shadow Block</name>
+        </technique>
+        <technique>
+          <name>Sweep</name>
+        </technique>
+        <technique>
+          <name>Neijia</name>
+        </technique>
+        <technique>
+          <name>Strike the Darkness</name>
+        </technique>
+        <technique>
+          <name>Randori (Weak Point)</name>
+        </technique>
+      </martialart>
+      <martialart>
+      <name>Pentjak-Silat</name>
+      <techniques amendoperation="replace">
+        <technique>
+          <name>Called Shot (Break Weapon)</name>
+        </technique>
+        <technique>
+          <name>Called Shot (Disarm)</name>
+        </technique>
+        <technique>
+          <name>Dim Mak</name>
+        </technique>
+        <technique>
+          <name>Jiao Di (Charge)</name>
+        </technique>
+        <technique>
+          <name>Randori (Vitals)</name>
+        </technique>
+        <technique>
+          <name>Silken Storm</name>
+        </technique>
+        <technique>
+          <name>Neijia</name>
+        </technique>
+        <technique>
+          <name>Strike the Darkness</name>
+        </technique>
+        <technique>
+          <name>Randori (Weak Point)</name>
+        </technique>
+      </techniques>
+    </martialart>
+  </martialarts>
 </chummer>
