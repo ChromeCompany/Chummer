@@ -37,7 +37,7 @@
       <source>RG</source>
       <page>140</page>
     </technique>
-  <techniques>
+	</techniques>
   
   <martialarts>
     <martialart>
@@ -134,6 +134,7 @@
         <technique>
           <name>Randori (Weak Point)</name>
         </technique>
+	  </techniques>
       </martialart>
       <martialart>
       <name>Pentjak-Silat</name>
