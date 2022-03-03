@@ -1535,7 +1535,7 @@
     </weapon>
 	<weapon>
       <id>e9bb1e2b-03a8-4be1-8489-bed3aeb12eb1</id>
-      <name>Chair</name>
+      <name>Chair (Throwing)</name>
       <category>Gear</category>
       <type>Ranged</type>
       <conceal>0</conceal>

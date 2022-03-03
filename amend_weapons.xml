@@ -1458,7 +1458,7 @@
       <name>Potted Plant</name>
       <category>Gear</category>
       <type>Ranged</type>
-      <conceal>0</conceal>
+      <conceal>2</conceal>
       <accuracy>Physical</accuracy>
       <reach>0</reach>
       <damage>({STR}+1)P</damage>
@@ -1478,7 +1478,7 @@
       <name>Bowling Ball</name>
       <category>Gear</category>
       <type>Ranged</type>
-      <conceal>0</conceal>
+      <conceal>2</conceal>
       <accuracy>Physical</accuracy>
       <reach>0</reach>
       <damage>({STR}+2)P</damage>
@@ -1518,7 +1518,7 @@
       <name>Brick/Paving Stone</name>
       <category>Gear</category>
       <type>Ranged</type>
-      <conceal>0</conceal>
+      <conceal>2</conceal>
       <accuracy>Physical</accuracy>
       <reach>0</reach>
       <damage>({STR}+1)P</damage>
@@ -1538,7 +1538,7 @@
       <name>Chair (Throwing)</name>
       <category>Gear</category>
       <type>Ranged</type>
-      <conceal>0</conceal>
+      <conceal>8</conceal>
       <accuracy>Physical</accuracy>
       <reach>0</reach>
       <damage>({STR})S</damage>
