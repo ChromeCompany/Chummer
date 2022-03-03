@@ -25,4 +25,31 @@
       <short>2</short>
     </range>
   </ranges>
+  <!-- 4e Improvised Weapon Ranges -->
+  <ranges amendoperation="append">
+	<range>
+      <name>Potted Plant/Bowling Ball</name>
+      <min>0</min>
+      <short>{STR}/2</short>
+      <medium>{STR}</medium>
+      <long>{STR}*1.5</long>
+      <extreme>{STR}*2</extreme>
+    </range>
+	<range>
+      <name>Brick/Paving Stone</name>
+      <min>0</min>
+      <short>{STR}*2</short>
+      <medium>{STR}*3</medium>
+      <long>{STR}*4</long>
+      <extreme>{STR}*6</extreme>
+    </range>
+	<range>
+      <name>Chair</name>
+      <min>0</min>
+      <short>{STR}</short>
+      <medium>{STR}*1.5</medium>
+      <long>{STR}*2</long>
+      <extreme>{STR}*2.5</extreme>
+    </range>
+  </ranges>
 </chummer>

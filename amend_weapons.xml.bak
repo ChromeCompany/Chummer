@@ -296,6 +296,10 @@
       <name>Morrissey Alta</name>
       <avail>7R</avail>
     </weapon>
+    <weapon>
+      <name>Underbarrel Grenade Launcher</name>
+      <accuracy>4</accuracy>
+    </weapon>
     
     <!-- Banned items from the Krime Katalog-->
     <weapon>
@@ -567,7 +571,7 @@
         </accessory>
       </accessories>
     </weapon>
-	<!-- 4e Light Pistols (Don't know how to do the PB-120's extended clip though)-->
+	<!-- 4e Light Pistols-->
 	<weapon>
       <id>e01da70e-bd63-4954-8988-866095b202cf</id>
       <name>Beretta 200ST</name>
@@ -692,7 +696,7 @@
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
-	<!-- 4e Heavy Pistols (Needs Secura (and Kompakt version) Smartlinks)-->
+	<!-- 4e Heavy Pistols-->
 	<weapon>
       <id>eaaba741-6c65-4977-9921-fd10ce512f56</id>
       <name>Eichiro Hatamoto II</name>
@@ -1447,6 +1451,107 @@
       <source>SR5</source>
       <page>0</page>
 	  <hide />
+    </weapon>
+	<!-- 4e Improvised weapons (cause I'm a god)-->
+	<weapon>
+      <id>bceeee51-2ed4-4645-b81a-42a68a07efd2</id>
+      <name>Potted Plant</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>({STR}+1)P</damage>
+      <ap>-</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>5</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <range>Potted Plant/Bowling Ball</range>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+	<weapon>
+      <id>0a87c6ab-c06b-4bb0-b9d5-bd31c8f4bd3a</id>
+      <name>Bowling Ball</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>({STR}+2)P</damage>
+      <ap>-</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>20</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <range>Potted Plant/Bowling Ball</range>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+	<weapon>
+      <id>9c8ed6b1-2f33-4951-b3d9-491c6fb65337</id>
+      <name>Baseball/Billiard Ball</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>({STR})P</damage>
+      <ap>-</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>15</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <range>Standard Grenade</range>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+	<weapon>
+      <id>68b9e68b-bcf4-45d0-abf1-9f8f455599a0</id>
+      <name>Brick/Paving Stone</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>({STR}+1)P</damage>
+      <ap>-</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>5</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <range>Brick/Paving Stone</range>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+	<weapon>
+      <id>e9bb1e2b-03a8-4be1-8489-bed3aeb12eb1</id>
+      <name>Chair</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>({STR})S</damage>
+      <ap>-</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>15</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <range>Chair</range>
+      <useskill>Throwing Weapons</useskill>
     </weapon>
 	
     <!-- Adds the new biospike needed for R4 density -->

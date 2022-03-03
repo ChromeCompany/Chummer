@@ -75,6 +75,67 @@
       <avail>0</avail>
       <cost>500</cost>
     </gear>
+	<!-- 4e Improvised Throwing Weapons (god why does this have to be added in 3 DIFFERENT PLACES)-->
+	<gear>
+      <id>37a04245-b05f-43ad-be0d-986761c48082</id>
+      <name>Potted Plant</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <addweapon>Potted Plant</addweapon>
+      <cost>5</cost>
+      <costfor>1</costfor>
+    </gear>
+	<gear>
+      <id>0c7243c7-8b4b-4489-8fd2-e09741d0cfeb</id>
+      <name>Bowling Ball</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <addweapon>Bowling Ball</addweapon>
+      <cost>20</cost>
+      <costfor>1</costfor>
+    </gear>
+	<gear>
+      <id>55b96976-70d4-4d2e-8c15-d74119d3f7fa</id>
+      <name>Baseball/Billiard Ball</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <addweapon>Baseball/Billiard Ball</addweapon>
+      <cost>15</cost>
+      <costfor>1</costfor>
+    </gear>
+	<gear>
+      <id>0ed7e28e-4982-44b8-93df-cfdf8ec31a2b</id>
+      <name>Brick/Paving Stone</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <addweapon>Brick/Paving Stone</addweapon>
+      <cost>5</cost>
+      <costfor>1</costfor>
+    </gear>
+	<gear>
+      <id>0c8b9f87-13f0-4f50-b863-ee8296f7866f</id>
+      <name>Chair</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+	  <addweapon>Chair (Throwing)</addweapon>
+      <cost>15</cost>
+      <costfor>1</costfor>
+    </gear>
   </gears>
 
   <!-- Due to the large variety of items in gear.xml, Regions are organised by category rather than sourcebook. -->
@@ -490,7 +551,7 @@
       <cost>1000</cost>
     </gear>
 	<gear>
-      <id>4c5be084-c975-42d2-962c-dc2add203b6b</id>
+      <id>725c1b82-9bc5-4365-93ca-ce05309946d4</id>
       <name>Arbelast II MAW Rocket Launcher Canister</name>
       <category>Ammunition</category>
       <rating>0</rating>
