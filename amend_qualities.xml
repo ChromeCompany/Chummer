@@ -129,6 +129,21 @@
         </specificskill>
       </bonus>
     </quality>
+    <quality>
+      <name>Linguist</name>
+      <bonus amendoperation="replace">
+        <skillcategorykarmacost>
+          <name>Language</name>
+          <val>-1</val>
+          <min>3</min>
+          <condition>career</condition>
+        </skillcategorykarmacost>
+        <skillcategorypointcostmultiplier>
+          <name>Language</name>
+          <val>50</val>
+        </skillcategorypointcostmultiplier>
+      </bonus>
+    </quality>
     <!--Prevents triple stacking with exatt and genop-->
     <quality>
       <name>Metagenic Improvement (Body)</name>

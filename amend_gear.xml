@@ -302,6 +302,216 @@
       <hide />
     </gear>
     
+    <!-- Removing Individualized Foci. Every. Flipping. One of them. -->
+    <gear>
+      <name>Alchemical Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Alchemical Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Banishing Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Banishing Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Binding Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Binding Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Centering Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Centering Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Combat, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Combat, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Detection, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Detection, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Health, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Health, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Illusion, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Illusion, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Manipulation, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Manipulation, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Disenchanting Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Disenchanting Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Flexible Signature Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Flexible Signature Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Masking Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Masking Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Power Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Power Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Qi Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Qi Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Combat, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Combat, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Detection, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Detection, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Health, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Health, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Illusion, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Illusion, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Manipulation, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Manipulation, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Summoning Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Summoning Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Combat, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Combat, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Detection, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Detection, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Health, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Health, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Illusion, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Illusion, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Manipulation, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Manipulation, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Weapon Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Weapon Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    
   <!-- Chrome Flesh Nanotech -->
     <gear>
       <name>Carcerand-Plus</name>

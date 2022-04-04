@@ -48,6 +48,11 @@
       <name>Renraku Dove-4 (Small)</name>
       <avail>4F</avail>
     </vehicle>
+    
+    <vehicle>
+      <name>Dodge Minotaur</name>
+      <avail>12R</avail>
+    </vehicle>
 
     <vehicle>
       <name>Avibras-Nissan AN 822</name>
