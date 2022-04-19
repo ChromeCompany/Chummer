@@ -300,6 +300,10 @@
       <name>Underbarrel Grenade Launcher</name>
       <accuracy>4</accuracy>
     </weapon>
+    <weapon>
+      <name>Remington Roomsweeper</name>
+      <damage>8P</damage>
+    </weapon>
     
     <!-- Banned items from the Krime Katalog-->
     <weapon>
