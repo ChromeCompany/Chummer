@@ -302,5 +302,42 @@
       <source>HT</source>
       <page>185</page>
     </bioware>
+	<bioware>
+      <id>ccb67951-e42e-4f1c-999e-9f25af5e9089</id>
+      <name>Bone Spike (Ceramic/Aluminum)</name>
+      <limit>False</limit>
+      <category>Bio-Weapons</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>14F</avail>
+      <cost>20000</cost>
+      <addweapon>Bone Spike II</addweapon>
+      <required>
+        <oneof>
+          <cyberware>Bone Lacing (Ceramic)</cyberware>
+		  <cyberware>Bone Lacing (Aluminum)</cyberware>
+        </oneof>
+      </required>
+      <source>HT</source>
+      <page>185</page>
+    </bioware>
+	<bioware>
+      <id>3436c619-d4fb-465c-8c14-fa0493bf87a2</id>
+      <name>Bone Spike (Titanium)</name>
+      <limit>False</limit>
+      <category>Bio-Weapons</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>14F</avail>
+      <cost>20000</cost>
+      <addweapon>Bone Spike III</addweapon>
+      <required>
+        <oneof>
+          <cyberware>Bone Lacing (Titanium)</cyberware>
+        </oneof>
+      </required>
+      <source>HT</source>
+      <page>185</page>
+    </bioware>
   </biowares>
 </chummer>
