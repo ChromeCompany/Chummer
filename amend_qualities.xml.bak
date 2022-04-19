@@ -89,6 +89,12 @@
       <hide />
     </quality> -->
     <!-- End Region-->
+	<!-- Region Run and Gun-->
+	<quality>
+		<name>One Trick Pony</name>
+		<doublecareer>False</doublecareer>
+	</quality>
+	<!-- Region End-->
     <!--Region Run Faster -->
     <!--Region Run Faster Positive Qualities -->
     <quality>
@@ -2158,10 +2164,5 @@
       <source>RF</source>
       <page>118</page>
     </quality>
-	<!-- Run and gun? Pretty much OTP for now-->
-	<quality>
-    <name>One Trick Pony</name>
-    <doublecareer>False</doublecareer>
-  </quality>
   </qualities>
 </chummer>
