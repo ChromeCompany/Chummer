@@ -1567,7 +1567,7 @@
       <conceal>-10</conceal>
       <accuracy>Physical</accuracy>
       <reach>0</reach>
-      <damage>(STR+5)P</damage>
+      <damage>{STR}+5P</damage>
       <ap>0</ap>
       <mode>0</mode>
       <rc>0</rc>
@@ -1578,7 +1578,7 @@
       <page>185</page>
       <cyberware>True</cyberware>
       <hide />
-      <spec>Cyber Implants</spec>
+      <spec>Natural Weapons</spec>
       <useskill>Unarmed Combat</useskill>
     </weapon>
   </weapons>
