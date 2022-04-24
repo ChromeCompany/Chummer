@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema cyberware.xsd">
+  <grades>
+    <grade>
+      <name>Omegaware</name>
+      <hide />
+    </grade>
+    <grade>
+      <name>Omegaware (Adapsin)</name>
+      <hide />
+    </grade>
+  </grades>
+  <cyberwares>
+    <cyberware>
+      <name>Improved Synthskin</name>
+      <capacity>[0]</capacity>
+    </cyberware>
+    
+    <!-- Changes all cyberweapons from Forbidden to Restricted -->
+    <cyberware>
+      <name>Hand Blade</name>
+      <avail>10R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Hand Razors</name>
+      <avail>8R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Spurs</name>
+      <avail>12R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Foot Blade</name>
+      <avail>20R</avail>
+    </cyberware>
+    
+    <!-- Changes Chrome Flesh Nanotech from Forbidden to Restricted -->
+    <cyberware>
+      <name>Anti-Rad</name>
+      <avail>14R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Control Rig Booster</name>
+      <avail>12R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Implant Medic</name>
+      <avail>12R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Nanotattoos</name>
+      <avail>12R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Trauma Control System</name>
+      <avail>12R</avail>
+    </cyberware>
+    <!-- End Region -->
+    <!-- Region Soft Nanoware -->
+    <cyberware>
+      <name>Anti-Tox</name>
+      <avail>16R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Carcerand-Plus</name>
+      <avail>10R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Nanosymbiotes</name>
+      <avail>16R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Nantidotes</name>
+      <avail>8R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Nanotattoos</name>
+      <avail>12R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Neural Amplifiers (Learning Stimulus)</name>
+      <avail>14R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Neural Amplifiers (Limbic)</name>
+      <avail>16R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Neural Amplifiers (Neocortical)</name>
+      <avail>16R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Neural Amplifiers (Recall)</name>
+      <avail>12R</avail>
+    </cyberware>
+    <cyberware>
+      <name>O-Cells</name>
+      <avail>12R</avail>
+    </cyberware>
+    <cyberware>
+      <name>Oxyrush</name>
+      <avail>12R</avail>
+    </cyberware>
+    
+    <cyberware>
+      <name>Cyberarm Gyromount</name>
+      <capacity>[6]</capacity>
+      <avail>12R</avail>
+    </cyberware>
+  </cyberwares>
+  
+  <!-- Adds the Arm Blades cyberware -->
+  <cyberwares amendoperation="append">
+    <cyberware>
+      <id>3ff423f7-1b16-474c-9965-c95866db9048</id>
+      <name>Arm Blade (Retractable)</name>
+      <limit>{arm}</limit>
+      <category>Cyber Implant Weapon</category>
+      <ess>0.5</ess>
+      <capacity>[4]</capacity>
+      <avail>14F</avail>
+      <cost>7000</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <addweapon>Arm Blade</addweapon>
+      <blocksmounts>wrist,elbow,shoulder,knee,ankle</blocksmounts>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+    </cyberware>
+    
+    <cyberware>
+      <id>f3c5237f-867f-47e2-b97e-325f2abd1468</id>
+      <name>Cyberware Compartment Shielding</name>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>[0]</capacity>
+      <avail>12F</avail>
+      <cost>1500</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+    </cyberware>
+    
+    <!-- 4e translations -->
+    <cyberware>
+      <id>4ad6e29a-c100-4d93-886d-190df9fa9f27</id>
+      <name>Encephalon</name>
+      <category>Headware</category>
+      <ess>Rating * 0.75</ess>
+      <capacity>0</capacity>
+      <avail>FixedValues(8,10)</avail>
+      <cost>FixedValues(30000,75000)</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <bonus>
+        <!--<skilllinkedattribute>
+          <name>LOG</name>
+          <bonus>1</bonus>
+        </skilllinkedattribute>-->
+        <skillgroup>
+          <name>Cracking</name>
+          <bonus>FixedValues(1,2)</bonus>
+        </skillgroup>
+        <skillgroup>
+          <name>Electronics</name>
+          <bonus>FixedValues(1,2)</bonus>
+        </skillgroup>
+        <skillgroup>
+          <name>Engineering</name>
+          <bonus>1</bonus>
+        </skillgroup>
+        <skillgroup>
+          <name>Biotech</name>
+          <bonus>1</bonus>
+        </skillgroup>
+        <specificskill>
+          <name>Forgery</name>
+          <bonus>1</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Arcana</name>
+          <bonus>1</bonus>
+        </specificskill>
+      </bonus>
+      <rating>2</rating>
+      <minrating>1</minrating>
+    </cyberware>
+    <cyberware>
+      <id>7a477d2e-4c0b-4490-98a6-b82aa025a944</id>
+      <name>Single Cybereye</name>
+      <category>Eyeware</category>
+      <ess>(Rating * 0.05) + 0.05</ess>
+      <capacity>(Rating * 4)</capacity>
+      <avail>(Rating * 3)</avail>
+      <cost>FixedValues(2000,3000,5000,7000,9000,11000)</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <allowgear>
+        <gearcategory>Custom</gearcategory>
+        <gearcategory>Sensors</gearcategory>
+      </allowgear>
+      <allowsubsystems>
+        <category>Eyeware</category>
+      </allowsubsystems>
+      <minrating>1</minrating>
+      <rating>6</rating>
+      <subsystems>
+        <cyberware>
+          <name>Image Link</name>
+        </cyberware>
+      </subsystems>
+    </cyberware>
+    <cyberware>
+      <id>0ea9c04f-34d6-469c-ab1e-1164ee85439c</id>
+      <name>Blood Circuit Control Sysetm</name>
+      <limit>False</limit>
+      <category>Bodyware</category>
+      <ess>1</ess>
+      <capacity>0</capacity>
+      <avail>15</avail>
+      <cost>30000</cost>
+      <bonus>
+        <conditionmonitor>
+          <overflow>2</overflow>
+        </conditionmonitor>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+      <allowgear />
+    </cyberware>
+    <cyberware>
+      <id>bff50a40-9ef0-4f9c-b761-9e0287af03d1</id>
+      <name>Dermal Sheath</name>
+      <category>Bodyware</category>
+      <ess>Rating * 1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 4) + 4</avail>
+      <cost>Rating * 3000</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <bonus>
+        <armor group="0">Rating+1</armor>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <bioware>Orthoskin</bioware>
+          <cyberware>Dermal Plating</cyberware>
+        </oneof>
+      </forbidden>
+      <rating>3</rating>
+    </cyberware>
+    <cyberware>
+      <id>ab6bb42c-478f-4705-9150-9299b726e50e</id>
+      <name>Dermal Sheath - Skin Toner Capabilities</name>
+      <category>Bodyware</category>
+      <ess>0</ess>
+      <capacity>0</capacity>
+      <avail>18</avail>
+      <cost>2500</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <cyberware>Dermal Sheath</cyberware>
+        </oneof>
+      </required>
+      <rating>1</rating>
+    </cyberware>
+    <cyberware>
+      <id>f72a0070-fdc8-4024-802c-a2e39490cd5c</id>
+      <name>Dermal Sheath - Chameleon Processor</name>
+      <category>Bodyware</category>
+      <ess>.2</ess>
+      <capacity>0</capacity>
+      <avail>22R</avail>
+      <cost>4000</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <required>
+        <allof>
+          <cyberware>Dermal Sheath</cyberware>
+          <cyberware>Dermal Sheath - Skin Toner Capabilities</cyberware>
+        </allof>
+      </required>
+      <rating>1</rating>
+    </cyberware>
+    <cyberware>
+      <id>9bc7b7aa-96f4-447d-b947-4f094650f587</id>
+      <name>Mark 74 Smartlink</name>
+      <limit>False</limit>
+      <category>Eyeware</category>
+      <ess>0.2</ess>
+      <capacity>[3]</capacity>
+      <avail>16F</avail>
+      <cost>5200</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <bonus>
+        <smartlink>2</smartlink>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <cyberware>Smartlink</cyberware>
+        </oneof>
+      </forbidden>
+    </cyberware>
+    <cyberware>
+      <id>f5e62374-39c7-43c7-aded-88f0ba4eec01</id>
+      <name>Bone Lacing (Ceramic)</name>
+      <category>Bodyware</category>
+      <ess>1.2</ess>
+      <capacity>0</capacity>
+      <avail>12F</avail>
+      <cost>22500</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <bonus>
+        <armor>2</armor>
+        <damageresistance>2</damageresistance>
+        <unarmeddvphysical />
+      </bonus>
+      <forbidden>
+        <oneof>
+          <cyberware>Bone Density Augmentation</cyberware>
+          <cyberware>Bone Lacing (Plastic)</cyberware>
+          <cyberware>Bone Lacing (Titanium)</cyberware>
+          <cyberware>Bone Lacing (Kevlar)</cyberware>
+        </oneof>
+      </forbidden>
+      <notes>Bone Lacing does not increase your BOD score, only tests for resisting damage.</notes>
+    </cyberware>
+    <cyberware>
+      <id>a9d98be6-1b6b-42a7-b4e9-a5dd2af53c54</id>
+      <name>Bone Lacing (Kevlar)</name>
+      <category>Bodyware</category>
+      <ess>.7</ess>
+      <capacity>0</capacity>
+      <avail>10R</avail>
+      <cost>10000</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <bonus>
+        <armor>1</armor>
+        <damageresistance>1</damageresistance>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <cyberware>Bone Density Augmentation</cyberware>
+          <cyberware>Bone Lacing (Plastic)</cyberware>
+          <cyberware>Bone Lacing (Titanium)</cyberware>
+          <cyberware>Bone Lacing (Ceramic)</cyberware>
+        </oneof>
+      </forbidden>
+      <notes>Bone Lacing does not increase your BOD score, only tests for resisting damage.</notes>
+    </cyberware>
+    <cyberware>
+      <id>533c9c64-36db-4d38-93ae-62616f2a828a</id>
+      <name>Rotational Joints</name>
+      <limit>False</limit>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>[2]</capacity>
+      <avail>8</avail>
+      <cost>5000</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <bonus>
+        <specificskill>
+          <name>Escape Artist</name>
+          <bonus>1</bonus>
+        </specificskill>
+      </bonus>
+      <required>
+        <parentdetails>
+          <OR>
+            <name>Centaur Front Leg</name>
+            <name>Centaur Rear Leg</name>
+            <name operation="contains">Full Leg</name>
+            <name operation="contains">Full Arm</name>
+            <name operation="contains">Drone Leg</name>
+            <name operation="contains">Drone Arm</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
+    <cyberware>
+      <id>9f0739cd-5a4e-4eae-8a0c-692e7114c3ca</id>
+      <name>Eye/Oral Dart</name>
+      <limit>False</limit>
+      <category>Eyeware</category>
+      <ess>0.25</ess>
+      <capacity>[3]</capacity>
+      <avail>14R</avail>
+      <cost>1500</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <addweapon>Eye/Oral Dart</addweapon>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+    </cyberware>
+    <cyberware>
+      <id>002b3820-4cb9-4280-bb5e-17cea35134b8</id>
+      <name>Fingertip Dartgun</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapon</category>
+      <ess>0</ess>
+      <capacity>[4]</capacity>
+      <avail>16R</avail>
+      <cost>1500</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <addweapon>Fingertip Dartgun</addweapon>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+    </cyberware>
+    <cyberware>
+      <id>d3119c9e-ee43-47d8-b9fb-fc2d69d486d3</id>
+      <name>Oral Gun</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapon</category>
+      <ess>0.25</ess>
+      <capacity>[3]</capacity>
+      <avail>14R</avail>
+      <cost>1500</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <addweapon>Oral Gun</addweapon>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+    </cyberware>
+    <cyberware>
+      <id>91f497f6-9bf9-483c-ba22-e67837e277e1</id>
+      <name>Squirtgun</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapon</category>
+      <ess>0.3</ess>
+      <capacity>[4]</capacity>
+      <avail>10R</avail>
+      <cost>1500</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <addweapon>Squirtgun</addweapon>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+    </cyberware>
+    <cyberware>
+      <id>8f1ca9b8-787c-4383-ae97-a0d1df05f699</id>
+      <name>Taser</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapon</category>
+      <ess>0.3</ess>
+      <capacity>[3]</capacity>
+      <avail>8R</avail>
+      <cost>1500</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <addweapon>Taser</addweapon>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+    </cyberware>
+    <cyberware>
+      <id>13fff585-f8d8-478a-881f-752a5a0a6e14</id>
+      <name>Articulated Weapon Arm</name>
+      <limit>False</limit>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>[8]</capacity>
+      <avail>24F</avail>
+      <cost>1500</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <required>
+        <parentdetails>
+          <OR>
+            <name>Synthetic Torso</name>
+            <name>Obvious Torso</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
+    <cyberware>
+      <id>384ea312-c2a6-49ac-a0eb-9f857316010e</id>
+      <name>External Mount</name>
+      <limit>False</limit>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>[7]</capacity>
+      <avail>16F</avail>
+      <cost>1500</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <required>
+        <parentdetails>
+          <OR>
+            <name operation="contains">Full Arm</name>
+            <name>Synthetic Torso</name>
+            <name operation="contains">Drone Arm</name>
+            <name>Obvious Torso</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
+    <cyberware>
+      <id>969fc010-cc52-45ab-9718-343089974c0d</id>
+      <name>Nano-Biomonitor</name>
+      <category>Nanocybernetics</category>
+      <ess>0.3</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>10000</cost>
+      <source>SR5</source>
+      <page>0</page>
+    </cyberware>
+    <!-- Adds the new additional eye mounts for the single cybereyes-->
+    <cyberware>
+      <id>8403c597-c394-4efb-b69e-b97cd21c7a97</id>
+      <name>Additional Eye Mount R1</name>
+      <limit>False</limit>
+      <category>Eyeware</category>
+      <ess>0.2</ess>
+      <capacity>[2]</capacity>
+      <avail>8</avail>
+      <cost>3000</cost>
+      <source>CF</source>
+      <page>75</page>
+      <bonus>
+        <limitmodifier>
+          <limit>Physical</limit>
+          <value>-1</value>
+        </limitmodifier>
+      </bonus>
+      <subsystems>
+        <cyberware>
+          <name>Single Cybereye</name>
+          <rating>1</rating>
+        </cyberware>
+      </subsystems>
+    </cyberware>
+    <cyberware>
+      <id>fb71097d-1850-48b1-a518-6048e8cfd608</id>
+      <name>Additional Eye Mount R2</name>
+      <limit>False</limit>
+      <category>Eyeware</category>
+      <ess>0.2</ess>
+      <capacity>[2]</capacity>
+      <avail>8</avail>
+      <cost>4000</cost>
+      <source>CF</source>
+      <page>75</page>
+      <bonus>
+        <limitmodifier>
+          <limit>Physical</limit>
+          <value>-1</value>
+        </limitmodifier>
+      </bonus>
+      <subsystems>
+        <cyberware>
+          <name>Single Cybereye</name>
+          <rating>2</rating>
+        </cyberware>
+      </subsystems>
+    </cyberware>
+	    <cyberware>
+      <id>d90e6b88-a001-40fe-9fde-3bda2b2078eb</id>
+      <name>Medullan Parallel Processors</name>
+      <limit>False</limit>
+      <category>Headware</category>
+      <ess>0.5</ess>
+      <capacity>0</capacity>
+      <avail>4R</avail>
+      <cost>20000</cost>
+      <source>SR5</source>
+      <page>0</page>
+    </cyberware>
+  </cyberwares>
+</chummer>
