@@ -180,5 +180,11 @@
       <name>Zombie</name>
       <hide />
     </spell>
+    <spell>
+      <name>Calling [Spirit Type]</name>
+      <bonus ammendoperation="append">
+        <selecttext />
+      </bonus>
+    </spell>
   </spells>
 </chummer>
