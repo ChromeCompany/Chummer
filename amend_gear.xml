@@ -854,6 +854,33 @@
       <avail>0</avail>
       <cost>20000</cost>
     </gear>
+    <gear>
+      <id>c77325ce-b1c4-4c8e-8468-946956a78ac7</id>
+      <name>Spell Formula, Ritual</name>
+      <category>Formulae</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>326</page>
+      <avail>8R</avail>
+      <bonus>
+        <selecttext xml="spells.xml" xpath="/chummer/spells/spell[category = 'Rituals']" allowedit="True" />
+      </bonus>
+      <cost>2000</cost>
+      <allowrename>True</allowrename>
+    </gear>
+    <gear>
+      <id>a9fa41c3-ce3f-4063-b17a-5a6c7213ebe2</id>
+      <name>Paraphernalia</name>
+      <category>Magical Supplies</category>
+      <rating>20</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>14E</avail>
+      <cost>Rating * 500</cost>
+      <bonus>
+        <selecttext />
+      </bonus>
+    </gear>
     
     <!-- Armor version of the hidden arm slide from the weapon mods -->
     <gear>
