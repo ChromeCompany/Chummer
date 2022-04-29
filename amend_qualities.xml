@@ -2169,5 +2169,20 @@
       <source>RF</source>
       <page>118</page>
     </quality>
+	<!-- Adds the Retirement Reward quality for use when characters are created with the 50000 NuYen bonus from character retirement -->
+    <quality>
+      <id>374a7e1d-c4a3-41d8-857e-47ce0f07f03c</id>
+      <name>Retirement Reward</name>
+      <karma>0</karma>
+      <category>Positive</category>
+      <limit>100</limit>
+      <chargenonly />
+      <bonus>
+        <nuyenamt>50000</nuyenamt>
+      </bonus>
+      <notes>An extra 50,000¥ for your character, chosen as a Voluntary Retirement reward by voluntarily retiring a character that met the requirements and selected the extra NuYen reward. Please see Player Rules for details. This quality is safe to remove after exiting chargen.</notes>
+      <source>SR5</source>
+      <page>0</page>
+    </quality>
   </qualities>
 </chummer>

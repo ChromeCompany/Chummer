@@ -910,6 +910,11 @@
         </oneof>
       </forbidden>
     </quality>
+	<quality>
+		<name>Sprawl Tamer</name>
+		<required amendoperation="remove">
+		</required>
+  </quality>
     <!-- End Region -->
     <!-- End Region -->
 	<!--Region Dark Terrors -->
