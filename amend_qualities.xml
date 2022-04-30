@@ -150,6 +150,19 @@
         </skillcategorypointcostmultiplier>
       </bonus>
     </quality>
+    <quality amendoperation="replace">
+      <id>a68a897e-412f-4659-a637-4848f39a9c90</id>
+      <name>Black Market Pipeline</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <bonus>
+        <blackmarketdiscount />
+        <selectcontact />
+      </bonus>
+      <source>RF</source>
+      <page>145</page>
+    </quality>
+    
     <!--Prevents triple stacking with exatt and genop-->
     <quality>
       <name>Metagenic Improvement (Body)</name>
