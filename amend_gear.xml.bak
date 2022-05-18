@@ -22,6 +22,7 @@
   <!-- Adds new category for drug grades to have as an addon -->
   <categories amendoperation = "append">
     <category blackmarket="Drugs">Drug Grades</category>
+	<category>Specialized Hardware</category>
   </categories>
   
   <!-- Section of additions to the gear list -->
@@ -126,7 +127,7 @@
     </gear>
 	<gear>
       <id>0c8b9f87-13f0-4f50-b863-ee8296f7866f</id>
-      <name>Chair</name>
+      <name>Chair (Throwing)</name>
       <category>Ammunition</category>
       <rating>0</rating>
       <source>SR5</source>
@@ -299,6 +300,216 @@
     </gear>
     <gear>
       <name>Prime Reagents, Radical</name>
+      <hide />
+    </gear>
+    
+    <!-- Removing Individualized Foci. Every. Flipping. One of them. -->
+    <gear>
+      <name>Alchemical Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Alchemical Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Banishing Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Banishing Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Binding Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Binding Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Centering Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Centering Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Combat, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Combat, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Detection, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Detection, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Health, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Health, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Illusion, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Illusion, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Manipulation, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Counterspelling Focus, Manipulation, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Disenchanting Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Disenchanting Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Flexible Signature Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Flexible Signature Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Masking Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Masking Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Power Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Power Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Qi Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Qi Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Combat, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Combat, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Detection, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Detection, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Health, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Health, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Illusion, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Illusion, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Manipulation, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Ritual Spellcasting Focus, Manipulation, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Summoning Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Summoning Focus, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Combat, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Combat, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Detection, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Detection, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Health, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Health, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Illusion, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Illusion, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Manipulation, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Sustaining Focus, Manipulation, Individualized, Partial</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Weapon Focus, Individualized, Complete</name>
+      <hide />
+    </gear>
+    <gear>
+      <name>Weapon Focus, Individualized, Partial</name>
       <hide />
     </gear>
     
@@ -482,6 +693,211 @@
         <selecttext />
       </bonus>
     </gear>
+	<!-- Specialized Hardware Implementation-->
+	<gear>
+      <id>37d5c1a2-9749-4ebf-9986-165d3c1af57d</id>
+      <name>Specialized Hardware: Sleaze</name>
+      <category>Specialized Hardware</category>
+      <rating>4</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <modsleaze>{Rating}</modsleaze>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+			<category>Cyberdecks</category>
+			<category>Rigger Command Consoles</category>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <magenabled />
+          <resenabled />
+        </oneof>
+      </forbidden>
+    </gear>
+	<gear>
+      <id>20824294-8261-4dee-b5b5-d9f0beb9fc14</id>
+      <name>Specialized Hardware: Attack</name>
+      <category>Specialized Hardware</category>
+      <rating>4</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <modattack>{Rating}</modattack>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+			<category>Cyberdecks</category>
+			<category>Rigger Command Consoles</category>
+          </OR>
+        </geardetails>
+      </required>
+      <forbidden>
+        <oneof>
+          <magenabled />
+          <resenabled />
+        </oneof>
+      </forbidden>
+    </gear>
+	<gear>
+      <id>1143f1c7-5a57-48a5-8906-968ee2505850</id>
+      <name>Specialized Hardware: Data Processing</name>
+      <category>Specialized Hardware</category>
+      <rating>4</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <moddataprocessing>{Rating}</moddataprocessing>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+			<category>Cyberdecks</category>
+			<category>Rigger Command Consoles</category>
+          </OR>
+        </geardetails>
+      </required>
+	  <forbidden>
+        <oneof>
+          <magenabled />
+          <resenabled />
+        </oneof>
+      </forbidden>
+    </gear>
+	<gear>
+      <id>a2ebc7fd-1c86-4432-bbf4-f1ee8d5cdaa1</id>
+      <name>Specialized Hardware: Firewall</name>
+      <category>Specialized Hardware</category>
+      <rating>4</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <modfirewall>{Rating}</modfirewall>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+			<category>Cyberdecks</category>
+			<category>Rigger Command Consoles</category>
+          </OR>
+        </geardetails>
+      </required>
+	  <forbidden>
+        <oneof>
+          <magenabled />
+          <resenabled />
+        </oneof>
+      </forbidden>
+    </gear>
+	<gear>
+      <id>87c448ba-dce2-4ebb-bed9-0198c83261c8</id>
+      <name>Specialized Hardware: Extra Programs</name>
+      <category>Specialized Hardware</category>
+      <rating>2</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+			<category>Cyberdecks</category>
+			<category>Rigger Command Consoles</category>
+          </OR>
+        </geardetails>
+      </required>
+	  <forbidden>
+        <oneof>
+          <magenabled />
+          <resenabled />
+        </oneof>
+      </forbidden>
+    </gear>
+	<gear>
+      <id>b15149a3-97f8-4449-8b62-b6123a4a8a9a</id>
+      <name>Specialized Hardware: Extra Slaves</name>
+      <category>Specialized Hardware</category>
+      <rating>2</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+			<category>Cyberdecks</category>
+			<category>Rigger Command Consoles</category>
+          </OR>
+        </geardetails>
+      </required>
+	  <forbidden>
+        <oneof>
+          <magenabled />
+          <resenabled />
+        </oneof>
+      </forbidden>
+    </gear>
+	<gear>
+      <id>72d43647-993d-489b-ad64-dd007f8ebef6</id>
+      <name>Specialized Hardware: Agent</name>
+      <category>Specialized Hardware</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+			<category>Cyberdecks</category>
+			<category>Rigger Command Consoles</category>
+          </OR>
+        </geardetails>
+      </required>
+	  <forbidden>
+        <oneof>
+          <magenabled />
+          <resenabled />
+        </oneof>
+      </forbidden>
+    </gear>
+	<gear>
+      <id>e96e1193-636c-4314-bbc0-5bba16146e55</id>
+      <name>Specialized Hardware: Device Rating</name>
+      <category>Specialized Hardware</category>
+      <rating>2</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <required>
+        <geardetails>
+          <OR>
+            <category>Commlinks</category>
+			<category>Cyberdecks</category>
+			<category>Rigger Command Consoles</category>
+          </OR>
+        </geardetails>
+      </required>
+	  <forbidden>
+        <oneof>
+          <magenabled />
+          <resenabled />
+        </oneof>
+      </forbidden>
+    </gear>
     
     <!-- 4e translations -->
     <gear>
@@ -643,6 +1059,33 @@
       <page>0</page>
       <avail>0</avail>
       <cost>20000</cost>
+    </gear>
+    <gear>
+      <id>c77325ce-b1c4-4c8e-8468-946956a78ac7</id>
+      <name>Spell Formula, Ritual</name>
+      <category>Formulae</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>326</page>
+      <avail>8R</avail>
+      <bonus>
+        <selecttext xml="spells.xml" xpath="/chummer/spells/spell[category = 'Rituals']" allowedit="True" />
+      </bonus>
+      <cost>2000</cost>
+      <allowrename>True</allowrename>
+    </gear>
+    <gear>
+      <id>a9fa41c3-ce3f-4063-b17a-5a6c7213ebe2</id>
+      <name>Paraphernalia</name>
+      <category>Magical Supplies</category>
+      <rating>20</rating>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>14E</avail>
+      <cost>Rating * 500</cost>
+      <bonus>
+        <selecttext />
+      </bonus>
     </gear>
     
     <!-- Armor version of the hidden arm slide from the weapon mods -->
