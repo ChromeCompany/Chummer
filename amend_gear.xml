@@ -23,11 +23,7 @@
   <categories amendoperation = "append">
     <category blackmarket="Drugs">Drug Grades</category>
 <<<<<<< HEAD
-<<<<<<< HEAD
 	<category>Specialized Hardware</category>
-=======
-    <category blackmarket="Ammunition">Ammunition (Hand Load)</category>
->>>>>>> a7a9603da7d3f953b13dbbd69aed2970c8e31e92
 =======
     <category blackmarket="Ammunition">Ammunition (Hand Load)</category>
 >>>>>>> a7a9603da7d3f953b13dbbd69aed2970c8e31e92
