@@ -2331,6 +2331,7 @@
       </bonus>
     </mod>
   </weaponmountmods>
+  <!-- 4e Mod -->
     <mods amendoperation="append">
 	  <mod>
 	  <id>018c95bb-ed0c-4d8c-8046-f77db39fa6bd</id>
@@ -2378,6 +2379,7 @@
       </required>
       </mod>
 	</mods>
+	<!-- 4e Aircraft Drones-->
   <vehicles amendoperation="append">
 	<vehicle>
       <id>5e485bd6-bb65-4199-9cb3-7736c1d8d72e</id>
@@ -2470,6 +2472,7 @@
 	    <name>SunCell</name>
 	  </mods>
     </vehicle>
+	<!-- 4e Groundcraft Drones-->
 	<vehicle>
       <id>581da1d4-c77e-4744-aeb2-bfd55a260235</id>
       <name>Stonebrooke Smokecloud</name>
@@ -2493,7 +2496,110 @@
         </gear>
       </gears>
 	  <mods>
-	    <name>SunCell</name>
+        <name select="Decoy Noisemakers">Special Equipment</name>
+	  </mods>
+    </vehicle>
+    <vehicle>
+      <id>7509095b-77db-4b38-9952-7faa1adb36f0</id>
+      <name>Lone Star iBall</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>6</avail>
+      <body>1</body>
+      <category>Drones: Mini</category>
+      <cost>1500</cost>
+      <handling>4/2</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>1G</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>2</maxrating>
+        </gear>
+      </gears>
+	  <modslots>2</modslots>
+    </vehicle>
+    <vehicle>
+      <id>9c290181-0e7d-4c5a-913f-b746ad632238</id>
+      <name>Lone Star iBall w/Flash-Pak and Grenade</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>6</avail>
+      <body>1</body>
+      <category>Drones: Mini</category>
+      <cost>2000</cost>
+      <handling>4/2</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>1G</speed>
+      <gears>
+        <gear>Grenade: Flash-Pak</gear>
+        <gear>Grenade: Smoke</gear>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>2</maxrating>
+        </gear>
+      </gears>
+	  <modslots>0</modslots>
+    </vehicle>
+	<vehicle>
+      <id>d732effc-9883-476d-a171-9f598996d784</id>
+      <name>Ares A70</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>1</armor>
+      <avail>14F</avail>
+      <body>2</body>
+      <category>Drones: Small</category>
+      <cost>10000</cost>
+      <handling>3/4</handling>
+      <pilot>4</pilot>
+      <sensor>6</sensor>
+      <speed>2G</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>6</rating>
+          <maxrating>6</maxrating>
+        </gear>
+        <gear rating="1">Clearsight Autosoft</gear>
+      </gears>
+	  <mods>
+        <name>Improved Economy</name>
+	  </mods>
+    </vehicle>
+	<vehicle>
+      <id>ccdcfde4-460b-4089-93ed-a371e0654094</id>
+      <name>GMC Sandal</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>4</armor>
+      <avail>4</avail>
+      <body>2</body>
+      <category>Drones: Small</category>
+      <cost>5000</cost>
+      <handling>4/2</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>2G</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>2</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+        <name select="Decoy Noisemakers">Special Equipment</name>
 	  </mods>
     </vehicle>
   </vehicles>
