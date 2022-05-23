@@ -2378,6 +2378,17 @@
         </vehicledetails>
       </required>
       </mod>
+	  <mod>
+	  <id>584d8841-40ed-49bd-9301-97ef4a1d6686</id>
+	  <name>Obsolescent</name>
+      <page>0</page>
+      <source>SR5</source>
+      <avail>0</avail>
+      <cost>0</cost>
+      <rating>0</rating>
+      <slots>0</slots>
+	  <notes>Device Rating is reduced by 1, this is NOT Displayed in Chummer, this MAY result in the loss of a Matrix box!</notes>
+	  </mod>
 	</mods>
 	<!-- 4e Aircraft Drones-->
   <vehicles amendoperation="append">
@@ -2599,8 +2610,216 @@
         </gear>
       </gears>
 	  <mods>
-        <name select="Decoy Noisemakers">Special Equipment</name>
+        <name select="Package Storage/Retrieval">Special Equipment</name>
 	  </mods>
+    </vehicle>
+	<vehicle>
+      <id>0ad35278-6f95-4dd7-9ba1-f56591cfc1d6</id>
+      <name>Ares Blood Scythe</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>6</armor>
+      <avail>15F</avail>
+      <body>4</body>
+      <category>Drones: Medium</category>
+      <cost>18000</cost>
+      <handling>3/5</handling>
+      <pilot>5</pilot>
+      <sensor>3</sensor>
+      <speed>3G</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>3</maxrating>
+        </gear>
+        <gear rating="5">[Weapon] Targeting Autosoft</gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Turret</flexibility>
+          <size>Heavy (Drone)</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
+    </vehicle>
+	<vehicle>
+      <id>5ca640b2-1284-4b2e-ad5f-ead35d5363ab</id>
+      <name>Ares Guardian</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>8</armor>
+      <avail>10R</avail>
+      <body>4</body>
+      <category>Drones: Medium</category>
+      <cost>12500</cost>
+      <handling>3/5</handling>
+      <pilot>3</pilot>
+      <sensor>4</sensor>
+      <speed>3G</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>4</rating>
+          <maxrating>4</maxrating>
+        </gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Turret</flexibility>
+          <size>Heavy (Drone)</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
+	  <mods>
+		<name>Obsolescent</name>
+	  </mods>
+    </vehicle>
+	<vehicle>
+      <id>b0450f7c-d0be-4789-a47e-e8e4c5bc7935</id>
+      <name>CrashCart Autodoc</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>5</armor>
+      <avail>8R</avail>
+      <body>5</body>
+      <category>Drones: Large</category>
+      <cost>20000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2G</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>2</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+		<name>Valkyrie Module</name>
+	  </mods>
+    </vehicle>
+	<vehicle>
+      <id>17c711cf-6475-4208-be7f-27595c88fc77</id>
+      <name>Lockheed Vulcan</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>4</armor>
+      <avail>4</avail>
+      <body>6</body>
+      <category>Drones: Large</category>
+      <cost>9000</cost>
+      <handling>2/1</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>1G</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>2</maxrating>
+        </gear>
+        <gear rating="3" select="Mechanics">Skill Autosoft</gear>
+        <gear select="Mechanics">Tool Kit</gear>
+      </gears>
+	  <mods>
+		<name>Drone Arm</name>
+	  </mods>
+    </vehicle>
+	<vehicle>
+      <id>36cb304a-8edf-4647-bcba-5cc94ed8fe2a</id>
+      <name>Mesametric Beaver</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>8</armor>
+      <avail>4</avail>
+      <body>4</body>
+      <category>Drones: Large</category>
+      <cost>8000</cost>
+      <handling>2/3</handling>
+      <pilot>3</pilot>
+      <sensor>1</sensor>
+      <speed>1G</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>1</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+		<name>Drone Arm</name>
+		<name select="Construction Tools">Special Equipment</name>
+	  </mods>
+    </vehicle>
+	<vehicle>
+      <id>1c228141-fced-4fd0-a4e4-785866f7a17d</id>
+      <name>Saeder-Krupp Schildkröte</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>8</armor>
+      <avail>10</avail>
+      <body>4</body>
+      <category>Drones: Large</category>
+      <cost>16000</cost>
+      <handling>2/4</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2G</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>2</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+		<name>Drone Arm</name>
+		<name>Drone Arm</name>
+		<name select="Hazardous Materials Storage">Special Equipment</name>
+		<name rating="4">Special Armor Modification (Chemical)</name>
+	  </mods>
+	  <modslots>1</modslots>
+    </vehicle>
+	<vehicle>
+      <id>8ff8d7be-1191-4af3-99d2-ed98e2c9e3ac</id>
+      <name>Wuxing Crimson Samurai</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>12</armor>
+      <avail>10R</avail>
+      <body>4</body>
+      <category>Drones: Large</category>
+      <cost>20000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3G</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>3</maxrating>
+        </gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Huge (Drone)</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
     </vehicle>
   </vehicles>
 </chummer>
