@@ -2388,6 +2388,7 @@
       <rating>0</rating>
       <slots>0</slots>
 	  <notes>Device Rating is reduced by 1, this is NOT Displayed in Chummer, this MAY result in the loss of a Matrix box!</notes>
+	  <hide />
 	  </mod>
 	</mods>
 	<!-- 4e Aircraft Drones-->
@@ -2820,6 +2821,128 @@
           <visibility>External</visibility>
         </weaponmount>
       </weaponmounts>
+    </vehicle>
+	<vehicle>
+	<!-- 4e Walker Drones-->
+      <id>92b879bb-877e-4aa3-b11b-554db97e4a14</id>
+      <name>Toyota MK-Centipede</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>8</armor>
+      <avail>4</avail>
+      <body>4</body>
+      <category>Drones: Micro</category>
+      <cost>1000</cost>
+      <handling>4</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>2W</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>1</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+		<name rating="4">Special Armor Modification (Chemical)</name>
+		<name rating="4">Special Armor Modification (Fire)</name>
+		<name rating="4">Special Armor Modification (Insulation)</name>
+	  </mods>
+    </vehicle>
+	<vehicle>
+      <id>45dbed75-b9fd-4b33-9302-0f0095b8d55d</id>
+      <name>Evo Orderly</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>3</armor>
+      <avail>4</avail>
+      <body>3</body>
+      <category>Drones: Medium</category>
+      <cost>6000</cost>
+      <handling>3/3</handling>
+      <pilot>3</pilot>
+      <sensor>1</sensor>
+      <speed>2W</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>1</maxrating>
+        </gear>
+        <gear rating="6">Medkit</gear>
+      </gears>
+	  <mods>
+		<name>Drone Arm</name>
+		<name>Drone Arm</name>
+	  </mods>
+    </vehicle>
+	<!-- 4e Anthrodrones-->
+	<vehicle>
+      <id>d2667b8b-6783-4c1a-852a-cfd2fdbfc887</id>
+      <name>Ares TAN DEM</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>4</armor>
+      <avail>16F</avail>
+      <body>4</body>
+      <category>Drones: Anthro</category>
+      <cost>45000</cost>
+      <handling>3</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3G</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>3</maxrating>
+        </gear>
+        <gear rating="2">[Weapon] Targeting Autosoft</gear>
+		<gear rating="1">Clearsight Autosoft</gear>
+      </gears>
+	  <mods>
+		<name>Drone Arm</name>
+		<name>Drone Arm</name>
+		<name>Drone Leg</name>
+		<name>Drone Leg</name>
+	  </mods>
+	  <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Huge (Drone)</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
+	  </vehicle>
+	<!-- 4e Sea Drones-->
+	<vehicle>
+      <id>8c6ef93c-df7a-490e-bb95-638b3089c2ba</id>
+      <name>Lone Star Sea Eye</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>5</avail>
+      <body>1</body>
+      <category>Drones: Small</category>
+      <cost>3000</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2W</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>2</maxrating>
+        </gear>
+        <gear rating="3">Clearsight Autosoft</gear>
+      </gears>
     </vehicle>
   </vehicles>
 </chummer>
