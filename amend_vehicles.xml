@@ -2331,4 +2331,170 @@
       </bonus>
     </mod>
   </weaponmountmods>
+    <mods amendoperation="append">
+	  <mod>
+	  <id>018c95bb-ed0c-4d8c-8046-f77db39fa6bd</id>
+	  <name>Lock-On Countermeasure (Vehicle)</name>
+      <page>0</page>
+      <source>SR5</source>
+      <avail>10R</avail>
+      <category>Electromagnetic</category>
+      <cost>5000</cost>
+      <rating>0</rating>
+      <slots>1</slots>
+	  <required>
+        <vehicledetails>
+          <OR>
+            <category>Bikes</category>
+            <category>Cars</category>
+            <category>Trucks</category>
+            <category>Municipal/Construction</category>
+            <category>Corpsec/Police/Military</category>
+            <category>Boats</category>
+            <category>Submarines</category>
+            <category>Fixed-Wing Aircraft</category>
+            <category>LTAV</category>
+            <category>Rotorcraft</category>
+            <category>VTOL/VSTOL</category>
+          </OR>
+        </vehicledetails>
+      </required>
+      </mod>
+	  <mod>
+	  <id>63ef6955-d910-494b-a748-dfc4873be768</id>
+	  <name>Lock-On Countermeasure (Drone)</name>
+      <page>0</page>
+      <source>SR5</source>
+      <avail>10R</avail>
+      <cost>5000</cost>
+      <rating>0</rating>
+      <slots>1</slots>
+	  <required>
+        <vehicledetails>
+          <OR>
+            <category operation="contains">Drones</category>
+          </OR>
+        </vehicledetails>
+      </required>
+      </mod>
+	</mods>
+  <vehicles amendoperation="append">
+	<vehicle>
+      <id>5e485bd6-bb65-4199-9cb3-7736c1d8d72e</id>
+      <name>Entertainment Systems Falcon</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>2</armor>
+      <avail>8</avail>
+      <body>2</body>
+      <category>Drones: Small</category>
+      <cost>60000</cost>
+      <handling>5</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2P</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>2</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name rating="2">Realistic Features</name>
+      </mods>
+    </vehicle>
+	<vehicle>
+      <id>a4af15aa-6948-4c23-9ca5-5e8d7f947ead</id>
+      <name>Hawker-Siddley Popocatepetl</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>3</armor>
+      <avail>12F</avail>
+      <body>3</body>
+      <category>Drones: Medium</category>
+      <cost>7500</cost>
+      <handling>4</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>5P</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>3</maxrating>
+        </gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Huge (Drone)</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
+    </vehicle>
+	<vehicle>
+      <id>f9b8d79f-40bd-4d75-a452-5939fc6ba650</id>
+      <name>Hawker-Siddley Mixcoatl</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>6</armor>
+      <avail>9R</avail>
+      <body>3</body>
+      <category>Drones: Medium</category>
+      <cost>20000</cost>
+      <handling>5</handling>
+      <pilot>3</pilot>
+      <sensor>6</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>6</rating>
+          <maxrating>6</maxrating>
+        </gear>
+      </gears>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Heavy (Drone)</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
+	  <mods>
+	    <name>SunCell</name>
+	  </mods>
+    </vehicle>
+	<vehicle>
+      <id>581da1d4-c77e-4744-aeb2-bfd55a260235</id>
+      <name>Stonebrooke Smokecloud</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>0</armor>
+      <avail>14R</avail>
+      <body>0</body>
+      <category>Drones: Micro</category>
+      <cost>1500</cost>
+      <handling>2</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>2G</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>2</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+        <name select="Decoy Noisemakers">Special Equipment</name>
+	  </mods>
+    </vehicle>
+  </vehicles>
 </chummer>
