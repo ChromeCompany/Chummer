@@ -300,10 +300,10 @@
       <name>Underbarrel Grenade Launcher</name>
       <accuracy>4</accuracy>
     </weapon>
-	<weapon>
-	  <name>Remington Roomsweeper></name>
-	  <damage>8P</damage>
-	</weapon>
+    <weapon>
+      <name>Remington Roomsweeper</name>
+      <damage>8P</damage>
+    </weapon>
     
     <!-- Banned items from the Krime Katalog-->
     <weapon>
@@ -326,8 +326,33 @@
       <name>Krime Carpet</name>
       <hide />
     </weapon>
+	<!-- Banned items from the German Books (specifically SoTA ADL and Datapuls or whatever)-->
+    <weapon>
+      <name>Walther Secura Superkompakt</name>
+      <hide />
+    </weapon>
+	<weapon>
+	  <id>6dbfa770-8506-479c-9465-a1d8dd3a09d3</id>
+      <name>Glock-Swarovski Eagle Eye</name>
+	  <accessories amendoperation="replace">
+        <accessory>
+          <name>Improved Range Finder</name>
+        </accessory>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+	  </accessories>
+    </weapon>
+	<weapon>
+      <name>HK Urban Fighter (ADL)</name>
+      <hide />
+    </weapon>
+	<weapon>
+      <name>Walther Secura II</name>
+      <hide />
+    </weapon>
   </weapons>
-  
+ 
   <!-- Adds Shock Frills and other stuff as weapons -->
   <weapons amendoperation="append">
     <weapon>
@@ -1567,7 +1592,7 @@
       <conceal>-10</conceal>
       <accuracy>Physical</accuracy>
       <reach>0</reach>
-      <damage>(STR+5)P</damage>
+      <damage>{STR}+5P</damage>
       <ap>0</ap>
       <mode>0</mode>
       <rc>0</rc>
@@ -1578,7 +1603,7 @@
       <page>185</page>
       <cyberware>True</cyberware>
       <hide />
-      <spec>Cyber Implants</spec>
+      <spec>Natural Weapons</spec>
       <useskill>Unarmed Combat</useskill>
     </weapon>
   </weapons>
@@ -1606,10 +1631,25 @@
 						<name>PPSK-4 Collapsible Machine Pistol</name>
 						<name>Steyr TMP</name>
 						<name>Walther PB-120</name>
+						<name>Glock-Swarovski Eagle Eye</name>
+						<name>Walther P118</name>
 					</OR>
 				</weapondetails>
 			</forbidden>
     </accessory>
+	  <accessory>
+      <name>Extended Clip (Large Ammo Machine Pistols)</name>
+      <required amendoperation="replace">
+        <weapondetails>
+          <OR>
+            <name>Ares Crusader II</name>
+            <name>Ceska Black Scorpion</name>
+            <name>PPSK-4 Collapsible Machine Pistol</name>
+            <name>Steyr TMP</name>
+			<name>Walther P118</name>
+          </OR>
+        </weapondetails>
+      </required>
   </accessories>
   <accessories amendoperation="append">
   <!-- 4e Accessories for the 4e weapons-->
@@ -1661,6 +1701,23 @@
       <required>
         <weapondetails>
 			<name>Walther PB-120</name>
+        </weapondetails>
+      </required>
+    </accessory>
+	<accessory>
+      <id>c80b36bf-72d0-442e-80d4-91346c4a884c</id>
+      <name>Extended Clip (Glock-Swarovski Eagle Eye)</name>
+      <mount />
+      <avail>6R</avail>
+      <cost>35</cost>
+      <source>HT</source>
+      <page>180</page>
+      <ammobonus>50</ammobonus>
+      <conceal>2</conceal>
+      <rating>1</rating>
+      <required>
+        <weapondetails>
+			<name>Glock-Swarovski Eagle Eye</name>
         </weapondetails>
       </required>
     </accessory>
