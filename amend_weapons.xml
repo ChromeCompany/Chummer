@@ -1915,5 +1915,23 @@
         </weapondetails>
       </required>
     </accessory>
+	<accessory>
+      <id>17ea1a04-a805-404b-9d20-c278d89b62d0</id>
+      <name>Briefcase Gun Shielding</name>
+      <mount />
+      <avail>0</avail>
+      <cost>1500</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <OR>
+			<name>Glock MP Custodes (MPV)</name>
+			<name>Ares Executioner</name>
+		  </OR>
+        </weapondetails>
+      </required>
+    </accessory>
   </accessories>
 </chummer>
