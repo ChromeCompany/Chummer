@@ -359,6 +359,60 @@
       <name>HK 223C</name>
       <ammo>40(c)</ammo>
     </weapon>
+	<weapon>
+      <name>HK Urban Enforcer</name>
+      <hide />
+	</weapon>
+	<weapon>
+      <name>Steyr AUG-CSL III (Assault Rifle)</name>
+      <hide />
+	</weapon>
+	<weapon>
+      <name>HK Urban Striker</name>
+      <hide />
+	</weapon>
+	<weapon>
+      <name>PJSS Model 75</name>
+      <hide />
+	</weapon>
+	<weapon>
+      <name>PJSS Model 75-III (Shotgun Barrel)</name>
+      <hide />
+	</weapon>
+	<weapon>
+      <name>Ruhrmetall SMK 252</name>
+      <range>Sniper Rifles</range>
+	</weapon>
+	<weapon>
+      <name>Katzbalger</name>
+      <hide />
+	</weapon>
+	<weapon>
+      <name>Folding Spade</name>
+      <hide />
+	</weapon>
+	<weapon>
+      <name>Walther Battle Sword</name>
+      <hide />
+	</weapon>
+	<weapon>
+      <name>HK Urban Assassin</name>
+      <hide />
+	</weapon>
+	<weapon>
+	  <id>08a0ab4f-e5db-4306-875b-df552d0811f7</id>
+      <name>Strikecannon</name>
+	</weapon>
+	<weapon>
+      <name>Donnerbüchse</name>
+      <hide />
+	</weapon>
+	<weapon>
+      <name>Blaser R11 Conqueror</name>
+	  <category>Sporting Rifles</category>
+	  <range>Sporting Rifles</range>
+      <spec>Sporting Rifles</spec>
+	</weapon>
   </weapons>
  
   <!-- Adds Shock Frills and other stuff as weapons -->
