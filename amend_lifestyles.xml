@@ -37,10 +37,6 @@
       <name>One Good Thing About This Place</name>
       <hide />
     </quality>
-    <quality>
-      <name>W Zone</name>
-      <hide />
-    </quality>
     <!-- Assumed to be part of baseline olfactory booster/sensor functionality. -->
     <quality>
       <name>Pheromone Detection</name>

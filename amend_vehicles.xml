@@ -31,6 +31,12 @@
       <name>Transys Office Maid (Medium)</name>
       <hide />
     </vehicle>
+    
+    <!-- Makes the Ares Venture Restricted-->
+    <vehicle>
+      <name>Ares Venture (LAV)</name>
+      <avail>12R</avail>
+    </vehicle>
 
 <!-- TODO: Handle GTS Tower, it should have a retrans unit and a drone landing rack -->
     <vehicle>
