@@ -23,6 +23,11 @@
       <name>Critter Body Armor</name>
       <rating>100</rating>
     </armor>
+    
+    <!-- Things hidden from the State of the Art ADL -->
+    <armor xpathfilter="contains(source,'SAG')">
+      <hide />
+    </armor>
   </armors>
   <!-- Adds shock frills weapons to Shock Frills -->
   <mods>

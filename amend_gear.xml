@@ -350,6 +350,11 @@
       <name>Grenade: Krime Stinger</name>
       <hide />
     </gear>
+    
+    <!-- Things hidden from the State of the Art ADL -->
+    <gear xpathfilter="contains(source,'SAG')">
+      <hide />
+    </gear>
   </gears>
   
   <!-- New gear, such as the plugin for the briefcase shielding -->

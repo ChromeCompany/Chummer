@@ -188,6 +188,16 @@
       <name>Krime Euskaldunak Tankette</name>
       <hide />
     </vehicle>
+    
+    <!-- Things hidden from the State of the Art ADL -->
+    <vehicle xpathfilter="contains(source,'SAG')">
+      <hide />
+    </vehicle>
+    
+    <!-- Things hidden from Datapulse -->
+    <vehicle xpathfilter="contains(source,'SOTG')">
+      <hide />
+    </vehicle>
   </vehicles>
   
   <mods>
