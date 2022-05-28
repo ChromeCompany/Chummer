@@ -2919,6 +2919,7 @@
         </weaponmount>
       </weaponmounts>
 	  </vehicle>
+	<!-- 4e Sea Drones-->
 	<vehicle>
       <id>8c6ef93c-df7a-490e-bb95-638b3089c2ba</id>
       <name>Lone Star Sea Eye</name>

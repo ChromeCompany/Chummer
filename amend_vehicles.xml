@@ -2817,7 +2817,7 @@
         <weaponmount>
           <control>Remote</control>
           <flexibility>Turret</flexibility>
-          <size>Huge (Drone)</size>
+          <size>Heavy (Drone)</size>
           <visibility>External</visibility>
         </weaponmount>
       </weaponmounts>
@@ -2914,7 +2914,7 @@
         <weaponmount>
           <control>Remote</control>
           <flexibility>Flexible</flexibility>
-          <size>Huge (Drone)</size>
+          <size>Heavy (Drone)</size>
           <visibility>External</visibility>
         </weaponmount>
       </weaponmounts>
