@@ -351,6 +351,14 @@
       <name>Walther Secura II</name>
       <hide />
     </weapon>
+	<weapon>
+      <name>Glock MP Custodes (MPK)</name>
+      <cost>1550</cost>
+    </weapon>
+	<weapon>
+      <name>HK 223C</name>
+      <ammo>40(c)</ammo>
+    </weapon>
   </weapons>
  
   <!-- Adds Shock Frills and other stuff as weapons -->
@@ -1650,9 +1658,24 @@
           </OR>
         </weapondetails>
       </required>
+	</accessory>
+	<accessory>
+	<name>Stock Removal</name>
+      <forbidden amendoperation="replace">
+        <oneof>
+          <accessory>Sawed Off/Shortbarrel</accessory>
+          <accessory>Sawed Off/Shortbarrel and Stock Removal</accessory>
+        </oneof>
+		<weapondetails>
+		  <OR>
+			<name>Glock MP Custodes (MPK)</name>
+		  </OR>
+		</weapondetails>
+      </forbidden>
+    </accessory>
   </accessories>
   <accessories amendoperation="append">
-  <!-- 4e Accessories for the 4e weapons-->
+  <!-- 4e Accessories for the 4e weapons (Also german stuff now)-->
   	<accessory>
       <id>90796c00-08dd-4fd6-8815-8ef137c91ddb</id>
       <name>Belt-Feed, 50-round</name>
@@ -1806,6 +1829,31 @@
       <required>
         <weapondetails>
           <name>Walther Secura Kompakt</name>
+        </weapondetails>
+      </required>
+    </accessory>
+    <accessory>
+      <id>e001ba0a-b31f-4a82-84eb-45fd752a7676</id>
+      <name>Stock Removal (Glock MP Custodes)</name>
+      <mount>Stock</mount>
+      <avail>2</avail>
+      <cost>-50</cost>
+      <source>HT</source>
+      <page>182</page>
+      <conceal>-2</conceal>
+	  <rc>-1</rc>
+      <forbidden>
+        <oneof>
+          <accessory>Sawed Off/Shortbarrel</accessory>
+          <accessory>Sawed Off/Shortbarrel and Stock Removal</accessory>
+        </oneof>
+      </forbidden>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <OR>
+			<name>Glock MP Custodes (MPK)</name>
+		  </OR>
         </weapondetails>
       </required>
     </accessory>
