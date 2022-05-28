@@ -24,10 +24,6 @@
             <hide />
         </book>
         <book>
-            <name>Street Grimoire (German-exclusive Content)</name>
-            <hide />
-        </book>
-        <book>
             <name>Run Faster (German-exclusive Content)</name>
             <hide />
         </book>
@@ -56,19 +52,11 @@
             <hide />
         </book>
         <book>
-            <name>State of the Art ADL (German Handbook)</name>
-            <hide />
-        </book>
-        <book>
             <name>Hong Kong Sourcebook</name>
             <hide />
         </book>
         <book>
             <name>Hamburg (German-exclusive)</name>
-            <hide />
-        </book>
-        <book>
-            <name>Datapuls SOTA 2080 (German-exclusive)</name>
             <hide />
         </book>
         <book>
