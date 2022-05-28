@@ -59,5 +59,39 @@
       <name>Goddess</name>
       <hide />
     </mentor>
+    
+    <!-- Bans the mentors spirits not approved from the german content -->
+    <mentor>
+      <name>Mystic Guardian</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <name>Little Red Riding Hood</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <name>Treasure Hunter</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <name>Brother at Arms</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <name>Eurasian Jay</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <name>Tide</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <name>Heinzelmännchen</name>
+      <hide />
+    </mentor>
+    <mentor>
+      <name>Capricorn</name>
+      <hide />
+    </mentor>
   </mentors>
 </chummer>
