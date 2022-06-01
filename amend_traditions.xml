@@ -35,6 +35,22 @@
       <name>Planar Magic</name>
       <hide />
     </tradition>
+    <tradition>
+      <name>Armanentradition</name>
+      <hide />
+    </tradition>
+    <tradition>
+      <name>Dianism</name>
+      <hide />
+    </tradition>
+    <tradition>
+      <name>Magic of Roma and Street Nomads</name>
+      <hide />
+    </tradition>
+    <tradition>
+      <name>Frisian Magic</name>
+      <hide />
+    </tradition>
   </traditions>
   <spirits>
     <spirit>
