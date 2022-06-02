@@ -168,6 +168,113 @@
         </technique>
       </techniques>
     </martialart>
+    
+    <!-- Staples Strike the Darkness into State of the Art ADL -->
+    <martialart xpathfilter="contains(source,'SAG')">
+      <techniques amendoperation="append">
+        <technique>
+          <name>Strike the Darkness</name>
+        </technique>
+      </techniques>
+    </martialart>
+    
+    <!-- Staples Strike the Darkness into Datapulse -->
+    <martialart xpathfilter="contains(source,'SOTG')">
+      <techniques amendoperation="append">
+        <technique>
+          <name>Strike the Darkness</name>
+        </technique>
+      </techniques>
+    </martialart>
+    
+    <!-- Fixes the Oaken Stance martial arts from german books -->
+    <martialart>
+      <name>Alpine Wrestling</name>
+      <techniques amendoperation="replace">
+        <technique>
+          <name>Oaken Stance (Defense Against Being Charged)</name>
+        </technique>
+        <technique>
+          <name>Rooted Tree</name>
+        </technique>
+        <technique>
+          <name>Clinch</name>
+        </technique>
+        <technique>
+          <name>Karmic Response</name>
+        </technique>
+        <technique>
+          <name>Throw Person</name>
+        </technique>
+        <technique>
+          <name>Imposing Stone</name>
+        </technique>
+        <technique>
+          <name>Strike the Darkness</name>
+        </technique>
+        <technique>
+          <name>Neijia</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Esdo</name>
+      <techniques amendoperation="replace">
+        <technique>
+          <name>Oaken Stance (Defense Against Being Knocked Down)</name>
+        </technique>
+        <technique>
+          <name>Bending of the Reed</name>
+        </technique>
+        <technique>
+          <name>Counterstrike</name>
+        </technique>
+        <technique>
+          <name>Kick Attack</name>
+        </technique>
+        <technique>
+          <name>Stagger</name>
+        </technique>
+        <technique>
+          <name>Yielding Force (Counterstrike)</name>
+        </technique>
+        <technique>
+          <name>Strike the Darkness</name>
+        </technique>
+        <technique>
+          <name>Neijia</name>
+        </technique>
+      </techniques>
+    </martialart>
+    <martialart>
+      <name>Sternschutz Tactical</name>
+      <techniques amendoperation="replace">
+        <technique>
+          <name>Oaken Stance (Defense Against Being Charged)</name>
+        </technique>
+        <technique>
+          <name>Called Shot (Break Weapon)</name>
+        </technique>
+        <technique>
+          <name>Broken Fang</name>
+        </technique>
+        <technique>
+          <name>Hammerfist</name>
+        </technique>
+        <technique>
+          <name>Opposing Force (Parry)</name>
+        </technique>
+        <technique>
+          <name>Close Quarter Defense Against Firearms</name>
+        </technique>
+        <technique>
+          <name>Strike the Darkness</name>
+        </technique>
+        <technique>
+          <name>Neijia</name>
+        </technique>
+      </techniques>
+    </martialart>
   </martialarts>
   
   <!-- Adds the missing german martial arts-->
@@ -193,6 +300,9 @@
         </technique>
         <technique>
           <name>Karmic Response</name>
+        </technique>
+        <technique>
+          <name>Strike the Darkness</name>
         </technique>
         <technique>
           <name>Neijia</name>
@@ -224,6 +334,9 @@
           <name>Two-Headed Snake</name>
         </technique>
         <technique>
+          <name>Strike the Darkness</name>
+        </technique>
+        <technique>
           <name>Neijia</name>
         </technique>
       </techniques>
@@ -251,6 +364,9 @@
         </technique>
         <technique>
           <name>Yielding Force (Riposte)</name>
+        </technique>
+        <technique>
+          <name>Strike the Darkness</name>
         </technique>
         <technique>
           <name>Neijia</name>
