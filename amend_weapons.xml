@@ -332,7 +332,7 @@
       <name>Krime Carpet</name>
       <hide />
     </weapon>
-	<!-- Banned items from the German Books (specifically SoTA ADL and Datapuls or whatever)-->
+	<!-- Banned items/Modified items from the German Books (specifically SoTA ADL and Datapuls or whatever)-->
     <weapon>
       <name>Walther Secura Superkompakt</name>
       <hide />
@@ -445,6 +445,11 @@
 	<weapon>
       <name>Krupp Munitions 3E Firefighting Cannon</name>
       <hide />
+	</weapon>
+	<weapon>
+      <name>Ruhrmetall SFW-30</name>
+	  <ap>-4</ap>
+	  <mode>BF</mode>
 	</weapon>
   </weapons>
  
