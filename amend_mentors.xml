@@ -157,6 +157,7 @@
         <specificskill>
           <name>Perception</name>
           <bonus>1</bonus>
+        </specificskill>
       </bonus>
       <choices>
         <choice>
