@@ -360,10 +360,33 @@
 	<weapon>
       <name>Glock MP Custodes (MPK)</name>
       <cost>1550</cost>
+      <accessories amendoperation="replace">
+        <accessory>
+          <name>Folding Stock</name>
+        </accessory>
+        <accessory>
+          <name>Gas-Vent 1 System</name>
+        </accessory>
+        <accessory>
+          <name>Ceramic/Plasteel Components</name>
+          <rating>2</rating>
+        </accessory>
+        <accessory>
+          <name>Sling</name>
+        </accessory>
+      </accessories>
     </weapon>
 	<weapon>
       <name>HK 223C</name>
       <ammo>40(c)</ammo>
+    </weapon>
+  <weapon>
+      <name>HK G12A4</name>
+      <category>Carbines</category>
+    </weapon>
+  <weapon>
+      <name>Steyr UCR</name>
+      <category>Carbines</category>
     </weapon>
 	<weapon>
       <name>HK Urban Enforcer</name>
