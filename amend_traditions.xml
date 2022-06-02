@@ -182,5 +182,33 @@
         <spiritmanipulation>Spirit of Water</spiritmanipulation>
       </spirits>
     </tradition>
+    <tradition>
+      <id>bfc544b2-eac8-4eb5-b648-d04ef09dfe6b</id>
+      <name>The Tradition of the Freudians</name>
+      <drain>{WIL} + {LOG}</drain>
+      <source>SG</source>
+      <page>0</page>
+      <spirits>
+        <spiritcombat>Spirit of Fire</spiritcombat>
+        <spiritdetection>Spirit of Earth</spiritdetection>
+        <spirithealth>Spirit of Man</spirithealth>
+        <spiritillusion>Spirit of Water</spiritillusion>
+        <spiritmanipulation>Spirit of Air</spiritmanipulation>
+      </spirits>
+    </tradition>
+    <tradition>
+      <id>cab1b86c-bf7e-43d9-826b-1c758bda8768</id>
+      <name>Sorbic Theurgy</name>
+      <drain>{WIL} + {CHA}</drain>
+      <source>SG</source>
+      <page>0</page>
+      <spirits>
+        <spiritcombat>Spirit of Water</spiritcombat>
+        <spiritdetection>Spirit of Beasts</spiritdetection>
+        <spirithealth>Spirit of Earth</spirithealth>
+        <spiritillusion>Spirit of Air</spiritillusion>
+        <spiritmanipulation>Spirit of Man</spiritmanipulation>
+      </spirits>
+    </tradition>
   </traditions>
 </chummer>

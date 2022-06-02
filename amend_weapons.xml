@@ -44,6 +44,12 @@
       <range>Spray Pens</range>
     </weapon>
     
+    <!-- Changes the P.E.P slightly to use 'Energy' instead of 'energy' Fuck me, I know. -->
+    <weapon>
+      <name>Narcoject PEP</name>
+      <weapontype>Energy</weapontype>
+    </weapon>
+    
     <!-- Corrects Run and Gun stat blocks -->
     <weapon>
       <name>Onotari Arms JP-K50</name>
