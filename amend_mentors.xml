@@ -89,6 +89,23 @@
       <id>62188234-323a-4c8e-96c4-b8b8a750e272</id>
       <name>Brownie</name>
     </mentor>
+    <mentor>
+      <name>Badger</name>
+      <advantage>All: +1 to assensing and perception.</advantage>
+      <bonus>
+        <specificskill>
+          <name>Assensing</name>
+          <bonus>1</bonus>
+        </specificskill>
+        <specificskill>
+          <name>Perception</name>
+          <bonus>1</bonus>
+      </bonus>
+    </mentor>
+    <mentor>
+      <name>Fox</name>
+      <disadvantage>If Fox fights, it'll fight to kill. A follower of this mentor spirit must make a Willpower + CHA (3) Test to spare an overpowered foe.</disadvantage>
+    </mentor>
   </mentors>
   
   <!-- Adds the mentors missing from German SG -->
