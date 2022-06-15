@@ -43,5 +43,13 @@
       <long>{STR}*4</long>
       <extreme>{STR}*6</extreme>
     </range>
+	<range>
+      <name>Chair</name>
+      <min>0</min>
+      <short>{STR}</short>
+      <medium>{STR}*1.5</medium>
+      <long>{STR}*2</long>
+      <extreme>{STR}*2.5</extreme>
+    </range>
   </ranges>
 </chummer>
