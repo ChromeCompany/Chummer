@@ -910,6 +910,10 @@
       <name>Worship Leader</name>
       <hide />
     </quality>
+    <quality>
+      <name>Chosen Follower</name>
+      <hide />
+    </quality>
 
     <quality>
       <name>Revenant Adept</name>
@@ -1124,6 +1128,16 @@
         <attributemaxclamp>REA</attributemaxclamp>
         <attributemaxclamp>STR</attributemaxclamp>
       </firstlevelbonus>
+    </quality>
+    
+    <!-- Things hidden from the State of the Art ADL -->
+    <quality xpathfilter="contains(source,'SAG')">
+      <hide />
+    </quality>
+    
+    <!-- Things hidden from Datapulse -->
+    <quality xpathfilter="contains(source,'SOTG')">
+      <hide />
     </quality>
   </qualities>
   

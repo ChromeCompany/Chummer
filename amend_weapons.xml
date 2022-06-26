@@ -451,6 +451,10 @@
 	  <ap>-4</ap>
 	  <mode>BF</mode>
 	</weapon>
+  <weapon>
+    <name>HK DMR 11D</name>
+    <avail>10R</avail>
+  </weapon>
   </weapons>
  
   <!-- Adds Shock Frills and other stuff as weapons -->
@@ -1764,6 +1768,11 @@
 		  </OR>
 		</weapondetails>
       </forbidden>
+    </accessory>
+    
+    <!-- Removes all the german accessories -->
+    <accessory xpathfilter="contains(source,'SOTG')">
+      <hide />
     </accessory>
   </accessories>
   <accessories amendoperation="append">

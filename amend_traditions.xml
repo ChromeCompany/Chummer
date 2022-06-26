@@ -51,6 +51,10 @@
       <name>Frisian Magic</name>
       <hide />
     </tradition>
+    <tradition>
+      <name>Troll Shamanism</name>
+      <drain>{WIL} + {INT}</drain>
+    </tradition>
   </traditions>
   <spirits>
     <spirit>
