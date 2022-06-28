@@ -18,6 +18,9 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema weapons.xsd">
+  <categories amendoperation="replace">
+    <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Assault Cannons</category>
+  </categories>
   <weapons>
     <weapon>
       <name>Ranger Silver Pistol Crossbow</name>
@@ -332,7 +335,7 @@
       <name>Krime Carpet</name>
       <hide />
     </weapon>
-	<!-- Banned items from the German Books (specifically SoTA ADL and Datapuls or whatever)-->
+	<!-- Banned items/Modified items from the German Books (specifically SoTA ADL and Datapuls or whatever)-->
     <weapon>
       <name>Walther Secura Superkompakt</name>
       <hide />
@@ -446,6 +449,15 @@
       <name>Krupp Munitions 3E Firefighting Cannon</name>
       <hide />
 	</weapon>
+	<weapon>
+      <name>Ruhrmetall SFW-30</name>
+	  <ap>-4</ap>
+	  <mode>BF</mode>
+	</weapon>
+  <weapon>
+    <name>HK DMR 11D</name>
+    <avail>10R</avail>
+  </weapon>
   </weapons>
  
   <!-- Adds Shock Frills and other stuff as weapons -->
@@ -1759,6 +1771,11 @@
 		  </OR>
 		</weapondetails>
       </forbidden>
+    </accessory>
+    
+    <!-- Removes all the german accessories -->
+    <accessory xpathfilter="contains(source,'SOTG')">
+      <hide />
     </accessory>
   </accessories>
   <accessories amendoperation="append">

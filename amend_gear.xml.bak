@@ -19,7 +19,7 @@
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema gear.xsd">
 
-  <!-- Adds new category for drug grades to have as an addon -->
+  <!-- Adds new category for stuff -->
   <categories amendoperation = "append">
     <category blackmarket="Drugs">Drug Grades</category>
 	<category>Specialized Hardware</category>
@@ -87,7 +87,16 @@
       <name>Subliminal Subacoustics Software</name>
       <hide />
     </gear>
-
+	
+	<!-- Removes Assault Cannon and Gauss Ammo cause we don't use 'em anymore-->
+	<gear>
+	  <name>Ammo: Assault Cannon</name>
+	  <hide />
+	</gear>
+	<gear>
+	  <name>Ammo: Gauss</name>
+	  <hide />
+	</gear>
     <!-- Electronics Accessories -->
     <gear>
       <name>Ghost Box</name>
@@ -348,6 +357,11 @@
     </gear>
     <gear>
       <name>Grenade: Krime Stinger</name>
+      <hide />
+    </gear>
+    
+    <!-- Things hidden from the State of the Art ADL -->
+    <gear xpathfilter="contains(source,'SAG')">
       <hide />
     </gear>
   </gears>
@@ -882,6 +896,21 @@
         </geardetails>
       </required>
     </gear>
+	
+	<!-- Assault Cannon Ammo Mod (in line with our changes)-->
+	<gear>
+	  <id>020cdfde-b0fd-4e56-ba2d-391ac1cc9554</id>
+	  <name>Assault Cannon</name>
+	  <category>Ammunition</category>
+	  <rating>0</rating>
+	  <source>SR5</source>
+	  <page>0</page>
+	  <avail>0</avail>
+	  <cost>Parent Cost * .1</cost>
+	  <required>
+	    <name operation="contains">Ammo</name>
+	  </required>
+	</gear>
     
     <!-- Gear versions of the handloaded ammo -->
     <gear>
@@ -944,33 +973,6 @@
         <ap>-6</ap>
       </weaponbonus>
       <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>70d2514a-41de-4872-a514-e36edb48e204</id>
-      <name>Ammo: Assault Cannon (Hand Load: Damage)</name>
-      <category>Ammunition (Hand Load)</category>
-      <rating>0</rating>
-      <source>SR5</source>
-      <page>434</page>
-      <avail>12F</avail>
-      <cost>440</cost>
-      <costfor>10</costfor>
-      <ammoforweapontype>cannon</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>e0fa9954-3dd0-497a-88ea-b7d0b5cda539</id>
-      <name>Ammo: Assault Cannon (Hand Load: AP)</name>
-      <category>Ammunition (Hand Load)</category>
-      <rating>0</rating>
-      <source>SR5</source>
-      <page>434</page>
-      <avail>12F</avail>
-      <cost>440</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <ap>-2</ap>
-      </weaponbonus>
-      <ammoforweapontype>cannon</ammoforweapontype>
     </gear>
     <gear>
       <id>d89e0be7-4623-4d95-9ad5-431f4e6e8063</id>
@@ -1400,36 +1402,6 @@
         <userange>Light Pistol</userange>
       </weaponbonus>
       <ammoforweapontype>gun</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>4db0ae25-985b-48e5-8d43-6173955782e1</id>
-      <name>Ammo: Gauss (Hand Load: Damage)</name>
-      <category>Ammunition (Hand Load)</category>
-      <rating>0</rating>
-      <source>RG</source>
-      <page>55</page>
-      <avail>18F</avail>
-      <cost>440</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <damage>1</damage>
-      </weaponbonus>
-      <ammoforweapontype>cannon</ammoforweapontype>
-    </gear>
-    <gear>
-      <id>93b0c057-6d08-4057-bf90-6b383cd90636</id>
-      <name>Ammo: Gauss (Hand Load: AP)</name>
-      <category>Ammunition (Hand Load)</category>
-      <rating>0</rating>
-      <source>RG</source>
-      <page>55</page>
-      <avail>18F</avail>
-      <cost>440</cost>
-      <costfor>10</costfor>
-      <weaponbonus>
-        <ap>-2</ap>
-      </weaponbonus>
-      <ammoforweapontype>cannon</ammoforweapontype>
     </gear>
     <gear>
       <id>00d563ac-b3b2-4e1f-b3f2-34262da2e11b</id>
