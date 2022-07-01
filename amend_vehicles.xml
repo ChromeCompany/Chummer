@@ -2960,5 +2960,622 @@
         <gear rating="3">Clearsight Autosoft</gear>
       </gears>
     </vehicle>
+    
+    <!-- 4e Vehicles -->
+    <vehicle>
+      <id>346c69b0-6504-4123-a30e-8a8c2014d175</id>
+      <name>Gaz-Nikki White Eagle</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>6</armor>
+      <avail>6R</avail>
+      <body>6</body>
+      <category>Bikes</category>
+      <cost>9500</cost>
+      <handling>4/4</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>1</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Obsolescent</name>
+        <name>Off-Road Suspension</name>
+      </mods>
+	  <weaponmounts>
+        <weaponmount>
+          <control>Manual</control>
+          <flexibility>Fixed</flexibility>
+          <size>Heavy [SR5]</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
+      <seats>1</seats>
+    </vehicle>
+    <vehicle>
+      <id>9ab8ab99-706e-4601-b0cd-5742cb186439</id>
+      <name>Eurocar President</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>3</accel>
+      <armor>12</armor>
+      <avail>0</avail>
+      <body>16</body>
+      <category>Cars</category>
+      <cost>250000</cost>
+      <handling>4/3</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Amenities (High)</name>
+        <name rating="2">Anti-Theft System</name>
+		<name rating="1">Life Support</name>
+		<name rating="1">Personal Armor</name>
+      </mods>
+      <seats>6</seats>
+    </vehicle>
+    <vehicle>
+      <id>4ee994d1-c1db-4323-b5a1-7a0feca28ff4</id>
+      <name>Honda-GM 3220</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>5</armor>
+      <avail>0</avail>
+      <body>10</body>
+      <category>Cars</category>
+      <cost>17500</cost>
+      <handling>3/1</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>5</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Obsolescent</name>
+        <name>Reduced Economy</name>
+		<name rating="4">Racing Tires</name>
+      </mods>
+      <seats>2</seats>
+	</vehicle>
+  <vehicle>
+      <id>4f416a43-8a57-4f2f-8209-288a8c5edf99</id>
+      <name>Leyland-Rover Transport (2050)</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>5</armor>
+      <avail>0</avail>
+      <body>12</body>
+      <category>Cars</category>
+      <cost>27500</cost>
+      <handling>3/2</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Obsolete</name>
+      </mods>
+      <seats>8</seats>
+	</vehicle>
+	<vehicle>
+      <id>9c102ed7-72f7-48a3-8e34-742904347e24</id>
+      <name>Lockheed-Chenowth Light Strike Vehicle</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>3</accel>
+      <armor>2</armor>
+      <avail>4R</avail>
+      <body>8</body>
+      <category>Cars</category>
+      <cost>17500</cost>
+      <handling>3/4</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Off-Road Suspension</name>
+        <name rating="4">Off-Road Tires</name>
+      </mods>
+	  <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Turret</flexibility>
+          <size>Heavy [SR5]</size>
+          <visibility>External</visibility>
+        </weaponmount>
+        <weaponmount>
+          <control>Manual</control>
+          <flexibility>Flexible</flexibility>
+          <size>Heavy [SR5]</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
+      <seats>2</seats>
+	</vehicle>
+	<vehicle>
+      <id>70723af7-6ca8-4f25-88ee-ab57e449fb51</id>
+      <name>Nissan EZ Eco</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>1</armor>
+      <avail>0</avail>
+      <body>6</body>
+      <category>Cars</category>
+      <cost>6500</cost>
+      <handling>3/1</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>1</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Improved Economy</name>
+        <name>Rigger Interface</name>
+        <name>Special Equipment (Forklift)</name>
+      </mods>
+      <seats>1</seats>
+	</vehicle>
+	<vehicle>
+      <id>46ad419a-20b8-4cf9-9f6e-9972504b5879</id>
+      <name>Toyota Elite</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>3</accel>
+      <armor>8</armor>
+      <avail>0</avail>
+      <body>12</body>
+      <category>Cars</category>
+      <cost>45000</cost>
+      <handling>4/3</handling>
+      <pilot>4</pilot>
+      <sensor>2</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name>Obsolescent</name>
+        <name rating="2">Personal Armor</name>
+      </mods>
+      <seats>5</seats>
+	</vehicle>
+	<vehicle>
+      <id>523a2f5e-bdaa-4bf4-a91d-94dfecfc6268</id>
+      <name>Volkswagen Lingus</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>6</armor>
+      <avail>0</avail>
+      <body>10</body>
+      <category>Cars</category>
+      <cost>27500</cost>
+      <handling>3/2</handling>
+      <pilot>3</pilot>
+      <sensor>2</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+      <mods>
+        <name rating="2">Passenger Protection System</name>
+      </mods>
+      <seats>6</seats>
+	</vehicle>
+	<vehicle>
+      <id>fd852b74-5849-4694-9484-5db6154f7034</id>
+      <name>Chrysler-Nissan G12A</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>8</armor>
+      <avail>6</avail>
+      <body>14</body>
+      <category>Municipal/Construction</category>
+      <cost>145000</cost>
+      <handling>3/3</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+      <seats>3/30</seats>
+	</vehicle>
+	<vehicle>
+      <id>7b92bf0e-5832-4e3e-8d78-5c1963ed3b0c</id>
+      <name>Conestoga Vista</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>6</armor>
+      <avail>12</avail>
+      <body>20</body>
+      <category>Municipal/Construction</category>
+      <cost>175000</cost>
+      <handling>2/2</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+        <name>Amenities (Squatter)</name>
+      </mods>
+      <seats>55</seats>
+	</vehicle>
+	<vehicle>
+      <id>6723439e-ce03-412a-bee2-13f72e9acb4b</id>
+      <name>Rolls-Royce Prairie Cat</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>10</armor>
+      <avail>4</avail>
+      <body>15</body>
+      <category>Trucks</category>
+      <cost>125000</cost>
+      <handling>3/4</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+      <name>Amenities (High)</name>
+      <name>Secondary Propulsion (Amphibious, Surface)</name>
+      <name>Off-Road Suspension</name>
+      <name rating="4">Off-Road Tires</name>
+      <name rating="2">Personal Armor</name>
+      <name>Satellite Link</name>
+    </mods>
+    <seats>8</seats>
+	</vehicle>
+	<vehicle>
+      <id>6bba0ee1-30c9-4903-a5db-5bde07215d09</id>
+      <name>Ford-Canada Bison</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>8</armor>
+      <avail>0</avail>
+      <body>14</body>
+      <category>Trucks</category>
+      <cost>750000</cost>
+      <handling>2/3</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+      <name>Amenities (Middle)</name>
+      <name>Improved Economy</name>
+      <name>Off-Road Suspension</name>
+      <name rating="4">Off-Road Tires</name>
+    </mods>
+    <seats>8</seats>
+	</vehicle>
+	<vehicle>
+      <id>07b23eea-f0a3-4488-b291-bc933633b6b2</id>
+      <name>Ford-Canada Buffalo</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>10</armor>
+      <avail>0</avail>
+      <body>16</body>
+      <category>Trucks</category>
+      <cost>100000</cost>
+      <handling>3/4</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+      <name>Amenities (Middle)</name>
+      <name>Off-Road Suspension</name>
+    </mods>
+    <seats>8</seats>
+	</vehicle>
+	<vehicle>
+      <id>d5d70c23-3e0a-444f-b096-30a7d71fbd21</id>
+      <name>Ares Citymaster</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>18</armor>
+      <avail>20R</avail>
+      <body>20</body>
+      <category>Trucks</category>
+      <cost>125000</cost>
+      <handling>3/3</handling>
+      <pilot>3</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+      <name rating="2">Life Support</name>
+      <name rating="8">Personal Armor</name>
+    </mods>
+	  <weaponmounts>
+	    <weaponmount>
+          <control>Remote</control>
+          <flexibility>Turret</flexibility>
+          <size>Heavy [SR5]</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
+      <seats>12</seats>
+	</vehicle>
+	<vehicle>
+      <id>b8006d58-bec5-46aa-a442-56b4be442bc0</id>
+      <name>Ares Mobmaster</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>18</armor>
+      <avail>18R</avail>
+      <body>16</body>
+      <category>Trucks</category>
+      <cost>100000</cost>
+      <handling>3/3</handling>
+      <pilot>2</pilot>
+      <sensor>3</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>3</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+      <name>Amenities (Squatter)</name>
+      <name rating="1">Life Support</name>
+      <name rating="8">Gun Ports</name>
+    </mods>
+	  <weaponmounts>
+	    <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Heavy [SR5]</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      <weaponmount>
+          <control>Remote</control>
+          <flexibility>Fixed</flexibility>
+          <size>Heavy [SR5]</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
+      <seats>12</seats>
+	</vehicle>
+	<vehicle>
+      <id>98c2d432-77fb-4f50-9d71-a52e8d23a0b9</id>
+      <name>LAV-98 Devil Rat</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>20</armor>
+      <avail>14R</avail>
+      <body>20</body>
+      <category>Trucks</category>
+      <cost>150000</cost>
+      <handling>3/3</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+      <name>Amenities (Squatter)</name>
+      <name>Secondary Propulsion (Amphibious, Surface)</name>
+    </mods>
+	  <weaponmounts>
+	    <weaponmount>
+          <control>Manual</control>
+          <flexibility>Flexible</flexibility>
+          <size>Heavy [SR5]</size>
+          <visibility>External</visibility>
+        </weaponmount>
+      </weaponmounts>
+      <seats>14</seats>
+	</vehicle>
+	<vehicle>
+      <id>09067ff4-ae00-41ea-a00f-f4f24f23fa78</id>
+      <name>Colorado Craft “Cigarette” Hydroconvertable</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>5</accel>
+      <armor>4</armor>
+      <avail>4</avail>
+      <body>8</body>
+      <category>Boats</category>
+      <cost>45000</cost>
+      <handling>4</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>7</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+      <name>Improved Economy</name>
+    </mods>
+      <seats>2</seats>
+	</vehicle>
+	<vehicle>
+      <id>38089d8f-1b29-44c5-b72f-b65e70333066</id>
+      <name>Esprit Le Four</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>12</armor>
+      <avail>2</avail>
+      <body>16</body>
+      <category>Boats</category>
+      <cost>65000</cost>
+      <handling>4</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>4</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+      <name>Whinch</name>
+    </mods>
+      <seats>6</seats>
+	</vehicle>
+	<vehicle>
+      <id>481083e7-ed95-4fd7-a955-3b2ec98e8267</id>
+      <name>Suzuki Watersport</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>2</accel>
+      <armor>3</armor>
+      <avail>0</avail>
+      <body>6</body>
+      <category>Boats</category>
+      <cost>5000</cost>
+      <handling>5</handling>
+      <pilot>1</pilot>
+      <sensor>1</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>1</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+      <name>Obsolescent</name>
+    </mods>
+      <seats>1</seats>
+	</vehicle>
+	<vehicle>
+      <id>9eca646f-f969-4140-8bdb-ad823de3e5ad</id>
+      <name>EVO DSV Marina</name>
+      <page>0</page>
+      <source>SR5</source>
+      <accel>1</accel>
+      <armor>10</armor>
+      <avail>10</avail>
+      <body>15</body>
+      <category>Boats</category>
+      <cost>175000</cost>
+      <handling>3</handling>
+      <pilot>2</pilot>
+      <sensor>2</sensor>
+      <speed>3</speed>
+      <gears>
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>7</maxrating>
+        </gear>
+      </gears>
+	  <mods>
+      <name>Landing Drone Rack (Large)</name>
+      <name>Extreme Environment Modification</name>
+      <name rating="2">Life Support</name>
+      <name>Special Equipment (flexi-seal docking chamber)</name>
+    </mods>
+      <seats>1</seats>
+	</vehicle>
   </vehicles>
 </chummer>
