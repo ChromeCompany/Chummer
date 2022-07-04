@@ -38,7 +38,7 @@
       <avail>12R</avail>
     </vehicle>
 
-<!-- TODO: Handle GTS Tower, it should have a retrans unit and a drone landing rack -->
+<!-- Minor vehicle changese -->
     <vehicle>
       <name>GTS Tower (Large)</name>
       <mods amendoperation="replace">
@@ -66,6 +66,12 @@
 <!--      <gears>
         <gear rating="2" maxrating="3">Sensor Array</gear>
       </gears> -->
+    </vehicle>
+	<vehicle>
+      <name>Vulkan Electronaut (Mini-sub)</name>
+      <mods amendoperation="append">
+        <name rating="2">Life Support</name>
+      </mods>
     </vehicle>
     
     <vehicle>
