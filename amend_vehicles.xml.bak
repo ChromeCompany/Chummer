@@ -68,7 +68,7 @@
       </gears> -->
     </vehicle>
 	<vehicle>
-      <name>Vulkan Electronaut</name>
+      <name>Vulkan Electronaut (Mini-sub)</name>
       <mods amendoperation="append">
         <name rating="2">Life Support</name>
       </mods>
