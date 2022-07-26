@@ -27,4 +27,16 @@
       <maxlevels>100</maxlevels>
     </power>
   </powers>
+  <!-- 6e Adept power-->
+  <powers amendoperation="append">
+	<power>
+	  <id>80289a31-3e5f-40d1-a23c-2806ae00c530</id>
+	  <name>Dash</name>
+	  <points>0.25</points>
+	  <levels>True</levels>
+	  <limit>1</limit>
+	  <source>SR5</source>
+      <page>0</page>
+	</power>
+  </powers>
 </chummer>

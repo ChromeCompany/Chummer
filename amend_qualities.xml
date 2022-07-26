@@ -2207,5 +2207,92 @@
       <source>SR5</source>
       <page>0</page>
     </quality>
+	<!-- 6e Qualities -->
+	<quality>
+      <id>96cc26b0-07a4-4404-96e0-33d1149b432a</id>
+      <name>Glass Jaw</name>
+      <karma>-4</karma>
+      <category>Negative</category>
+      <limit>99</limit>
+      <bonus>
+        <conditionmonitor>
+          <stun>-1</stun>
+        </conditionmonitor>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+    </quality>
+	<quality>
+      <id>f6744898-271b-4d31-864f-64f277dd8001</id>
+      <name>Killer</name>
+      <karma>-4</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>SR5</source>
+      <page>0</page>
+    </quality>
+	<quality>
+      <id>a7197765-89e0-45a3-91cc-8efc6cd44d9b</id>
+      <name>Non-Lethal</name>
+      <karma>-4</karma>
+      <category>Negative</category>
+      <bonus />
+      <source>SR5</source>
+      <page>0</page>
+    </quality>
+	<!-- 6e Metagenic Quals-->
+	<quality>
+      <id>8576d03c-eeaf-41a4-bd3d-74a1514b2be1</id>
+      <name>Mad Eyes</name>
+      <karma>-4</karma>
+      <category>Negative</category>
+	  <metagenic>True</metagenic>
+      <bonus />
+      <source>SR5</source>
+      <page>0</page>
+    </quality>
+	<quality>
+      <id>7c74de66-433d-4cb4-9003-71a60378736a</id>
+      <name>Reflective Eyes</name>
+      <karma>-4</karma>
+      <category>Negative</category>
+	  <metagenic>True</metagenic>
+      <bonus />
+      <source>SR5</source>
+      <page>0</page>
+    </quality>
+	<quality>
+      <id>42644fa6-9ad1-4a3d-8137-97902d49da6c</id>
+      <name>Hairless</name>
+      <karma>-4</karma>
+      <category>Negative</category>
+	  <metagenic>True</metagenic>
+      <bonus />
+      <source>SR5</source>
+      <page>0</page>
+    </quality>
+	<quality>
+      <id>6ce8d067-8107-4771-b71d-25f98c31b9bc</id>
+      <name>Neuralgia</name>
+      <karma>-8</karma>
+      <category>Negative</category>
+	  <metagenic>True</metagenic>
+      <bonus>
+        <physicalcmrecovery>-2</physicalcmrecovery>
+        <stuncmrecovery>-2</stuncmrecovery>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+	  <note>Double first Wound Modifier</note>
+    </quality>
+	<quality>
+      <id>2b8439ef-057b-42da-8b9a-45a35679caa7</id>
+      <name>Broad Feet</name>
+      <karma>-4</karma>
+      <category>Negative</category>
+	  <metagenic>True</metagenic>
+      <source>SR5</source>
+      <page>0</page>
+    </quality>
   </qualities>
 </chummer>
