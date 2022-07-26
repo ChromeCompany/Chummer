@@ -2277,16 +2277,6 @@
       <karma>-8</karma>
       <category>Negative</category>
 	  <metagenic>True</metagenic>
-      <bonus />
-      <source>SR5</source>
-      <page>0</page>
-    </quality>
-	<quality>
-      <id>2b8439ef-057b-42da-8b9a-45a35679caa7</id>
-      <name>Broad Feet</name>
-      <karma>-4</karma>
-      <category>Negative</category>
-	  <metagenic>True</metagenic>
       <bonus>
         <physicalcmrecovery>-2</physicalcmrecovery>
         <stuncmrecovery>-2</stuncmrecovery>
@@ -2294,6 +2284,15 @@
       <source>SR5</source>
       <page>0</page>
 	  <note>Double first Wound Modifier</note>
+    </quality>
+	<quality>
+      <id>2b8439ef-057b-42da-8b9a-45a35679caa7</id>
+      <name>Broad Feet</name>
+      <karma>-4</karma>
+      <category>Negative</category>
+	  <metagenic>True</metagenic>
+      <source>SR5</source>
+      <page>0</page>
     </quality>
   </qualities>
 </chummer>
