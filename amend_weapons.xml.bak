@@ -19,7 +19,37 @@
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema weapons.xsd">
   <categories amendoperation="replace">
+    <category blackmarket="Weapons" type="melee">Blades</category>
+    <category blackmarket="Weapons" type="melee">Clubs</category>
+    <category blackmarket="Weapons" type="melee">Improvised Weapons</category>
+    <category blackmarket="Weapons" type="melee">Exotic Melee Weapons</category>
+    <category blackmarket="Weapons" type="exotic">Exotic Ranged Weapons</category>
+    <category blackmarket="Weapons" type="melee">Bio-Weapon</category>
+    <category blackmarket="Weapons" type="melee">Cyberweapon</category>
+    <category blackmarket="Weapons" type="melee">Unarmed</category>
+    <category blackmarket="Weapons" type="bow">Bows</category>
+    <category blackmarket="Weapons" type="crossbow">Crossbows</category>
+    <category blackmarket="Weapons" type="taser" gunneryspec="Energy">Tasers</category>
+    <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Holdouts</category>
+    <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Light Pistols</category>
+    <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Heavy Pistols</category>
+    <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Machine Pistols</category>
+    <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Submachine Guns</category>
+    <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Assault Rifles</category>
+    <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Carbines</category>
+    <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Sporting Rifles</category>
+    <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Sniper Rifles</category>
+    <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Shotguns</category>
+    <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Light Machine Guns</category>
+    <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Medium Machine Guns</category>
+    <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Heavy Machine Guns</category>
+    <category blackmarket="Weapons" type="gun">Underbarrel Weapons</category>
+    <category blackmarket="Weapons" type="gun">Micro-Drone Weapons</category>
     <category blackmarket="Weapons" type="gun" gunneryspec="Ballistic">Assault Cannons</category>
+    <category blackmarket="Weapons" type="flame" gunneryspec="Energy">Flamethrowers</category>
+    <category blackmarket="Weapons" type="energy" gunneryspec="Energy">Laser Weapons</category>
+    <category blackmarket="Weapons" type="glauncher" gunneryspec="Artillery">Grenade Launchers</category>
+    <category blackmarket="Weapons" type="mlauncher" gunneryspec="Rocket">Missile Launchers</category>
   </categories>
   <weapons>
     <weapon>
@@ -1713,7 +1743,253 @@
       <spec>Natural Weapons</spec>
       <useskill>Unarmed Combat</useskill>
     </weapon>
+    
+    <!-- New grenades from the 6e content patch -->
+    <weapon>
+      <id>2468661c-2a8d-456e-970c-5d8b9f1dd077</id>
+      <name>Grenade: Corrosive</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>8P(a) (-2/m)</damage>
+      <ap>-4</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>11F</avail>
+      <cost>200</cost>
+      <source>SR5</source>
+      <page>1</page>
+      <range>Standard Grenade</range>
+      <spec>Non-Aerodynamic</spec>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>5432d97b-28b0-47df-be9d-aa6aaa4bccee</id>
+      <name>Grenade: Cryo</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>12P(c) (-1/m)</damage>
+      <ap>-3</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>11F</avail>
+      <cost>200</cost>
+      <source>SR5</source>
+      <page>1</page>
+      <range>Standard Grenade</range>
+      <spec>Non-Aerodynamic</spec>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>1446f3d8-14be-49c3-afbd-85fc79e75af9</id>
+      <name>Grenade: Zapper</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>8P(a) (-1/m)</damage>
+      <ap>-5</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>8R</avail>
+      <cost>200</cost>
+      <source>SR5</source>
+      <page>1</page>
+      <range>Standard Grenade</range>
+      <spec>Non-Aerodynamic</spec>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>b505acc8-962e-4dad-a714-8fd3bc62dfc5</id>
+      <name>Grenade: Corrosive, Aerodynamic</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>8P(a) (-2/m)</damage>
+      <ap>-4</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>11F</avail>
+      <cost>200</cost>
+      <source>SR5</source>
+      <page>1</page>
+      <range>Aerodynamic Grenade</range>
+      <spec>Aerodynamic</spec>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>32eb10e1-888f-4b53-9080-708c5deb934d</id>
+      <name>Grenade: Cryo, Aerodynamic</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>12P(c) (-1/m)</damage>
+      <ap>-3</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>11F</avail>
+      <cost>200</cost>
+      <source>SR5</source>
+      <page>1</page>
+      <range>Aerodynamic Grenade</range>
+      <spec>Aerodynamic</spec>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>484b5b68-f580-4eb5-82aa-ee714bba6a14</id>
+      <name>Grenade: Zapper, Aerodynamic</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>8P(a) (-1/m)</damage>
+      <ap>-5</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>8R</avail>
+      <cost>200</cost>
+      <source>SR5</source>
+      <page>1</page>
+      <range>Aerodynamic Grenade</range>
+      <spec>Aerodynamic</spec>
+      <useskill>Throwing Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>3257a5dd-9e15-4548-a422-af08437474b7</id>
+      <name>Minigrenade: Corrosive</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>-2</conceal>
+      <accuracy>0</accuracy>
+      <reach>0</reach>
+      <damage>8P(a) (-2/m)</damage>
+      <ap>-4</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>11F</avail>
+      <cost>200</cost>
+      <source>SR5</source>
+      <page>1</page>
+      <range>Grenade Launchers</range>
+      <spec>Grenade Launcher</spec>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>e70c1ebe-0846-4e35-be7e-3bca8b1c6eba</id>
+      <name>Minigrenade: Fragmentation</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>-2</conceal>
+      <accuracy>0</accuracy>
+      <reach>0</reach>
+      <damage>12(c) (-1/m)</damage>
+      <ap>-3</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>11F</avail>
+      <cost>200</cost>
+      <source>SR5</source>
+      <page>1</page>
+      <range>Grenade Launchers</range>
+      <spec>Grenade Launcher</spec>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+    <weapon>
+      <id>cfdee21d-e94b-49d7-b8e8-96dc070e254b</id>
+      <name>Minigrenade: Zapper</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>-2</conceal>
+      <accuracy>0</accuracy>
+      <reach>0</reach>
+      <damage>8S(e) (-1/m)</damage>
+      <ap>-5</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>8R</avail>
+      <cost>200</cost>
+      <source>SR5</source>
+      <page>1</page>
+      <range>Grenade Launchers</range>
+      <spec>Grenade Launcher</spec>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+	<!-- More 6e stuff in general-->
+	<weapon>
+      <id>5c60484b-253d-49b4-9cfe-03d84feb7018</id>
+      <name>Cyberlimb Hardening</name>
+      <category>Cyberweapon</category>
+      <type>Melee</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>({STR}+3)P</damage>
+      <ap>-</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <cyberware>True</cyberware>
+      <hide />
+      <spec>Cyber Implants</spec>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+	<weapon>
+      <id>971c711b-db32-4339-9203-865ef38f350e</id>
+      <name>Ares Predator VI</name>
+      <category>Heavy Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-1</ap>
+      <mode>SA/BF</mode>
+      <rc>0</rc>
+      <ammo>10(c)</ammo>
+      <avail>7R</avail>
+      <cost>950</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+		<accessory>
+          <name>Ammo Skip</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+      </accessorymounts>
+      <spec>Semi-Automatics</spec>
+    </weapon>
   </weapons>
+  
     <!-- Minor changes to certain weapon accessories for various reasons -->
   <accessories>
     <accessory>

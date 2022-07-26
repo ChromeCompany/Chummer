@@ -587,7 +587,7 @@
         </cyberware>
       </subsystems>
     </cyberware>
-	<!-- Adds the 6e Rigger Stuff-->
+	<!-- Adds the 6e Stuff-->
 	<cyberware>
       <id>d90e6b88-a001-40fe-9fde-3bda2b2078eb</id>
       <name>Medullan Parallel Processors</name>
@@ -614,6 +614,40 @@
       <allowgear>
         <gearcategory>Rigger Command Consoles</gearcategory>
       </allowgear>
+    </cyberware>
+	<cyberware>
+      <id>b665edbe-5742-4ded-991f-bb8ab0c259c8</id>
+      <name>Cyberlimb Hardening</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapon</category>
+      <ess>0</ess>
+      <capacity>[2]</capacity>
+      <avail>10R</avail>
+      <cost>2500</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <addweapon>Cyberlimb Hardening</addweapon>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+      <required>
+        <parentdetails>
+          <OR>
+            <name>Centaur Front Leg</name>
+            <name>Centaur Rear Leg</name>
+            <name operation="contains">Full Leg</name>
+            <name operation="contains">Full Arm</name>
+            <name>Synthetic Torso</name>
+            <name>Synthetic Skull</name>
+            <name operation="contains">Drone Leg</name>
+            <name operation="contains">Drone Arm</name>
+            <name>Obvious Torso</name>
+            <name>Obvious Skull</name>
+            <name operation="contains">Liminal Body</name>
+          </OR>
+        </parentdetails>
+      </required>
+
     </cyberware>
   </cyberwares>
 </chummer>

@@ -1934,6 +1934,60 @@
       <spec>Grenade Launcher</spec>
       <useskill>Heavy Weapons</useskill>
     </weapon>
+	<!-- More 6e stuff in general-->
+	<weapon>
+      <id>5c60484b-253d-49b4-9cfe-03d84feb7018</id>
+      <name>Cyberlimb Hardening</name>
+      <category>Cyberweapon</category>
+      <type>Melee</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>({STR}+3)P</damage>
+      <ap>-</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <cyberware>True</cyberware>
+      <hide />
+      <spec>Cyber Implants</spec>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+	<weapon>
+      <id>13e8a7a1-b95a-4d23-8045-ef3d10525f5c</id>
+      <name>Ares Predator VI</name>
+      <category>Heavy Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-1</ap>
+      <mode>SA/BF</mode>
+      <rc>0</rc>
+      <ammo>10(c)</ammo>
+      <avail>7R</avail>
+      <cost>950</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <accessories>
+        <accessory>
+          <name>Smartgun System, Internal</name>
+        </accessory>
+		<accessory>
+          <name>Ammo Skip</name>
+        </accessory>
+      </accessories>
+      <accessorymounts>
+        <mount>Barrel</mount>
+        <mount>Top</mount>
+      </accessorymounts>
+      <spec>Semi-Automatics</spec>
+    </weapon>
   </weapons>
   
     <!-- Minor changes to certain weapon accessories for various reasons -->
