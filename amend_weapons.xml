@@ -1978,13 +1978,15 @@
         <accessory>
           <name>Smartgun System, Internal</name>
         </accessory>
-		<accessory>
+       <accessory>
           <name>Ammo Skip</name>
         </accessory>
       </accessories>
       <accessorymounts>
         <mount>Barrel</mount>
         <mount>Top</mount>
+        <mount>Side</mount>
+        <mount>Stock</mount>
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
@@ -2253,6 +2255,40 @@
 			<name>Ares Executioner</name>
 		  </OR>
         </weapondetails>
+      </required>
+    </accessory>
+    <accessory>
+      <id>be3ba823-0787-4dad-af58-b7b48c699755</id>
+      <name>Ammo Skip (Pistol)</name>
+      <mount />
+      <avail>8R</avail>
+      <cost>250</cost>
+      <source>HT</source>
+      <page>180</page>
+      <forbidden>
+        <oneof>
+          <accessory>Vintage</accessory>
+        </oneof>
+      </forbidden>
+      <rating>0</rating>
+      <required>
+        <oneof>
+          <accessory>Drum Magazine, 24-round</accessory>
+          <accessory>Drum Magazine, 32-round</accessory>
+          <weapondetails>
+            <AND>
+              <OR>
+                <ammo operation="contains">(cy)</ammo>
+                <ammo operation="contains">(d)</ammo>
+              </OR>
+              <OR>
+                <category>Heavy Pistols</category>
+                <category>Light Pistols</category>
+                <category>Holdouts</category>
+              </OR>
+            </AND>
+          </weapondetails>
+        </oneof>
       </required>
     </accessory>
   </accessories>
