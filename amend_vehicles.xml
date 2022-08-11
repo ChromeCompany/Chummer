@@ -40,6 +40,38 @@
 
 <!-- Minor vehicle changese -->
     <vehicle>
+      <id>c8f7e6c0-85e6-4feb-9ef0-0aeca5fba76b</id>
+      <name>Ares Duelist (Medium)</name>
+      <category>Drones: Medium</category>
+      <mods amendoperation="replace">
+        <name rating="1">Realistic Features</name>
+      </mods>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Light</size>
+          <visibility>External</visibility>
+          <allowedweapons>Sword</allowedweapons>
+        </weaponmount>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Light</size>
+          <visibility>External</visibility>
+          <allowedweapons>Sword</allowedweapons>
+        </weaponmount>
+      </weaponmounts>
+      <weapons>
+        <weapon>
+          <name>Sword</name>
+        </weapon>
+        <weapon>
+          <name>Sword</name>
+        </weapon>
+      </weapons>
+    </vehicle>
+    <vehicle>
       <name>GTS Tower (Large)</name>
       <mods amendoperation="replace">
         <name>Landing Drone Rack (Mini)</name>
