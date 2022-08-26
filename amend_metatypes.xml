@@ -391,6 +391,12 @@
       <name>Sasquatch</name>
       <hide />
     </metatype>
+	<!--Modifies the German Seal Shifter as per our houserule-->
+	<metatype>
+	  <name>Shapeshifter: Phocine</name>
+	  <logmax>5</logmax>
+	  <edgmax>6</edgmax>
+	</metatype>
   </metatypes>
 
 </chummer>

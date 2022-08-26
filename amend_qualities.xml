@@ -2290,5 +2290,23 @@
       <source>SR5</source>
       <page>0</page>
     </quality>
+	<!-- Test Geneware Biocomp-->
+	<quality>
+      <id>bbfcfb1e-9119-4786-bb34-79ee465e10fc</id>
+      <name>Biocompatibility (Geneware)</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <bonus>
+        <genetechessmultiplier>90</genetechessmultiplier>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <quality>Biocompatibility (Bioware)</quality>
+		  <quality>Biocompatibility (Cyberware)</quality>
+        </oneof>
+      </forbidden>
+      <source>CF</source>
+      <page>54</page>
+    </quality>
   </qualities>
 </chummer>

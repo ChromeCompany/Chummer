@@ -361,8 +361,25 @@
       <hide />
     </gear>
     
-    <!-- Things hidden from the State of the Art ADL -->
-    <gear xpathfilter="contains(source,'SAG')">
+    <!-- German Content from State of the Art ADL -->
+    <gear>
+	  <name>Urban Brawl News</name>
+      <hide />
+    </gear>
+	<gear>
+	  <id>6ed759a8-2283-4c5e-8c5b-dac2f162f55c</id>
+	  <name>Cyberdynamix Waterside</name>
+    </gear>
+	<gear>
+	  <id>3c1eab12-59bc-490a-8260-63a0ec2b727a</id>
+	  <name>MSI Falcon</name>
+    </gear>
+	<gear>
+	  <name>Shiva (Vintage)</name>
+      <hide />
+    </gear>
+	<gear>
+	  <name>Shiva II</name>
       <hide />
     </gear>
   </gears>

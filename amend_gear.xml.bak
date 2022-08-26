@@ -22,8 +22,9 @@
   <!-- Adds new category for stuff -->
   <categories amendoperation = "append">
     <category blackmarket="Drugs">Drug Grades</category>
-	<category>Specialized Hardware</category>
+    <category>Specialized Hardware</category>
     <category blackmarket="Ammunition">Ammunition (Hand Load)</category>
+    <category blackmarket="Weapons">Grenade Addons</category>
   </categories>
 
   <!-- Due to the large variety of items in gear.xml, Regions are organised by category rather than sourcebook. -->
@@ -360,9 +361,18 @@
       <hide />
     </gear>
     
-    <!-- Things hidden from the State of the Art ADL -->
-    <gear xpathfilter="contains(source,'SAG')">
+    <!-- German Content from State of the Art ADL -->
+    <gear>
+	  <name>Urban Brawl News</name>
       <hide />
+    </gear>
+	<gear>
+	  <id>6ed759a8-2283-4c5e-8c5b-dac2f162f55c</id>
+	  <name>Cyberdynamix Waterside</name>
+    </gear>
+	<gear>
+	  <id>3c1eab12-59bc-490a-8260-63a0ec2b727a</id>
+	  <name>MSI Falcon</name>
     </gear>
   </gears>
   
@@ -908,9 +918,182 @@
 	  <avail>0</avail>
 	  <cost>Parent Cost * .1</cost>
 	  <required>
-	    <name operation="contains">Ammo</name>
+	    <geardetails>
+		  <OR>
+	        <name operation="contains">Ammo</name>
+		  </OR>
+		</geardetails>
 	  </required>
 	</gear>
+  
+  <!-- New grenades and minigrenades from the 6e content patch -->
+  <gear>
+      <id>e630b525-6013-406c-898e-7f0fac926fe0</id>
+      <name>Grenade: Corrosive</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>1</page>
+      <avail>11F</avail>
+      <addweapon>Grenade: Corrosive</addweapon>
+      <cost>200</cost>
+  </gear>
+  <gear>
+      <id>6376fc96-bdd4-4e3b-ab19-b1f3815e0737</id>
+      <name>Grenade: Cryo</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>1</page>
+      <avail>11F</avail>
+      <addweapon>Grenade: Cryo</addweapon>
+      <cost>200</cost>
+  </gear>
+  <gear>
+      <id>6ae82cad-5ee9-4bd6-a35d-eb4568578a44</id>
+      <name>Grenade: Zapper</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>1</page>
+      <avail>8R</avail>
+      <addweapon>Grenade: Zapper</addweapon>
+      <cost>200</cost>
+  </gear>
+  <gear>
+      <id>8e2c505e-7ddb-4b78-ba9c-a237dcccc4a1</id>
+      <name>Grenade: Corrosive, Aerodynamic</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>1</page>
+      <avail>11F</avail>
+      <addweapon>Grenade: Corrosive, Aerodynamic</addweapon>
+      <cost>200</cost>
+  </gear>
+  <gear>
+      <id>cb7c7a34-54c9-4c20-9053-a1a3746d013d</id>
+      <name>Grenade: Cryo, Aerodynamic</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>1</page>
+      <avail>11F</avail>
+      <addweapon>Grenade: Cryo, Aerodynamic</addweapon>
+      <cost>200</cost>
+  </gear>
+  <gear>
+      <id>2167ba95-4855-4762-9032-a94b495fc384</id>
+      <name>Grenade: Zapper, Aerodynamic</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>1</page>
+      <avail>8R</avail>
+      <addweapon>Grenade: Zapper, Aerodynamic</addweapon>
+      <cost>200</cost>
+  </gear>
+  <gear>
+      <id>4faeb04a-b4f7-4591-8a9d-a3dab3c06bb1</id>
+      <name>Minigrenade: Corrosive</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>1</page>
+      <avail>11F</avail>
+      <addweapon>Minigrenade: Corrosive</addweapon>
+      <cost>200</cost>
+      <ammoforweapontype noextra="True">glauncher</ammoforweapontype>
+  </gear>
+  <gear>
+      <id>b4495dee-b113-415b-b444-808eea80bbe5</id>
+      <name>Minigrenade: Cryo</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>1</page>
+      <avail>11F</avail>
+      <addweapon>Minigrenade: Cryo</addweapon>
+      <cost>200</cost>
+      <ammoforweapontype noextra="True">glauncher</ammoforweapontype>
+  </gear>
+  <gear>
+      <id>4cb06fc0-bdea-4839-bfc0-68e77628df6d</id>
+      <name>Minigrenade: Zapper</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>1</page>
+      <avail>11F</avail>
+      <addweapon>Minigrenade: Zapper</addweapon>
+      <cost>200</cost>
+      <ammoforweapontype noextra="True">glauncher</ammoforweapontype>
+  </gear>
+  
+  <!-- Makes all grenades take the grenade addon category -->
+  <gear amendoperation = "append">
+      <name operation="contains">Grenade</name>
+      <addoncategory>Grenade Addons</addoncategory>
+  </gear>
+  
+  <!-- Adds the grenade addons from the 6e content patch -->
+  <gear>
+      <id>e00dba31-fb47-4a03-865e-f0b509ef6e48</id>
+      <name>Directional Mine</name>
+      <category>Grenade Addons</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>1</page>
+      <avail>+2</avail>
+      <capacity>0</capacity>
+      <requireparent />
+      <forbidden>
+        <geardetails>
+          <OR>
+            <name operation="contains">Minigrenade</name>
+          </OR>
+        </geardetails>
+      </forbidden>
+      <cost>100</cost>
+  </gear>
+  <gear>
+      <id>3f2fe6c1-3810-4cc3-9907-ef66edbcb1b4</id>
+      <name>Gecko Grip</name>
+      <category>Grenade Addons</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>1</page>
+      <avail>+2</avail>
+      <capacity>0</capacity>
+      <requireparent />
+      <forbidden>
+        <geardetails>
+          <OR>
+            <name operation="contains">Minigrenade</name>
+          </OR>
+        </geardetails>
+      </forbidden>
+      <cost>50</cost>
+  </gear>
+  <gear>
+      <id>13613a82-032a-4bcd-bdf4-e3a05e88a027</id>
+      <name>Landmine</name>
+      <category>Grenade Addons</category>
+      <rating>0</rating>
+      <source>SR5</source>
+      <page>1</page>
+      <avail>+2</avail>
+      <capacity>0</capacity>
+      <requireparent />
+      <forbidden>
+        <geardetails>
+          <OR>
+            <name operation="contains">Minigrenade</name>
+          </OR>
+        </geardetails>
+      </forbidden>
+      <cost>100</cost>
+  </gear>
     
     <!-- Gear versions of the handloaded ammo -->
     <gear>

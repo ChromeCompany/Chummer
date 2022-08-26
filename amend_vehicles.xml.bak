@@ -40,6 +40,38 @@
 
 <!-- Minor vehicle changese -->
     <vehicle>
+      <id>c8f7e6c0-85e6-4feb-9ef0-0aeca5fba76b</id>
+      <name>Ares Duelist (Medium)</name>
+      <category>Drones: Medium</category>
+      <mods amendoperation="replace">
+        <name rating="1">Realistic Features</name>
+      </mods>
+      <weaponmounts>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Light</size>
+          <visibility>External</visibility>
+          <allowedweapons>Sword</allowedweapons>
+        </weaponmount>
+        <weaponmount>
+          <control>Remote</control>
+          <flexibility>Flexible</flexibility>
+          <size>Light</size>
+          <visibility>External</visibility>
+          <allowedweapons>Sword</allowedweapons>
+        </weaponmount>
+      </weaponmounts>
+      <weapons>
+        <weapon>
+          <name>Sword</name>
+        </weapon>
+        <weapon>
+          <name>Sword</name>
+        </weapon>
+      </weapons>
+    </vehicle>
+    <vehicle>
       <name>GTS Tower (Large)</name>
       <mods amendoperation="replace">
         <name>Landing Drone Rack (Mini)</name>
@@ -195,11 +227,154 @@
       <hide />
     </vehicle>
     
-    <!-- Things hidden from the State of the Art ADL -->
-    <vehicle xpathfilter="contains(source,'SAG')">
-      <hide />
+    <!-- Content from State of the Art ADL -->
+    <vehicle>
+	  <name>Shiawase Motors Shuriken</name>
+	  <handling>6/3</handling>
+	  <speed>7</speed>
     </vehicle>
-    
+    <vehicle>
+	  <name>Mercedes 250 Classic</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Mercedes Click</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Mercedes Paladin</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Nordseewerke Thetis</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Caterpillar Omniwinder</name>
+	  <mods amendoperation="append">
+	    <name select="Dozer Blade">Special Equipment</name>
+		<name select="Omnidirectional Drive">Special Equipment</name>
+	  </mods>
+    </vehicle>
+	<vehicle>
+	  <name>EMC 2073 Catcher</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>VW Freya</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Kamow Ka-226 Sergej</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Kamow Ka-226 Kasatka</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Cargolifter Industries CL-180</name>
+	  <cost>820000</cost>
+	  <mods amendoperation="append">
+	  <name select="Heavy Goods Crane">Special Equipment</name>
+	  <name select="Contstruction Crane">Special Equipment</name>
+	  </mods>
+    </vehicle>
+	<vehicle>
+	  <name>Jena Robotnik Pilalux</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Jena Robotnik Tegenaria</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Jena Robotnik Araneus</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Messerschmitt-Kawasaki Hugin</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Messerschmitt-Kawasaki Munin</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Messerschmitt-Kawasaki Libelle</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <id>581eeb8d-3b66-44c0-9e1e-b6d819135b3f</id>
+	  <name>Ruhrmetall Scarab</name>
+	  <gears amendoperation="replace">
+        <gear>
+          <name>Sensor Array</name>
+          <rating>2</rating>
+          <maxrating>2</maxrating>
+        </gear>
+        <gear rating="3">[Weapon] Targeting Autosoft</gear>
+      </gears>
+    </vehicle>
+	<vehicle>
+	  <name>Messerschmitt-Kawasaki Heuschrecke 2</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Ruhrmetall Murmillo</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Siemens FWD Screamer</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Messerschmitt-Kawasaki Jagdhund</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Messerschmitt-Kawasaki Jagdschrecke</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Mitsuhama FED-11</name>
+	  <gears amendoperation="replace">
+	  <gear>
+          <name>Sensor Array</name>
+          <rating>4</rating>
+          <maxrating>4</maxrating>
+        </gear>
+        <gear rating="3">Clearsight Autosoft</gear>
+      </gears>
+    </vehicle>
+	<vehicle>
+	  <name>Mitsuhama Honson</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Jena Robotnik Araneus</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Jena Robotnik Araneus</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <name>Jena Robotnik Araneus</name>
+	  <hide />
+    </vehicle>
+	<vehicle>
+	  <id>7c921200-76a8-465f-8207-01a7c1785c67</id>
+      <name>Ruhrmetall Wolfspider 8V2</name>
+	  <gears>
+        <gear amendoperation="replace">
+          <name>Sensor Array</name>
+          <rating>4</rating>
+          <maxrating>4</maxrating>
+        </gear>
+        <gear rating="4" select="Heavy Weapons">[Weapon] Targeting Autosoft</gear>
+      </gears>
+    </vehicle>
     <!-- Things hidden from Datapulse -->
     <vehicle xpathfilter="contains(source,'SOTG')">
       <hide />
@@ -2353,7 +2528,7 @@
       </bonus>
     </mod>
   </weaponmountmods>
-  <!-- 4e Mod -->
+  <!-- 4e Mods -->
     <mods amendoperation="append">
 	  <mod>
 	  <id>018c95bb-ed0c-4d8c-8046-f77db39fa6bd</id>
@@ -2412,6 +2587,25 @@
 	  <notes>Device Rating is reduced by 1, this is NOT Displayed in Chummer, this MAY result in the loss of a Matrix box!</notes>
 	  <hide />
 	  </mod>
+	<!-- The dumb tires for the Shuriken-->
+	  <mod>
+        <id>f3ffdd29-b7a2-48fa-a6c8-066874429afc</id>
+        <name>Shiawase Motors Shuriken Tires</name>
+        <page>44</page>
+        <source>SAG</source>
+        <avail>6</avail>
+        <category>All</category>
+        <cost>Rating * 300</cost>
+        <rating>qty</rating>
+        <slots>0</slots>
+		<required>
+        <vehicledetails>
+          <OR>
+            <name>Shiawase Motors Shuriken</name>
+          </OR>
+        </vehicledetails>
+      </required>
+      </mod>
 	</mods>
 	<!-- 4e Aircraft Drones-->
   <vehicles amendoperation="append">

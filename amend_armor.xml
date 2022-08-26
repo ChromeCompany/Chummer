@@ -24,9 +24,42 @@
       <rating>100</rating>
     </armor>
     
-    <!-- Things hidden from the State of the Art ADL -->
-    <armor xpathfilter="contains(source,'SAG')">
-      <hide />
+    <!-- Content from State of the Art ADL -->
+    <armor>
+	  <id>60c7a349-d3a9-4a5c-a9cc-6e9d473c1e20</id>
+      <name>Franzinger Fashion Tenor: Swallowtail Outfit</name>
+    </armor>
+	<armor>
+	  <id>6dad32b2-8714-4dab-a9e7-0692f233a2e7</id>
+      <name>Franzinger Fashion Tenor: Swallowtail Coat</name>
+    </armor>
+	<armor amendoperation="append">
+      <name>Rheingold Pro Tec Plus: Coat</name>
+	  <mods>
+	   <name>Concealability</name>
+	   <name>Gear Access</name>
+	  </mods>
+	  <gears>
+		  <usegear>Holster</usegear>
+      </gears>
+    </armor>
+	<armor amendoperation="append">
+      <name>Rheingold Pro Tec Plus: Suit</name>
+	  <bonus>
+        <limitmodifier>
+          <limit>Social</limit>
+          <value>1</value>
+          <condition>LimitCondition_Visible</condition>
+        </limitmodifier>
+      </bonus>
+	  <gears>
+		  <usegear>Micro-Transceiver</usegear>
+      </gears>
+    </armor>
+	<armor xpathfilter="contains(name,'StattKrieg')" amendoperation="append">
+      <mods>
+	    <name>Electrochromic Clothing</name>
+	  </mods>
     </armor>
   </armors>
   <!-- Adds shock frills weapons to Shock Frills -->
