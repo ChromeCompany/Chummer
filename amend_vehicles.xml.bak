@@ -300,9 +300,6 @@
 	  <name>Messerschmitt-Kawasaki Munin</name>
 	  <hide />
     </vehicle>
-	<vehicle>
-	  <name>Messerschmitt-Kawasaki Libelle</name>
-	  <hide />
     </vehicle>
 	<vehicle>
 	  <id>581eeb8d-3b66-44c0-9e1e-b6d819135b3f</id>
@@ -349,18 +346,6 @@
     </vehicle>
 	<vehicle>
 	  <name>Mitsuhama Honson</name>
-	  <hide />
-    </vehicle>
-	<vehicle>
-	  <name>Jena Robotnik Araneus</name>
-	  <hide />
-    </vehicle>
-	<vehicle>
-	  <name>Jena Robotnik Araneus</name>
-	  <hide />
-    </vehicle>
-	<vehicle>
-	  <name>Jena Robotnik Araneus</name>
 	  <hide />
     </vehicle>
 	<vehicle>
