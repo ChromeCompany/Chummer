@@ -956,7 +956,8 @@
   </quality>
 	<quality>
     <name>Echo Chamber</name>
-    <hide />
+    <karma>7</karma>
+    <category>Positive</category>
   </quality>
   <quality>
     <name>Brilliant Heuristics</name>
@@ -1360,6 +1361,7 @@
           <resenabled />
           <quality>Ronin (Cyberware)</quality>
           <quality>Biocompatibility (Bioware)</quality>
+          <quality>Ronin (Geneware)</quality>
         </oneof>
       </forbidden>
       <required>
@@ -1386,7 +1388,36 @@
           <magenabled />
           <resenabled />
           <quality>Ronin (Bioware)</quality>
+          <quality>Ronin (Geneware)</quality>
           <quality>Biocompatibility (Cyberware)</quality>
+        </oneof>
+      </forbidden>
+      <required>
+         <allof>
+          <ess>-2.99</ess>
+        </allof>
+      </required>
+      <source>SR5</source>
+      <page>1</page>
+    </quality>
+    
+    <quality>
+      <id>45cb5920-473e-43f7-99a5-ecf9ad2b484a</id>
+      <name>Ronin (Geneware)</name>
+      <karma>10</karma>
+      <category>Positive</category>
+      <limit>2</limit>
+      <firstlevelbonus>
+        <selecttext />
+        <genetechessmultiplier>90</genetechessmultiplier>
+      </firstlevelbonus>
+      <forbidden>
+        <oneof>
+          <magenabled />
+          <resenabled />
+          <quality>Ronin (Bioware)</quality>
+          <quality>Ronin (Cyberware)</quality>
+          <quality>Biocompatibility (Geneware)</quality>
         </oneof>
       </forbidden>
       <required>
@@ -2046,6 +2077,71 @@
       <source>SG</source>
       <page>199</page>
     </quality>
+    <quality>
+      <id>a57336b0-be08-4081-b039-b06c9a5b736b</id>
+      <name>Albinism I (Metagenic)</name>
+      <karma>-4</karma>
+      <category>Negative</category>
+      <bonus />
+      <forbidden>
+        <oneof>
+          <quality>Albinism II</quality>
+          <quality>Albinism II (Metagenic)</quality>
+        </oneof>
+      </forbidden>
+      <source>RF</source>
+      <page>151</page>
+    </quality>
+    <quality>
+      <id>2cece0d4-0781-4ff4-b9a4-ea839d1f7b3b</id>
+      <name>Albinism II (Metagenic)</name>
+      <karma>-8</karma>
+      <category>Negative</category>
+      <bonus />
+      <forbidden>
+        <oneof>
+          <cyberwarecontains>Cybereyes</cyberwarecontains>
+          <quality>Albinism I</quality>
+          <quality>Albinism I (Metagenic)</quality>
+        </oneof>
+      </forbidden>
+      <source>RF</source>
+      <page>151</page>
+    </quality>
+    <quality>
+      <id>4d917b58-6638-4da6-8c61-d190ad9e17bc</id>
+      <name>Astral Beacon (Metagenic)</name>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <bonus />
+      <forbidden>
+        <oneof>
+          <quality>Astral Chameleon</quality>
+          <quality>Astral Beacon</quality>
+        </oneof>
+      </forbidden>
+      <required>
+        <oneof>
+          <metatype>Centaur</metatype>
+          <metatype>Naga</metatype>
+          <metatype>Pixie</metatype>
+          <metatype>Sasquatch</metatype>
+          <quality>Adept</quality>
+          <quality>Aware</quality>
+          <quality>Aspected Magician</quality>
+          <quality>Enchanter</quality>
+          <quality>Explorer</quality>
+          <quality>Apprentice</quality>
+          <quality>Magician</quality>
+          <quality>Mystic Adept</quality>
+          <quality>Infected: Mutaqua</quality>
+          <quality>Infected: Nosferatu</quality>
+          <quality>Infected: Wendigo</quality>
+        </oneof>
+      </required>
+      <source>SR5</source>
+      <page>78</page>
+    </quality>
     
     <!-- Adds the new Connoisseur quality for interest skills -->
     <quality>
@@ -2302,11 +2398,22 @@
       <forbidden>
         <oneof>
           <quality>Biocompatibility (Bioware)</quality>
-		  <quality>Biocompatibility (Cyberware)</quality>
+          <quality>Biocompatibility (Cyberware)</quality>
+          <quality>Ronin (Geneware)</quality>
         </oneof>
       </forbidden>
       <source>CF</source>
       <page>54</page>
+    </quality>
+    
+    <!-- Harrowed quality from 4e -->
+    <quality>
+      <id>971ba5a2-4855-471a-a467-4bc80058880c</id>
+      <name>Harrowed</name>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <source>SR5</source>
+      <page>0</page>
     </quality>
   </qualities>
 </chummer>

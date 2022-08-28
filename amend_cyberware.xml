@@ -120,10 +120,60 @@
       <avail>12R</avail>
     </cyberware>
     
+    <!-- Minor capacity/avail adjustments-->
     <cyberware>
       <name>Cyberarm Gyromount</name>
       <capacity>[6]</capacity>
       <avail>12R</avail>
+    </cyberware>
+    
+    <cyberware>
+      <name>Grapple Hand</name>
+      <capacity>[6]</capacity>
+    </cyberware>
+    
+    <!-- New ware suppression -->
+    <cyberware>
+      <name>Cybereyes Basic System</name>
+      <bonus amendoperation="append">
+        <disablequality>4390735f-54fa-44a5-bce7-d23a67427f25</disablequality>
+      </bonus>
+    </cyberware>
+    <cyberware>
+      <name>Obvious Full Leg</name>
+      <bonus amendoperation="append">
+        <disablequality>5451c3da-b08c-4a63-899f-afb62bd50a57</disablequality>
+        <disablequality>7d6e068b-0d9d-47d5-b175-6785b50eeb2b</disablequality>
+        <disablequality>72a6fe4e-056d-4f04-872d-d911f2e66946</disablequality>
+        <disablequality>d45602d8-6c15-476b-8f91-adb35c8804ec</disablequality>
+      </bonus>
+    </cyberware>
+    <cyberware>
+      <name>Synthetic Full Leg</name>
+      <bonus amendoperation="append">
+        <disablequality>5451c3da-b08c-4a63-899f-afb62bd50a57</disablequality>
+        <disablequality>7d6e068b-0d9d-47d5-b175-6785b50eeb2b</disablequality>
+        <disablequality>72a6fe4e-056d-4f04-872d-d911f2e66946</disablequality>
+        <disablequality>d45602d8-6c15-476b-8f91-adb35c8804ec</disablequality>
+      </bonus>
+    </cyberware>
+    <cyberware>
+      <name>Obvious Full Arm</name>
+      <bonus amendoperation="append">
+        <disablequality>059f4399-f3c4-40b0-a975-d7e29a2e412b</disablequality>
+        <disablequality>7d6e068b-0d9d-47d5-b175-6785b50eeb2b</disablequality>
+        <disablequality>72a6fe4e-056d-4f04-872d-d911f2e66946</disablequality>
+        <disablequality>d45602d8-6c15-476b-8f91-adb35c8804ec</disablequality>
+      </bonus>
+    </cyberware>
+    <cyberware>
+      <name>Synthetic Full Arm</name>
+      <bonus amendoperation="append">
+        <disablequality>059f4399-f3c4-40b0-a975-d7e29a2e412b</disablequality>
+        <disablequality>7d6e068b-0d9d-47d5-b175-6785b50eeb2b</disablequality>
+        <disablequality>72a6fe4e-056d-4f04-872d-d911f2e66946</disablequality>
+        <disablequality>d45602d8-6c15-476b-8f91-adb35c8804ec</disablequality>
+      </bonus>
     </cyberware>
   </cyberwares>
   
