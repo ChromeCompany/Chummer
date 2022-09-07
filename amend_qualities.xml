@@ -2252,7 +2252,7 @@
       <doublecareer>False</doublecareer>
       <bonus>
         <freespells skill="Alchemy" />
-        <newspellkarmacost type="Spells">-1</newspellkarmacost>
+        <newspellkarmacost type="Preparations">-1</newspellkarmacost>
       </bonus>
       <required>
         <allof>
