@@ -2083,6 +2083,7 @@
       <karma>-4</karma>
       <category>Negative</category>
       <bonus />
+      <metagenic>True</metagenic>
       <forbidden>
         <oneof>
           <quality>Albinism II</quality>
@@ -2098,6 +2099,7 @@
       <karma>-8</karma>
       <category>Negative</category>
       <bonus />
+      <metagenic>True</metagenic>
       <forbidden>
         <oneof>
           <cyberwarecontains>Cybereyes</cyberwarecontains>
