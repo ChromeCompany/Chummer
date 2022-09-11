@@ -911,14 +911,14 @@
       <hide />
     </quality>
 
-    <quality>
+    <!--<quality>
       <name>Revenant Adept</name>
       <forbidden>
         <oneof>
           <quality>Mystic Adept</quality>
         </oneof>
       </forbidden>
-    </quality>
+    </quality>-->
 	<quality>
 		<name>Sprawl Tamer</name>
 		<required amendoperation="remove">
