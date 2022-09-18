@@ -1204,7 +1204,7 @@
       <accuracy>4</accuracy>
       <reach>0</reach>
       <damage>7P</damage>
-      <ap>-2</ap>
+      <ap>0</ap>
       <mode>SA/BF/FA</mode>
       <rc>1</rc>
       <ammo>25(c)</ammo>
