@@ -2417,5 +2417,14 @@
       <source>SR5</source>
       <page>0</page>
     </quality>
+	<!-- Gossipmonger Quality from the Social Search proposal-->
+	<quality>
+      <id>8a976bb7-983b-46dd-b580-0545ff546691</id>
+      <name>Gossipmonger</name>
+      <karma>5</karma>
+      <category>Positive</category>
+      <source>SR5</source>
+      <page>0</page>
+    </quality>
   </qualities>
 </chummer>
