@@ -109,6 +109,15 @@
       <name>Friends in High Places</name>
       <hide />
     </quality>
+    <!-- Prevents Erased and RoF being allowed together-->
+    <quality>
+      <name>Erased</name>
+      <forbidden>
+        <oneof>
+          <quality>Records on File</quality>
+        </oneof>
+      </forbidden>
+    </quality>
     <quality>
     <name>Code of Honor: Avenging Angel</name>
     <forbidden amendoperation="addnode">
@@ -1028,6 +1037,10 @@
     <name>Wired User</name>
     <required amendoperation="remove">
     </required>
+  </quality>
+  <!-- Removes the Dissonant streans -->
+  <quality xpathfilter="contains(name,'Dissonant')">
+    <hide />
   </quality>
 	<!-- End Region -->
   <!-- Region Data Trails -->
