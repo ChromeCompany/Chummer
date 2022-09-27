@@ -2055,7 +2055,16 @@
     <accessory xpathfilter="contains(source,'SOTG')">
       <hide />
     </accessory>
+    
+    <!-- Makes Extreme Environment have select text -->
+    <accessory>
+      <name>Extreme Environment Modification</name>
+      <bonus>
+        <selecttext />
+      </bonus>
+    </accessory>
   </accessories>
+  
   <accessories amendoperation="append">
   <!-- 4e Accessories for the 4e weapons (Also german stuff now)-->
   	<accessory>
