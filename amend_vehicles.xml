@@ -38,7 +38,16 @@
       <avail>12R</avail>
     </vehicle>
 
-<!-- Minor vehicle changese -->
+<!-- Minor vehicle changes -->
+    <vehicle>
+      <name>BMW Luxus</name>
+      <weapons>
+        <weapon>
+          <name>GE Vindicator Mini-Gun</name>
+        </weapon>
+      </weapons>
+    </vehicle>
+    
     <vehicle>
       <id>c8f7e6c0-85e6-4feb-9ef0-0aeca5fba76b</id>
       <name>Ares Duelist (Medium)</name>
