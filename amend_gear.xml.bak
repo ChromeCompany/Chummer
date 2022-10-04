@@ -374,6 +374,14 @@
 	  <id>3c1eab12-59bc-490a-8260-63a0ec2b727a</id>
 	  <name>MSI Falcon</name>
     </gear>
+	<gear>
+	  <name>Shiva (Vintage)</name>
+      <hide />
+    </gear>
+	<gear>
+	  <name>Shiva II</name>
+      <hide />
+    </gear>
   </gears>
   
   <!-- New gear, such as the plugin for the briefcase shielding -->
@@ -1093,6 +1101,125 @@
         </geardetails>
       </forbidden>
       <cost>100</cost>
+  </gear>
+  
+  <!-- Survival gear addons from the overhaul -->
+  <gear>
+      <id>92664a13-e484-4956-bb10-fd2e3be95232</id>
+      <name>Crevasse Detector</name>
+      <category>Survival Gear</category>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>6</avail>
+      <cost>250</cost>
+  </gear>
+  <gear>
+      <id>33a8f89b-b87d-41b5-b4f8-825e40b44e99</id>
+      <name>Polar Survival Kit</name>
+      <category>Survival Gear</category>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>4</avail>
+      <cost>200</cost>
+  </gear>
+  <gear>
+      <id>c6354d38-22d0-4df4-bb45-ab1756873412</id>
+      <name>Polar Tent</name>
+      <category>Survival Gear</category>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>6</avail>
+      <cost>250</cost>
+  </gear>
+  <gear>
+      <id>2ff88fbf-9d6e-470b-9ab0-a289ad2be560</id>
+      <name>Skis, Cross Country</name>
+      <category>Survival Gear</category>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>200</cost>
+  </gear>
+  <gear>
+      <id>a8390cbb-d5b6-4aa6-bafd-3e39a1dad892</id>
+      <name>Skis, Alpine</name>
+      <category>Survival Gear</category>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>4</avail>
+      <cost>600</cost>
+  </gear>
+  <gear>
+      <id>4467ded0-6259-4e5a-8e8b-b80257264044</id>
+      <name>Snowshoes</name>
+      <category>Survival Gear</category>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>175</cost>
+  </gear>
+  <gear>
+      <id>6eb318d2-fe66-4287-ac99-f8efc194df3e</id>
+      <name>Camouflauge Net</name>
+      <category>Survival Gear</category>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>4</avail>
+      <cost>100</cost>
+  </gear>
+  <gear>
+      <id>2f056861-27ff-44be-b9a1-a8ade2a4e4cc</id>
+      <name>Tent</name>
+      <category>Survival Gear</category>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>75</cost>
+  </gear>
+  <gear>
+      <id>9e6d15a7-e1de-4673-8c0d-6bf07a2ae956</id>
+      <name>Water Purification Tablets</name>
+      <category>Survival Gear</category>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>5</cost>
+  </gear>
+  <gear>
+      <id>19b407f2-ab02-45ea-bf1b-7df3820a81aa</id>
+      <name>Desert Tent</name>
+      <category>Survival Gear</category>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>4</avail>
+      <cost>150</cost>
+  </gear>
+  <gear>
+      <id>9f448778-b809-4b57-a944-9aa7ae23a9a5</id>
+      <name>Desert Survival Kit</name>
+      <category>Survival Gear</category>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>4</avail>
+      <cost>300</cost>
+  </gear>
+  <gear>
+      <id>ee8f3419-750b-4382-93a7-73caae0db466</id>
+      <name>Solar Still</name>
+      <category>Survival Gear</category>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>4</avail>
+      <cost>200</cost>
+  </gear>
+  <gear>
+      <id>a5e4ff86-8e5c-4bfb-93a5-f4c576af58c7</id>
+      <name>Thermal Air Bag</name>
+      <category>Survival Gear</category>
+      <source>SR5</source>
+      <page>0</page>
+      <avail>6</avail>
+      <cost>400</cost>
   </gear>
     
     <!-- Gear versions of the handloaded ammo -->
