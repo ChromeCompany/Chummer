@@ -741,9 +741,25 @@
     <!-- End Region -->
     <!-- Region Forbidden Arcana -->
     <quality>
-      <name>Hedge Witch/Wizard</name>
+      <!--<name>Hedge Witch/Wizard</name>
       <bonus amendoperation="append">
         <limitspellcategory>Rituals</limitspellcategory>
+      </bonus>
+    </quality>-->
+    <quality>
+      <name>Apprentice</name>
+      <bonus amendoperation="replace">
+        <enableattribute>
+          <name>MAG</name>
+        </enableattribute>
+        <enabletab>
+          <name>magician</name>
+        </enabletab>
+        <allowspellcategory>Rituals</allowspellcategory>
+        <limitspellcategory exclude="Rituals" />
+        <limitspiritcategory />
+        <unlockskills>Sorcery</unlockskills>
+        <unlockskills>Conjuring</unlockskills>
       </bonus>
     </quality>
     <quality>
