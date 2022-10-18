@@ -38,7 +38,16 @@
       <avail>12R</avail>
     </vehicle>
 
-<!-- Minor vehicle changese -->
+<!-- Minor vehicle changes -->
+    <vehicle>
+      <name>BMW Luxus</name>
+      <weapons>
+        <weapon>
+          <name>GE Vindicator Mini-Gun</name>
+        </weapon>
+      </weapons>
+    </vehicle>
+    
     <vehicle>
       <id>c8f7e6c0-85e6-4feb-9ef0-0aeca5fba76b</id>
       <name>Ares Duelist (Medium)</name>
@@ -3886,11 +3895,11 @@
       <page>42</page>
       <source>SHB</source>
       <accel>1</accel>
-      <armor>6</armor>
-      <avail>0</avail>
-      <body>13</body>
+      <armor>10</armor>
+      <avail>12R</avail>
+      <body>16</body>
       <category>Cars</category>
-      <cost>29500</cost>
+      <cost>65000</cost>
       <handling>3/3</handling>
       <pilot>2</pilot>
       <sensor>2</sensor>
@@ -3902,7 +3911,7 @@
           <maxrating>7</maxrating>
         </gear>
       </gears>
-      <seats>9</seats>
+      <seats>4</seats>
     </vehicle>
   </vehicles>
 </chummer>

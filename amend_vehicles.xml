@@ -414,6 +414,10 @@
       <name>Volkswagen Urban Transporter</name>
 	  <seats>2</seats>
 	  </vehicle>
+	  <vehicle>
+	    <name>Cargolifter Industries CL-180</name>
+		<category>LTAV</category>
+	  </vehicle>
     <!-- Things hidden from Datapulse -->
     <vehicle xpathfilter="contains(source,'SOTG')">
       <hide />
