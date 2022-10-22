@@ -100,5 +100,20 @@
       <source>SR5</source>
       <page>0</page>
     </mod>
+    <mod>
+      <id>b82281e6-935e-43a2-a0b9-8982eed65abe</id>
+      <name>Environmental Adaptation</name>
+      <category>General</category>
+      <armor>0</armor>
+      <maxrating>1</maxrating>
+      <armorcapacity>[0]</armorcapacity>
+      <avail>+3</avail>
+      <cost>1500</cost>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+    </mod>
   </mods>
 </chummer>

@@ -740,8 +740,8 @@
     <!-- End Region -->
     <!-- End Region -->
     <!-- Region Forbidden Arcana -->
-    <quality>
-      <!--<name>Hedge Witch/Wizard</name>
+    <!--<quality>
+      <name>Hedge Witch/Wizard</name>
       <bonus amendoperation="append">
         <limitspellcategory>Rituals</limitspellcategory>
       </bonus>
