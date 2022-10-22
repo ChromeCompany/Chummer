@@ -59,6 +59,15 @@
       <name>Goddess</name>
       <hide />
     </mentor>
+    <mentor>
+      <name>Spider (Alt)</name>
+      <bonus amendoperation="replace">
+        <specificskill>
+          <name>Sneaking</name>
+          <bonus>2</bonus>
+        </specificskill>
+      </bonus>
+    </mentor>
     
     <!-- Bans the mentors spirits not approved from the german content -->
     <mentor>
@@ -100,7 +109,7 @@
         <specificskill>
           <name>Perception</name>
           <bonus>1</bonus>
-		</specificskill>
+        </specificskill>
       </bonus>
     </mentor>
     <mentor>
