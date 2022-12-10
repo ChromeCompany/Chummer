@@ -110,6 +110,7 @@
           <name>Perception</name>
           <bonus>1</bonus>
         </specificskill>
+        <addqualities />
       </bonus>
     </mentor>
     <mentor>
