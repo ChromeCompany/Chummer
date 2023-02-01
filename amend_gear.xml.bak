@@ -373,6 +373,7 @@
 	<gear>
 	  <id>3c1eab12-59bc-490a-8260-63a0ec2b727a</id>
 	  <name>MSI Falcon</name>
+	  <cost>355000</cost>
     </gear>
 	<gear>
 	  <name>Shiva (Vintage)</name>

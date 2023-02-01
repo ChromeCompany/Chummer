@@ -782,8 +782,8 @@
     
       <!-- Adds the drug grades as a plugin for drugs. -->
     <gear>
-      <id>f22e79fa-fb04-4369-a761-a1a46e242bc8</id>
-      <name>Street Cooked</name>
+      <id>03c499d3-738c-4c11-92a1-ded3a22d9435</id>
+      <name>Street Cooked (CC)</name>
       <category>Drug Grades</category>
       <rating>0</rating>
       <source>CF</source>
@@ -795,8 +795,8 @@
     </gear>
     
     <gear>
-      <id>21f33089-cb7a-4bef-80ae-03d04f1c47ad</id>
-      <name>Pharmaceutical</name>
+      <id>f1ca6f5f-0d9e-481d-9f5b-a89b219d6e4b</id>
+      <name>Pharmaceutical (CC)</name>
       <category>Drug Grades</category>
       <rating>0</rating>
       <source>CF</source>
@@ -808,8 +808,8 @@
     </gear>
     
     <gear>
-      <id>d8cdb6ea-5150-4ec0-8166-88d33e714364</id>
-      <name>Designer</name>
+      <id>d9c106ab-675a-4544-a83c-8b4314c7574f</id>
+      <name>Designer (CC)</name>
       <category>Drug Grades</category>
       <rating>0</rating>
       <source>CF</source>
