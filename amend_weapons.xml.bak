@@ -83,6 +83,13 @@
       <weapontype>Energy</weapontype>
     </weapon>
     
+    <!-- Makes the Narcoject One an exotic so it can be loaded, but still use Pistols -->
+    <weapon>
+      <name>Narcoject One</name>
+      <category>Exotic Ranged Weapons</category>
+      <useskill>Pistols</useskill>
+    </weapon>
+    
     <!-- Corrects Run and Gun stat blocks -->
     <weapon>
       <name>Onotari Arms JP-K50</name>
@@ -1171,7 +1178,7 @@
       <ap>-2</ap>
       <mode>SA/BF/FA</mode>
       <rc>0</rc>
-      <ammo>30(c)</ammo>
+      <ammo>40(c)</ammo>
       <avail>13F</avail>
       <cost>8000</cost>
       <source>SR5</source>
@@ -1204,7 +1211,7 @@
       <accuracy>4</accuracy>
       <reach>0</reach>
       <damage>7P</damage>
-      <ap>-2</ap>
+      <ap>0</ap>
       <mode>SA/BF/FA</mode>
       <rc>1</rc>
       <ammo>25(c)</ammo>
@@ -2050,12 +2057,37 @@
 		</weapondetails>
       </forbidden>
     </accessory>
+	<accessory>
+		<name>Extended Clip</name>
+			<forbidden amendoperation="replace">
+				<weapondetails>
+					<OR>
+						<ammo operation="contains">(cy)</ammo>
+						<category>Shotguns</category>
+						<name>PSK-3 Collapsible Heavy Pistol</name>
+						<spec>Revolvers</spec>
+						<spec>Shotguns</spec>
+						<spec2>Revolvers</spec2>
+						<spec2>Shotguns</spec2>
+					</OR>
+				</weapondetails>
+			</forbidden>
+    </accessory>
     
     <!-- Removes all the german accessories -->
     <accessory xpathfilter="contains(source,'SOTG')">
       <hide />
     </accessory>
+    
+    <!-- Makes Extreme Environment have select text -->
+    <accessory>
+      <name>Extreme Environment Modification</name>
+      <bonus>
+        <selecttext />
+      </bonus>
+    </accessory>
   </accessories>
+  
   <accessories amendoperation="append">
   <!-- 4e Accessories for the 4e weapons (Also german stuff now)-->
   	<accessory>
@@ -2289,6 +2321,22 @@
             </AND>
           </weapondetails>
         </oneof>
+      </required>
+    </accessory>
+    <accessory>
+      <id>13be9882-4bb0-469a-a136-234fb6fae350</id>
+      <name>Ares Predator VI Spare Clip</name>
+      <mount />
+      <avail>9R</avail>
+      <cost>30</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <ammoslots>1</ammoslots>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <name>Ares Predator VI</name>
+        </weapondetails>
       </required>
     </accessory>
   </accessories>
