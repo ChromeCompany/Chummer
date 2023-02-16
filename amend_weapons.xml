@@ -527,7 +527,7 @@
       <conceal>-2</conceal>
       <accuracy>Physical</accuracy>
       <reach>1</reach>
-      <damage>(STR+3)P</damage>
+      <damage>({STR}+3)P</damage>
       <ap>-2</ap>
       <mode>0</mode>
       <rc>0</rc>
