@@ -239,6 +239,9 @@
       <cost>9000</cost>
       <source>SR5</source>
       <page>0</page>
+      <bonus>
+        <composure>2</composure>
+      </bonus>
     </bioware>
     <bioware>
       <id>ede95a18-b9ae-4ffe-8911-7d3b20c6ecf7</id>
