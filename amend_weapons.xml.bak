@@ -82,7 +82,12 @@
       <name>Narcoject PEP</name>
       <weapontype>Energy</weapontype>
     </weapon>
-    
+        <!-- Makes the Narcoject One an exotic so it can be loaded, but still use Pistols -->
+    <weapon>
+      <name>Narcoject One</name>
+      <category>Exotic Ranged Weapons</category>
+      <useskill>Pistols</useskill>
+    </weapon>
     <!-- Corrects Run and Gun stat blocks -->
     <weapon>
       <name>Onotari Arms JP-K50</name>
