@@ -1176,7 +1176,7 @@
       <ap>-2</ap>
       <mode>SA/BF/FA</mode>
       <rc>0</rc>
-      <ammo>30(c)</ammo>
+      <ammo>40(c)</ammo>
       <avail>13F</avail>
       <cost>8000</cost>
       <source>SR5</source>
@@ -1209,7 +1209,7 @@
       <accuracy>4</accuracy>
       <reach>0</reach>
       <damage>7P</damage>
-      <ap>-2</ap>
+      <ap>0</ap>
       <mode>SA/BF/FA</mode>
       <rc>1</rc>
       <ammo>25(c)</ammo>
@@ -2055,7 +2055,22 @@
 		</weapondetails>
       </forbidden>
     </accessory>
-    
+    <accessory>
+	<name>Extended Clip</name>
+	<forbidden amendoperation="replace">
+		<weapondetails>
+			<OR>
+				<ammo operation="contains">(cy)</ammo>
+				<category>Shotguns</category>
+				<name>PSK-3 Collapsible Heavy Pistol</name>
+				<spec>Revolvers</spec>
+				<spec>Shotguns</spec>
+				<spec2>Revolvers</spec2>
+				<spec2>Shotguns</spec2>
+			</OR>
+		</weapondetails>
+	</forbidden>
+    </accessory>
     <!-- Removes all the german accessories -->
     <accessory xpathfilter="contains(source,'SOTG')">
       <hide />
