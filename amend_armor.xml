@@ -62,6 +62,47 @@
 	  </mods>
     </armor>
   </armors>
+<!-- Armors added to chummer -->
+  <armors amendoperation="append">
+    <armor>
+      <id>711b5901-b7a7-4bd0-8d3c-20912111a541</id>
+      <name>Bunker Shield</name>
+      <category>Armor</category>
+      <armor>+8</armor>
+      <armorcapacity>8</armorcapacity>
+      <addweapon>Bunker Shield</addweapon>
+      <avail>10R</avail>
+      <cost>3000</cost>
+      <bonus>
+        <limitmodifier>
+          <limit>Physical</limit>
+          <value>-1</value>
+          <condition>LimitCondition_ShieldPhysicalPenalty</condition>
+        </limitmodifier>
+      </bonus>
+      <source>MPR</source>
+      <page>0</page>
+    </armor>
+    <armor>
+      <id>469a783f-07cb-4ce8-a058-df08dc040a8c</id>
+      <name>Montagne Shield</name>
+      <category>Armor</category>
+      <armor>+10</armor>
+      <armorcapacity>10</armorcapacity>
+      <addweapon>Montagne Shield</addweapon>
+      <avail>12R</avail>
+      <cost>8000</cost>
+      <bonus>
+        <limitmodifier>
+          <limit>Physical</limit>
+          <value>-1</value>
+          <condition>LimitCondition_ShieldPhysicalPenalty</condition>
+        </limitmodifier>
+      </bonus>
+      <source>MPR</source>
+      <page>0</page>
+    </armor>
+  </armors>
   <!-- Adds shock frills weapons to Shock Frills -->
   <mods>
     <mod amendoperation = "append">
