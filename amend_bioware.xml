@@ -238,6 +238,10 @@
       <avail>8</avail>
       <cost>9000</cost>
       <source>4e</source>
+      <bonus>
+        <composure>2</composure>
+      </bonus>
+      <source>SR5</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -254,7 +258,7 @@
     <bioware>
       <id>c807eb48-fc9a-49a2-a80c-03d462179687</id>
       <name>Vegsin</name>
-      <category>Genemods</category>
+      <category>Transgenics</category>
       <ess>0.1</ess>
       <capacity>0</capacity>
       <avail>6</avail>
