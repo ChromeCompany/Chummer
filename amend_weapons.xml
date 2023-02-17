@@ -81,8 +81,13 @@
     <weapon>
       <name>Narcoject PEP</name>
       <weapontype>Energy</weapontype>
-    </weapon>
-    
+    </weapon>	  
+    <!-- Makes the Narcoject One an exotic so it can be loaded, but still use Pistols -->
+    <weapon>
+      <name>Narcoject One</name>
+      <category>Exotic Ranged Weapons</category>
+      <useskill>Pistols</useskill>
+    </weapon>    
     <!-- Corrects Run and Gun stat blocks -->
     <weapon>
       <name>Onotari Arms JP-K50</name>
@@ -1171,7 +1176,7 @@
       <ap>-2</ap>
       <mode>SA/BF/FA</mode>
       <rc>0</rc>
-      <ammo>30(c)</ammo>
+      <ammo>40(c)</ammo>
       <avail>13F</avail>
       <cost>8000</cost>
       <source>4e</source>
@@ -2050,7 +2055,22 @@
 		</weapondetails>
       </forbidden>
     </accessory>
-    
+    <accessory>
+	<name>Silencer/Suppressor</name>
+	<forbidden amendoperation="replace">
+		<weapondetails>
+			<OR>
+		<ammo operation="contains">(cy)</ammo>
+		<category>Shotguns</category>
+		<name>PSK-3 Collapsible Heavy Pistol</name>
+		<spec>Revolvers</spec>
+		<spec>Shotguns</spec>
+		<spec2>Revolvers</spec2>
+		<spec2>Shotguns</spec2>
+			</OR>
+		</weapondetails>
+	</forbidden>
+    </accessory>
     <!-- Removes all the german accessories -->
     <accessory xpathfilter="contains(source,'SOTG')">
       <hide />
