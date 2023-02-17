@@ -2370,7 +2370,7 @@
       <name>Mad Eyes</name>
       <karma>-4</karma>
       <category>Negative</category>
-	  <metagenic>True</metagenic>
+      <metagenic>True</metagenic>
       <bonus />
       <source>SR5</source>
       <page>0</page>
@@ -2380,7 +2380,7 @@
       <name>Reflective Eyes</name>
       <karma>-4</karma>
       <category>Negative</category>
-	  <metagenic>True</metagenic>
+      <metagenic>True</metagenic>
       <bonus />
       <source>SR5</source>
       <page>0</page>
@@ -2390,7 +2390,7 @@
       <name>Hairless</name>
       <karma>-4</karma>
       <category>Negative</category>
-	  <metagenic>True</metagenic>
+      <metagenic>True</metagenic>
       <bonus />
       <source>SR5</source>
       <page>0</page>
@@ -2400,22 +2400,22 @@
       <name>Neuralgia</name>
       <karma>-8</karma>
       <category>Negative</category>
-	  <metagenic>True</metagenic>
+      <metagenic>True</metagenic>
       <bonus>
         <physicalcmrecovery>-2</physicalcmrecovery>
         <stuncmrecovery>-2</stuncmrecovery>
       </bonus>
       <source>SR5</source>
       <page>0</page>
-	  <notes>Double first Wound Modifier</notes>
+      <notes>Double first Wound Modifier</notes>
     </quality>
 	<quality>
       <id>2b8439ef-057b-42da-8b9a-45a35679caa7</id>
       <name>Broad Feet</name>
       <karma>-4</karma>
       <category>Negative</category>
-	  <metagenic>True</metagenic>
-      <source>SR5</source>
+      <metagenic>True</metagenic>
+      <source>6e</source>
       <page>0</page>
     </quality>
 	<!-- Test Geneware Biocomp-->
@@ -2448,7 +2448,7 @@
       <page>0</page>
     </quality>
 	<!-- Gossipmonger Quality from the Social Search proposal-->
-	<quality>
+    <quality>
       <id>8a976bb7-983b-46dd-b580-0545ff546691</id>
       <name>Gossipmonger</name>
       <karma>5</karma>
@@ -2477,6 +2477,29 @@
       <karma>-10</karma>
       <category>Negative</category>
       <source>SR5</source>
+      <page>0</page>
+    </quality>
+       <!-- Pure homebrew qualities -->
+    <quality>
+      <id>e6dc258d-9c8d-4761-952c-ac0b7bfd0495</id>
+      <name>Direction Impaired</name>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <bonus>
+        <specificskill>
+          <name>Navigation</name>
+          <bonus>-2</bonus>
+        </specificskill>
+      </bonus>
+      <source>MPR</source>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>de3c4987-5727-47ee-bcd5-edc3f79b1d9d</id>
+      <name>Clinical Depression</name>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <source>MPR</source>
       <page>0</page>
     </quality>
   </qualities>

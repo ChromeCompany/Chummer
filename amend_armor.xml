@@ -62,8 +62,7 @@
 	  </mods>
     </armor>
   </armors>
-  
-  <!-- Armors added to chummer -->
+<!-- Armors added to chummer -->
   <armors amendoperation="append">
     <armor>
       <id>711b5901-b7a7-4bd0-8d3c-20912111a541</id>
@@ -81,7 +80,7 @@
           <condition>LimitCondition_ShieldPhysicalPenalty</condition>
         </limitmodifier>
       </bonus>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
     </armor>
     <armor>
@@ -100,7 +99,7 @@
           <condition>LimitCondition_ShieldPhysicalPenalty</condition>
         </limitmodifier>
       </bonus>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
     </armor>
   </armors>
