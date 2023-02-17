@@ -1298,7 +1298,7 @@
           </skill>
         </allof>
       </required>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1318,7 +1318,7 @@
         </oneof>
       </forbidden>
       <notes>+3 die pool modifier when negotiating to sell/fence through this contact. Only suffer -1 on Ranged Combat Tests when Running. Increase Defense Test bonus from cover by +1.</notes>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1341,7 +1341,7 @@
           <ess>-2.99</ess>
         </allof>
       </required>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1370,7 +1370,7 @@
           <ess>-2.99</ess>
         </allof>
       </required>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1398,7 +1398,7 @@
           <ess>-2.99</ess>
         </allof>
       </required>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1426,7 +1426,7 @@
           <ess>-2.99</ess>
         </allof>
       </required>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1454,7 +1454,7 @@
           <ess>-2.99</ess>
         </allof>
       </required>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1481,7 +1481,7 @@
         </allof>
       </required>
       <notes>Do not halve WIL when determining the number of Take Aim actions you may take.</notes>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1514,7 +1514,7 @@
         </oneof>
       </forbidden>
       <notes>Cut Called Shot Penalties in half when attacking a Surprised target with melee or thrown weapons.</notes>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1525,7 +1525,7 @@
       <karma>-10</karma>
       <category>Negative</category>
       <notes>Characters with this quality double the normal interval for Healing Tests and half the base period before Fatigue sets in.</notes>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1539,7 +1539,7 @@
         <selecttext />
       </bonus>
       <notes>Reduce the number of 1’s needed to get a glitch by one per rating with selected ware.</notes>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1552,7 +1552,7 @@
         <selecttext />
       </bonus>
       <notes>+2 dice pool modifier to any Hearing Perception Tests made against the character, and a +1 when muted by heavy clothing.</notes>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1568,7 +1568,7 @@
         </specificskill>
       </bonus>
       <notes>Does not get the information from Assensing tests.</notes>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1578,7 +1578,7 @@
       <karma>-10</karma>
       <category>Negative</category>
       <notes>-3 to all Willpower tests except Spell and Damage Resistance. Addiction tests do take -3.</notes>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1588,7 +1588,7 @@
       <karma>-10</karma>
       <category>Negative</category>
       <notes>-2 to all social tests when in person.</notes>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1600,7 +1600,7 @@
       <bonus>
         <selecttext />
       </bonus>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1610,7 +1610,7 @@
       <karma>-10</karma>
       <category>Negative</category>
       <notes>-4 to Perception tests when not using Observe in Detail.</notes>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -1634,7 +1634,7 @@
           <quality>Will to Live</quality>
         </oneof>
       </forbidden>
-      <source>4e</source>
+      <source>SR5</source>
       <page>1</page>
     </quality>
     
@@ -2145,6 +2145,7 @@
       <karma>-10</karma>
       <category>Negative</category>
       <bonus />
+      <metagenic>True</metagenic>
       <forbidden>
         <oneof>
           <quality>Astral Chameleon</quality>
@@ -2192,7 +2193,7 @@
           <val>50</val>
         </skillcategorypointcostmultiplier>
       </bonus>
-      <source>MPR</source>
+      <source>SR5</source>
       <page>0</page>
     </quality>
     
@@ -2209,7 +2210,7 @@
           <resenabled />
         </oneof>
       </forbidden>
-      <source>MPR</source>
+      <source>SR5</source>
       <page>0</page>
     </quality>
     
@@ -2231,7 +2232,7 @@
           <quality>Reduced Sense (Sight)</quality>
         </oneof>
       </forbidden>
-      <source>MPR</source>
+      <source>SR5</source>
       <page>0</page>
     </quality>
     
@@ -2299,7 +2300,7 @@
           </skill>
         </oneof>
       </required>
-      <source>MPR</source>
+      <source>SR5</source>
       <page>0</page>
     </quality>
     
@@ -2327,7 +2328,7 @@
         <nuyenamt>50000</nuyenamt>
       </bonus>
       <notes>An extra 50,000¥ for your character, chosen as a Voluntary Retirement reward by voluntarily retiring a character that met the requirements and selected the extra NuYen reward. Please see Player Rules for details. This quality is safe to remove after exiting chargen.</notes>
-      <source>MPR</source>
+      <source>SR5</source>
       <page>0</page>
     </quality>
 	<!-- 6e Qualities -->
@@ -2342,7 +2343,7 @@
           <stun>-1</stun>
         </conditionmonitor>
       </bonus>
-      <source>6e</source>
+      <source>SR5</source>
       <page>0</page>
     </quality>
 	<quality>
@@ -2351,7 +2352,7 @@
       <karma>-4</karma>
       <category>Negative</category>
       <bonus />
-      <source>6e</source>
+      <source>SR5</source>
       <page>0</page>
     </quality>
 	<quality>
@@ -2360,7 +2361,7 @@
       <karma>-4</karma>
       <category>Negative</category>
       <bonus />
-      <source>6e</source>
+      <source>SR5</source>
       <page>0</page>
     </quality>
 	<!-- 6e Metagenic Quals-->
@@ -2369,9 +2370,9 @@
       <name>Mad Eyes</name>
       <karma>-4</karma>
       <category>Negative</category>
-	   <metagenic>True</metagenic>
+	  <metagenic>True</metagenic>
       <bonus />
-      <source>6e</source>
+      <source>SR5</source>
       <page>0</page>
     </quality>
 	<quality>
@@ -2379,9 +2380,9 @@
       <name>Reflective Eyes</name>
       <karma>-4</karma>
       <category>Negative</category>
-	    <metagenic>True</metagenic>
+	  <metagenic>True</metagenic>
       <bonus />
-      <source>6e</source>
+      <source>SR5</source>
       <page>0</page>
     </quality>
 	<quality>
@@ -2389,9 +2390,9 @@
       <name>Hairless</name>
       <karma>-4</karma>
       <category>Negative</category>
-	    <metagenic>True</metagenic>
+	  <metagenic>True</metagenic>
       <bonus />
-      <source>6e</source>
+      <source>SR5</source>
       <page>0</page>
     </quality>
 	<quality>
@@ -2399,12 +2400,12 @@
       <name>Neuralgia</name>
       <karma>-8</karma>
       <category>Negative</category>
-	   <metagenic>True</metagenic>
+	  <metagenic>True</metagenic>
       <bonus>
         <physicalcmrecovery>-2</physicalcmrecovery>
         <stuncmrecovery>-2</stuncmrecovery>
       </bonus>
-      <source>6e</source>
+      <source>SR5</source>
       <page>0</page>
 	  <notes>Double first Wound Modifier</notes>
     </quality>
@@ -2413,8 +2414,8 @@
       <name>Broad Feet</name>
       <karma>-4</karma>
       <category>Negative</category>
-	    <metagenic>True</metagenic>
-      <source>6e</source>
+	  <metagenic>True</metagenic>
+      <source>SR5</source>
       <page>0</page>
     </quality>
 	<!-- Test Geneware Biocomp-->
@@ -2443,7 +2444,7 @@
       <name>Harrowed</name>
       <karma>-10</karma>
       <category>Negative</category>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
     </quality>
 	<!-- Gossipmonger Quality from the Social Search proposal-->
@@ -2452,7 +2453,30 @@
       <name>Gossipmonger</name>
       <karma>5</karma>
       <category>Positive</category>
-      <source>MPR</source>
+      <source>SR5</source>
+      <page>0</page>
+    </quality>
+    <!-- Pure homebrew qualities -->
+    <quality>
+      <id>e6dc258d-9c8d-4761-952c-ac0b7bfd0495</id>
+      <name>Direction Impaired</name>
+      <karma>-5</karma>
+      <category>Negative</category>
+      <bonus>
+        <specificskill>
+          <name>Navigation</name>
+          <bonus>-2</bonus>
+        </specificskill>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>de3c4987-5727-47ee-bcd5-edc3f79b1d9d</id>
+      <name>Clinical Depression</name>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <source>SR5</source>
       <page>0</page>
     </quality>
   </qualities>
