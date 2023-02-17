@@ -595,7 +595,7 @@
       <name>Signal Drug</name>
       <category>Drugs</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>8</avail>
       <cost>50</cost>
@@ -605,7 +605,7 @@
       <name>Mimic Signal Drug</name>
       <category>Drugs</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>12</avail>
       <cost>500</cost>
@@ -615,7 +615,7 @@
       <name>Mark 74 Smartlink</name>
       <category>Vision Enhancements</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>+8F</avail>
       <armorcapacity>[1]</armorcapacity>
@@ -631,7 +631,7 @@
       <name>Braveheart</name>
       <category>Drugs</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>16F</avail>
       <cost>1000</cost>
@@ -641,7 +641,7 @@
       <name>Endure</name>
       <category>Drugs</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>16F</avail>
       <cost>1000</cost>
@@ -651,7 +651,7 @@
       <name>Inspiration</name>
       <category>Drugs</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>16F</avail>
       <cost>1000</cost>
@@ -661,7 +661,7 @@
       <name>Arbelast II MAW Rocket Launcher Canister</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>0</avail>
       <cost>50</cost>
@@ -671,7 +671,7 @@
       <name>Missile: Great Dragon</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>436</page>
       <avail>22F</avail>
       <addweapon>Missile: Great Dragon</addweapon>
@@ -685,7 +685,7 @@
       <name>Homunculus Materials - Fragile (3)</name>
       <category>Magical Supplies</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
       <avail>0</avail>
       <cost>100</cost>
@@ -695,7 +695,7 @@
       <name>Homunculus Materials - Cheap (3)</name>
       <category>Magical Supplies</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
       <avail>0</avail>
       <cost>500</cost>
@@ -705,7 +705,7 @@
       <name>Homunculus Materials - Average (3)</name>
       <category>Magical Supplies</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
       <avail>0</avail>
       <cost>1000</cost>
@@ -715,7 +715,7 @@
       <name>Homunculus Materials - Heavy (3)</name>
       <category>Magical Supplies</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
       <avail>0</avail>
       <cost>2500</cost>
@@ -725,7 +725,7 @@
       <name>Homunculus Materials - Reinforced (6)</name>
       <category>Magical Supplies</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
       <avail>0</avail>
       <cost>5000</cost>
@@ -735,7 +735,7 @@
       <name>Homunculus Materials - Structural (6)</name>
       <category>Magical Supplies</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
       <avail>0</avail>
       <cost>10000</cost>
@@ -745,7 +745,7 @@
       <name>Homunculus Materials - Heavy Structural (9)</name>
       <category>Magical Supplies</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
       <avail>0</avail>
       <cost>20000</cost>
@@ -771,7 +771,7 @@
       <name>Paraphernalia</name>
       <category>Magical Supplies</category>
       <rating>20</rating>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
       <avail>14E</avail>
       <cost>Rating * 500</cost>
@@ -780,46 +780,7 @@
       </bonus>
     </gear>
     
-      <!-- Adds the drug grades as a plugin for drugs. -->
-    <gear>
-      <id>03c499d3-738c-4c11-92a1-ded3a22d9435</id>
-      <name>Street Cooked (CC)</name>
-      <category>Drug Grades</category>
-      <rating>0</rating>
-      <source>CF</source>
-      <page>190</page>
-      <avail>0</avail>
-      <capacity>0</capacity>
-      <requireparent />
-      <cost>Parent Cost * -.5</cost>
-    </gear>
-    
-    <gear>
-      <id>f1ca6f5f-0d9e-481d-9f5b-a89b219d6e4b</id>
-      <name>Pharmaceutical (CC)</name>
-      <category>Drug Grades</category>
-      <rating>0</rating>
-      <source>CF</source>
-      <page>190</page>
-      <avail>+4</avail>
-      <capacity>0</capacity>
-      <requireparent />
-      <cost>Parent Cost</cost>
-    </gear>
-    
-    <gear>
-      <id>d9c106ab-675a-4544-a83c-8b4314c7574f</id>
-      <name>Designer (CC)</name>
-      <category>Drug Grades</category>
-      <rating>0</rating>
-      <source>CF</source>
-      <page>190</page>
-      <avail>+8</avail>
-      <capacity>0</capacity>
-      <requireparent />
-      <cost>Parent Cost * 5</cost>
-    </gear>
-    
+   
     <gear>
       <id>6f9a19fe-770c-4ac8-b066-e42117411a06</id>
       <name>Glass Cutter Tool Kit</name>
@@ -835,7 +796,7 @@
       <name>Potted Plant</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>0</avail>
       <addweapon>Potted Plant</addweapon>
@@ -847,7 +808,7 @@
       <name>Bowling Ball</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>0</avail>
       <addweapon>Bowling Ball</addweapon>
@@ -859,7 +820,7 @@
       <name>Baseball/Billiard Ball</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>0</avail>
       <addweapon>Baseball/Billiard Ball</addweapon>
@@ -871,7 +832,7 @@
       <name>Brick/Paving Stone</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>0</avail>
       <addweapon>Brick/Paving Stone</addweapon>
@@ -883,7 +844,7 @@
       <name>Chair (Throwing)</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>0</avail>
 	  <addweapon>Chair (Throwing)</addweapon>
@@ -941,7 +902,7 @@
       <name>Grenade: Corrosive</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <avail>11F</avail>
       <addweapon>Grenade: Corrosive</addweapon>
@@ -952,7 +913,7 @@
       <name>Grenade: Cryo</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <avail>11F</avail>
       <addweapon>Grenade: Cryo</addweapon>
@@ -963,7 +924,7 @@
       <name>Grenade: Zapper</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <avail>8R</avail>
       <addweapon>Grenade: Zapper</addweapon>
@@ -974,7 +935,7 @@
       <name>Grenade: Corrosive, Aerodynamic</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <avail>11F</avail>
       <addweapon>Grenade: Corrosive, Aerodynamic</addweapon>
@@ -985,7 +946,7 @@
       <name>Grenade: Cryo, Aerodynamic</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <avail>11F</avail>
       <addweapon>Grenade: Cryo, Aerodynamic</addweapon>
@@ -996,7 +957,7 @@
       <name>Grenade: Zapper, Aerodynamic</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <avail>8R</avail>
       <addweapon>Grenade: Zapper, Aerodynamic</addweapon>
@@ -1007,7 +968,7 @@
       <name>Minigrenade: Corrosive</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <avail>11F</avail>
       <addweapon>Minigrenade: Corrosive</addweapon>
@@ -1019,7 +980,7 @@
       <name>Minigrenade: Cryo</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <avail>11F</avail>
       <addweapon>Minigrenade: Cryo</addweapon>
@@ -1031,7 +992,7 @@
       <name>Minigrenade: Zapper</name>
       <category>Ammunition</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <avail>11F</avail>
       <addweapon>Minigrenade: Zapper</addweapon>
@@ -1051,7 +1012,7 @@
       <name>Directional Mine</name>
       <category>Grenade Addons</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <avail>+2</avail>
       <capacity>0</capacity>
@@ -1070,7 +1031,7 @@
       <name>Gecko Grip</name>
       <category>Grenade Addons</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <avail>+2</avail>
       <capacity>0</capacity>
@@ -1089,7 +1050,7 @@
       <name>Landmine</name>
       <category>Grenade Addons</category>
       <rating>0</rating>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <avail>+2</avail>
       <capacity>0</capacity>
@@ -1109,7 +1070,7 @@
       <id>92664a13-e484-4956-bb10-fd2e3be95232</id>
       <name>Crevasse Detector</name>
       <category>Survival Gear</category>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>6</avail>
       <cost>250</cost>
@@ -1118,7 +1079,7 @@
       <id>33a8f89b-b87d-41b5-b4f8-825e40b44e99</id>
       <name>Polar Survival Kit</name>
       <category>Survival Gear</category>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>4</avail>
       <cost>200</cost>
@@ -1127,7 +1088,7 @@
       <id>c6354d38-22d0-4df4-bb45-ab1756873412</id>
       <name>Polar Tent</name>
       <category>Survival Gear</category>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>6</avail>
       <cost>250</cost>
@@ -1136,7 +1097,7 @@
       <id>2ff88fbf-9d6e-470b-9ab0-a289ad2be560</id>
       <name>Skis, Cross Country</name>
       <category>Survival Gear</category>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>0</avail>
       <cost>200</cost>
@@ -1145,7 +1106,7 @@
       <id>a8390cbb-d5b6-4aa6-bafd-3e39a1dad892</id>
       <name>Skis, Alpine</name>
       <category>Survival Gear</category>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>4</avail>
       <cost>600</cost>
@@ -1154,7 +1115,7 @@
       <id>4467ded0-6259-4e5a-8e8b-b80257264044</id>
       <name>Snowshoes</name>
       <category>Survival Gear</category>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>0</avail>
       <cost>175</cost>
@@ -1163,7 +1124,7 @@
       <id>6eb318d2-fe66-4287-ac99-f8efc194df3e</id>
       <name>Camouflauge Net</name>
       <category>Survival Gear</category>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>4</avail>
       <cost>100</cost>
@@ -1172,7 +1133,7 @@
       <id>2f056861-27ff-44be-b9a1-a8ade2a4e4cc</id>
       <name>Tent</name>
       <category>Survival Gear</category>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>0</avail>
       <cost>75</cost>
@@ -1181,7 +1142,7 @@
       <id>9e6d15a7-e1de-4673-8c0d-6bf07a2ae956</id>
       <name>Water Purification Tablets</name>
       <category>Survival Gear</category>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>0</avail>
       <cost>5</cost>
@@ -1190,7 +1151,7 @@
       <id>19b407f2-ab02-45ea-bf1b-7df3820a81aa</id>
       <name>Desert Tent</name>
       <category>Survival Gear</category>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>4</avail>
       <cost>150</cost>
@@ -1199,7 +1160,7 @@
       <id>9f448778-b809-4b57-a944-9aa7ae23a9a5</id>
       <name>Desert Survival Kit</name>
       <category>Survival Gear</category>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>4</avail>
       <cost>300</cost>
@@ -1208,7 +1169,7 @@
       <id>ee8f3419-750b-4382-93a7-73caae0db466</id>
       <name>Solar Still</name>
       <category>Survival Gear</category>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>4</avail>
       <cost>200</cost>
@@ -1217,7 +1178,7 @@
       <id>a5e4ff86-8e5c-4bfb-93a5-f4c576af58c7</id>
       <name>Thermal Air Bag</name>
       <category>Survival Gear</category>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <avail>6</avail>
       <cost>400</cost>
