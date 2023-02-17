@@ -2318,5 +2318,21 @@
         </oneof>
       </required>
     </accessory>
+    <accessory>
+      <id>13be9882-4bb0-469a-a136-234fb6fae350</id>
+      <name>Ares Predator VI Spare Clip</name>
+      <mount />
+      <avail>9R</avail>
+      <cost>30</cost>
+      <source>SR5</source>
+      <page>0</page>
+      <ammoslots>1</ammoslots>
+      <rating>0</rating>
+      <required>
+        <weapondetails>
+          <name>Ares Predator VI</name>
+        </weapondetails>
+      </required>
+    </accessory>
   </accessories>
 </chummer>
