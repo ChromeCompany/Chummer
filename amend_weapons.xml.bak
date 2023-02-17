@@ -2077,6 +2077,13 @@
     </accessory>
   </accessories>
   <accessories amendoperation="append">
+    <!-- Makes Extreme Environment have select text -->
+    <accessory>
+      <name>Extreme Environment Modification</name>
+      <bonus>
+        <selecttext />
+      </bonus>
+    </accessory>
   <!-- 4e Accessories for the 4e weapons (Also german stuff now)-->
   	<accessory>
       <id>90796c00-08dd-4fd6-8815-8ef137c91ddb</id>
