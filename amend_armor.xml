@@ -156,5 +156,115 @@
       <source>SR5</source>
       <page>0</page>
     </mod>
+    
+    <!-- Homebrew shield mods -->
+    <mod>
+      <id>af5f2e64-cb3a-488f-9bad-acd1afd5e8aa</id>
+      <name>Claymore Modification</name>
+      <category>General</category>
+      <maxrating>1</maxrating>
+      <armorcapacity>[2]</armorcapacity>
+      <required>
+        <OR>
+          <parentdetails>
+            <name>Ballistic Shield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Riot Shield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Ares FlaShield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Ares Briefcase Shield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>EVO/Yamatetsu Naval Technologies Rampart</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Bunker Shield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Montagne Shield</name>
+          </parentdetails>
+        </OR>
+      </required>
+      <avail>+2F</avail>
+      <cost>3000</cost>
+      <source>SR5</source>
+      <page>0</page>
+    </mod>
+    <mod>
+      <id>63660bd5-c5d0-4bed-8d08-d4f022497599</id>
+      <name>Combat Modification</name>
+      <category>General</category>
+      <maxrating>1</maxrating>
+      <armorcapacity>[2]</armorcapacity>
+      <required>
+        <OR>
+          <parentdetails>
+            <name>Ballistic Shield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Riot Shield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Ares FlaShield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Ares Briefcase Shield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>EVO/Yamatetsu Naval Technologies Rampart</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Bunker Shield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Montagne Shield</name>
+          </parentdetails>
+        </OR>
+      </required>
+      <avail>+2F</avail>
+      <cost>1000</cost>
+      <source>SR5</source>
+      <page>0</page>
+    </mod>
+    <mod>
+      <id>d8accff3-ec17-46a6-8b57-47d8cad63557</id>
+      <name>Electrochromic Modification</name>
+      <category>General</category>
+      <maxrating>1</maxrating>
+      <armorcapacity>[0]</armorcapacity>
+      <required>
+        <OR>
+          <parentdetails>
+            <name>Ballistic Shield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Riot Shield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Ares FlaShield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Ares Briefcase Shield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>EVO/Yamatetsu Naval Technologies Rampart</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Bunker Shield</name>
+          </parentdetails>
+          <parentdetails>
+            <name>Montagne Shield</name>
+          </parentdetails>
+        </OR>
+      </required>
+      <avail>+2R</avail>
+      <cost>500</cost>
+      <source>SR5</source>
+      <page>0</page>
+    </mod>
   </mods>
 </chummer>

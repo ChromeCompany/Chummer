@@ -87,7 +87,7 @@
       <name>Narcoject One</name>
       <category>Exotic Ranged Weapons</category>
       <useskill>Pistols</useskill>
-    </weapon>    
+    </weapon>  
     <!-- Corrects Run and Gun stat blocks -->
     <weapon>
       <name>Onotari Arms JP-K50</name>
@@ -715,7 +715,7 @@
       <ammo>7(c)</ammo>
       <avail>7R</avail>
       <cost>375</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
     </weapon>
 	    <weapon>
@@ -733,7 +733,7 @@
       <ammo>5(c)</ammo>
       <avail>7R</avail>
       <cost>450</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessories>
         <accessory>
@@ -758,7 +758,7 @@
       <ammo>21(c)</ammo>
       <avail>7R</avail>
       <cost>210</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessories>
         <accessory>
@@ -786,7 +786,7 @@
       <ammo>18(c)</ammo>
       <avail>4R</avail>
       <cost>350</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessorymounts>
         <mount>Barrel</mount>
@@ -809,7 +809,7 @@
       <ammo>6(cy)</ammo>
       <avail>3R</avail>
       <cost>400</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessorymounts>
         <mount>Barrel</mount>
@@ -833,7 +833,7 @@
       <ammo>10(c)</ammo>
       <avail>9R</avail>
       <cost>350</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessorymounts>
         <mount>Barrel</mount>
@@ -857,7 +857,7 @@
       <ammo>20(c)</ammo>
       <avail>8R</avail>
       <cost>600</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessorymounts>
         <mount>Stock</mount>
@@ -883,7 +883,7 @@
       <ammo>1(m)</ammo>
       <avail>10R</avail>
       <cost>1150</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessorymounts>
         <mount>Barrel</mount>
@@ -908,7 +908,7 @@
       <ammo>10(c)</ammo>
       <avail>16</avail>
       <cost>1700</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessories>
         <accessory>
@@ -944,7 +944,7 @@
       <ammo>12(c)</ammo>
       <avail>5R</avail>
       <cost>300</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessorymounts>
         <mount>Barrel</mount>
@@ -969,7 +969,7 @@
       <ammo>9(c)</ammo>
       <avail>7R</avail>
       <cost>400</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessorymounts>
         <mount>Barrel</mount>
@@ -995,7 +995,7 @@
       <ammo>35(c)</ammo>
       <avail>5R</avail>
       <cost>650</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessories>
         <accessory>
@@ -1027,7 +1027,7 @@
       <ammo>30(c)</ammo>
       <avail>4R</avail>
       <cost>480</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessorymounts>
         <mount>Barrel</mount>
@@ -1051,7 +1051,7 @@
       <ammo>20(c)</ammo>
       <avail>4R</avail>
       <cost>420</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessories>
         <accessory>
@@ -1084,7 +1084,7 @@
       <ammo>30(c)</ammo>
       <avail>10F</avail>
       <cost>1200</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessorymounts>
         <mount>Stock</mount>
@@ -1110,7 +1110,7 @@
       <ammo>32(c)</ammo>
       <avail>9F</avail>
       <cost>3250</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessories>
         <accessory>
@@ -1143,7 +1143,7 @@
       <ammo>35(c)</ammo>
       <avail>8F</avail>
       <cost>3400</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessories>
         <accessory>
@@ -1179,7 +1179,7 @@
       <ammo>40(c)</ammo>
       <avail>13F</avail>
       <cost>8000</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessories>
         <accessory>
@@ -1215,7 +1215,7 @@
       <ammo>25(c)</ammo>
       <avail>0</avail>
       <cost>0</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessories>
         <accessory>
@@ -1253,7 +1253,7 @@
       <ammo>50(c)</ammo>
       <avail>0</avail>
       <cost>0</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessories>
         <accessory>
@@ -1291,7 +1291,7 @@
       <ammo>20(c)</ammo>
       <avail>0</avail>
       <cost>0</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessories>
         <accessory>
@@ -1331,7 +1331,7 @@
       <ammo>5(m)</ammo>
       <avail>4R</avail>
       <cost>2000</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessories>
         <accessory>
@@ -1361,7 +1361,7 @@
       <ammo>50(c)</ammo>
       <avail>12F</avail>
       <cost>3000</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessories>
         <accessory>
@@ -1400,7 +1400,7 @@
       <ammo>1</ammo>
       <avail>14F</avail>
       <cost>1400</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessorymounts>
         <mount>Stock</mount>
@@ -1424,7 +1424,7 @@
       <ammo>1 (ml)</ammo>
       <avail>17F</avail>
       <cost>3000</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
 	  <accessories>
         <accessory>
@@ -1453,7 +1453,7 @@
       <ammo>0</ammo>
       <avail>22F</avail>
       <cost>2800</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>436</page>
     </weapon>
 	
@@ -1473,7 +1473,7 @@
       <ammo>0</ammo>
       <avail>9R</avail>
       <cost>750</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <spec>Knives</spec>
     </weapon>
@@ -1492,7 +1492,7 @@
       <ammo>10</ammo>
       <avail>8R</avail>
       <cost>1500</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <requireammo>False</requireammo>
       <spec>Electrical-Stun</spec>
@@ -1512,7 +1512,7 @@
       <ammo>10</ammo>
       <avail>8R</avail>
       <cost>1200</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <requireammo>False</requireammo>
       <spec>Batons</spec>
@@ -1534,7 +1534,7 @@
       <ammo>1</ammo>
       <avail>0</avail>
       <cost>0</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessorymounts>
         <mount>Top</mount>
@@ -1562,7 +1562,7 @@
       <ammo>0</ammo>
       <avail>4</avail>
       <cost>75</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
     </weapon>
 	<weapon>
@@ -1580,7 +1580,7 @@
       <ammo>0</ammo>
       <avail>8F</avail>
       <cost>150</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
 	  <addweapon>Kusarigama Sickle</addweapon>
 	  <addweapon>Kusarigama Weighted Chain</addweapon>
@@ -1600,7 +1600,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>0</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
 	  <hide />
     </weapon>
@@ -1619,7 +1619,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>0</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
 	  <hide />
     </weapon>
@@ -1639,7 +1639,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>5</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <range>Potted Plant/Bowling Ball</range>
       <useskill>Throwing Weapons</useskill>
@@ -1659,7 +1659,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>20</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <range>Potted Plant/Bowling Ball</range>
       <useskill>Throwing Weapons</useskill>
@@ -1679,7 +1679,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>15</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <range>Standard Grenade</range>
       <useskill>Throwing Weapons</useskill>
@@ -1699,7 +1699,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>5</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <range>Brick/Paving Stone</range>
       <useskill>Throwing Weapons</useskill>
@@ -1719,7 +1719,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>15</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <range>Chair</range>
       <useskill>Throwing Weapons</useskill>
@@ -1765,7 +1765,7 @@
       <ammo>0</ammo>
       <avail>11F</avail>
       <cost>200</cost>
-      <source>6e</source>
+      <source>SR5</source>
       <page>1</page>
       <range>Standard Grenade</range>
       <spec>Non-Aerodynamic</spec>
@@ -1786,7 +1786,7 @@
       <ammo>0</ammo>
       <avail>11F</avail>
       <cost>200</cost>
-      <source>6e</source>
+      <source>SR5</source>
       <page>1</page>
       <range>Standard Grenade</range>
       <spec>Non-Aerodynamic</spec>
@@ -1807,7 +1807,7 @@
       <ammo>0</ammo>
       <avail>8R</avail>
       <cost>200</cost>
-      <source>6e</source>
+      <source>SR5</source>
       <page>1</page>
       <range>Standard Grenade</range>
       <spec>Non-Aerodynamic</spec>
@@ -1828,7 +1828,7 @@
       <ammo>0</ammo>
       <avail>11F</avail>
       <cost>200</cost>
-      <source>6e</source>
+      <source>SR5</source>
       <page>1</page>
       <range>Aerodynamic Grenade</range>
       <spec>Aerodynamic</spec>
@@ -1849,7 +1849,7 @@
       <ammo>0</ammo>
       <avail>11F</avail>
       <cost>200</cost>
-      <source>6e</source>
+      <source>SR5</source>
       <page>1</page>
       <range>Aerodynamic Grenade</range>
       <spec>Aerodynamic</spec>
@@ -1870,7 +1870,7 @@
       <ammo>0</ammo>
       <avail>8R</avail>
       <cost>200</cost>
-      <source>6e</source>
+      <source>SR5</source>
       <page>1</page>
       <range>Aerodynamic Grenade</range>
       <spec>Aerodynamic</spec>
@@ -1891,7 +1891,7 @@
       <ammo>0</ammo>
       <avail>11F</avail>
       <cost>200</cost>
-      <source>6e</source>
+      <source>SR5</source>
       <page>1</page>
       <range>Grenade Launchers</range>
       <spec>Grenade Launcher</spec>
@@ -1899,7 +1899,7 @@
     </weapon>
     <weapon>
       <id>e70c1ebe-0846-4e35-be7e-3bca8b1c6eba</id>
-      <name>Minigrenade: Cryo</name>
+      <name>Minigrenade: Fragmentation</name>
       <category>Gear</category>
       <type>Ranged</type>
       <conceal>-2</conceal>
@@ -1912,7 +1912,7 @@
       <ammo>0</ammo>
       <avail>11F</avail>
       <cost>200</cost>
-      <source>6e</source>
+      <source>SR5</source>
       <page>1</page>
       <range>Grenade Launchers</range>
       <spec>Grenade Launcher</spec>
@@ -1933,7 +1933,7 @@
       <ammo>0</ammo>
       <avail>8R</avail>
       <cost>200</cost>
-      <source>6e</source>
+      <source>SR5</source>
       <page>1</page>
       <range>Grenade Launchers</range>
       <spec>Grenade Launcher</spec>
@@ -1955,7 +1955,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>0</cost>
-      <source>6e</source>
+      <source>SR5</source>
       <page>0</page>
       <cyberware>True</cyberware>
       <hide />
@@ -1977,7 +1977,7 @@
       <ammo>10(c)</ammo>
       <avail>7R</avail>
       <cost>950</cost>
-      <source>6e</source>
+      <source>SR5</source>
       <page>0</page>
       <accessories>
         <accessory>
@@ -2055,21 +2055,21 @@
 		</weapondetails>
       </forbidden>
     </accessory>
-    <accessory>
-	<name>Silencer/Suppressor</name>
-	<forbidden amendoperation="replace">
-		<weapondetails>
-			<OR>
-		<ammo operation="contains">(cy)</ammo>
-		<category>Shotguns</category>
-		<name>PSK-3 Collapsible Heavy Pistol</name>
-		<spec>Revolvers</spec>
-		<spec>Shotguns</spec>
-		<spec2>Revolvers</spec2>
-		<spec2>Shotguns</spec2>
-			</OR>
-		</weapondetails>
-	</forbidden>
+	<accessory>
+		<name>Silencer/Suppressor</name>
+			<forbidden amendoperation="replace">
+				<weapondetails>
+					<OR>
+						<ammo operation="contains">(cy)</ammo>
+						<category>Shotguns</category>
+						<name>PSK-3 Collapsible Heavy Pistol</name>
+						<spec>Revolvers</spec>
+						<spec>Shotguns</spec>
+						<spec2>Revolvers</spec2>
+						<spec2>Shotguns</spec2>
+					</OR>
+				</weapondetails>
+			</forbidden>
     </accessory>
     <!-- Removes all the german accessories -->
     <accessory xpathfilter="contains(source,'SOTG')">
@@ -2093,7 +2093,7 @@
       <mount />
       <avail>0</avail>
       <cost>0</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <ammoreplace>50(belt)</ammoreplace>
       <ammoslots>1</ammoslots>
@@ -2110,7 +2110,7 @@
       <mount />
       <avail>9R</avail>
       <cost>12</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <ammobonus>50</ammobonus>
       <ammoslots>1</ammoslots>
@@ -2161,7 +2161,7 @@
       <mount />
       <avail>9R</avail>
       <cost>12</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <ammoslots>1</ammoslots>
       <rating>0</rating>
@@ -2177,7 +2177,7 @@
       <mount />
       <avail>0</avail>
       <cost>150</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accuracy>2</accuracy>
       <forbidden>
@@ -2213,7 +2213,7 @@
       <mount />
       <avail>0</avail>
       <cost>200</cost>
-      <source>4e</source>
+      <source>SR5</source>
       <page>0</page>
       <accuracy>2</accuracy>
       <forbidden>

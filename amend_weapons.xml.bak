@@ -81,8 +81,8 @@
     <weapon>
       <name>Narcoject PEP</name>
       <weapontype>Energy</weapontype>
-    </weapon>
-        <!-- Makes the Narcoject One an exotic so it can be loaded, but still use Pistols -->
+    </weapon>   
+    <!-- Makes the Narcoject One an exotic so it can be loaded, but still use Pistols -->
     <weapon>
       <name>Narcoject One</name>
       <category>Exotic Ranged Weapons</category>
@@ -2055,27 +2055,36 @@
 		</weapondetails>
       </forbidden>
     </accessory>
-    <accessory>
-	<name>Extended Clip</name>
-	<forbidden amendoperation="replace">
-		<weapondetails>
-			<OR>
-				<ammo operation="contains">(cy)</ammo>
-				<category>Shotguns</category>
-				<name>PSK-3 Collapsible Heavy Pistol</name>
-				<spec>Revolvers</spec>
-				<spec>Shotguns</spec>
-				<spec2>Revolvers</spec2>
-				<spec2>Shotguns</spec2>
-			</OR>
-		</weapondetails>
-	</forbidden>
+	<accessory>
+		<name>Extended Clip</name>
+			<forbidden amendoperation="replace">
+				<weapondetails>
+					<OR>
+						<ammo operation="contains">(cy)</ammo>
+						<category>Shotguns</category>
+						<name>PSK-3 Collapsible Heavy Pistol</name>
+						<spec>Revolvers</spec>
+						<spec>Shotguns</spec>
+						<spec2>Revolvers</spec2>
+						<spec2>Shotguns</spec2>
+					</OR>
+				</weapondetails>
+			</forbidden>
     </accessory>
     <!-- Removes all the german accessories -->
     <accessory xpathfilter="contains(source,'SOTG')">
       <hide />
     </accessory>
+    
+    <!-- Makes Extreme Environment have select text -->
+    <accessory>
+      <name>Extreme Environment Modification</name>
+      <bonus>
+        <selecttext />
+      </bonus>
+    </accessory>
   </accessories>
+  
   <accessories amendoperation="append">
     <!-- Makes Extreme Environment have select text -->
     <accessory>
