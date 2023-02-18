@@ -126,7 +126,7 @@
       <gearcapacity>0</gearcapacity>
       <avail>0</avail>
       <cost>50</cost>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
     </mod>
     <mod>
@@ -138,7 +138,7 @@
       <gearcapacity>0</gearcapacity>
       <avail>0</avail>
       <cost>50</cost>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
     </mod>
     <mod>
@@ -153,7 +153,7 @@
       <bonus>
         <selecttext />
       </bonus>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
     </mod>
     
@@ -191,7 +191,7 @@
       </required>
       <avail>+2F</avail>
       <cost>3000</cost>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
     </mod>
     <mod>
@@ -227,7 +227,7 @@
       </required>
       <avail>+2F</avail>
       <cost>1000</cost>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
     </mod>
     <mod>
@@ -263,7 +263,7 @@
       </required>
       <avail>+2R</avail>
       <cost>500</cost>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
     </mod>
   </mods>
