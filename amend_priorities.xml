@@ -81,6 +81,30 @@
           </metavariants>
         </metatype>
       </metatypes>
+	  <metatypes amendoperation="append">
+	    <metatype>
+		  <name>A.I.</name>
+		  <value>8</value>
+		  <karma>0</karma>
+		  <metavariants>
+			<metavariant>
+			  <name>Pilot A.I.</name>
+			  <value>7</value>
+			  <karma>0</karma>
+			</metavariant>
+			<metavariant>
+			  <name>Realms A.I.</name>
+			  <value>7</value>
+			  <karma>0</karma>
+			</metavariant>
+			<metavariant>
+			  <name>Deep Foundation A.I.</name>
+			  <value>3</value>
+			  <karma>0</karma>
+			</metavariant>
+		  </metavariants>
+		</metatype>
+	  </metatypes>
     </priority>
     <priority>
       <name>B - Any metatype</name>
@@ -140,6 +164,30 @@
           </metavariants>
         </metatype>
       </metatypes>
+	  <metatypes amendoperation="append">
+	    <metatype>
+		  <name>A.I.</name>
+		  <value>6</value>
+		  <karma>0</karma>
+		  <metavariants>
+			<metavariant>
+			  <name>Pilot A.I.</name>
+			  <value>5</value>
+			  <karma>0</karma>
+			</metavariant>
+			<metavariant>
+			  <name>Realms A.I.</name>
+			  <value>5</value>
+			  <karma>0</karma>
+			</metavariant>
+			<metavariant>
+			  <name>Deep Foundation A.I.</name>
+			  <value>0</value>
+			  <karma>0</karma>
+			</metavariant>
+		  </metavariants>
+		</metatype>
+	  </metatypes>
     </priority>
     <priority>
       <id>988b7ce3-5739-4300-bc21-a6c92b869262</id>
@@ -201,11 +249,28 @@
             </metavariant>
           </metavariants>
         </metatype>
+		<metatype>
+		  <name>A.I.</name>
+		  <value>3</value>
+		  <karma>0</karma>
+		  <metavariants>
+			<metavariant>
+			  <name>Pilot A.I.</name>
+			  <value>1</value>
+			  <karma>0</karma>
+			</metavariant>
+			<metavariant>
+			  <name>Realms A.I.</name>
+			  <value>1</value>
+			  <karma>0</karma>
+			</metavariant>
+		  </metavariants>
+		</metatype>
       </metatypes>
     </priority>
     <priority>
       <id>255da2ba-8d21-4a73-9f81-37156901db72</id>
-      <name>D - Human, Elf or Ork</name>
+      <name>D - Human, Elf, Ork or A.I.</name>
       <metatypes amendoperation="append">
         <metatype>
           <name>Ork</name>
@@ -234,10 +299,35 @@
             </metavariant>
           </metavariants>
         </metatype>
+		<metatype>
+		  <name>A.I.</name>
+		  <value>0</value>
+		  <karma>0</karma>
+		</metatype>
       </metatypes>
     </priority>
     <!-- End Region -->
     <!-- Region Talents -->
+    <priority xpathfilter="contains(category, 'Talent')">
+      <talents>
+        <talent xpathfilter="contains(name,'Depth')">
+          <forbidden>
+            <oneof>
+              <metatype>A.I.</metatype>
+            </oneof>
+          </forbidden>
+        </talent>
+      </talents>
+    </priority>
+    <priority>
+      <name>E - Mundane</name>
+      <talents amendoperation="replace">
+        <talent>
+          <name>Mundane</name>
+          <value>Mundane</value>
+        </talent>
+      </talents>
+    </priority>
     <!-- End Region -->
     <!-- Region Attributes -->
     <!-- End Region -->
