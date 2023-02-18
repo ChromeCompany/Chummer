@@ -59,6 +59,22 @@
             <name>Datapuls Verschlusssache (German-exclusive)</name>
             <hide />
         </book>
+    </books>     
+    <books amendoperation="append">
+        <book>
+            <id>29343593-ceb9-4d22-bfab-32fae650a7b0</id>
+            <name>CC 4e Translation Master Document</name>
+            <code>4e</code>
+        </book>
+        <book>
+            <id>e44a2e35-fe95-4a58-b057-161317af5edc</id>
+            <name>CC 6e Translation Master Document</name>
+            <code>6e</code>
+        </book>
+        <book>
+            <id>5ffac241-350b-4b89-9175-034663fd5837</id>
+            <name>CC Master Player Rule Document</name>
+            <code>MPR</code>
+        </book>
     </books>
-    
 </chummer>
