@@ -129,7 +129,7 @@
       <avail>10</avail>
       <cost>Rating * 5000</cost>
       <rating>3</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -140,7 +140,7 @@
       <capacity>0</capacity>
       <avail>8</avail>
       <cost>10000</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -151,7 +151,7 @@
       <capacity>0</capacity>
       <avail>6</avail>
       <cost>12000</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -162,7 +162,7 @@
       <capacity>0</capacity>
       <avail>6</avail>
       <cost>2500</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <addweapon>Quills (Bio-Weapon)</addweapon>
     </bioware>
@@ -175,7 +175,7 @@
       <avail>Rating * 4</avail>
       <cost>Rating * 12000</cost>
       <rating>4</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -191,7 +191,7 @@
           <bioware>False Front</bioware>
         </oneof>
       </required>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -210,7 +210,7 @@
           <bioware>Orthoskin</bioware>
         </oneof>
       </required>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -226,7 +226,7 @@
           <addquality>Thermal Sensitivity (Bioware)</addquality>
         </addqualities>
       </bonus>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -240,7 +240,7 @@
       <bonus>
         <composure>2</composure>
       </bonus>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -251,7 +251,7 @@
       <capacity>0</capacity>
       <avail>10</avail>
       <cost>14000</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -266,7 +266,7 @@
       <bonus>
         <lifestylecost>-10</lifestylecost>
       </bonus>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
