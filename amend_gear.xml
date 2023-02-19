@@ -778,7 +778,44 @@
       <bonus>
         <selecttext />
       </bonus>
+    </gear>	  
+      <!-- Adds the drug grades as a plugin for drugs. -->
+    <gear>
+      <id>03c499d3-738c-4c11-92a1-ded3a22d9435</id>
+      <name>Street Cooked (CC)</name>
+      <category>Drug Grades</category>
+      <rating>0</rating>
+      <source>CF</source>
+      <page>190</page>
+      <avail>0</avail>
+      <capacity>0</capacity>
+      <requireparent />
+      <cost>Parent Cost * -.5</cost>
     </gear>    
+    <gear>
+      <id>f1ca6f5f-0d9e-481d-9f5b-a89b219d6e4b</id>
+      <name>Pharmaceutical (CC)</name>
+      <category>Drug Grades</category>
+      <rating>0</rating>
+      <source>CF</source>
+      <page>190</page>
+      <avail>+4</avail>
+      <capacity>0</capacity>
+      <requireparent />
+      <cost>Parent Cost</cost>
+    </gear>    
+    <gear>
+      <id>d9c106ab-675a-4544-a83c-8b4314c7574f</id>
+      <name>Designer (CC)</name>
+      <category>Drug Grades</category>
+      <rating>0</rating>
+      <source>CF</source>
+      <page>190</page>
+      <avail>+8</avail>
+      <capacity>0</capacity>
+      <requireparent />
+      <cost>Parent Cost * 5</cost>
+    </gear>
     <gear>
       <id>6f9a19fe-770c-4ac8-b066-e42117411a06</id>
       <name>Glass Cutter Tool Kit</name>
