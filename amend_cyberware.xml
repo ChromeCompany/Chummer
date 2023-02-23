@@ -18,6 +18,9 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema cyberware.xsd">
+  <categories amendoperation = "append">
+    <category>Codemods</category>
+  </categories>
   <grades>
     <grade>
       <name>Omegaware</name>
@@ -698,5 +701,883 @@
         </parentdetails>
       </required>
     </cyberware>
+
+	<cyberware>
+      <id>769ffeaf-ce2e-4001-adc2-93ac71c0322c</id>
+      <name>Attibute Expansion</name>
+      <category>Codemods</category>
+      <ess>0.8</ess>
+      <capacity>0</capacity>
+      <avail>20R</avail>
+      <cost>180000</cost>
+      <bonus>
+        <lifestylecost>25</lifestylecost>
+        <specificattribute>
+          <name>CHA</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>INT</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>LOG</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>WIL</name>
+          <val>1</val>
+        </specificattribute>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </cyberware>
+	<cyberware>
+      <id>612cfe22-f60f-40de-9283-1622e7a87217</id>
+      <name>ASDF Expansion</name>
+      <category>Codemods</category>
+      <ess>0.6</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>70000</cost>
+      <bonus>
+        <lifestylecost>25</lifestylecost>
+        <specificattribute>
+          <name>BOD</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>AGI</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>REA</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>STR</name>
+          <val>1</val>
+        </specificattribute>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </cyberware>
+	<cyberware>
+      <id>cb5bfafa-d887-408b-aa25-82297f6ac91d</id>
+      <name>Charisma Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.35</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 6)R</avail>
+      <cost>Rating * 34000</cost>
+      <bonus>
+        <specificattribute>
+          <name>CHA</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>4</rating>
+    </cyberware>
+	<cyberware>
+      <id>11f3571e-7fc6-4d5f-af6f-1168cf46ef29</id>
+      <name>Intuition Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.35</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 6)R</avail>
+      <cost>Rating * 34000</cost>
+      <bonus>
+        <specificattribute>
+          <name>INT</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>4</rating>
+    </cyberware>
+	<cyberware>
+      <id>770b5def-f3bb-4678-a178-32524a2e046e</id>
+      <name>Logic Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.35</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 6)</avail>
+      <cost>Rating * 34000</cost>
+      <bonus>
+        <specificattribute>
+          <name>LOG</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>4</rating>
+    </cyberware>
+	<cyberware>
+      <id>bbf71f35-e3d5-48e4-a64b-29e12eafdf60</id>
+      <name>Willpower Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.35</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 6)</avail>
+      <cost>Rating * 34000</cost>
+      <bonus>
+        <specificattribute>
+          <name>WIL</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>4</rating>
+    </cyberware>
+	<cyberware>
+      <id>adeb301e-aee7-428b-8783-66927263e849</id>
+      <name>Firewall Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 4)</avail>
+      <cost>Rating * 12000</cost>
+      <bonus>
+        <specificattribute>
+          <name>BOD</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>4</rating>
+    </cyberware>
+	<cyberware>
+      <id>a67d6add-e02c-47e3-bb35-aab02978c418</id>
+      <name>Sleaze Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 4)</avail>
+      <cost>Rating * 12000</cost>
+      <bonus>
+        <specificattribute>
+          <name>AGI</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>4</rating>
+    </cyberware>
+	<cyberware>
+      <id>efaf5b07-0951-455a-b428-27ebd83ee8cb</id>
+      <name>Data Processing Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 4)</avail>
+      <cost>Rating * 12000</cost>
+      <bonus>
+        <specificattribute>
+          <name>REA</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>4</rating>
+    </cyberware>
+	<cyberware>
+      <id>163190c8-9fde-4f11-b55b-469f1a26530d</id>
+      <name>Attack Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 4)</avail>
+      <cost>Rating * 12000</cost>
+      <bonus>
+        <specificattribute>
+          <name>STR</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>4</rating>
+    </cyberware>
+	<cyberware>
+      <id>de2abcc4-8abc-47c3-bf00-18fceb848eb9</id>
+      <name>Quantum Processor</name>
+      <category>Codemods</category>
+      <ess>0.5</ess>
+      <capacity>0</capacity>
+      <avail>6R</avail>
+      <cost>40000</cost>
+      <bonus>
+        <matrixinitiativedice>1</matrixinitiativedice>
+		<matrixinitiative>1</matrixinitiative>
+      </bonus>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </cyberware>
+	<cyberware>
+      <id>cf454dc7-4b3a-4ae7-aa76-920eb73007d5</id>
+      <name>Charisma Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.15</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 2)</avail>
+      <cost>Rating * 9000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>8</rating>
+    </cyberware>
+	<cyberware>
+      <id>5ce303cf-fe77-40af-adae-d35c0e1ad26a</id>
+      <name>Intuition Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.15</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 2)</avail>
+      <cost>Rating * 9000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>8</rating>
+    </cyberware>
+	<cyberware>
+      <id>ed4892ce-652e-47b5-b55b-3cfddf3be753</id>
+      <name>Logic Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.15</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 2)</avail>
+      <cost>Rating * 9000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>8</rating>
+    </cyberware>
+	<cyberware>
+      <id>0d5fce99-a228-479c-b4b4-6e15507576ab</id>
+      <name>Willpower Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.15</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 2)</avail>
+      <cost>Rating * 9000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>8</rating>
+    </cyberware>
+	<cyberware>
+      <id>b2d6e457-c75c-4bbf-840f-5fa4df602d34</id>
+      <name>Attack Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 1)</avail>
+      <cost>Rating * 5000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>8</rating>
+    </cyberware>
+	<cyberware>
+      <id>840532a2-11b4-45d5-a10d-9bf935b64fc8</id>
+      <name>Sleaze Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 1)</avail>
+      <cost>Rating * 5000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>8</rating>
+    </cyberware>
+	<cyberware>
+      <id>550ddef5-e769-4096-b21c-0e09babf1549</id>
+      <name>Data Processing Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 1)</avail>
+      <cost>Rating * 5000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>8</rating>
+    </cyberware>
+	<cyberware>
+      <id>ffd877cf-0d8b-44e2-bc21-e25930db0da2</id>
+      <name>Firewall Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 1)</avail>
+      <cost>Rating * 5000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>8</rating>
+    </cyberware>
+	<cyberware>
+      <id>f86f77aa-8afe-461b-a657-831d272b72e0</id>
+      <name>Core Code Redundancy</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.2</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 4)</avail>
+      <cost>Rating * 12000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>4</rating>
+	  <bonus>
+	    <conditionmonitor>
+          <stun>Rating</stun>
+        </conditionmonitor>
+      </bonus>
+    </cyberware>
+	<cyberware>
+      <id>6a17edb5-4ad7-4f94-a49c-e38dba734bec</id>
+      <name>Core Code Shielding</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.15</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 3)</avail>
+      <cost>Rating * 3500</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>6</rating>
+    </cyberware>
+	<cyberware>
+      <id>da29f32f-b45c-4eed-9f47-75d11b1668bc</id>
+      <name>Damage Mitigation Protocols</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.2</ess>
+      <capacity>0</capacity>
+      <avail>15</avail>
+      <cost>18500</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </cyberware>
+	<cyberware>
+      <id>3d782427-30e7-4216-84d0-d6559d817457</id>
+      <name>Damage Response Overrides</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 3)</avail>
+      <cost>Rating * 3000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>12</rating>
+	  <bonus>
+        <conditionmonitor>
+          <sharedthresholdoffset>Rating</sharedthresholdoffset>
+        </conditionmonitor>
+      </bonus>
+    </cyberware>
+	<cyberware>
+      <id>5c2a9c7b-7dbf-4dfa-a9d6-460383aa3efb</id>
+      <name>Data Archive Upgrade</name>
+      <category>Codemods</category>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>10</avail>
+      <cost>4000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <bonus>
+        <addqualities>
+          <addquality>Photographic Memory</addquality>
+        </addqualities>
+      </bonus>
+    </cyberware>
+	<cyberware>
+      <id>a4dcf8ad-17b4-432f-b642-11818b966efe</id>
+      <name>Optimized Restoration</name>
+      <category>Codemods</category>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>10000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </cyberware>
+	<cyberware>
+      <id>9387cc16-71b1-4ee2-b4bc-ef155242ef3d</id>
+      <name>RCC Emulator</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 3)R</avail>
+      <cost>Rating * 7500</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>6</rating>
+    </cyberware>
+	<cyberware>
+      <id>b865eb54-e309-42eb-bfc0-3e2ae5d55f97</id>
+      <name>Sideload Processor</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 1)R</avail>
+      <cost>Rating * 2000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>12</rating>
+    </cyberware>
+	<cyberware>
+      <id>2984ec6f-34cf-447f-867d-bf0f61d2caab</id>
+      <name>Synthetic Skill Driver: Activesoft</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 2)</avail>
+      <cost>Rating * 25000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>6</rating>
+    </cyberware>
+	<cyberware>
+      <id>09870bb4-dbb0-4ca4-8e5c-164adba3596e</id>
+      <name>Synthetic Skill Driver: Linguasoft</name>
+      <category>Codemods</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 2)</avail>
+      <cost>Rating * 4000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>4</rating>
+    </cyberware>
+	<cyberware>
+      <id>21506091-c14a-47f9-a88f-f353081109bc</id>
+      <name>Synthetic Skill Driver: Knowsoft</name>
+      <category>Codemods</category>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>6</avail>
+      <cost>5000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </cyberware>
+	<cyberware>
+      <id>55c65d90-5863-409e-97b1-0ccd9b865f58</id>
+      <name>Active Signal Filter</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 3)</avail>
+      <cost>Rating * 7000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>6</rating>
+    </cyberware>
+	<cyberware>
+      <id>f284645a-db57-458f-b64c-455b76130b2c</id>
+      <name>ECM Integration</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 3)F</avail>
+      <cost>Rating * 2500</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>6</rating>
+    </cyberware>
+	<cyberware>
+      <id>0725b73a-4369-4fa5-bab9-8001c8893af7</id>
+      <name>PAN Emulator</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.2</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 6)R</avail>
+      <cost>Rating * 14000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>3</rating>
+    </cyberware>
+	<cyberware>
+      <id>9c1dbb45-493a-4f74-aeb3-0bee547dd057</id>
+      <name>Control Rig Integration</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.8</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 5)</avail>
+      <cost>Rating * 50000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>3</rating>
+    </cyberware>
+	<cyberware>
+      <id>f9cc6b6e-c525-4dad-98d8-0ebd22b3a1ba</id>
+      <name>Sensor Input Filters</name>
+      <category>Codemods</category>
+      <ess>0.3</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>3000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <bonus>
+        <limitmodifier>
+          <limit>Mental</limit>
+          <value>1</value>
+          <condition>LimitCondition_SkillsActivePerception</condition>
+        </limitmodifier>
+		<specificskill>
+          <name>Perception</name>
+          <bonus>1</bonus>
+          <condition>Sensor</condition>
+        </specificskill>
+      </bonus>
+    </cyberware>
+	<cyberware>
+      <id>d68542f9-7da2-4064-8c45-3ea1bbd83fae</id>
+      <name>Simsense Integration</name>
+      <category>Codemods</category>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>10R</avail>
+      <cost>7500</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </cyberware>
+	<cyberware>
+      <id>fb745a5a-67ee-4a88-bc02-a5fe6e3194b2</id>
+      <name>Smartlink Adapter</name>
+      <category>Codemods</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>8R</avail>
+      <cost>4000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <bonus>
+        <smartlink>2</smartlink>
+      </bonus>
+    </cyberware>
+	<cyberware>
+      <id>8dd166e0-a2d3-4904-8a64-58d822fead9b</id>
+      <name>Coherent Neuroconnectivity</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>Rating * 40000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>2</rating>
+	  <bonus>
+        <skillgroup>
+          <name>Cracking</name>
+          <bonus>Rating</bonus>
+        </skillgroup>
+        <skillgroup>
+          <name>Electronics</name>
+          <bonus>Rating</bonus>
+        </skillgroup>
+      </bonus>
+	  <forbidden>
+        <oneof>
+		  <cyberware>Quantum Subroutines</cyberware>
+		  <cyberware>Discretionary Fragmentation</cyberware>
+		  <cyberware>Sympathetic Consciousness</cyberware>
+		  <cyberware>The Infinite Archives</cyberware>
+        </oneof>
+      </forbidden>
+    </cyberware>
+	<cyberware>
+      <id>54f422fd-8b7c-4c6f-a1df-9f8f3ba88c8a</id>
+      <name>Quantum Subroutines</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>Rating * 20000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>2</rating>
+	  <forbidden>
+        <oneof>
+          <cyberware>Coherent Neuroconnectivity</cyberware>
+		  <cyberware>Discretionary Fragmentation</cyberware>
+		  <cyberware>Sympathetic Consciousness</cyberware>
+		  <cyberware>The Infinite Archives</cyberware>
+        </oneof>
+      </forbidden>
+    </cyberware>
+	<cyberware>
+      <id>1097c0cf-d70d-4eee-8bbb-02947c21c4a6</id>
+      <name>Sympathetic Consciousness</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>Rating * 40000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <rating>2</rating>
+	  <bonus>
+	<!--Something something I don't know how to do the JI bonus-->
+      </bonus>
+	  <forbidden>
+        <oneof>
+          <cyberware>Coherent Neuroconnectivity</cyberware>
+		  <cyberware>Quantum Subroutines</cyberware>
+		  <cyberware>Discretionary Fragmentation</cyberware>
+		  <cyberware>The Infinite Archives</cyberware>
+        </oneof>
+      </forbidden>
+    </cyberware>
+	<cyberware>
+      <id>9998312a-6440-4c46-a699-bb9e7a1da5af</id>
+      <name>Discretionary Fragmentation</name>
+      <category>Codemods</category>
+      <ess>0.5</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>80000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <forbidden>
+        <oneof>
+          <cyberware>Coherent Neuroconnectivity</cyberware>
+		  <cyberware>Quantum Subroutines</cyberware>
+		  <cyberware>Sympathetic Consciousness</cyberware>
+		  <cyberware>The Infinite Archives</cyberware>
+        </oneof>
+      </forbidden>
+    </cyberware>
+	<cyberware>
+      <id>3aea97f0-cc43-48bf-b81b-e4922b6620aa</id>
+      <name>The Infinite Archives</name>
+      <category>Codemods</category>
+      <ess>0.5</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>80000</cost>
+      <source>SR5</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+	  <forbidden>
+        <oneof>
+          <cyberware>Coherent Neuroconnectivity</cyberware>
+		  <cyberware>Quantum Subroutines</cyberware>
+		  <cyberware>Sympathetic Consciousness</cyberware>
+		  <cyberware>Discretionary Fragmentation</cyberware>
+        </oneof>
+      </forbidden>
+    </cyberware>
+
+
   </cyberwares>
 </chummer>
