@@ -310,10 +310,10 @@
     <!-- Region Talents -->
     <priority xpathfilter="contains(category, 'Talent')">
       <talents>
-        <talent xpathfilter="contains(name,'Depth')">
+        <talent xpathfilter="contains(name,'Magic')">
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>AI</metatype>
             </oneof>
           </forbidden>
         </talent>

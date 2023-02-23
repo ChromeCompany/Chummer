@@ -83,7 +83,7 @@
       </metatypes>
 	  <metatypes amendoperation="append">
 	    <metatype>
-		  <name>A.I.</name>
+		  <name>AI</name>
 		  <value>8</value>
 		  <karma>0</karma>
 		  <metavariants>
@@ -166,7 +166,7 @@
       </metatypes>
 	  <metatypes amendoperation="append">
 	    <metatype>
-		  <name>A.I.</name>
+		  <name>AI</name>
 		  <value>6</value>
 		  <karma>0</karma>
 		  <metavariants>
@@ -250,7 +250,7 @@
           </metavariants>
         </metatype>
 		<metatype>
-		  <name>A.I.</name>
+		  <name>AI</name>
 		  <value>3</value>
 		  <karma>0</karma>
 		  <metavariants>
@@ -300,7 +300,7 @@
           </metavariants>
         </metatype>
 		<metatype>
-		  <name>A.I.</name>
+		  <name>AI</name>
 		  <value>0</value>
 		  <karma>0</karma>
 		</metatype>
@@ -313,7 +313,7 @@
         <talent xpathfilter="contains(name,'Depth')">
           <forbidden>
             <oneof>
-              <metatype>A.I.</metatype>
+              <metatype>AI</metatype>
             </oneof>
           </forbidden>
         </talent>
