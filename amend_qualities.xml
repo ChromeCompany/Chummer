@@ -2453,30 +2453,7 @@
       <name>Gossipmonger</name>
       <karma>5</karma>
       <category>Positive</category>
-      <source>SR5</source>
-      <page>0</page>
-    </quality>
-    <!-- Pure homebrew qualities -->
-    <quality>
-      <id>e6dc258d-9c8d-4761-952c-ac0b7bfd0495</id>
-      <name>Direction Impaired</name>
-      <karma>-5</karma>
-      <category>Negative</category>
-      <bonus>
-        <specificskill>
-          <name>Navigation</name>
-          <bonus>-2</bonus>
-        </specificskill>
-      </bonus>
-      <source>SR5</source>
-      <page>0</page>
-    </quality>
-    <quality>
-      <id>de3c4987-5727-47ee-bcd5-edc3f79b1d9d</id>
-      <name>Clinical Depression</name>
-      <karma>-10</karma>
-      <category>Negative</category>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
     </quality>
        <!-- Pure homebrew qualities -->
