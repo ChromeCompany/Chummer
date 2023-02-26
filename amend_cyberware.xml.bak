@@ -1467,6 +1467,14 @@
           <bonus>Rating</bonus>
         </skillgroup>
       </bonus>
+	  <forbidden>
+        <oneof>
+		  <cyberware>Quantum Subroutines</cyberware>
+		  <cyberware>Discretionary Fragmentation</cyberware>
+		  <cyberware>Sympathetic Consciousness</cyberware>
+		  <cyberware>The Infinite Archives</cyberware>
+        </oneof>
+      </forbidden>
     </cyberware>
 	<cyberware>
       <id>54f422fd-8b7c-4c6f-a1df-9f8f3ba88c8a</id>
@@ -1484,6 +1492,14 @@
         </oneof>
       </required>
 	  <rating>2</rating>
+	  <forbidden>
+        <oneof>
+          <cyberware>Coherent Neuroconnectivity</cyberware>
+		  <cyberware>Discretionary Fragmentation</cyberware>
+		  <cyberware>Sympathetic Consciousness</cyberware>
+		  <cyberware>The Infinite Archives</cyberware>
+        </oneof>
+      </forbidden>
     </cyberware>
 	<cyberware>
       <id>1097c0cf-d70d-4eee-8bbb-02947c21c4a6</id>
@@ -1504,6 +1520,14 @@
 	  <bonus>
 	<!--Something something I don't know how to do the JI bonus-->
       </bonus>
+	  <forbidden>
+        <oneof>
+          <cyberware>Coherent Neuroconnectivity</cyberware>
+		  <cyberware>Quantum Subroutines</cyberware>
+		  <cyberware>Discretionary Fragmentation</cyberware>
+		  <cyberware>The Infinite Archives</cyberware>
+        </oneof>
+      </forbidden>
     </cyberware>
 	<cyberware>
       <id>9998312a-6440-4c46-a699-bb9e7a1da5af</id>
@@ -1520,6 +1544,14 @@
           <metatype>AI</metatype>
         </oneof>
       </required>
+	  <forbidden>
+        <oneof>
+          <cyberware>Coherent Neuroconnectivity</cyberware>
+		  <cyberware>Quantum Subroutines</cyberware>
+		  <cyberware>Sympathetic Consciousness</cyberware>
+		  <cyberware>The Infinite Archives</cyberware>
+        </oneof>
+      </forbidden>
     </cyberware>
 	<cyberware>
       <id>3aea97f0-cc43-48bf-b81b-e4922b6620aa</id>
@@ -1536,16 +1568,15 @@
           <metatype>AI</metatype>
         </oneof>
       </required>
-    </cyberware>
-	
 	  <forbidden>
         <oneof>
           <cyberware>Coherent Neuroconnectivity</cyberware>
 		  <cyberware>Quantum Subroutines</cyberware>
 		  <cyberware>Sympathetic Consciousness</cyberware>
-		  <cyberware>The Infinite Archives</cyberware>
+		  <cyberware>Discretionary Fragmentation</cyberware>
         </oneof>
       </forbidden>
+    </cyberware>
 
 
   </cyberwares>
