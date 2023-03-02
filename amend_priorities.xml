@@ -320,6 +320,27 @@
       </talents>
     </priority>
     <priority>
+      <id>b97be625-a732-4c3c-80e4-06c4d88bac91</id>
+      <name>D - Adept, Aspected Magician or EI</name>
+      <talents amendoperation="append">
+        <talent>
+          <name>Technomancer - 1 Resonance</name>
+          <value>Technomancer</value>
+          <qualities>
+            <quality>Technomancer</quality>
+          </qualities>
+          <resonance>1</resonance>
+          <cfp>1</cfp>
+          <skilltype>resonance</skilltype>
+          <required>
+            <oneof>
+              <metatype>AI</metatype>
+            </oneof>
+          </required>
+        </talent>
+      </talents>
+    </priority>
+    <priority>
       <name>E - Mundane</name>
       <talents amendoperation="replace">
         <talent>
