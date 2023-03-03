@@ -1060,7 +1060,14 @@
   </quality>
 	<!-- End Region -->
   <!-- Region Data Trails -->
-  
+  <!-- Changes all the AI qualities to the new AI-->
+  <quality xpathfilter="contains(source, 'DT')">
+    <required>
+      <oneof xpathfilter="contains(metatype, 'A.I.')">
+        <metatype>AI</metatype>
+      </oneof>
+    </required>
+  </quality>
   <!-- End Region -->
 	<!-- Region Better Than Bad -->
 	<quality>
