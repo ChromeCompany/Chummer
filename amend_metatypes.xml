@@ -283,14 +283,17 @@
           <quality>Resonant Discordance</quality>
           <quality>Sprite Affinity</quality>
           <quality>Chrome Company</quality>
+          <quality>Redundancy (Core)</quality>
+          <quality>Redundancy (LP)</quality>
+          <quality>Shadows of the Matrix</quality>
         </positive>
         <negative>
+          <quality>'Ware Intolerance</quality>
           <quality>Accident Prone</quality>
+          <quality>Addiction (Burnout)</quality>
           <quality>Addiction (Mild)</quality>
           <quality>Addiction (Moderate)</quality>
           <quality>Addiction (Severe)</quality>
-          <quality>Addiction (Burnout)</quality>
-          <quality>Antipathy</quality>
           <quality>AIPS</quality>
           <quality>Alpha Junkie</quality>
           <quality>Antipathy</quality>
@@ -301,29 +304,40 @@
           <quality>Big Baby</quality>
           <quality>Big Regret</quality>
           <quality>Bipolar</quality>
+          <quality>Brittle [Attack]</quality>
+          <quality>Brittle [Data Processing]</quality>
+          <quality>Brittle [Firewall]</quality>
+          <quality>Brittle [Sleaze]</quality>
           <quality>Buddy System</quality>
           <quality>Buggy 'Ware</quality>
           <quality>Busted Cyberware</quality>
           <quality>Chronic Dissociation Syndrome</quality>
           <quality>Clinical Depression</quality>
-          <quality>Code of Honor</quality>
           <quality>Codeblock</quality>
+          <quality>Code of Honor: Avenging Angel</quality>
+          <quality>Code of Honor: Like a Boss</quality>
+          <quality>Code of Honor</quality>
           <quality>Combat Junkie</quality>
           <quality>Combat Paralysis</quality>
           <quality>Consummate Professional</quality>
           <quality>Corporate Pariah I</quality>
           <quality>Corporate Pariah II</quality>
-          <quality>Creature of Comfort (Middle)</quality>
+          <quality>Corrupter</quality>
           <quality>Creature of Comfort (High)</quality>
           <quality>Creature of Comfort (Luxury)</quality>
+          <quality>Creature of Comfort (Middle)</quality>
           <quality>Curiosity Killed the Cat</quality>
-          <quality>Cyberpsychosis</quality>
           <quality>Cyber-snob</quality>
+          <quality>Cyberpsychosis</quality>
           <quality>Data Hog</quality>
           <quality>Data Liberator</quality>
+          <quality>Day Job (10 hrs)</quality>
           <quality>Day Job (10 hrs</quality>
+          <quality>Day Job (20 hrs)</quality>
           <quality>Day Job (20 hrs</quality>
+          <quality>Day Job (40 hrs)</quality>
           <quality>Day Job (40 hrs</quality>
+          <quality>Decaying Dissonance</quality>
           <quality>Dependent (Demanding)</quality>
           <quality>Dependent (Inconvenience)</quality>
           <quality>Dependent (Nuisance)</quality>
@@ -336,14 +350,15 @@
           <quality>Distinctive Style</quality>
           <quality>Down the Rabbit Hole</quality>
           <quality>Driven</quality>
+          <quality>Dry Addict (Burnout)</quality>
           <quality>Dry Addict (Mild)</quality>
           <quality>Dry Addict (Moderate)</quality>
           <quality>Dry Addict (Severe)</quality>
-          <quality>Dry Addict (Burnout)</quality>
           <quality>Earther</quality>
+          <quality>Easily Exploitable</quality>
           <quality>Electronic Witness</quality>
-          <quality>Emotion Leak</quality>
           <quality>Emotional Attachment</quality>
+          <quality>Emotion Leak</quality>
           <quality>Escaped Custody</quality>
           <quality>Every Man For Himself</quality>
           <quality>Ex-Con</quality>
@@ -356,6 +371,7 @@
           <quality>Flashbacks I</quality>
           <quality>Flashbacks II</quality>
           <quality>Force of Chaos</quality>
+          <quality>Fragmentation</quality>
           <quality>Frostbite</quality>
           <quality>Gremlins</quality>
           <quality>Hallucinations</quality>
@@ -381,11 +397,12 @@
           <quality>Oblivious I</quality>
           <quality>Oblivious II</quality>
           <quality>Obsessive-Compulsive Disorder</quality>
-          <quality>On the Wagon</quality>
           <quality>One Born Every Minute</quality>
+          <quality>On the Wagon</quality>
           <quality>Pacifist I</quality>
           <quality>Pacifist II</quality>
           <quality>Paranoia</quality>
+          <quality>Persnickety Renter</quality>
           <quality>Phobia (Common, Mild)</quality>
           <quality>Phobia (Common, Moderate)</quality>
           <quality>Phobia (Common, Severe)</quality>
@@ -409,41 +426,42 @@
           <quality>Poor Self Control (Thrill Seeker)</quality>
           <quality>Poor Self Control (Vindictive)</quality>
           <quality>Prank Warrior</quality>
+          <quality>Prejudiced (Common, Biased)</quality>
           <quality>Prejudiced (Common, Biased</quality>
           <quality>Prejudiced (Common, Outspoken)</quality>
           <quality>Prejudiced (Common, Radical)</quality>
           <quality>Prejudiced (Specific, Biased)</quality>
           <quality>Prejudiced (Specific, Outspoken)</quality>
           <quality>Prejudiced (Specific, Radical)</quality>
+          <quality>Real World Naiveté</quality>
           <quality>Records on File</quality>
+          <quality>Resonant Burnout</quality>
           <quality>Signature</quality>
           <quality>SINner (Corporate)</quality>
+          <quality>SINner (Corporate Limited)</quality>
           <quality>SINner (Criminal)</quality>
           <quality>SINner (National)</quality>
-          <quality>SINner (Corporate Limited)</quality>
           <quality>Sloppy Code</quality>
           <quality>Social Appearance Anxiety</quality>
           <quality>Social Stress</quality>
+          <quality>Sprite Combustion</quality>
           <quality>Superhuman Psychosis</quality>
+          <quality>Taint of Dissonance</quality>
           <quality>The Goat</quality>
           <quality>Thousand-Yard Stare</quality>
           <quality>Too Much Data</quality>
           <quality>Ugly And Doesn't Care</quality>
           <quality>Uncouth</quality>
+          <quality>Uneducated</quality>
           <quality>Vendetta</quality>
           <quality>Wanted</quality>
           <quality>Wanted by GOD</quality>
-          <quality>'Ware Intolerance</quality>
           <quality>Well, Actually...</quality>
           <quality>Wired User</quality>
-          <quality>Brittle [Attack]</quality>
-          <quality>Brittle [Sleaze]</quality>
-          <quality>Brittle [Data Processing]</quality>
-          <quality>Brittle [Firewall]</quality>
-          <quality>Decaying Dissonance</quality>
-          <quality>Resonant Burnout</quality>
-          <quality>Sprite Combustion</quality>
-          <quality>Taint of Dissonance</quality>
+          <quality>Cascading Failure</quality>
+          <quality>Doomscrolling</quality>
+          <quality>Invalid Inferences</quality>
+          <quality>Out Of Memory Exception</quality>
         </negative>
       </qualityrestriction>
       <movement>Special</movement>
@@ -665,14 +683,17 @@
           <quality>Resonant Discordance</quality>
           <quality>Sprite Affinity</quality>
           <quality>Chrome Company</quality>
+          <quality>Redundancy (Core)</quality>
+          <quality>Redundancy (LP)</quality>
+          <quality>Shadows of the Matrix</quality>
         </positive>
         <negative>
+          <quality>'Ware Intolerance</quality>
           <quality>Accident Prone</quality>
+          <quality>Addiction (Burnout)</quality>
           <quality>Addiction (Mild)</quality>
           <quality>Addiction (Moderate)</quality>
           <quality>Addiction (Severe)</quality>
-          <quality>Addiction (Burnout)</quality>
-          <quality>Antipathy</quality>
           <quality>AIPS</quality>
           <quality>Alpha Junkie</quality>
           <quality>Antipathy</quality>
@@ -683,29 +704,40 @@
           <quality>Big Baby</quality>
           <quality>Big Regret</quality>
           <quality>Bipolar</quality>
+          <quality>Brittle [Attack]</quality>
+          <quality>Brittle [Data Processing]</quality>
+          <quality>Brittle [Firewall]</quality>
+          <quality>Brittle [Sleaze]</quality>
           <quality>Buddy System</quality>
           <quality>Buggy 'Ware</quality>
           <quality>Busted Cyberware</quality>
           <quality>Chronic Dissociation Syndrome</quality>
           <quality>Clinical Depression</quality>
-          <quality>Code of Honor</quality>
           <quality>Codeblock</quality>
+          <quality>Code of Honor: Avenging Angel</quality>
+          <quality>Code of Honor: Like a Boss</quality>
+          <quality>Code of Honor</quality>
           <quality>Combat Junkie</quality>
           <quality>Combat Paralysis</quality>
           <quality>Consummate Professional</quality>
           <quality>Corporate Pariah I</quality>
           <quality>Corporate Pariah II</quality>
-          <quality>Creature of Comfort (Middle)</quality>
+          <quality>Corrupter</quality>
           <quality>Creature of Comfort (High)</quality>
           <quality>Creature of Comfort (Luxury)</quality>
+          <quality>Creature of Comfort (Middle)</quality>
           <quality>Curiosity Killed the Cat</quality>
-          <quality>Cyberpsychosis</quality>
           <quality>Cyber-snob</quality>
+          <quality>Cyberpsychosis</quality>
           <quality>Data Hog</quality>
           <quality>Data Liberator</quality>
+          <quality>Day Job (10 hrs)</quality>
           <quality>Day Job (10 hrs</quality>
+          <quality>Day Job (20 hrs)</quality>
           <quality>Day Job (20 hrs</quality>
+          <quality>Day Job (40 hrs)</quality>
           <quality>Day Job (40 hrs</quality>
+          <quality>Decaying Dissonance</quality>
           <quality>Dependent (Demanding)</quality>
           <quality>Dependent (Inconvenience)</quality>
           <quality>Dependent (Nuisance)</quality>
@@ -718,14 +750,15 @@
           <quality>Distinctive Style</quality>
           <quality>Down the Rabbit Hole</quality>
           <quality>Driven</quality>
+          <quality>Dry Addict (Burnout)</quality>
           <quality>Dry Addict (Mild)</quality>
           <quality>Dry Addict (Moderate)</quality>
           <quality>Dry Addict (Severe)</quality>
-          <quality>Dry Addict (Burnout)</quality>
           <quality>Earther</quality>
+          <quality>Easily Exploitable</quality>
           <quality>Electronic Witness</quality>
-          <quality>Emotion Leak</quality>
           <quality>Emotional Attachment</quality>
+          <quality>Emotion Leak</quality>
           <quality>Escaped Custody</quality>
           <quality>Every Man For Himself</quality>
           <quality>Ex-Con</quality>
@@ -738,6 +771,7 @@
           <quality>Flashbacks I</quality>
           <quality>Flashbacks II</quality>
           <quality>Force of Chaos</quality>
+          <quality>Fragmentation</quality>
           <quality>Frostbite</quality>
           <quality>Gremlins</quality>
           <quality>Hallucinations</quality>
@@ -763,11 +797,12 @@
           <quality>Oblivious I</quality>
           <quality>Oblivious II</quality>
           <quality>Obsessive-Compulsive Disorder</quality>
-          <quality>On the Wagon</quality>
           <quality>One Born Every Minute</quality>
+          <quality>On the Wagon</quality>
           <quality>Pacifist I</quality>
           <quality>Pacifist II</quality>
           <quality>Paranoia</quality>
+          <quality>Persnickety Renter</quality>
           <quality>Phobia (Common, Mild)</quality>
           <quality>Phobia (Common, Moderate)</quality>
           <quality>Phobia (Common, Severe)</quality>
@@ -791,84 +826,42 @@
           <quality>Poor Self Control (Thrill Seeker)</quality>
           <quality>Poor Self Control (Vindictive)</quality>
           <quality>Prank Warrior</quality>
+          <quality>Prejudiced (Common, Biased)</quality>
           <quality>Prejudiced (Common, Biased</quality>
           <quality>Prejudiced (Common, Outspoken)</quality>
           <quality>Prejudiced (Common, Radical)</quality>
           <quality>Prejudiced (Specific, Biased)</quality>
           <quality>Prejudiced (Specific, Outspoken)</quality>
           <quality>Prejudiced (Specific, Radical)</quality>
+          <quality>Real World Naiveté</quality>
           <quality>Records on File</quality>
+          <quality>Resonant Burnout</quality>
           <quality>Signature</quality>
           <quality>SINner (Corporate)</quality>
+          <quality>SINner (Corporate Limited)</quality>
           <quality>SINner (Criminal)</quality>
           <quality>SINner (National)</quality>
-          <quality>SINner (Corporate Limited)</quality>
           <quality>Sloppy Code</quality>
           <quality>Social Appearance Anxiety</quality>
           <quality>Social Stress</quality>
+          <quality>Sprite Combustion</quality>
           <quality>Superhuman Psychosis</quality>
+          <quality>Taint of Dissonance</quality>
           <quality>The Goat</quality>
           <quality>Thousand-Yard Stare</quality>
           <quality>Too Much Data</quality>
           <quality>Ugly And Doesn't Care</quality>
           <quality>Uncouth</quality>
+          <quality>Uneducated</quality>
           <quality>Vendetta</quality>
           <quality>Wanted</quality>
           <quality>Wanted by GOD</quality>
-          <quality>'Ware Intolerance</quality>
           <quality>Well, Actually...</quality>
           <quality>Wired User</quality>
-          <quality>Brittle [Attack]</quality>
-          <quality>Brittle [Sleaze]</quality>
-          <quality>Brittle [Data Processing]</quality>
-          <quality>Brittle [Firewall]</quality>
-          <quality>Decaying Dissonance</quality>
-          <quality>Resonant Burnout</quality>
-          <quality>Sprite Combustion</quality>
-          <quality>Taint of Dissonance</quality>
-		  <quality>Bad Luck</quality>
-		  <quality>Bad Rep</quality>
-		  <quality>Code of Honor</quality>
-		  <quality>Code of Honor: Like a Boss</quality>
-		  <quality>Code of Honor: Avenging Angel</quality>
-		  <quality>Codeblock</quality>
-		  <quality>Combat Paralysis</quality>
-		  <quality>Corrupter</quality>
-		  <quality>Curiosity Killed the Cat</quality>
-		  <quality>Data Liberator</quality>
-		  <quality>Day Job (10 hrs)</quality>
-		  <quality>Day Job (20 hrs)</quality>
-		  <quality>Day Job (40 hrs)</quality>
-		  <quality>Did You Just Call Me Dumb?</quality>
-		  <quality>Distinctive Style</quality>
-		  <quality>Driven</quality>
-		  <quality>Easily Exploitable</quality>
-		  <quality>Fragmentation</quality>
-		  <quality>Incompetent</quality>
-		  <quality>Loss of Confidence</quality>
-		  <quality>Low Pain Tolerance</quality>
-		  <quality>Pacifist I</quality>
-		  <quality>Pacifist II</quality>
-		  <quality>Persnickety Renter</quality>
-		  <quality>Prank Warrior</quality>
-		  <quality>Prejudiced (Common, Biased)</quality>
-		  <quality>Prejudiced (Common, Outspoken)</quality>
-		  <quality>Prejudiced (Common, Radical)</quality>
-		  <quality>Prejudiced (Specific, Biased)</quality>
-		  <quality>Prejudiced (Specific, Outspoken)</quality>
-		  <quality>Prejudiced (Specific, Radical)</quality>
-		  <quality>Real World Naiveté</quality>
-		  <quality>Records on File</quality>
-		  <quality>Signature</quality>
-		  <quality>SINner (Corporate Limited)</quality>
-		  <quality>SINner (Corporate)</quality>
-		  <quality>SINner (Criminal)</quality>
-		  <quality>SINner (National)</quality>
-		  <quality>Uncouth</quality>
-		  <quality>Uneducated</quality>
-		  <quality>Vendetta</quality>
-		  <quality>Wanted</quality>
-		  <quality>Wanted by GOD</quality>
+          <quality>Cascading Failure</quality>
+          <quality>Doomscrolling</quality>
+          <quality>Invalid Inferences</quality>
+          <quality>Out Of Memory Exception</quality>
 		</negative>
 		  </qualityrestriction>
 		  <movement>Special</movement>
@@ -1092,14 +1085,17 @@
           <quality>Resonant Discordance</quality>
           <quality>Sprite Affinity</quality>
           <quality>Chrome Company</quality>
+          <quality>Redundancy (Core)</quality>
+          <quality>Redundancy (LP)</quality>
+          <quality>Shadows of the Matrix</quality>
         </positive>
         <negative>
+          <quality>'Ware Intolerance</quality>
           <quality>Accident Prone</quality>
+          <quality>Addiction (Burnout)</quality>
           <quality>Addiction (Mild)</quality>
           <quality>Addiction (Moderate)</quality>
           <quality>Addiction (Severe)</quality>
-          <quality>Addiction (Burnout)</quality>
-          <quality>Antipathy</quality>
           <quality>AIPS</quality>
           <quality>Alpha Junkie</quality>
           <quality>Antipathy</quality>
@@ -1110,29 +1106,40 @@
           <quality>Big Baby</quality>
           <quality>Big Regret</quality>
           <quality>Bipolar</quality>
+          <quality>Brittle [Attack]</quality>
+          <quality>Brittle [Data Processing]</quality>
+          <quality>Brittle [Firewall]</quality>
+          <quality>Brittle [Sleaze]</quality>
           <quality>Buddy System</quality>
           <quality>Buggy 'Ware</quality>
           <quality>Busted Cyberware</quality>
           <quality>Chronic Dissociation Syndrome</quality>
           <quality>Clinical Depression</quality>
-          <quality>Code of Honor</quality>
           <quality>Codeblock</quality>
+          <quality>Code of Honor: Avenging Angel</quality>
+          <quality>Code of Honor: Like a Boss</quality>
+          <quality>Code of Honor</quality>
           <quality>Combat Junkie</quality>
           <quality>Combat Paralysis</quality>
           <quality>Consummate Professional</quality>
           <quality>Corporate Pariah I</quality>
           <quality>Corporate Pariah II</quality>
-          <quality>Creature of Comfort (Middle)</quality>
+          <quality>Corrupter</quality>
           <quality>Creature of Comfort (High)</quality>
           <quality>Creature of Comfort (Luxury)</quality>
+          <quality>Creature of Comfort (Middle)</quality>
           <quality>Curiosity Killed the Cat</quality>
-          <quality>Cyberpsychosis</quality>
           <quality>Cyber-snob</quality>
+          <quality>Cyberpsychosis</quality>
           <quality>Data Hog</quality>
           <quality>Data Liberator</quality>
+          <quality>Day Job (10 hrs)</quality>
           <quality>Day Job (10 hrs</quality>
+          <quality>Day Job (20 hrs)</quality>
           <quality>Day Job (20 hrs</quality>
+          <quality>Day Job (40 hrs)</quality>
           <quality>Day Job (40 hrs</quality>
+          <quality>Decaying Dissonance</quality>
           <quality>Dependent (Demanding)</quality>
           <quality>Dependent (Inconvenience)</quality>
           <quality>Dependent (Nuisance)</quality>
@@ -1145,14 +1152,15 @@
           <quality>Distinctive Style</quality>
           <quality>Down the Rabbit Hole</quality>
           <quality>Driven</quality>
+          <quality>Dry Addict (Burnout)</quality>
           <quality>Dry Addict (Mild)</quality>
           <quality>Dry Addict (Moderate)</quality>
           <quality>Dry Addict (Severe)</quality>
-          <quality>Dry Addict (Burnout)</quality>
           <quality>Earther</quality>
+          <quality>Easily Exploitable</quality>
           <quality>Electronic Witness</quality>
-          <quality>Emotion Leak</quality>
           <quality>Emotional Attachment</quality>
+          <quality>Emotion Leak</quality>
           <quality>Escaped Custody</quality>
           <quality>Every Man For Himself</quality>
           <quality>Ex-Con</quality>
@@ -1165,6 +1173,7 @@
           <quality>Flashbacks I</quality>
           <quality>Flashbacks II</quality>
           <quality>Force of Chaos</quality>
+          <quality>Fragmentation</quality>
           <quality>Frostbite</quality>
           <quality>Gremlins</quality>
           <quality>Hallucinations</quality>
@@ -1190,11 +1199,12 @@
           <quality>Oblivious I</quality>
           <quality>Oblivious II</quality>
           <quality>Obsessive-Compulsive Disorder</quality>
-          <quality>On the Wagon</quality>
           <quality>One Born Every Minute</quality>
+          <quality>On the Wagon</quality>
           <quality>Pacifist I</quality>
           <quality>Pacifist II</quality>
           <quality>Paranoia</quality>
+          <quality>Persnickety Renter</quality>
           <quality>Phobia (Common, Mild)</quality>
           <quality>Phobia (Common, Moderate)</quality>
           <quality>Phobia (Common, Severe)</quality>
@@ -1218,84 +1228,42 @@
           <quality>Poor Self Control (Thrill Seeker)</quality>
           <quality>Poor Self Control (Vindictive)</quality>
           <quality>Prank Warrior</quality>
+          <quality>Prejudiced (Common, Biased)</quality>
           <quality>Prejudiced (Common, Biased</quality>
           <quality>Prejudiced (Common, Outspoken)</quality>
           <quality>Prejudiced (Common, Radical)</quality>
           <quality>Prejudiced (Specific, Biased)</quality>
           <quality>Prejudiced (Specific, Outspoken)</quality>
           <quality>Prejudiced (Specific, Radical)</quality>
+          <quality>Real World Naiveté</quality>
           <quality>Records on File</quality>
+          <quality>Resonant Burnout</quality>
           <quality>Signature</quality>
           <quality>SINner (Corporate)</quality>
+          <quality>SINner (Corporate Limited)</quality>
           <quality>SINner (Criminal)</quality>
           <quality>SINner (National)</quality>
-          <quality>SINner (Corporate Limited)</quality>
           <quality>Sloppy Code</quality>
           <quality>Social Appearance Anxiety</quality>
           <quality>Social Stress</quality>
+          <quality>Sprite Combustion</quality>
           <quality>Superhuman Psychosis</quality>
+          <quality>Taint of Dissonance</quality>
           <quality>The Goat</quality>
           <quality>Thousand-Yard Stare</quality>
           <quality>Too Much Data</quality>
           <quality>Ugly And Doesn't Care</quality>
           <quality>Uncouth</quality>
+          <quality>Uneducated</quality>
           <quality>Vendetta</quality>
           <quality>Wanted</quality>
           <quality>Wanted by GOD</quality>
-          <quality>'Ware Intolerance</quality>
           <quality>Well, Actually...</quality>
           <quality>Wired User</quality>
-          <quality>Brittle [Attack]</quality>
-          <quality>Brittle [Sleaze]</quality>
-          <quality>Brittle [Data Processing]</quality>
-          <quality>Brittle [Firewall]</quality>
-          <quality>Decaying Dissonance</quality>
-          <quality>Resonant Burnout</quality>
-          <quality>Sprite Combustion</quality>
-          <quality>Taint of Dissonance</quality>
-		  <quality>Bad Luck</quality>
-		  <quality>Bad Rep</quality>
-		  <quality>Code of Honor</quality>
-		  <quality>Code of Honor: Like a Boss</quality>
-		  <quality>Code of Honor: Avenging Angel</quality>
-		  <quality>Codeblock</quality>
-		  <quality>Combat Paralysis</quality>
-		  <quality>Corrupter</quality>
-		  <quality>Curiosity Killed the Cat</quality>
-		  <quality>Data Liberator</quality>
-		  <quality>Day Job (10 hrs)</quality>
-		  <quality>Day Job (20 hrs)</quality>
-		  <quality>Day Job (40 hrs)</quality>
-		  <quality>Did You Just Call Me Dumb?</quality>
-		  <quality>Distinctive Style</quality>
-		  <quality>Driven</quality>
-		  <quality>Easily Exploitable</quality>
-		  <quality>Fragmentation</quality>
-		  <quality>Incompetent</quality>
-		  <quality>Loss of Confidence</quality>
-		  <quality>Low Pain Tolerance</quality>
-		  <quality>Pacifist I</quality>
-		  <quality>Pacifist II</quality>
-		  <quality>Persnickety Renter</quality>
-		  <quality>Prank Warrior</quality>
-		  <quality>Prejudiced (Common, Biased)</quality>
-		  <quality>Prejudiced (Common, Outspoken)</quality>
-		  <quality>Prejudiced (Common, Radical)</quality>
-		  <quality>Prejudiced (Specific, Biased)</quality>
-		  <quality>Prejudiced (Specific, Outspoken)</quality>
-		  <quality>Prejudiced (Specific, Radical)</quality>
-		  <quality>Real World Naiveté</quality>
-		  <quality>Records on File</quality>
-		  <quality>Signature</quality>
-		  <quality>SINner (Corporate Limited)</quality>
-		  <quality>SINner (Corporate)</quality>
-		  <quality>SINner (Criminal)</quality>
-		  <quality>SINner (National)</quality>
-		  <quality>Uncouth</quality>
-		  <quality>Uneducated</quality>
-		  <quality>Vendetta</quality>
-		  <quality>Wanted</quality>
-		  <quality>Wanted by GOD</quality>
+          <quality>Cascading Failure</quality>
+          <quality>Doomscrolling</quality>
+          <quality>Invalid Inferences</quality>
+          <quality>Out Of Memory Exception</quality>
 		</negative>
 		  </qualityrestriction>
 		  <movement>Special</movement>
@@ -1518,14 +1486,17 @@
           <quality>Resonant Discordance</quality>
           <quality>Sprite Affinity</quality>
           <quality>Chrome Company</quality>
+          <quality>Redundancy (Core)</quality>
+          <quality>Redundancy (LP)</quality>
+          <quality>Shadows of the Matrix</quality>
         </positive>
         <negative>
+          <quality>'Ware Intolerance</quality>
           <quality>Accident Prone</quality>
+          <quality>Addiction (Burnout)</quality>
           <quality>Addiction (Mild)</quality>
           <quality>Addiction (Moderate)</quality>
           <quality>Addiction (Severe)</quality>
-          <quality>Addiction (Burnout)</quality>
-          <quality>Antipathy</quality>
           <quality>AIPS</quality>
           <quality>Alpha Junkie</quality>
           <quality>Antipathy</quality>
@@ -1536,29 +1507,40 @@
           <quality>Big Baby</quality>
           <quality>Big Regret</quality>
           <quality>Bipolar</quality>
+          <quality>Brittle [Attack]</quality>
+          <quality>Brittle [Data Processing]</quality>
+          <quality>Brittle [Firewall]</quality>
+          <quality>Brittle [Sleaze]</quality>
           <quality>Buddy System</quality>
           <quality>Buggy 'Ware</quality>
           <quality>Busted Cyberware</quality>
           <quality>Chronic Dissociation Syndrome</quality>
           <quality>Clinical Depression</quality>
-          <quality>Code of Honor</quality>
           <quality>Codeblock</quality>
+          <quality>Code of Honor: Avenging Angel</quality>
+          <quality>Code of Honor: Like a Boss</quality>
+          <quality>Code of Honor</quality>
           <quality>Combat Junkie</quality>
           <quality>Combat Paralysis</quality>
           <quality>Consummate Professional</quality>
           <quality>Corporate Pariah I</quality>
           <quality>Corporate Pariah II</quality>
-          <quality>Creature of Comfort (Middle)</quality>
+          <quality>Corrupter</quality>
           <quality>Creature of Comfort (High)</quality>
           <quality>Creature of Comfort (Luxury)</quality>
+          <quality>Creature of Comfort (Middle)</quality>
           <quality>Curiosity Killed the Cat</quality>
-          <quality>Cyberpsychosis</quality>
           <quality>Cyber-snob</quality>
+          <quality>Cyberpsychosis</quality>
           <quality>Data Hog</quality>
           <quality>Data Liberator</quality>
+          <quality>Day Job (10 hrs)</quality>
           <quality>Day Job (10 hrs</quality>
+          <quality>Day Job (20 hrs)</quality>
           <quality>Day Job (20 hrs</quality>
+          <quality>Day Job (40 hrs)</quality>
           <quality>Day Job (40 hrs</quality>
+          <quality>Decaying Dissonance</quality>
           <quality>Dependent (Demanding)</quality>
           <quality>Dependent (Inconvenience)</quality>
           <quality>Dependent (Nuisance)</quality>
@@ -1571,14 +1553,15 @@
           <quality>Distinctive Style</quality>
           <quality>Down the Rabbit Hole</quality>
           <quality>Driven</quality>
+          <quality>Dry Addict (Burnout)</quality>
           <quality>Dry Addict (Mild)</quality>
           <quality>Dry Addict (Moderate)</quality>
           <quality>Dry Addict (Severe)</quality>
-          <quality>Dry Addict (Burnout)</quality>
           <quality>Earther</quality>
+          <quality>Easily Exploitable</quality>
           <quality>Electronic Witness</quality>
-          <quality>Emotion Leak</quality>
           <quality>Emotional Attachment</quality>
+          <quality>Emotion Leak</quality>
           <quality>Escaped Custody</quality>
           <quality>Every Man For Himself</quality>
           <quality>Ex-Con</quality>
@@ -1591,6 +1574,7 @@
           <quality>Flashbacks I</quality>
           <quality>Flashbacks II</quality>
           <quality>Force of Chaos</quality>
+          <quality>Fragmentation</quality>
           <quality>Frostbite</quality>
           <quality>Gremlins</quality>
           <quality>Hallucinations</quality>
@@ -1616,11 +1600,12 @@
           <quality>Oblivious I</quality>
           <quality>Oblivious II</quality>
           <quality>Obsessive-Compulsive Disorder</quality>
-          <quality>On the Wagon</quality>
           <quality>One Born Every Minute</quality>
+          <quality>On the Wagon</quality>
           <quality>Pacifist I</quality>
           <quality>Pacifist II</quality>
           <quality>Paranoia</quality>
+          <quality>Persnickety Renter</quality>
           <quality>Phobia (Common, Mild)</quality>
           <quality>Phobia (Common, Moderate)</quality>
           <quality>Phobia (Common, Severe)</quality>
@@ -1644,84 +1629,42 @@
           <quality>Poor Self Control (Thrill Seeker)</quality>
           <quality>Poor Self Control (Vindictive)</quality>
           <quality>Prank Warrior</quality>
+          <quality>Prejudiced (Common, Biased)</quality>
           <quality>Prejudiced (Common, Biased</quality>
           <quality>Prejudiced (Common, Outspoken)</quality>
           <quality>Prejudiced (Common, Radical)</quality>
           <quality>Prejudiced (Specific, Biased)</quality>
           <quality>Prejudiced (Specific, Outspoken)</quality>
           <quality>Prejudiced (Specific, Radical)</quality>
+          <quality>Real World Naiveté</quality>
           <quality>Records on File</quality>
+          <quality>Resonant Burnout</quality>
           <quality>Signature</quality>
           <quality>SINner (Corporate)</quality>
+          <quality>SINner (Corporate Limited)</quality>
           <quality>SINner (Criminal)</quality>
           <quality>SINner (National)</quality>
-          <quality>SINner (Corporate Limited)</quality>
           <quality>Sloppy Code</quality>
           <quality>Social Appearance Anxiety</quality>
           <quality>Social Stress</quality>
+          <quality>Sprite Combustion</quality>
           <quality>Superhuman Psychosis</quality>
+          <quality>Taint of Dissonance</quality>
           <quality>The Goat</quality>
           <quality>Thousand-Yard Stare</quality>
           <quality>Too Much Data</quality>
           <quality>Ugly And Doesn't Care</quality>
           <quality>Uncouth</quality>
+          <quality>Uneducated</quality>
           <quality>Vendetta</quality>
           <quality>Wanted</quality>
           <quality>Wanted by GOD</quality>
-          <quality>'Ware Intolerance</quality>
           <quality>Well, Actually...</quality>
           <quality>Wired User</quality>
-          <quality>Brittle [Attack]</quality>
-          <quality>Brittle [Sleaze]</quality>
-          <quality>Brittle [Data Processing]</quality>
-          <quality>Brittle [Firewall]</quality>
-          <quality>Decaying Dissonance</quality>
-          <quality>Resonant Burnout</quality>
-          <quality>Sprite Combustion</quality>
-          <quality>Taint of Dissonance</quality>
-		  <quality>Bad Luck</quality>
-		  <quality>Bad Rep</quality>
-		  <quality>Code of Honor</quality>
-		  <quality>Code of Honor: Like a Boss</quality>
-		  <quality>Code of Honor: Avenging Angel</quality>
-		  <quality>Codeblock</quality>
-		  <quality>Combat Paralysis</quality>
-		  <quality>Corrupter</quality>
-		  <quality>Curiosity Killed the Cat</quality>
-		  <quality>Data Liberator</quality>
-		  <quality>Day Job (10 hrs)</quality>
-		  <quality>Day Job (20 hrs)</quality>
-		  <quality>Day Job (40 hrs)</quality>
-		  <quality>Did You Just Call Me Dumb?</quality>
-		  <quality>Distinctive Style</quality>
-		  <quality>Driven</quality>
-		  <quality>Easily Exploitable</quality>
-		  <quality>Fragmentation</quality>
-		  <quality>Incompetent</quality>
-		  <quality>Loss of Confidence</quality>
-		  <quality>Low Pain Tolerance</quality>
-		  <quality>Pacifist I</quality>
-		  <quality>Pacifist II</quality>
-		  <quality>Persnickety Renter</quality>
-		  <quality>Prank Warrior</quality>
-		  <quality>Prejudiced (Common, Biased)</quality>
-		  <quality>Prejudiced (Common, Outspoken)</quality>
-		  <quality>Prejudiced (Common, Radical)</quality>
-		  <quality>Prejudiced (Specific, Biased)</quality>
-		  <quality>Prejudiced (Specific, Outspoken)</quality>
-		  <quality>Prejudiced (Specific, Radical)</quality>
-		  <quality>Real World Naiveté</quality>
-		  <quality>Records on File</quality>
-		  <quality>Signature</quality>
-		  <quality>SINner (Corporate Limited)</quality>
-		  <quality>SINner (Corporate)</quality>
-		  <quality>SINner (Criminal)</quality>
-		  <quality>SINner (National)</quality>
-		  <quality>Uncouth</quality>
-		  <quality>Uneducated</quality>
-		  <quality>Vendetta</quality>
-		  <quality>Wanted</quality>
-		  <quality>Wanted by GOD</quality>
+          <quality>Cascading Failure</quality>
+          <quality>Doomscrolling</quality>
+          <quality>Invalid Inferences</quality>
+          <quality>Out Of Memory Exception</quality>
 		</negative>
 		  </qualityrestriction>
 		  <movement>Special</movement>

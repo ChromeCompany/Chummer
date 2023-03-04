@@ -1058,6 +1058,40 @@
   <quality xpathfilter="contains(name,'Dissonant')">
     <hide />
   </quality>
+  <!--AI quality changes and bans -->
+  <quality>
+    <name>Munge</name>
+    <hide />
+  </quality>
+  <quality>
+    <name>Exceptional Entity</name>
+    <karma>14</karma>
+    <bonus>
+        <selectattributes>
+          <selectattribute>
+            <excludeattribute>EDG</excludeattribute>
+            <max>1</max>
+          </selectattribute>
+        </selectattributes>
+    </bonus>
+    <forbidden>
+      <oneof>
+        <quality>Lucky</quality>
+      </oneof>
+    </forbidden>
+  </quality>
+   <quality>
+    <name>Improved Restoration</name>
+    <karma>7</karma>
+  </quality>
+   <quality>
+    <name>Low Profile</name>
+    <karma>15</karma>
+  </quality>
+   <quality>
+    <name>Redundancy</name>
+    <hide />
+  </quality>
 	<!-- End Region -->
   <!-- Region Data Trails -->
   <!-- Changes all the AI qualities to the new AI-->
@@ -1067,6 +1101,11 @@
         <metatype>AI</metatype>
       </oneof>
     </required>
+  </quality>
+  <quality>
+    <name>Fragmentation</name>
+    <karma>-15</karma>
+    <limit>6</limit>
   </quality>
   <!-- End Region -->
 	<!-- Region Better Than Bad -->
@@ -2484,6 +2523,140 @@
       <karma>-10</karma>
       <category>Negative</category>
       <source>MPR</source>
+      <page>0</page>
+    </quality>
+    
+    <!-- AI Qualities from the presumed 6e translations -->
+    <quality>
+      <id>ac6a28b8-78aa-46e6-b615-172dd2b2709b</id>
+      <name>Cascading Failure</name>
+      <karma>-9</karma>
+      <category>Negative</category>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </quality>
+    <quality>
+      <id>0cd20e54-e422-444a-acbe-d9f1120adcfb</id>
+      <name>Doomscrolling</name>
+      <karma>-4</karma>
+      <category>Negative</category>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </quality>
+    <quality>
+      <id>bbef6e38-d928-480e-b5bb-85fa8c578a12</id>
+      <name>Invalid Inferences</name>
+      <karma>-4</karma>
+      <category>Negative</category>
+      <source>6e</source>
+      <page>0</page>
+      <bonus>
+        <skillcategorykarmacost>
+          <name>Professional</name>
+          <val>+1</val>
+          <min>0</min>
+          <condition>career</condition>
+        </skillcategorykarmacost>
+        <skillcategorykarmacost>
+          <name>Academic</name>
+          <val>+1</val>
+          <min>0</min>
+          <condition>career</condition>
+        </skillcategorykarmacost>
+        <skillcategorykarmacost>
+          <name>Interest</name>
+          <val>+1</val>
+          <min>0</min>
+          <condition>career</condition>
+        </skillcategorykarmacost>
+        <skillcategorykarmacost>
+          <name>Street</name>
+          <val>+1</val>
+          <min>0</min>
+          <condition>career</condition>
+        </skillcategorykarmacost>
+      </bonus>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </quality>
+    <quality>
+      <id>310c3da7-2898-40e1-9cba-a23b7bdb26c2</id>
+      <name>Out Of Memory Exception</name>
+      <karma>-3</karma>
+      <category>Negative</category>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </quality>
+    <quality>
+      <id>9d33cf1e-73cc-4f24-bc63-9980f63cc011</id>
+      <name>Shadows of the Matrix</name>
+      <karma>9</karma>
+      <category>Positive</category>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </quality>
+    <quality>
+      <id>5f872e44-ab46-418d-a422-e38937be1156</id>
+      <name>Redundancy (Core)</name>
+      <karma>4</karma>
+      <category>Positive</category>
+      <includeinlimit>
+        <name>Redundancy (LP)</name>
+      </includeinlimit>
+      <limit>3</limit>
+      <limitwithinclusions>3</limitwithinclusions>
+      <bonus>
+        <conditionmonitor>
+          <physical>1</physical>
+        </conditionmonitor>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>cb73b4b8-56da-49c7-a2aa-369c575d7943</id>
+      <name>Redundancy (LP)</name>
+      <karma>4</karma>
+      <category>Positive</category>
+      <includeinlimit>
+        <name>Redundancy (Core)</name>
+      </includeinlimit>
+      <limit>3</limit>
+      <limitwithinclusions>3</limitwithinclusions>
+      <bonus>
+        <conditionmonitor>
+          <stun>1</stun>
+        </conditionmonitor>
+      </bonus>
+      <required>
+        <oneof>
+          <quality>Technomancer</quality>
+        </oneof>
+      </required>
+      <source>6e</source>
       <page>0</page>
     </quality>
   </qualities>
