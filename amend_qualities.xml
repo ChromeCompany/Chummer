@@ -1066,7 +1066,7 @@
   <quality>
     <name>Exceptional Entity</name>
     <karma>14</karma>
-    <bonus>
+    <bonus amendoperation="replace">
         <selectattributes>
           <selectattribute>
             <excludeattribute>EDG</excludeattribute>
