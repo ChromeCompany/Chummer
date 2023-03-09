@@ -1155,7 +1155,7 @@
       <id>da29f32f-b45c-4eed-9f47-75d11b1668bc</id>
       <name>Damage Mitigation Protocols</name>
       <category>Codemods</category>
-      <ess>Rating * 0.2</ess>
+      <ess>0.2</ess>
       <capacity>0</capacity>
       <avail>15</avail>
       <cost>18500</cost>

@@ -801,7 +801,7 @@
       <category>Codemods</category>
       <ess>Rating * 0.35</ess>
       <capacity>0</capacity>
-      <avail>(Rating * 6)R</avail>
+      <avail>(Rating * 6)</avail>
       <cost>Rating * 34000</cost>
       <bonus>
         <specificattribute>
