@@ -596,7 +596,7 @@
       <id>8403c597-c394-4efb-b69e-b97cd21c7a97</id>
       <name>Additional Eye Mount R1</name>
       <limit>False</limit>
-      <category>Eyeware</category>
+      <category>Headware</category>
       <ess>0.2</ess>
       <capacity>[2]</capacity>
       <avail>8</avail>
@@ -620,7 +620,7 @@
       <id>fb71097d-1850-48b1-a518-6048e8cfd608</id>
       <name>Additional Eye Mount R2</name>
       <limit>False</limit>
-      <category>Eyeware</category>
+      <category>Headware</category>
       <ess>0.2</ess>
       <capacity>[2]</capacity>
       <avail>8</avail>
