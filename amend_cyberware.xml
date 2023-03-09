@@ -601,8 +601,8 @@
       <capacity>[2]</capacity>
       <avail>8</avail>
       <cost>3000</cost>
-      <source>CF</source>
-      <page>75</page>
+      <source>4e</source>
+      <page>0</page>
       <bonus>
         <limitmodifier>
           <limit>Physical</limit>
@@ -625,8 +625,8 @@
       <capacity>[2]</capacity>
       <avail>8</avail>
       <cost>4000</cost>
-      <source>CF</source>
-      <page>75</page>
+      <source>4e</source>
+      <page>0</page>
       <bonus>
         <limitmodifier>
           <limit>Physical</limit>
