@@ -191,7 +191,7 @@
       <capacity>[4]</capacity>
       <avail>14F</avail>
       <cost>7000</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <addweapon>Arm Blade</addweapon>
       <blocksmounts>wrist,elbow,shoulder,knee,ankle</blocksmounts>
@@ -208,7 +208,7 @@
       <capacity>[0]</capacity>
       <avail>12F</avail>
       <cost>1500</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <limit>False</limit>
       <bonus>
@@ -225,7 +225,7 @@
       <capacity>0</capacity>
       <avail>FixedValues(8,10)</avail>
       <cost>FixedValues(30000,75000)</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <bonus>
         <!--<skilllinkedattribute>
@@ -268,7 +268,7 @@
       <capacity>(Rating * 4)</capacity>
       <avail>(Rating * 3)</avail>
       <cost>FixedValues(2000,3000,5000,7000,9000,11000)</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <allowgear>
         <gearcategory>Custom</gearcategory>
@@ -299,7 +299,7 @@
           <overflow>2</overflow>
         </conditionmonitor>
       </bonus>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <allowgear />
     </cyberware>
@@ -311,7 +311,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 4) + 4</avail>
       <cost>Rating * 3000</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <bonus>
         <armor group="0">Rating+1</armor>
@@ -332,7 +332,7 @@
       <capacity>0</capacity>
       <avail>18</avail>
       <cost>2500</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <required>
         <oneof>
@@ -349,7 +349,7 @@
       <capacity>0</capacity>
       <avail>22R</avail>
       <cost>4000</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <required>
         <allof>
@@ -368,7 +368,7 @@
       <capacity>[3]</capacity>
       <avail>16F</avail>
       <cost>5200</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <bonus>
         <smartlink>2</smartlink>
@@ -387,7 +387,7 @@
       <capacity>0</capacity>
       <avail>12F</avail>
       <cost>22500</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <bonus>
         <armor>2</armor>
@@ -412,7 +412,7 @@
       <capacity>0</capacity>
       <avail>10R</avail>
       <cost>10000</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <bonus>
         <armor>1</armor>
@@ -437,7 +437,7 @@
       <capacity>[2]</capacity>
       <avail>8</avail>
       <cost>5000</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <bonus>
         <specificskill>
@@ -467,7 +467,7 @@
       <capacity>[3]</capacity>
       <avail>14R</avail>
       <cost>1500</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <addweapon>Eye/Oral Dart</addweapon>
       <allowsubsystems>
@@ -483,7 +483,7 @@
       <capacity>[4]</capacity>
       <avail>16R</avail>
       <cost>1500</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <addweapon>Fingertip Dartgun</addweapon>
       <allowsubsystems>
@@ -499,7 +499,7 @@
       <capacity>[3]</capacity>
       <avail>14R</avail>
       <cost>1500</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <addweapon>Oral Gun</addweapon>
       <allowsubsystems>
@@ -515,7 +515,7 @@
       <capacity>[4]</capacity>
       <avail>10R</avail>
       <cost>1500</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <addweapon>Squirtgun</addweapon>
       <allowsubsystems>
@@ -531,7 +531,7 @@
       <capacity>[3]</capacity>
       <avail>8R</avail>
       <cost>1500</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <addweapon>Taser</addweapon>
       <allowsubsystems>
@@ -547,7 +547,7 @@
       <capacity>[8]</capacity>
       <avail>24F</avail>
       <cost>1500</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <required>
         <parentdetails>
@@ -567,7 +567,7 @@
       <capacity>[7]</capacity>
       <avail>16F</avail>
       <cost>1500</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <required>
         <parentdetails>
@@ -588,7 +588,7 @@
       <capacity>0</capacity>
       <avail>8</avail>
       <cost>10000</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </cyberware>
     <!-- Adds the new additional eye mounts for the single cybereyes-->
@@ -650,7 +650,7 @@
       <capacity>0</capacity>
       <avail>4R</avail>
       <cost>20000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
     </cyberware>
 	<cyberware>
@@ -662,7 +662,7 @@
       <capacity>[4]</capacity>
       <avail>5R</avail>
       <cost>5000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
       <allowgear>
         <gearcategory>Rigger Command Consoles</gearcategory>
@@ -677,7 +677,7 @@
       <capacity>[2]</capacity>
       <avail>10R</avail>
       <cost>2500</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
       <addweapon>Cyberlimb Hardening</addweapon>
       <allowsubsystems>
@@ -701,7 +701,6 @@
         </parentdetails>
       </required>
     </cyberware>
-
 	<cyberware>
       <id>769ffeaf-ce2e-4001-adc2-93ac71c0322c</id>
       <name>Attibute Expansion</name>
@@ -729,7 +728,7 @@
           <val>1</val>
         </specificattribute>
       </bonus>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -764,7 +763,7 @@
           <val>1</val>
         </specificattribute>
       </bonus>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -786,7 +785,7 @@
           <val>Rating</val>
         </specificattribute>
       </bonus>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -809,7 +808,7 @@
           <val>Rating</val>
         </specificattribute>
       </bonus>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -832,7 +831,7 @@
           <val>Rating</val>
         </specificattribute>
       </bonus>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -855,7 +854,7 @@
           <val>Rating</val>
         </specificattribute>
       </bonus>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -878,7 +877,7 @@
           <val>Rating</val>
         </specificattribute>
       </bonus>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -901,7 +900,7 @@
           <val>Rating</val>
         </specificattribute>
       </bonus>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -924,7 +923,7 @@
           <val>Rating</val>
         </specificattribute>
       </bonus>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -947,7 +946,7 @@
           <val>Rating</val>
         </specificattribute>
       </bonus>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -968,7 +967,7 @@
         <matrixinitiativedice>1</matrixinitiativedice>
 		<matrixinitiative>1</matrixinitiative>
       </bonus>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -984,7 +983,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 2)</avail>
       <cost>Rating * 9000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1001,7 +1000,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 2)</avail>
       <cost>Rating * 9000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1018,7 +1017,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 2)</avail>
       <cost>Rating * 9000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1035,7 +1034,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 2)</avail>
       <cost>Rating * 9000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1052,7 +1051,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 1)</avail>
       <cost>Rating * 5000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1069,7 +1068,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 1)</avail>
       <cost>Rating * 5000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1086,7 +1085,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 1)</avail>
       <cost>Rating * 5000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1103,7 +1102,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 1)</avail>
       <cost>Rating * 5000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1120,7 +1119,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 4)</avail>
       <cost>Rating * 12000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1142,7 +1141,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 3)</avail>
       <cost>Rating * 3500</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1159,7 +1158,7 @@
       <capacity>0</capacity>
       <avail>15</avail>
       <cost>18500</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1175,7 +1174,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 3)</avail>
       <cost>Rating * 3000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1197,7 +1196,7 @@
       <capacity>0</capacity>
       <avail>10</avail>
       <cost>4000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1218,7 +1217,7 @@
       <capacity>0</capacity>
       <avail>8</avail>
       <cost>10000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1234,7 +1233,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 3)R</avail>
       <cost>Rating * 7500</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1251,7 +1250,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 1)R</avail>
       <cost>Rating * 2000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1268,7 +1267,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 2)</avail>
       <cost>Rating * 25000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1285,7 +1284,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 2)</avail>
       <cost>Rating * 4000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1302,7 +1301,7 @@
       <capacity>0</capacity>
       <avail>6</avail>
       <cost>5000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1318,7 +1317,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 3)</avail>
       <cost>Rating * 7000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1335,7 +1334,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 3)F</avail>
       <cost>Rating * 2500</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1352,7 +1351,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 6)R</avail>
       <cost>Rating * 14000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1369,7 +1368,7 @@
       <capacity>0</capacity>
       <avail>(Rating * 5)</avail>
       <cost>Rating * 50000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1386,7 +1385,7 @@
       <capacity>0</capacity>
       <avail>8</avail>
       <cost>3000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1414,7 +1413,7 @@
       <capacity>0</capacity>
       <avail>10R</avail>
       <cost>7500</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1430,7 +1429,7 @@
       <capacity>0</capacity>
       <avail>8R</avail>
       <cost>4000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1449,7 +1448,7 @@
       <capacity>0</capacity>
       <avail>18R</avail>
       <cost>Rating * 40000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1484,7 +1483,7 @@
       <capacity>0</capacity>
       <avail>18R</avail>
       <cost>Rating * 20000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1509,7 +1508,7 @@
       <capacity>0</capacity>
       <avail>18R</avail>
       <cost>Rating * 40000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1537,7 +1536,7 @@
       <capacity>0</capacity>
       <avail>18R</avail>
       <cost>80000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
@@ -1561,7 +1560,7 @@
       <capacity>0</capacity>
       <avail>18R</avail>
       <cost>80000</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
 	  <required>
         <oneof>
