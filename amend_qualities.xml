@@ -2374,7 +2374,7 @@
         <nuyenamt>50000</nuyenamt>
       </bonus>
       <notes>An extra 50,000¥ for your character, chosen as a Voluntary Retirement reward by voluntarily retiring a character that met the requirements and selected the extra NuYen reward. Please see Player Rules for details. This quality is safe to remove after exiting chargen.</notes>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
     </quality>
 	<!-- 6e Qualities -->
@@ -2389,7 +2389,7 @@
           <stun>-1</stun>
         </conditionmonitor>
       </bonus>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
     </quality>
 	<quality>
@@ -2407,7 +2407,7 @@
       <karma>-4</karma>
       <category>Negative</category>
       <bonus />
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
     </quality>
 	<!-- 6e Metagenic Quals-->
@@ -2418,7 +2418,7 @@
       <category>Negative</category>
       <metagenic>True</metagenic>
       <bonus />
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
     </quality>
 	<quality>
@@ -2428,7 +2428,7 @@
       <category>Negative</category>
       <metagenic>True</metagenic>
       <bonus />
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
     </quality>
 	<quality>
@@ -2438,7 +2438,7 @@
       <category>Negative</category>
       <metagenic>True</metagenic>
       <bonus />
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
     </quality>
 	<quality>
@@ -2451,7 +2451,7 @@
         <physicalcmrecovery>-2</physicalcmrecovery>
         <stuncmrecovery>-2</stuncmrecovery>
       </bonus>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
       <notes>Double first Wound Modifier</notes>
     </quality>
@@ -2490,7 +2490,7 @@
       <name>Harrowed</name>
       <karma>-10</karma>
       <category>Negative</category>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </quality>
 	<!-- Gossipmonger Quality from the Social Search proposal-->
