@@ -1309,7 +1309,7 @@
       <bonus>
         <streetcredmultiplier>15</streetcredmultiplier>
       </bonus>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>1</page>
     </quality>
     
@@ -1344,7 +1344,7 @@
           </skill>
         </allof>
       </required>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1364,7 +1364,7 @@
         </oneof>
       </forbidden>
       <notes>+3 die pool modifier when negotiating to sell/fence through this contact. Only suffer -1 on Ranged Combat Tests when Running. Increase Defense Test bonus from cover by +1.</notes>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1387,7 +1387,7 @@
           <ess>-2.99</ess>
         </allof>
       </required>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1416,7 +1416,7 @@
           <ess>-2.99</ess>
         </allof>
       </required>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1444,7 +1444,7 @@
           <ess>-2.99</ess>
         </allof>
       </required>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1472,7 +1472,7 @@
           <ess>-2.99</ess>
         </allof>
       </required>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1500,7 +1500,7 @@
           <ess>-2.99</ess>
         </allof>
       </required>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1527,7 +1527,7 @@
         </allof>
       </required>
       <notes>Do not halve WIL when determining the number of Take Aim actions you may take.</notes>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1560,7 +1560,7 @@
         </oneof>
       </forbidden>
       <notes>Cut Called Shot Penalties in half when attacking a Surprised target with melee or thrown weapons.</notes>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1571,7 +1571,7 @@
       <karma>-10</karma>
       <category>Negative</category>
       <notes>Characters with this quality double the normal interval for Healing Tests and half the base period before Fatigue sets in.</notes>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1585,7 +1585,7 @@
         <selecttext />
       </bonus>
       <notes>Reduce the number of 1’s needed to get a glitch by one per rating with selected ware.</notes>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1598,7 +1598,7 @@
         <selecttext />
       </bonus>
       <notes>+2 dice pool modifier to any Hearing Perception Tests made against the character, and a +1 when muted by heavy clothing.</notes>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1614,7 +1614,7 @@
         </specificskill>
       </bonus>
       <notes>Does not get the information from Assensing tests.</notes>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1624,7 +1624,7 @@
       <karma>-10</karma>
       <category>Negative</category>
       <notes>-3 to all Willpower tests except Spell and Damage Resistance. Addiction tests do take -3.</notes>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1634,7 +1634,7 @@
       <karma>-10</karma>
       <category>Negative</category>
       <notes>-2 to all social tests when in person.</notes>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1646,7 +1646,7 @@
       <bonus>
         <selecttext />
       </bonus>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1656,7 +1656,7 @@
       <karma>-10</karma>
       <category>Negative</category>
       <notes>-4 to Perception tests when not using Observe in Detail.</notes>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -1680,7 +1680,7 @@
           <quality>Will to Live</quality>
         </oneof>
       </forbidden>
-      <source>SR5</source>
+      <source>4e</source>
       <page>1</page>
     </quality>
     
@@ -2239,7 +2239,7 @@
           <val>50</val>
         </skillcategorypointcostmultiplier>
       </bonus>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
     </quality>
     
@@ -2256,7 +2256,7 @@
           <resenabled />
         </oneof>
       </forbidden>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
     </quality>
     
@@ -2278,7 +2278,7 @@
           <quality>Reduced Sense (Sight)</quality>
         </oneof>
       </forbidden>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
     </quality>
     
@@ -2305,7 +2305,7 @@
           <metatype>A.I.</metatype>
         </oneof>
       </required>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
     </quality>
     
@@ -2346,7 +2346,7 @@
           </skill>
         </oneof>
       </required>
-      <source>SR5</source>
+      <source>MPR</source>
       <page>0</page>
     </quality>
     
