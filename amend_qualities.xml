@@ -68,6 +68,15 @@
       <name>Brand Loyalty (Product)</name>
       <hide />
     </quality>
+    <quality>
+      <name>Aware</name>
+      <bonus>
+        <specificskill amendoperation="addnode">
+          <name>Assensing</name>
+          <bonus>2</bonus>
+        </specificskill>
+      </bonus>
+    </quality>
     <!-- Fixes the Busted Cyberware quality so it can be taken more than once -->
     <quality>
       <name>Busted Cyberware</name>
