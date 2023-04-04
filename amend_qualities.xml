@@ -758,6 +758,7 @@
     <quality>
       <name>Apprentice</name>
       <bonus amendoperation="replace">
+      <freespells>3</freespells>
         <enableattribute>
           <name>MAG</name>
         </enableattribute>
@@ -769,6 +770,9 @@
         <limitspiritcategory />
         <unlockskills>Sorcery</unlockskills>
         <unlockskills>Conjuring</unlockskills>
+        <addqualities>
+          <addquality forced="True">Mentor Spirit</addquality>
+        </addqualities>
       </bonus>
     </quality>
     <quality>
