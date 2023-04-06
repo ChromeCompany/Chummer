@@ -105,6 +105,10 @@
 	</quality>
 	<!-- Region End-->
     <!--Region Run Faster -->
+    <quality>
+      <name>Wanted</name>
+      <hide />
+    </quality>
     <!--Region Run Faster Positive Qualities -->
     <quality>
       <name>Borrowed Time</name>
@@ -2232,7 +2236,152 @@
       </required>
       <source>SR5</source>
       <page>78</page>
+    </quality>	  
+    <!--Region Run Faster Wanted House Rule -->
+    <quality>
+      <id>fdf3fde3-71e0-475a-af49-78aae2edbe6d</id>
+      <name>Wanted (Local, Minimal)</name>
+      <karma>-8</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>1</page>
     </quality>
+    <quality>
+      <id>70dfdd98-8937-4bc5-842d-85a58a147ca1</id>
+      <name>Wanted (Local, Limited)</name>
+      <karma>-12</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>9522bc00-078e-465d-9019-b649b29b8c9f</id>
+      <name>Wanted (Local, Full)</name>
+      <karma>-16</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>bf8cd148-6da1-4c14-8507-9a6d083ad467</id>
+      <name>Wanted (National, Minimal)</name>
+      <karma>-12</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>847e5ca8-9f39-45d7-a0cb-f1a83d387df8</id>
+      <name>Wanted (National, Limited)</name>
+      <karma>-16</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>70acb85c-d561-4bff-8538-a98da4184b52</id>
+      <name>Wanted (National, Full)</name>
+      <karma>-20</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>7b8021d5-7bf4-44a1-8244-f9951f57c30b</id>
+      <name>Wanted (Underworld, Minimal)</name>
+      <karma>-12</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>d71aad6b-85a5-48ef-8e3e-770a90a2326b</id>
+      <name>Wanted (Underworld, Limited)</name>
+      <karma>-16</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>8db5c7ef-409b-4c15-bb0a-b3369628566a</id>
+      <name>Wanted (Underworld, Full)</name>
+      <karma>-20</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>1</page>
+    </quality> 
+     <quality>
+      <id>5be9c2f3-0103-4048-90d5-45b5e45217d2</id>
+      <name>Wanted (Global, Minimal)</name>
+      <karma>-16</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>9cf1ad37-4c4c-4c1b-982f-0f39d15757df</id>
+      <name>Wanted (Global, Limited)</name>
+      <karma>-20</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>34199eab-1f76-45df-89a6-ac7ab0dd37cb</id>
+      <name>Wanted (Global, Full)</name>
+      <karma>-24</karma>
+      <category>Negative</category>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>1</page>
+    </quality> 
     
     <!-- Adds the new Connoisseur quality for interest skills -->
     <quality>
