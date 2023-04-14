@@ -1473,7 +1473,7 @@
       <ammo>0</ammo>
       <avail>9R</avail>
       <cost>750</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <spec>Knives</spec>
     </weapon>
@@ -1492,7 +1492,7 @@
       <ammo>10</ammo>
       <avail>8R</avail>
       <cost>1500</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <requireammo>False</requireammo>
       <spec>Electrical-Stun</spec>
@@ -1512,7 +1512,7 @@
       <ammo>10</ammo>
       <avail>8R</avail>
       <cost>1200</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <requireammo>False</requireammo>
       <spec>Batons</spec>
@@ -1534,7 +1534,7 @@
       <ammo>1</ammo>
       <avail>0</avail>
       <cost>0</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <accessorymounts>
         <mount>Top</mount>
@@ -1562,7 +1562,7 @@
       <ammo>0</ammo>
       <avail>4</avail>
       <cost>75</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </weapon>
 	<weapon>
@@ -1580,7 +1580,7 @@
       <ammo>0</ammo>
       <avail>8F</avail>
       <cost>150</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
 	  <addweapon>Kusarigama Sickle</addweapon>
 	  <addweapon>Kusarigama Weighted Chain</addweapon>
@@ -1600,7 +1600,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>0</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
 	  <hide />
     </weapon>
@@ -1619,7 +1619,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>0</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
 	  <hide />
     </weapon>
@@ -1639,7 +1639,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>5</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <range>Potted Plant/Bowling Ball</range>
       <useskill>Throwing Weapons</useskill>
@@ -1659,7 +1659,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>20</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <range>Potted Plant/Bowling Ball</range>
       <useskill>Throwing Weapons</useskill>
@@ -1679,7 +1679,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>15</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <range>Standard Grenade</range>
       <useskill>Throwing Weapons</useskill>
@@ -1699,7 +1699,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>5</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <range>Brick/Paving Stone</range>
       <useskill>Throwing Weapons</useskill>
@@ -1719,7 +1719,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>15</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <range>Chair</range>
       <useskill>Throwing Weapons</useskill>
@@ -1765,7 +1765,7 @@
       <ammo>0</ammo>
       <avail>11F</avail>
       <cost>200</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <range>Standard Grenade</range>
       <spec>Non-Aerodynamic</spec>
@@ -1786,7 +1786,7 @@
       <ammo>0</ammo>
       <avail>11F</avail>
       <cost>200</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <range>Standard Grenade</range>
       <spec>Non-Aerodynamic</spec>
@@ -1807,7 +1807,7 @@
       <ammo>0</ammo>
       <avail>8R</avail>
       <cost>200</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <range>Standard Grenade</range>
       <spec>Non-Aerodynamic</spec>
@@ -1828,7 +1828,7 @@
       <ammo>0</ammo>
       <avail>11F</avail>
       <cost>200</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <range>Aerodynamic Grenade</range>
       <spec>Aerodynamic</spec>
@@ -1849,7 +1849,7 @@
       <ammo>0</ammo>
       <avail>11F</avail>
       <cost>200</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <range>Aerodynamic Grenade</range>
       <spec>Aerodynamic</spec>
@@ -1870,7 +1870,7 @@
       <ammo>0</ammo>
       <avail>8R</avail>
       <cost>200</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <range>Aerodynamic Grenade</range>
       <spec>Aerodynamic</spec>
@@ -1891,7 +1891,7 @@
       <ammo>0</ammo>
       <avail>11F</avail>
       <cost>200</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <range>Grenade Launchers</range>
       <spec>Grenade Launcher</spec>
@@ -1912,7 +1912,7 @@
       <ammo>0</ammo>
       <avail>11F</avail>
       <cost>200</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <range>Grenade Launchers</range>
       <spec>Grenade Launcher</spec>
@@ -1933,7 +1933,7 @@
       <ammo>0</ammo>
       <avail>8R</avail>
       <cost>200</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>1</page>
       <range>Grenade Launchers</range>
       <spec>Grenade Launcher</spec>
@@ -1955,7 +1955,7 @@
       <ammo>0</ammo>
       <avail>0</avail>
       <cost>0</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
       <cyberware>True</cyberware>
       <hide />
@@ -1977,7 +1977,7 @@
       <ammo>10(c)</ammo>
       <avail>7R</avail>
       <cost>950</cost>
-      <source>SR5</source>
+      <source>6e</source>
       <page>0</page>
       <accessories>
         <accessory>
