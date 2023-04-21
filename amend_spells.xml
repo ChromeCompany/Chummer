@@ -20,6 +20,10 @@
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema spells.xsd">
   <spells>
     <spell>
+      <id>8b3edb22-35ab-44a3-aa9d-0553a1af4da4</id> <!-- Sound Barrier as found in Stolen Souls. Keeps the Street Grimoire version. -->
+      <hide />
+    </spell>
+    <spell>
       <name>Convert Blood to Ichor</name>
       <hide />
     </spell>
