@@ -2626,6 +2626,65 @@
       <source>6e</source>
       <page>0</page>
     </quality>
+	<quality>
+      <id>d1fc5243-8bac-4c20-bf88-226edfbd5009</id>
+      <name>Blood Magic Resistance</name>
+      <karma>3</karma>
+	  <category>Positive</category>
+	  <notes>Game Effect: +2 dice pool modifier to resist any Blood magic effect.</notes>
+	  <source>6e</source>
+      <page>1</page>
+    </quality>
+    <quality>
+      <id>4f8e0140-2827-44dc-92e7-980ff0cdcae3</id>
+      <name>Achilles’ Heel</name>
+      <karma>-12</karma>
+	  <category>Negative</category>
+	  <notes>Choose one: Data Spike, Resonance Spike, Resonance Entities, or IC. Whenever you suffer Matrix damage from the specified source, you may not reduce the it with a damage resistance test. If you are a technomancer, your registered (and ally) sprites share your vulnerability. You may only choose this quality once</notes>
+	  <source>6e</source>
+      <page>1</page>
+    </quality>
+	<quality>
+      <id>d1fc5243-8bac-4c20-bf88-226edfbd5009</id>
+      <name>Bull In A Ceramics Store</name>
+      <karma>-8</karma>
+	  <category>Negative</category>
+	  <notes>You may only spend Edge on Matrix actions and complex forms that have the potential of causing Matrix damage.</notes>
+	  <source>6e</source>
+      <page>1</page>
+    </quality>
+	<quality>
+      <id>a08e6b06-2f65-4771-ab6c-fc1b4e8ac4dd</id>
+      <name>Like An Artiste</name>
+      <karma>-4</karma>
+	  <category>Negative</category>
+	  <notes>You cannot spend Edge on any test that has the possibility of inflicting Matrix damage</notes>
+	  <source>6e</source>
+      <page>1</page>
+    </quality>
+	<quality>
+      <id>59205ddf-ac74-40cd-bfa8-bd2c062d6f65</id>
+      <name>Defective Attribute</name>
+      <karma>-7</karma>
+	  <category>Negative</category>
+	  <notes>Choose a Matrix attribute: Attack, Sleaze, Data Processing, or Firewall. No matter what device you use, even if you have a living persona, that Matrix attribute can never be boosted in any way. (cyberprograms, complex forms, echoes, or sprite powers, specialized hardware, etc.). You may not take this quality more than once</notes>
+	  <source>6e</source>
+      <page>1</page>
+    </quality>
+	<quality>
+      <id>43b02fec-d48b-4e67-937d-4e56ad4bc0bc</id>
+      <name>Resonance Burn</name>
+      <karma>-13</karma>
+	  <category>Negative</category>
+	  <required>
+        <oneof>
+          <quality>Technomancer</quality>
+        </oneof>
+      </required>
+	  <notes>Whenever you suffer fading damage, it is always Physical damage</notes>
+	  <source>6e</source>
+      <page>1</page>
+    </quality>
 	<!-- Test Geneware Biocomp-->
 	<quality>
       <id>bbfcfb1e-9119-4786-bb34-79ee465e10fc</id>
