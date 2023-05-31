@@ -32,7 +32,6 @@
     </complexform>
   </complexforms>
 
-
   <!-- Adds the Machinist 'complex form' -->
   <complexforms amendoperation="append">
     <complexform>
@@ -51,6 +50,17 @@
       </required>
       <source>SR5</source>
       <page>252</page>
+    </complexform>
+      
+  <!-- Add 6e Complex Forms-->
+    <complexform> 
+      <id>d7a53c4c-775e-4c97-aec0-ebf027130dd2</id>
+      <name>Data Disguise</name>
+      <target>Icon</target>
+      <duration>S</duration>
+      <fv>L-4</fv>
+      <source>6e</source>
+      <page>0</page>
     </complexform>
   </complexforms>
 </chummer>
