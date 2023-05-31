@@ -376,4 +376,33 @@
       <page>17</page>
     </martialart>
   </martialarts>
+  <!-- Add 6e Martial Arts -->
+  <martialarts amendoperation="append">
+    <martialart>
+      <id>b46b2545-9331-43a6-84b6-a14d141a87cf</id>
+      <name>Drachenklaue</name>
+      <techniques>
+        <technique>
+          <name>Clinch</name>          
+        </technique>
+        <technique>
+          <name>Constrictor's Crush</name>          
+        </technique>    
+        <technique>
+          <name>Finishing Move</name>          
+        </technique>
+        <technique>
+          <name>Jiao Di (Charge)</name>
+        </technique>
+        <technique>
+          <name>Pouncing Dragon</name>
+        </technique>
+        <technique>
+          <name>Sweep</name>          
+        </technique>
+      </techniques>
+      <source>6e</source>  
+      <page>0</page>  
+    </martialart>  
+  </martialarts>
 </chummer>
