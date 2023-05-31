@@ -136,4 +136,13 @@
       <limit>False</limit>
     </echo>
   </echoes>
+  <!-- Add 6e echoes -->
+  <echoes amendoperation="append">
+    <echo>
+      <id>36e744fa-033a-44d1-b333-20c0d0dfca9c</id>
+      <name>Syntax Error</name>
+      <source>6e</source>
+      <page>0</page>
+    </echo>
+  </echoes>
 </chummer>
