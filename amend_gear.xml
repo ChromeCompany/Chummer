@@ -678,6 +678,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <cost>2800</cost>
       <ammoforweapontype noextra="True">mlauncher</ammoforweapontype>
     </gear>
+
     <!-- 6e Translations --> 
     <gear>
       <id>b1a16e65-d455-42e1-ac61-a0ab932c36ee</id>
@@ -709,6 +710,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>6e</source>
       <page>0</page>
     </gear>
+
     <!-- Homunculus Materials -->
     <gear>
       <id>20a54429-f68f-4ac8-87dc-e018762dbbd6</id>
