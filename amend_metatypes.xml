@@ -284,6 +284,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <quality>Groveler</quality>
           <quality>Hi-Rez</quality>
           <quality>Natural Hacker</quality>
+          <quality>Reverberant</quality>
+          <quality>Reverberant Perception</quality>
           <quality>Resonant Discordance</quality>
           <quality>Sprite Affinity</quality>
           <quality>Chrome Company</quality>
@@ -298,6 +300,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <quality>Addiction (Mild)</quality>
           <quality>Addiction (Moderate)</quality>
           <quality>Addiction (Severe)</quality>
+          <quality>Achilles' Heel</quality>
           <quality>AIPS</quality>
           <quality>Alpha Junkie</quality>
           <quality>Antipathy</quality>
@@ -314,6 +317,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <quality>Brittle [Sleaze]</quality>
           <quality>Buddy System</quality>
           <quality>Buggy 'Ware</quality>
+          <quality>Bull In A Ceramics Store</quality>
           <quality>Busted Cyberware</quality>
           <quality>Chronic Dissociation Syndrome</quality>
           <quality>Clinical Depression</quality>
@@ -342,6 +346,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <quality>Day Job (40 hrs)</quality>
           <quality>Day Job (40 hrs</quality>
           <quality>Decaying Dissonance</quality>
+          <quality>Defective Attribute</quality>
           <quality>Dependent (Demanding)</quality>
           <quality>Dependent (Inconvenience)</quality>
           <quality>Dependent (Nuisance)</quality>
@@ -390,10 +395,12 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <quality>Lazy Fingers</quality>
           <quality>Leeeeeeeroy Jenkins</quality>
           <quality>Liar</quality>
+          <quality>Like An Artiste</quality>
           <quality>Loss of Confidence</quality>
           <quality>Low Pain Tolerance</quality>
           <quality>Malware Infection</quality>
           <quality>Matrix Troll</quality>
+          <quality>Mode Lock</quality>
           <quality>Motion Sickness</quality>
           <quality>Nerdrage</quality>
           <quality>No Man Left Behind</quality>
@@ -439,6 +446,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <quality>Prejudiced (Specific, Radical)</quality>
           <quality>Real World Naiveté</quality>
           <quality>Records on File</quality>
+          <quality>Resonance Burn</quality>
           <quality>Resonant Burnout</quality>
           <quality>Signature</quality>
           <quality>SINner (Corporate)</quality>
@@ -575,6 +583,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Fame: Megacorporate</quality>
               <quality>Fame: Global</quality>
               <quality>First Impression</quality>
+              <quality>Firearm Diplomacy</quality>
               <quality>Friends in High Places</quality>
               <quality>Fractal Punch</quality>
               <quality>Gearhead</quality>
@@ -645,6 +654,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Redundancy</quality>
               <quality>Restricted Gear</quality>
               <quality>Reverberant</quality>
+              <quality>Reverberant Perception</quality>
               <quality>Rootkit</quality>
               <quality>Sapper</quality>
               <quality>School of Hard Knocks</quality>
@@ -686,6 +696,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Groveler</quality>
               <quality>Hi-Rez</quality>
               <quality>Natural Hacker</quality>
+              <quality>Reverberant</quality>
+              <quality>Reverberant Perception</quality>
               <quality>Resonant Discordance</quality>
               <quality>Sprite Affinity</quality>
               <quality>Chrome Company</quality>
@@ -700,6 +712,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Addiction (Mild)</quality>
               <quality>Addiction (Moderate)</quality>
               <quality>Addiction (Severe)</quality>
+              <quality>Achilles' Heel</quality>
               <quality>AIPS</quality>
               <quality>Alpha Junkie</quality>
               <quality>Antipathy</quality>
@@ -716,6 +729,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Brittle [Sleaze]</quality>
               <quality>Buddy System</quality>
               <quality>Buggy 'Ware</quality>
+              <quality>Bull In A Ceramics Store</quality>
               <quality>Busted Cyberware</quality>
               <quality>Chronic Dissociation Syndrome</quality>
               <quality>Clinical Depression</quality>
@@ -744,6 +758,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Day Job (40 hrs)</quality>
               <quality>Day Job (40 hrs</quality>
               <quality>Decaying Dissonance</quality>
+              <quality>Defective Attribute</quality>
               <quality>Dependent (Demanding)</quality>
               <quality>Dependent (Inconvenience)</quality>
               <quality>Dependent (Nuisance)</quality>
@@ -792,10 +807,12 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Lazy Fingers</quality>
               <quality>Leeeeeeeroy Jenkins</quality>
               <quality>Liar</quality>
+              <quality>Like An Artiste</quality>
               <quality>Loss of Confidence</quality>
               <quality>Low Pain Tolerance</quality>
               <quality>Malware Infection</quality>
               <quality>Matrix Troll</quality>
+              <quality>Mode Lock</quality>
               <quality>Motion Sickness</quality>
               <quality>Nerdrage</quality>
               <quality>No Man Left Behind</quality>
@@ -841,6 +858,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Prejudiced (Specific, Radical)</quality>
               <quality>Real World Naiveté</quality>
               <quality>Records on File</quality>
+              <quality>Resonance Burn</quality>
               <quality>Resonant Burnout</quality>
               <quality>Signature</quality>
               <quality>SINner (Corporate)</quality>
@@ -874,8 +892,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <source>SR5</source>
           <page>0</page>
         </metavariant>
-      <!-- Realms AI -->
-      <metavariant>
+        <!-- Realms AI -->
+        <metavariant>
           <id>0abb4487-2932-4d5f-a9eb-148a36bf4370</id>
           <name>Realms A.I.</name>
           <category>Metahuman</category>
@@ -979,6 +997,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Fame: Megacorporate</quality>
               <quality>Fame: Global</quality>
               <quality>First Impression</quality>
+              <quality>Firearm Diplomacy</quality>
               <quality>Friends in High Places</quality>
               <quality>Fractal Punch</quality>
               <quality>Gearhead</quality>
@@ -1049,6 +1068,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Redundancy</quality>
               <quality>Restricted Gear</quality>
               <quality>Reverberant</quality>
+              <quality>Reverberant Perception</quality>
               <quality>Rootkit</quality>
               <quality>Sapper</quality>
               <quality>School of Hard Knocks</quality>
@@ -1090,6 +1110,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Groveler</quality>
               <quality>Hi-Rez</quality>
               <quality>Natural Hacker</quality>
+              <quality>Reverberant</quality>
+              <quality>Reverberant Perception</quality>
               <quality>Resonant Discordance</quality>
               <quality>Sprite Affinity</quality>
               <quality>Chrome Company</quality>
@@ -1104,6 +1126,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Addiction (Mild)</quality>
               <quality>Addiction (Moderate)</quality>
               <quality>Addiction (Severe)</quality>
+              <quality>Achilles' Heel</quality>
               <quality>AIPS</quality>
               <quality>Alpha Junkie</quality>
               <quality>Antipathy</quality>
@@ -1120,6 +1143,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Brittle [Sleaze]</quality>
               <quality>Buddy System</quality>
               <quality>Buggy 'Ware</quality>
+              <quality>Bull In A Ceramics Store</quality>
               <quality>Busted Cyberware</quality>
               <quality>Chronic Dissociation Syndrome</quality>
               <quality>Clinical Depression</quality>
@@ -1148,6 +1172,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Day Job (40 hrs)</quality>
               <quality>Day Job (40 hrs</quality>
               <quality>Decaying Dissonance</quality>
+              <quality>Defective Attribute</quality>
               <quality>Dependent (Demanding)</quality>
               <quality>Dependent (Inconvenience)</quality>
               <quality>Dependent (Nuisance)</quality>
@@ -1196,10 +1221,12 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Lazy Fingers</quality>
               <quality>Leeeeeeeroy Jenkins</quality>
               <quality>Liar</quality>
+              <quality>Like An Artiste</quality>
               <quality>Loss of Confidence</quality>
               <quality>Low Pain Tolerance</quality>
               <quality>Malware Infection</quality>
               <quality>Matrix Troll</quality>
+              <quality>Mode Lock</quality>
               <quality>Motion Sickness</quality>
               <quality>Nerdrage</quality>
               <quality>No Man Left Behind</quality>
@@ -1245,6 +1272,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Prejudiced (Specific, Radical)</quality>
               <quality>Real World Naiveté</quality>
               <quality>Records on File</quality>
+              <quality>Resonance Burn</quality>
               <quality>Resonant Burnout</quality>
               <quality>Signature</quality>
               <quality>SINner (Corporate)</quality>
@@ -1382,6 +1410,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Fame: Megacorporate</quality>
               <quality>Fame: Global</quality>
               <quality>First Impression</quality>
+              <quality>Firearm Diplomacy</quality>
               <quality>Friends in High Places</quality>
               <quality>Fractal Punch</quality>
               <quality>Gearhead</quality>
@@ -1452,6 +1481,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Redundancy</quality>
               <quality>Restricted Gear</quality>
               <quality>Reverberant</quality>
+              <quality>Reverberant Perception</quality>
               <quality>Rootkit</quality>
               <quality>Sapper</quality>
               <quality>School of Hard Knocks</quality>
@@ -1493,6 +1523,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Groveler</quality>
               <quality>Hi-Rez</quality>
               <quality>Natural Hacker</quality>
+              <quality>Reverberant</quality>
+              <quality>Reverberant Perception</quality>
               <quality>Resonant Discordance</quality>
               <quality>Sprite Affinity</quality>
               <quality>Chrome Company</quality>
@@ -1503,11 +1535,11 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
             <negative>
               <quality>'Ware Intolerance</quality>
               <quality>Accident Prone</quality>
-              <quality>Achilles' Heel</quality>
               <quality>Addiction (Burnout)</quality>
               <quality>Addiction (Mild)</quality>
               <quality>Addiction (Moderate)</quality>
               <quality>Addiction (Severe)</quality>
+              <quality>Achilles' Heel</quality>
               <quality>AIPS</quality>
               <quality>Alpha Junkie</quality>
               <quality>Antipathy</quality>
@@ -1607,8 +1639,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Low Pain Tolerance</quality>
               <quality>Malware Infection</quality>
               <quality>Matrix Troll</quality>
-              <quality>Mode Lock</quality>
               <quality>Motion Sickness</quality>
+              <quality>Mode Lock</quality>
               <quality>Nerdrage</quality>
               <quality>No Man Left Behind</quality>
               <quality>Non-Lethal</quality>
