@@ -758,8 +758,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 
     <gear>
       <id>6b15f2f0-e058-4ef5-a7f8-684a7260f486</id>
-      <name>Oddmod: Armorlink</name>
-      <category>Commlink Accessories</category>
+      <name>Armorlink</name>
+      <category>Electronic Modification</category>
       <rating>12</rating>
       <avail>0</avail>
       <cost>Rating*0</cost>
