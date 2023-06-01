@@ -95,7 +95,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </forbidden>
     </metamagic>
   </metamagics>
-    
+
   <!-- Hide Arts-->
   <arts>
     <art>
@@ -107,4 +107,16 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <hide />
     </art>
   </arts>
+    
+  <!-- Add 6e Metamagics -->
+  <metamagics amendoperation="append">
+    <metamagic>
+      <id>c636c0dc-50b5-4576-ae45-322a326626b0</id>
+      <name>Durable Astral Form</name>
+      <adept>false</adept>
+      <magician>True</magician>
+      <source>6e</source>
+      <page>0</page>
+    </metamagic>
+  </metamagics> 
 </chummer>
