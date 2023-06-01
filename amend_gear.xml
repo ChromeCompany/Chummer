@@ -678,7 +678,37 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <cost>2800</cost>
       <ammoforweapontype noextra="True">mlauncher</ammoforweapontype>
     </gear>
-    
+    <!-- 6e Translations --> 
+    <gear>
+      <id>b1a16e65-d455-42e1-ac61-a0ab932c36ee</id>
+      <name>Defense Pods</name>
+      <category>Hacking Programs</category>
+      <rating>0</rating>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <source>6e</source>
+      <page>0</page>
+    </gear>
+    <gear>
+      <id>a4dd4044-b194-4d96-8e5c-3ea9ef0e6060</id> 
+      <name>Directional Shield</name>
+      <category>Hacking Programs</category>
+      <rating>0</rating>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <source>6e</source>
+      <page>0</page>
+    </gear>
+    <gear>
+      <id>da8b2b9a-d57b-4444-884b-ec00bb703169</id>
+      <name>Tapeworm</name>
+      <category>Hacking Programs</category>
+      <rating>0</rating>
+      <avail>4R</avail>
+      <cost>250</cost>
+      <source>6e</source>
+      <page>0</page>
+    </gear>
     <!-- Homunculus Materials -->
     <gear>
       <id>20a54429-f68f-4ac8-87dc-e018762dbbd6</id>
