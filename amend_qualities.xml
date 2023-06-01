@@ -2572,6 +2572,19 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <source>6e</source>
       <page>0</page>
     </quality>
+    <quality>
+      <id>d7419a4b-b315-48eb-a373-03e00337aa8b</id> 
+      <name>Reverberant Perception</name>
+      <karma>7</karma>
+      <category>Positive</category>
+      <required>
+        <oneof>
+          <quality>Reverberant</quality>
+        </oneof>
+      </required>
+      <source>6e</source>
+      <page>0</page>
+    </quality>
     <!-- 6e Metagenic Quals-->
     <quality>
       <id>8576d03c-eeaf-41a4-bd3d-74a1514b2be1</id>
