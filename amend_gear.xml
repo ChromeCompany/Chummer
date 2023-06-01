@@ -713,7 +713,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 
     <gear>
       <id>c9928918-187e-4e38-95d4-94154a11b60c</id>
-      <name>Grapple Tap Pod</name>
+      <name>Grapple Tap Pod Head</name>
       <category>Grapple Gun</category>
       <avail>10F</avail>
       <rating>0</rating>
@@ -721,7 +721,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>6e</source>
       <page>0</page>
     </gear>
-      
+
     <!-- Homunculus Materials -->
     <gear>
       <id>20a54429-f68f-4ac8-87dc-e018762dbbd6</id>
