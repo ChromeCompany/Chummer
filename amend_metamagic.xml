@@ -18,6 +18,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
   https://github.com/chummer5a/chummer5a
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema metamagic.xsd">
+  <!-- Hide Banned Stuff -->
   <metamagics>
     <metamagic>
       <name>Quickening</name>
@@ -76,6 +77,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
     </metamagic>
 
+    <!-- Remove Mysad Access-->
     <metamagic>
       <name>Harmonious Defense</name>
       <forbidden>
@@ -93,6 +95,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </forbidden>
     </metamagic>
   </metamagics>
+    
+  <!-- Hide Arts-->
   <arts>
     <art>
       <name>Blood Magic</name>
