@@ -722,6 +722,27 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <page>0</page>
     </gear>
 
+    <gear>
+      <id>4aeaf5db-69d6-4fdb-8310-a305dab0be76</id>
+      <name>Laser Jack</name>
+      <category>Electronics Accessories</category>
+      <avail>6</avail>
+      <rating>0</rating>
+      <cost>100</cost>
+      <source>6e</source>
+      <page>0</page>
+    </gear>
+    <gear>
+      <id>18c189ec-07ab-414f-8bc4-95ca2f431575</id>
+      <name>Link Glove</name>
+      <category>Electronics Accessories</category>
+      <avail>12R</avail>
+      <rating>0</rating>
+      <cost>500</cost>
+      <source>6e</source>
+      <page>0</page>
+    </gear>
+
     <!-- Homunculus Materials -->
     <gear>
       <id>20a54429-f68f-4ac8-87dc-e018762dbbd6</id>
