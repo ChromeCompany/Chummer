@@ -756,6 +756,22 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <ammoforweapontype noextra="True">taser</ammoforweapontype>
     </gear>
 
+    <gear>
+      <id>6b15f2f0-e058-4ef5-a7f8-684a7260f486</id>
+      <name>Oddmod: Armorlink</name>
+      <category>Commlink Accessories</category>
+      <rating>12</rating>
+      <avail>0</avail>
+      <cost>Rating*0</cost>
+      <required>
+        <geardetails>
+          <category>Commlinks</category>
+        </geardetails>
+      </required>
+      <source>6e</source>
+      <page>0</page>
+    </gear>
+
     <!-- Homunculus Materials -->
     <gear>
       <id>20a54429-f68f-4ac8-87dc-e018762dbbd6</id>
