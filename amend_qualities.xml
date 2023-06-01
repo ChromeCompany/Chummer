@@ -2564,6 +2564,17 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <page>0</page>
     </quality>
     <quality>
+      <id>c4cd8f5f-6687-4cb9-ac57-4a594dbcb50f</id>
+      <name>Mode Lock</name>
+      <karma>-7</karma>
+      <category>Negative</category>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </quality>
+    <quality>
       <id>a7197765-89e0-45a3-91cc-8efc6cd44d9b</id>
       <name>Non-Lethal</name>
       <karma>-4</karma>
