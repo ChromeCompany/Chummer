@@ -20,6 +20,394 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema qualities.xsd">
   <!--Region Shadowrun Core Positive Qualities -->
   <qualities>
+    <!-- AI Adjustments -->
+    <quality>
+      <name>Acrobatic Defender</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Agile Defender</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Black Forest Native</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Catlike</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Changeling (Class I SURGE)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Changeling (Class III SURGE)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Cyber-Singularity Seeker</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Delicate Fingers</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Double Jointed</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Elemental Focus</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Exceptional Attribute</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Hawk Eye</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Lightning Reflexes</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Magic Resistance</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Natural Athlete</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Night Vision</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Otaku to Technomancer</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Outdoorsman</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>    
+    <quality>
+      <name>Perceptive Defender</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Cosmetic Alteration</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Genetic Optimization (Agility)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Genetic Optimization (Body)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Genetic Optimization (Charisma)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Genetic Optimization (Intuition)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Genetic Optimization (Logic)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Genetic Optimization (Reaction)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Genetic Optimization (Strength)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Genetic Optimization (Willpower)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Genewipe</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Masque</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Metaposeur</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Print Removal</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Reprint</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Phenotypic Variation - Shuffle</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+
+    <quality>
+      <name>Prototype Transhuman</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Radiation Sponge</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Rad-Tolerant</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Redline</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>    
+    <quality>
+      <name>Resistance to Pathogens</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Resistance to Pathogens and Toxins</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Resistance to Toxins</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Spirit Champion</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Too Pretty To Hit</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Tough as Nails (Stun)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Tough as Nails (Physical)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Toughness</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Trickshot</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Uncanny Healer</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+
+    <!-- Other Adjustments -->
     <quality>
       <name>SINner (National)</name>
       <bonus>
@@ -54,8 +442,9 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
     </quality>
     <quality>
       <name>Will to Live</name>
-      <forbidden amendoperation="addnode">
+      <forbidden amendoperation="append">
         <oneof>
+          <metatype>AI</metatype>
           <quality>Will to Die</quality>
         </oneof>
       </forbidden>
@@ -1426,6 +1815,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         <oneof>
           <magenabled />
           <resenabled />
+          <metatype>AI</metatype>
         </oneof>
       </forbidden>
       <required>
@@ -1451,6 +1841,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         <oneof>
           <magenabled />
           <resenabled />
+          <metatype>AI</metatype>
           <quality>Ronin (Cyberware)</quality>
           <quality>Biocompatibility (Bioware)</quality>
           <quality>Ronin (Geneware)</quality>
@@ -1479,6 +1870,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         <oneof>
           <magenabled />
           <resenabled />
+          <metatype>AI</metatype>
           <quality>Ronin (Bioware)</quality>
           <quality>Ronin (Geneware)</quality>
           <quality>Biocompatibility (Cyberware)</quality>
@@ -1507,6 +1899,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         <oneof>
           <magenabled />
           <resenabled />
+          <metatype>AI</metatype>
           <quality>Ronin (Bioware)</quality>
           <quality>Ronin (Cyberware)</quality>
           <quality>Biocompatibility (Geneware)</quality>
@@ -2664,6 +3057,11 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <name>Blood Magic Resistance</name>
       <karma>3</karma>
       <category>Positive</category>
+      <forbidden>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
       <notes>Game Effect: +2 dice pool modifier to resist any Blood magic effect.</notes>
       <source>6e</source>
       <page>1</page>
