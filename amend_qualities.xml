@@ -2434,8 +2434,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <forbidden>
         <oneof>
           <metatype>AI</metatype>
-          </oneof>
-          </forbidden>
+        </oneof>
+      </forbidden>
       <notes>Characters with this quality double the normal interval for Healing Tests and half the base period before Fatigue sets in.</notes>
       <source>4e</source>
       <page>1</page>
