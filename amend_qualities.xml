@@ -293,7 +293,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </oneof>
       </forbidden>
     </quality>
-
     <quality>
       <name>Prototype Transhuman</name>
       <forbidden amendoperation="append">
@@ -774,6 +773,89 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </oneof>
       </forbidden>
     </quality>
+    <quality>
+      <name>Allergy (Uncommon, Mild)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Allergy (Uncommon, Moderate)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Allergy (Uncommon, Severe)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Allergy (Uncommon, Extreme)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Deaf</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+
+
+
+
+
+
+
+
+
+    <quality>
+      <name>Allergy (Common, Mild)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Allergy (Common, Moderate)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Allergy (Common, Extreme)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+
+
+
+
+
+
+
+
+
+
 
     <!-- Other Adjustments -->
     <quality>
@@ -2335,6 +2417,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         <oneof>
           <magenabled />
           <resenabled />
+          <metatype>AI</metatype>
         </oneof>
       </forbidden>
       <notes>Cut Called Shot Penalties in half when attacking a Surprised target with melee or thrown weapons.</notes>
@@ -2348,6 +2431,11 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <name>Biosystem Overstress</name>
       <karma>-10</karma>
       <category>Negative</category>
+      <forbidden>
+        <oneof>
+          <metatype>AI</metatype>
+          </oneof>
+          </forbidden>
       <notes>Characters with this quality double the normal interval for Healing Tests and half the base period before Fatigue sets in.</notes>
       <source>4e</source>
       <page>1</page>
