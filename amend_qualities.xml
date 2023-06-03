@@ -390,14 +390,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       </forbidden>
     </quality>
     <quality>
-      <name>Trickshot</name>
-      <forbidden amendoperation="append">
-        <oneof>
-          <metatype>AI</metatype>
-        </oneof>
-      </forbidden>
-    </quality>
-    <quality>
       <name>Uncanny Healer</name>
       <forbidden amendoperation="append">
         <oneof>
@@ -2234,6 +2226,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       </bonus>
       <forbidden>
         <oneof>
+          <metatype>AI</metatype>
           <magenabled />
           <resenabled />
         </oneof>
@@ -2263,6 +2256,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       </firstlevelbonus>
       <forbidden>
         <oneof>
+          <metatype>AI</metatype>
           <magenabled />
           <resenabled />
           <metatype>AI</metatype>
@@ -2377,6 +2371,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       </bonus>
       <forbidden>
         <oneof>
+          <metatype>AI</metatype>
           <magenabled />
           <resenabled />
         </oneof>
