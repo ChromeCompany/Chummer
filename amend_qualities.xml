@@ -406,6 +406,374 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </oneof>
       </forbidden>
     </quality>
+    <quality>
+      <name>Aged</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Albinism</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Assensing Rejection</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Asthma</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Astral Beacon</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>AVRse</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Blighted (6 Months)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Blighted (12 Months)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Blighted (24 Months)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Blind</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Computer Illiterate</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Elevated Stress</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Elf Poser</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Faceless</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Family Curse</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Faraday Himself</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Glass Jaw</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Harrowed</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Illiterate</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Illness</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Incomplete Deprogramming</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Infirm</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Information Auctioneer</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Insomnia (Basic)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Insomnia (Full)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Lightweight</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Night Blindness</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Paraplegic</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Pie Iesu Domine. Dona Eis Requiem.</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Quasimodo</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Reduced Sense (Smell)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Reduced Sense (Taste)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Reduced Sense (Touch)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Reduced Sense (Hearing)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Reduced Sense (Sight)</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Scorched</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Sensitive System</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Sensory Overload Syndrome</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Simsense Vertigo</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Spirit Bane</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Superhuman Psychosis</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>TLE-X</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Unsteady Hands</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Weak Immune System</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Thousand Yard Stare</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
+    <quality>
+      <name>Uneducated</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>
 
     <!-- Other Adjustments -->
     <quality>
@@ -2007,6 +2375,11 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <bonus>
         <selecttext />
       </bonus>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
       <notes>+2 dice pool modifier to any Hearing Perception Tests made against the character, and a +1 when muted by heavy clothing.</notes>
       <source>4e</source>
       <page>1</page>
@@ -2023,6 +2396,11 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
           <bonus>-2</bonus>
         </specificskill>
       </bonus>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
       <notes>Does not get the information from Assensing tests.</notes>
       <source>4e</source>
       <page>1</page>
@@ -2087,6 +2465,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       </firstlevelbonus>
       <forbidden>
         <oneof>
+          <metatype>AI</metatype>
           <quality>Will to Live</quality>
         </oneof>
       </forbidden>
