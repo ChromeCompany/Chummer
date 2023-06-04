@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--This file is part of Chummer5a.
 
-    Chummer5a is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+Chummer5a is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-    Chummer5a is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+Chummer5a is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+You should have received a copy of the GNU General Public License
+along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 
-    You can obtain the full source code for Chummer5a at
-    https://github.com/chummer5a/chummer5a
+  You can obtain the full source code for Chummer5a at
+  https://github.com/chummer5a/chummer5a
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema bioware.xsd">
   <grades>
@@ -44,14 +44,14 @@
       <name>Bone Spike (Bone Density 4)</name>
       <addweapon>Bone Spike IV</addweapon>
     </bioware>
-    
+
     <!-- Changes the name of the 'Expander' to 'Extender' because that's what it's called in CF -->
     <bioware>
       <id>70bd2c89-3432-4270-8e4c-d8d979114148</id>
       <name>Vocal Range Extender</name>
     </bioware>
-    
-    <!--Precents the genops from getting taken with metagentic improvements-->
+
+    <!--Prevents the genops from getting taken with metagentic improvements-->
     <bioware>
       <name>Genetic Optimization (Body)</name>
       <forbidden amendoperation="append">
@@ -117,7 +117,7 @@
       </forbidden>
     </bioware>
   </biowares>
-  
+
   <!-- 4E Bioware translations -->
   <biowares amendoperation="append">
     <bioware>
@@ -305,7 +305,7 @@
       <source>HT</source>
       <page>185</page>
     </bioware>
-	<bioware>
+    <bioware>
       <id>ccb67951-e42e-4f1c-999e-9f25af5e9089</id>
       <name>Bone Spike (Ceramic/Aluminum)</name>
       <limit>False</limit>
@@ -318,13 +318,13 @@
       <required>
         <oneof>
           <cyberware>Bone Lacing (Ceramic)</cyberware>
-		  <cyberware>Bone Lacing (Aluminum)</cyberware>
+          <cyberware>Bone Lacing (Aluminum)</cyberware>
         </oneof>
       </required>
       <source>HT</source>
       <page>185</page>
     </bioware>
-	<bioware>
+    <bioware>
       <id>3436c619-d4fb-465c-8c14-fa0493bf87a2</id>
       <name>Bone Spike (Titanium)</name>
       <limit>False</limit>
