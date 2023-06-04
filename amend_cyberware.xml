@@ -1519,7 +1519,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>2</rating>
       <bonus>
-        <!--TODO Judge Intentions Bonus-->
+        <judgeintentionsoffense>Rating</judgeintentionsoffense>
       </bonus>
       <forbidden>
         <oneof>
