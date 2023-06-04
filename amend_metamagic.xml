@@ -96,7 +96,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     </metamagic>
   </metamagics>
 
-  <!-- Hide Arts-->
+  <!-- Hide Banned Arts-->
   <arts>
     <art>
       <name>Blood Magic</name>
