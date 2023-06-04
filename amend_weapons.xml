@@ -51,6 +51,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <category blackmarket="Weapons" type="glauncher" gunneryspec="Artillery">Grenade Launchers</category>
     <category blackmarket="Weapons" type="mlauncher" gunneryspec="Rocket">Missile Launchers</category>
   </categories>
+
   <weapons>
     <weapon>
       <name>Ranger Silver Pistol Crossbow</name>
@@ -77,12 +78,12 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <range>Spray Pens</range>
     </weapon>
 
-    <!-- Changes the P.E.P slightly to use 'Energy' instead of 'energy' Fuck me, I know. -->
+    <!-- Changes the P.E.P slightly to use 'Energy' instead of 'energy' -->
     <weapon>
       <name>Narcoject PEP</name>
       <weapontype>Energy</weapontype>
     </weapon>	  
-   
+
     <!-- Corrects Run and Gun stat blocks -->
     <weapon>
       <name>Onotari Arms JP-K50</name>
@@ -2332,4 +2333,4 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
     </accessory>
   </accessories>
-</chummer
+  </chummer
