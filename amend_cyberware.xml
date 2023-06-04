@@ -76,8 +76,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <name>Trauma Control System</name>
       <avail>12R</avail>
     </cyberware>
-    <!-- End Region -->
-    <!-- Region Soft Nanoware -->
+
+    <!-- Soft Nanoware -->
     <cyberware>
       <name>Anti-Tox</name>
       <avail>16R</avail>
@@ -591,6 +591,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>4e</source>
       <page>0</page>
     </cyberware>
+
     <!-- Adds the new additional eye mounts for the single cybereyes-->
     <cyberware>
       <id>8403c597-c394-4efb-b69e-b97cd21c7a97</id>
@@ -640,6 +641,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </cyberware>
       </subsystems>
     </cyberware>
+
     <!-- Adds the 6e Stuff-->
     <cyberware>
       <id>d90e6b88-a001-40fe-9fde-3bda2b2078eb</id>
@@ -1517,7 +1519,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>2</rating>
       <bonus>
-        <!--Something something I don't know how to do the JI bonus-->
+        <!--TODO Judge Intentions Bonus-->
       </bonus>
       <forbidden>
         <oneof>
