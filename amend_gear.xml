@@ -25,6 +25,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <category>Specialized Hardware</category>
     <category blackmarket="Ammunition">Ammunition (Hand Load)</category>
     <category blackmarket="Weapons">Grenade Addons</category>
+    <category blackmarket="Foci">Imbued Traits</category>
   </categories>
 
   <!-- Due to the large variety of items in gear.xml, Regions are organised by category rather than sourcebook. -->
@@ -2370,6 +2371,78 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         <damage>-4</damage>
       </weaponbonus>
       <ammoforweapontype>gun</ammoforweapontype>
+    </gear>
+
+    <!-- Add Street Grimoire Focus Imbuements -->
+    <gear>
+      <id>a59d723c-62fc-4c4f-a08c-e94506085357</id> 
+      <name>Alliance</name>
+      <category>Imbued Traits</category>
+      <source>SG</source>
+      <page>132</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <bonus/>
+    </gear>
+    <gear>
+      <id>af8e7a29-a57f-40ec-b491-90abfc4f07ac</id>
+      <name>Berserk</name>
+      <category>Imbued Traits</category>
+      <source>SG</source>
+      <page>132</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <bonus/>
+    </gear>
+    <gear>
+      <id>3d6ebc73-d395-447d-b0cc-f65485119079</id>
+      <name>Blood Thirst</name>
+      <category>Imbued Traits</category>
+      <source>SG</source>
+      <page>132</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <bonus/>
+    </gear>
+    <gear>
+      <id>d8821f31-0c30-48d3-9aff-8042f4a6a4f5</id>
+      <name>Loyalty</name>
+      <category>Imbued Traits</category>
+      <source>SG</source>
+      <page>132</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <bonus/>
+    </gear>
+    <gear>
+      <id>092d9e1e-c211-4eeb-ab4f-98d7c936c6c7</id>
+      <name>Perceptive</name>
+      <category>Imbued Traits</category>
+      <source>SG</source>
+      <page>132</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <bonus/>
+    </gear>
+    <gear>
+      <id>175e4880-70a3-4fe6-b55a-7ffe85790e97</id>
+      <name>Respect</name>
+      <category>Imbued Traits</category>
+      <source>SG</source>
+      <page>132</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <bonus/>
+    </gear>
+    <gear>
+      <id>796c46b3-bb38-4767-bc0f-223432e481f4</id>
+      <name>Rectitude</name>
+      <category>Imbued Traits</category>
+      <source>SG</source>
+      <page>132</page>
+      <avail>0</avail>
+      <cost>0</cost>
+      <bonus/>
     </gear>
   </gears>
 </chummer>
