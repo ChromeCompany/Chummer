@@ -546,6 +546,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <forbidden amendoperation="append">
         <oneof>
           <metatype>AI</metatype>
+          <quality>Illness 2 </quality>
         </oneof>
       </forbidden>
     </quality>
@@ -851,6 +852,9 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         <dodge>-2</dodge>
         <surprise>-2</surprise>
       </bonus>
+      <forbidden>
+        <quality>Dimmer Bulb</quality>
+      </forbidden>
       <source>RF</source>
       <page>154</page>
     </quality>
@@ -862,6 +866,9 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <category>Negative</category>
       <hide />
       <bonus />
+      <forbidden>
+        <quality>Illness</quality>
+      </forbidden>
       <source>BB</source>
       <page>12</page>
     </quality>
@@ -893,10 +900,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
           <quality>Poor Self Control (Combat Monster)</quality>
           <quality>Illness 2 </quality>
           <quality>Dimmer Bulb 2 </quality>
-          <!--
-          <quality>Dimmer Bulb 2</quality>
-          <quality>Illness 2</quality>
-          -->
         </selectquality>
       </bonus>
     </quality>
