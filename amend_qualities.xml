@@ -964,6 +964,12 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </specificskill>
       </bonus>
     </quality>
+
+    <quality>
+      <name>Spike Resistance</name>
+      <karma amendoperation="replace">5</karma>
+    </quality>
+   
     <quality>
       <name>Dimmer Bulb</name>
       <forbidden amendoperation="append">
