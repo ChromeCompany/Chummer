@@ -3460,6 +3460,15 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <page>0</page>
     </quality>
 
+    <quality>
+      <id>34cff895-b63b-4d1b-beea-8db12c42ad9f</id>
+      <name>Young Cannibal</name>
+      <karma>-4</karma>
+      <category>Negative</category>
+      <source>6e</source>
+      <page>0</page>
+    </quality>
+        
     <!-- 6e Metagenic Quals-->
     <quality>
       <id>8576d03c-eeaf-41a4-bd3d-74a1514b2be1</id>
