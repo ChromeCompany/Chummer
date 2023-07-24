@@ -294,14 +294,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       </forbidden>
     </quality>
     <quality>
-      <name>Prototype Transhuman</name>
-      <forbidden amendoperation="append">
-        <oneof>
-          <metatype>AI</metatype>
-        </oneof>
-      </forbidden>
-    </quality>
-    <quality>
       <name>Radiation Sponge</name>
       <forbidden amendoperation="append">
         <oneof>
@@ -805,15 +797,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </oneof>
       </forbidden>
     </quality>
-
-
-
-
-
-
-
-
-
     <quality>
       <name>Allergy (Common, Mild)</name>
       <forbidden amendoperation="append">
@@ -839,14 +822,84 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       </forbidden>
     </quality>
 
+    <!--These are here because I couldn't find a way to add multiple qualities with selectquality. The space at the end of the name is necessary to make them unique from normal Dimmer Bulb/Illness.-->
+    <quality amendoperation="addnode">
+      <id>23f79a71-a120-437f-85bb-62cc62b2a615</id>
+      <name>Dimmer Bulb 2 </name>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <hide />
+      <bonus>
+        <skillattribute>
+          <name>LOG</name>
+          <bonus>-2</bonus>
+        </skillattribute>
+        <skillattribute>
+          <name>INT</name>
+          <bonus>-2</bonus>
+        </skillattribute>
+        <judgeintentionsoffense>-2</judgeintentionsoffense>
+        <memory>-2</memory>
+        <mentalmanipulationresist>-2</mentalmanipulationresist>
+        <manaillusionresist>-2</manaillusionresist>
+        <physicalillusionresist>-2</physicalillusionresist>
+        <decreaselogresist>-2</decreaselogresist>
+        <decreaseintresist>-2</decreaseintresist>
+        <detectionspellresist>-2</detectionspellresist>
+        <physiologicaladdictionfirsttime>-2</physiologicaladdictionfirsttime>
+        <physiologicaladdictionalreadyaddicted>-2</physiologicaladdictionalreadyaddicted>
+        <dodge>-2</dodge>
+        <surprise>-2</surprise>
+      </bonus>
+      <source>RF</source>
+      <page>154</page>
+    </quality>
 
+    <quality amendoperation="addnode">
+      <id>45747092-3fa7-4c49-80ba-35b7faf9bbbc</id>
+      <name>Illness 2 </name>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <hide />
+      <bonus />
+      <source>BB</source>
+      <page>12</page>
+    </quality>
 
-
-
-
-
-
-
+    <!-- Prototype Transhuman Changes and Required hidden qualities -->
+    <quality>
+      <name>Prototype Transhuman</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+      <bonus amendoperation="replace">
+        <prototypetranshuman>1</prototypetranshuman>
+        <selectquality>
+          <quality>Wanted (National, Full)</quality> 
+          <quality>Allergy (Common, Mild)</quality>
+          <quality>Astral Beacon</quality>
+          <quality>Insomnia (Basic)</quality>
+          <quality>Allergy (Uncommon, Moderate)</quality>
+          <quality>Antipathy</quality>
+          <quality>Blighted (12 Months)</quality>
+          <quality>Blind</quality>
+          <quality>Deaf</quality>
+          <quality>Incomplete Deprogramming</quality>
+          <quality>Low Pain Tolerance</quality>
+          <quality>Paraplegic</quality>
+          <quality>Phobia (Common, Moderate)</quality>
+          <quality>Poor Self Control (Combat Monster)</quality>
+          <quality>Illness 2 </quality>
+          <quality>Dimmer Bulb 2 </quality>
+          <!--
+          <quality>Dimmer Bulb 2</quality>
+          <quality>Illness 2</quality>
+          -->
+        </selectquality>
+      </bonus>
+    </quality>
 
 
     <!-- Other Adjustments -->
@@ -3468,7 +3521,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <source>6e</source>
       <page>0</page>
     </quality>
-        
+
     <!-- 6e Metagenic Quals-->
     <quality>
       <id>8576d03c-eeaf-41a4-bd3d-74a1514b2be1</id>
