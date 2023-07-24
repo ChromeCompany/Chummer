@@ -964,6 +964,12 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </specificskill>
       </bonus>
     </quality>
+    <quality>
+      <name>Dimmer Bulb</name>
+      <forbidden amendoperation="append">
+        <quality>Dimmer Bulb 2 </quality>
+      </forbidden>
+    </quality>
     <!-- Fixes the Busted Cyberware quality so it can be taken more than once -->
     <quality>
       <name>Busted Cyberware</name>
