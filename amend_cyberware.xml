@@ -216,7 +216,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </bonus>
     </cyberware>
 
-    <!-- 4e translations -->
+    <!-- 4e Additions -->
     <cyberware>
       <id>4ad6e29a-c100-4d93-886d-190df9fa9f27</id>
       <name>Encephalon</name>
@@ -642,7 +642,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </subsystems>
     </cyberware>
 
-    <!-- Adds the 6e Stuff-->
+    <!-- 6e Additions-->
     <cyberware>
       <id>d90e6b88-a001-40fe-9fde-3bda2b2078eb</id>
       <name>Medullan Parallel Processors</name>
@@ -655,6 +655,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>6e</source>
       <page>0</page>
     </cyberware>
+
     <cyberware>
       <id>09d51bcf-46f7-440d-ae74-7b3171ccbd11</id>
       <name>RCC</name>
@@ -670,6 +671,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         <gearcategory>Rigger Command Consoles</gearcategory>
       </allowgear>
     </cyberware>
+
     <cyberware>
       <id>b665edbe-5742-4ded-991f-bb8ab0c259c8</id>
       <name>Cyberlimb Hardening</name>
@@ -703,6 +705,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </parentdetails>
       </required>
     </cyberware>
+      
     <cyberware>
       <id>769ffeaf-ce2e-4001-adc2-93ac71c0322c</id>
       <name>Attibute Expansion</name>
@@ -738,6 +741,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </oneof>
       </required>
     </cyberware>
+
     <cyberware>
       <id>612cfe22-f60f-40de-9283-1622e7a87217</id>
       <name>ASDF Expansion</name>
@@ -773,6 +777,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </oneof>
       </required>
     </cyberware>
+
     <cyberware>
       <id>cb5bfafa-d887-408b-aa25-82297f6ac91d</id>
       <name>Charisma Augmentation</name>
@@ -796,6 +801,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>4</rating>
     </cyberware>
+
     <cyberware>
       <id>11f3571e-7fc6-4d5f-af6f-1168cf46ef29</id>
       <name>Intuition Augmentation</name>
@@ -819,6 +825,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>4</rating>
     </cyberware>
+
     <cyberware>
       <id>770b5def-f3bb-4678-a178-32524a2e046e</id>
       <name>Logic Augmentation</name>
@@ -865,6 +872,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>4</rating>
     </cyberware>
+
     <cyberware>
       <id>adeb301e-aee7-428b-8783-66927263e849</id>
       <name>Firewall Augmentation</name>
@@ -888,6 +896,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>4</rating>
     </cyberware>
+
     <cyberware>
       <id>a67d6add-e02c-47e3-bb35-aab02978c418</id>
       <name>Sleaze Augmentation</name>
@@ -911,6 +920,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>4</rating>
     </cyberware>
+
     <cyberware>
       <id>efaf5b07-0951-455a-b428-27ebd83ee8cb</id>
       <name>Data Processing Augmentation</name>
@@ -934,6 +944,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>4</rating>
     </cyberware>
+
     <cyberware>
       <id>163190c8-9fde-4f11-b55b-469f1a26530d</id>
       <name>Attack Augmentation</name>
@@ -957,6 +968,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>4</rating>
     </cyberware>
+
     <cyberware>
       <id>de2abcc4-8abc-47c3-bf00-18fceb848eb9</id>
       <name>Quantum Processor</name>
@@ -977,6 +989,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </oneof>
       </required>
     </cyberware>
+
     <cyberware>
       <id>cf454dc7-4b3a-4ae7-aa76-920eb73007d5</id>
       <name>Charisma Overclocking</name>
@@ -994,6 +1007,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>8</rating>
     </cyberware>
+
     <cyberware>
       <id>5ce303cf-fe77-40af-adae-d35c0e1ad26a</id>
       <name>Intuition Overclocking</name>
@@ -1011,6 +1025,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>8</rating>
     </cyberware>
+
     <cyberware>
       <id>ed4892ce-652e-47b5-b55b-3cfddf3be753</id>
       <name>Logic Overclocking</name>
@@ -1028,6 +1043,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>8</rating>
     </cyberware>
+
     <cyberware>
       <id>0d5fce99-a228-479c-b4b4-6e15507576ab</id>
       <name>Willpower Overclocking</name>
@@ -1045,6 +1061,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>8</rating>
     </cyberware>
+
     <cyberware>
       <id>b2d6e457-c75c-4bbf-840f-5fa4df602d34</id>
       <name>Attack Overclocking</name>
@@ -1062,6 +1079,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>8</rating>
     </cyberware>
+
     <cyberware>
       <id>840532a2-11b4-45d5-a10d-9bf935b64fc8</id>
       <name>Sleaze Overclocking</name>
@@ -1079,6 +1097,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>8</rating>
     </cyberware>
+
     <cyberware>
       <id>550ddef5-e769-4096-b21c-0e09babf1549</id>
       <name>Data Processing Overclocking</name>
@@ -1096,6 +1115,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>8</rating>
     </cyberware>
+
     <cyberware>
       <id>ffd877cf-0d8b-44e2-bc21-e25930db0da2</id>
       <name>Firewall Overclocking</name>
@@ -1113,6 +1133,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>8</rating>
     </cyberware>
+
     <cyberware>
       <id>f86f77aa-8afe-461b-a657-831d272b72e0</id>
       <name>Core Code Redundancy</name>
@@ -1135,6 +1156,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </conditionmonitor>
       </bonus>
     </cyberware>
+
     <cyberware>
       <id>6a17edb5-4ad7-4f94-a49c-e38dba734bec</id>
       <name>Core Code Shielding</name>
@@ -1152,6 +1174,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>6</rating>
     </cyberware>
+
     <cyberware>
       <id>da29f32f-b45c-4eed-9f47-75d11b1668bc</id>
       <name>Damage Mitigation Protocols</name>
@@ -1168,6 +1191,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </oneof>
       </required>
     </cyberware>
+
     <cyberware>
       <id>3d782427-30e7-4216-84d0-d6559d817457</id>
       <name>Damage Response Overrides</name>
@@ -1190,6 +1214,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </conditionmonitor>
       </bonus>
     </cyberware>
+
     <cyberware>
       <id>5c2a9c7b-7dbf-4dfa-a9d6-460383aa3efb</id>
       <name>Data Archive Upgrade</name>
@@ -1211,6 +1236,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </addqualities>
       </bonus>
     </cyberware>
+
     <cyberware>
       <id>a4dcf8ad-17b4-432f-b642-11818b966efe</id>
       <name>Optimized Restoration</name>
@@ -1227,6 +1253,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </oneof>
       </required>
     </cyberware>
+
     <cyberware>
       <id>9387cc16-71b1-4ee2-b4bc-ef155242ef3d</id>
       <name>RCC Emulator</name>
@@ -1244,6 +1271,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>6</rating>
     </cyberware>
+
     <cyberware>
       <id>b865eb54-e309-42eb-bfc0-3e2ae5d55f97</id>
       <name>Sideload Processor</name>
@@ -1261,6 +1289,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>12</rating>
     </cyberware>
+
     <cyberware>
       <id>2984ec6f-34cf-447f-867d-bf0f61d2caab</id>
       <name>Synthetic Skill Driver: Activesoft</name>
@@ -1278,6 +1307,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>6</rating>
     </cyberware>
+
     <cyberware>
       <id>09870bb4-dbb0-4ca4-8e5c-164adba3596e</id>
       <name>Synthetic Skill Driver: Linguasoft</name>
@@ -1295,6 +1325,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>4</rating>
     </cyberware>
+
     <cyberware>
       <id>21506091-c14a-47f9-a88f-f353081109bc</id>
       <name>Synthetic Skill Driver: Knowsoft</name>
@@ -1311,6 +1342,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </oneof>
       </required>
     </cyberware>
+
     <cyberware>
       <id>55c65d90-5863-409e-97b1-0ccd9b865f58</id>
       <name>Active Signal Filter</name>
@@ -1328,6 +1360,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>6</rating>
     </cyberware>
+
     <cyberware>
       <id>f284645a-db57-458f-b64c-455b76130b2c</id>
       <name>ECM Integration</name>
@@ -1345,6 +1378,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>6</rating>
     </cyberware>
+
     <cyberware>
       <id>0725b73a-4369-4fa5-bab9-8001c8893af7</id>
       <name>PAN Emulator</name>
@@ -1362,6 +1396,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>3</rating>
     </cyberware>
+
     <cyberware>
       <id>9c1dbb45-493a-4f74-aeb3-0bee547dd057</id>
       <name>Control Rig Integration</name>
@@ -1379,6 +1414,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>3</rating>
     </cyberware>
+
     <cyberware>
       <id>f9cc6b6e-c525-4dad-98d8-0ebd22b3a1ba</id>
       <name>Sensor Input Filters</name>
@@ -1407,6 +1443,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </specificskill>
       </bonus>
     </cyberware>
+
     <cyberware>
       <id>d68542f9-7da2-4064-8c45-3ea1bbd83fae</id>
       <name>Simsense Integration</name>
@@ -1423,6 +1460,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </oneof>
       </required>
     </cyberware>
+
     <cyberware>
       <id>fb745a5a-67ee-4a88-bc02-a5fe6e3194b2</id>
       <name>Smartlink Adapter</name>
@@ -1442,6 +1480,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         <smartlink>2</smartlink>
       </bonus>
     </cyberware>
+
     <cyberware>
       <id>8dd166e0-a2d3-4904-8a64-58d822fead9b</id>
       <name>Coherent Neuroconnectivity</name>
@@ -1477,6 +1516,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </oneof>
       </forbidden>
     </cyberware>
+
     <cyberware>
       <id>54f422fd-8b7c-4c6f-a1df-9f8f3ba88c8a</id>
       <name>Quantum Subroutines</name>
@@ -1502,6 +1542,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </oneof>
       </forbidden>
     </cyberware>
+
     <cyberware>
       <id>1097c0cf-d70d-4eee-8bbb-02947c21c4a6</id>
       <name>Sympathetic Consciousness</name>
@@ -1530,6 +1571,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </oneof>
       </forbidden>
     </cyberware>
+
     <cyberware>
       <id>9998312a-6440-4c46-a699-bb9e7a1da5af</id>
       <name>Discretionary Fragmentation</name>
@@ -1578,7 +1620,5 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </oneof>
       </forbidden>
     </cyberware>
-
-
   </cyberwares>
 </chummer>
