@@ -644,6 +644,35 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 
     <!-- 6e Additions-->
     <cyberware>
+      <id>8c42e6dd-1ad4-451c-a898-9894cb0b72c9</id>
+      <name>Cyberwings</name>
+      <Limit>False</Limit>
+      <category>Bodyware</category>
+      <ess>2</ess>
+      <avail>16R</avail>
+      <cost>50000</cost>
+      <bonus>
+        <movementreplace>
+          <category>Fly</category>
+          <speed>walk</speed>
+          <val>1</val>
+        </movementreplace> 
+        <movementreplace>
+          <category>Fly</category>
+          <speed>run</speed>
+          <val>3</val>
+        </movementreplace> 
+        <movementreplace>
+          <category>Fly</category>
+          <speed>sprint</speed>
+          <val>200</val>
+        </movementreplace> 
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </cyberware>
+
+    <cyberware>
       <id>d90e6b88-a001-40fe-9fde-3bda2b2078eb</id>
       <name>Medullan Parallel Processors</name>
       <limit>False</limit>
@@ -705,7 +734,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </parentdetails>
       </required>
     </cyberware>
-      
+
     <cyberware>
       <id>769ffeaf-ce2e-4001-adc2-93ac71c0322c</id>
       <name>Attibute Expansion</name>
