@@ -701,6 +701,20 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </allowgear>
     </cyberware>
 
+    
+    <cyberware>
+      <id>b04ff251-b5ea-43d9-9e48-381a6cb74fe9</id>
+      <name>Speed Booster</name>
+      <category>Bodyware</category>
+      <ess>0.2*Rating</ess>
+      <capacity>0</capacity>
+      <avail>12F</avail>
+      <cost>25000*Rating</cost>
+      <source>6e</source>
+      <page>0</page>
+      <rating>2</rating>
+      <minrating>1</minrating>
+    </cyberware>
     <cyberware>
       <id>b665edbe-5742-4ded-991f-bb8ab0c259c8</id>
       <name>Cyberlimb Hardening</name>
