@@ -715,6 +715,24 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <rating>2</rating>
       <minrating>1</minrating>
     </cyberware>
+
+<!-- 6th Edition Cyberlimbs Addons-->
+    <cyberware>
+      <id>299af064-5f4c-41ff-853d-4bf58e4f47bd</id>
+      <name>Sinister/Dexter Coprocessor</name>
+      <Limit>False</Limit>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>2</capacity>
+      <avail>4</avail>
+      <cost>1000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <bonus>
+        <ambidextrous />
+      </bonus>
+    </cyberware>
+
     <cyberware>
       <id>b665edbe-5742-4ded-991f-bb8ab0c259c8</id>
       <name>Cyberlimb Hardening</name>
@@ -748,6 +766,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </parentdetails>
       </required>
     </cyberware>
+
+    <!-- Codemods-->
 
     <cyberware>
       <id>769ffeaf-ce2e-4001-adc2-93ac71c0322c</id>
