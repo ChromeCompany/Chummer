@@ -672,7 +672,82 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <page>0</page>
     </cyberware>
 
+    <cyberware>
+      <id>8ae4a84e-2253-4cf0-a329-7e30bba2faaf</id> 
+      <name>Additional Synthetic Full Arm</name>
+      <category>Cyberlimb</category>
+      <ess>1.2</ess>
+      <capacity>8</capacity>
+      <avail>6</avail>
+      <cost>25000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <allowgear>
+        <gearcategory>Custom</gearcategory>
+        <gearcategory>Sensors</gearcategory>
+      </allowgear>
+      <allowsubsystems>
+        <category>Bodyware</category>
+        <category>Cosmetic Enhancement</category>
+        <category>Cyberlimb</category>
+        <category>Cyberlimb Enhancement</category>
+        <category>Cyberlimb Accessory</category>
+        <category>Cyber Implant Weapon</category>
+        <category>Headware</category>
+        <category>Nanocybernetics</category>
+      </allowsubsystems>
+      <selectside />
+      <bonus>
+        <conditionmonitor>
+          <physical>1</physical>
+        </conditionmonitor>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <cyberware>Smart Articulation</cyberware>
+        </oneof>
+      </forbidden>
+      <limbslot>arm</limbslot>
+      <blocksmounts>wrist,elbow,shoulder</blocksmounts>
+    </cyberware>
 
+    <cyberware>
+      <id>87af4271-0ecb-4805-8cd0-6a1827df903e</id>
+      <name>Additional Obvious Full Arm</name>
+      <category>Cyberlimb</category>
+      <ess>1.2</ess>
+      <capacity>15</capacity>
+      <avail>6</avail>
+      <cost>20000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <allowgear>
+        <gearcategory>Custom</gearcategory>
+        <gearcategory>Sensors</gearcategory>
+      </allowgear>
+      <allowsubsystems>
+        <category>Bodyware</category>
+        <category>Cosmetic Enhancement</category>
+        <category>Cyberlimb</category>
+        <category>Cyberlimb Enhancement</category>
+        <category>Cyberlimb Accessory</category>
+        <category>Cyber Implant Weapon</category>
+        <category>Headware</category>
+        <category>Nanocybernetics</category>
+      </allowsubsystems>
+      <selectside />
+      <bonus>
+        <conditionmonitor>
+          <physical>1</physical>
+        </conditionmonitor>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <cyberware>Smart Articulation</cyberware>
+        </oneof>
+      </forbidden>
+      <blocksmounts>wrist,elbow,shoulder</blocksmounts>
+    </cyberware>
 
     <cyberware>
       <id>d90e6b88-a001-40fe-9fde-3bda2b2078eb</id>
@@ -703,7 +778,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </allowgear>
     </cyberware>
 
-    
+
     <cyberware>
       <id>b04ff251-b5ea-43d9-9e48-381a6cb74fe9</id>
       <name>Speed Booster</name>
@@ -716,16 +791,27 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <page>0</page>
       <rating>2</rating>
       <minrating>1</minrating>
+      <bonus>
+        <walkmultiplier>
+          <category>Ground</category>
+          <val>2*Rating</val>
+        </walkmultiplier>
+        <runmultiplier>
+          <category>Ground</category>
+          <val>4*Rating</val>
+        </runmultiplier>
+    </bonus>
+    
     </cyberware>
 
-<!-- 6th Edition Cyberlimbs Addons-->
+    <!-- 6th Edition Cyberlimbs Addons-->
     <cyberware>
       <id>299af064-5f4c-41ff-853d-4bf58e4f47bd</id>
       <name>Sinister/Dexter Coprocessor</name>
       <Limit>False</Limit>
       <category>Cyberlimb Enhancement</category>
       <ess>0</ess>
-      <capacity>2</capacity>
+      <capacity>[2]</capacity>
       <avail>4</avail>
       <cost>1000</cost>
       <source>6e</source>
@@ -735,6 +821,18 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </bonus>
     </cyberware>
 
+    <cyberware>
+      <id>3b6f3563-da96-4e5c-b586-888b5d29d3ce</id>
+      <name>Simian Modification</name>
+      <Limit>False</Limit>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>[3]</capacity>
+      <avail>4</avail>
+      <cost>1500</cost>
+      <source>6e</source>
+      <page>0</page>
+    </cyberware>
     <cyberware>
       <id>b665edbe-5742-4ded-991f-bb8ab0c259c8</id>
       <name>Cyberlimb Hardening</name>
