@@ -1983,6 +1983,33 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <useskill>Unarmed Combat</useskill>
     </weapon>
 
+    <weapon>
+      <id>a10b3299-31b3-4fbe-a845-5555ee851280</id>
+      <name>Tesla Coil</name>
+      <category>Cyberweapon</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>10S(e)</damage>
+      <ap>-5</ap>
+      <mode>SF/BF/FA</mode>
+      <rc>0</rc>
+      <ammo>10(c) or External Source</ammo>
+      <avail>18R</avail>
+      <cost>0</cost>
+      <source>6e</source>
+      <page>0</page>
+      <accessorymounts>
+        <mount>Under</mount>
+      </accessorymounts>
+      <cyberware>True</cyberware>
+      <hide />
+      <useskill>Exotic Ranged Weapon</useskill>
+      <useskillspec>Tesla Coil</spec>
+      <range>Tasers</range>
+    </weapon>
+
     <!-- 6th Edition Weapons -->
     <weapon>
       <id>13e8a7a1-b95a-4d23-8045-ef3d10525f5c</id>
@@ -2108,7 +2135,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
   </accessories>
 
   <accessories amendoperation="append">
-    <!-- 4e Accessories for the 4e weapons (Also german stuff now)-->
+    <!-- 4th Edition Accessories for the 4th Edition weapons (Also german stuff now) TODO separate german stuff back out-->
     <accessory>
       <id>90796c00-08dd-4fd6-8815-8ef137c91ddb</id>
       <name>Belt-Feed, 50-round</name>
@@ -2126,6 +2153,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </weapondetails>
       </required>
     </accessory>
+
     <accessory>
       <id>e3fbf35f-4b07-422c-9f5c-7de925b47dc4</id>
       <name>Clip, 15-round</name>
@@ -2143,6 +2171,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </weapondetails>
       </required>
     </accessory>
+
     <accessory>
       <id>c7b01cc8-90f5-48ec-b7d3-20d65afa3093</id>
       <name>Extended Clip (Walther PB-120)</name>
@@ -2160,6 +2189,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </weapondetails>
       </required>
     </accessory>
+
     <accessory>
       <id>c80b36bf-72d0-442e-80d4-91346c4a884c</id>
       <name>Extended Clip (Glock-Swarovski Eagle Eye)</name>
@@ -2177,6 +2207,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </weapondetails>
       </required>
     </accessory>
+
     <accessory>
       <id>6b75c8f3-5484-41a2-b9c4-b8275710be88</id>
       <name>Walther PB-120 15-Round Spare Clip</name>
@@ -2193,6 +2224,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </weapondetails>
       </required>
     </accessory>
+
     <accessory>
       <id>2eacc796-1402-491e-b0fb-ab4865563a75</id>
       <name>Walther Secura Smartgun System</name>
@@ -2229,6 +2261,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </weapondetails>
       </required>
     </accessory>
+
     <accessory>
       <id>747c0929-c738-4127-90b9-d8a784a52b7e</id>
       <name>Walther Secura Kompakt Smartgun System</name>
@@ -2265,6 +2298,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </weapondetails>
       </required>
     </accessory>
+
     <accessory>
       <id>e001ba0a-b31f-4a82-84eb-45fd752a7676</id>
       <name>Stock Removal (Glock MP Custodes)</name>
@@ -2290,6 +2324,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </weapondetails>
       </required>
     </accessory>
+
     <accessory>
       <id>17ea1a04-a805-404b-9d20-c278d89b62d0</id>
       <name>Briefcase Gun Shielding</name>
@@ -2308,6 +2343,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </weapondetails>
       </required>
     </accessory>
+
     <accessory>
       <id>be3ba823-0787-4dad-af58-b7b48c699755</id>
       <name>Ammo Skip (Pistol)</name>
@@ -2342,6 +2378,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </oneof>
       </required>
     </accessory>
+
     <accessory>
       <id>13be9882-4bb0-469a-a136-234fb6fae350</id>
       <name>Ares Predator VI Spare Clip</name>
@@ -2358,5 +2395,21 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </weapondetails>
       </required>
     </accessory>
+  </accessories>
+
+  <!-- Accomodating 6th Edition Weapons-->
+  <accessories>
+    <accessory>
+      <name>External Power Source</name>
+      <required>
+        <weapondetails>
+          <OR amendoperation="append">
+            <name>Tesla Coil</name>
+          </OR>
+        </weapondetails>
+      </required>
+    </accessory>
+
+
   </accessories>
 </chummer>

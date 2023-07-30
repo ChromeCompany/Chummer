@@ -659,7 +659,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </subsystems>
     </cyberware>
 
-    <!-- 6th Edition Additions-->
+    <!-- 6th Edition Cyberware-->
     <cyberware>
       <id>8c42e6dd-1ad4-451c-a898-9894cb0b72c9</id>
       <name>Cyberwings</name>
@@ -795,7 +795,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </allowgear>
     </cyberware>
 
-
     <cyberware>
       <id>b04ff251-b5ea-43d9-9e48-381a6cb74fe9</id>
       <name>Speed Booster</name>
@@ -818,9 +817,36 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <val>4*Rating</val>
         </runmultiplier>
     </bonus>
-    
     </cyberware>
 
+    <!-- 6th Edition Cyberweapons -->
+    <cyberware>
+      <id>bc0b7c3f-b8e4-4a16-ba3d-dccfdf404c3d</id>
+      <name>Crab Claw</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapons</category>
+      <ess>0.3</ess>
+      <capacity>[4]</capacity>
+      <avail>10R</avail>
+      <cost>2000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <addweapon>Crab Claw</addweapon>
+   </cyberware>
+
+   <cyberware>
+     <id>275c14d4-cd3c-4a82-b9eb-27054e090cea</id>
+     <name>Tesla Coil</name>
+     <limit>False</limit>
+     <category>Cyber Implant Weapons</category>
+     <ess>0.4</ess>
+     <capacity>[6]</capacity>
+     <avail>18R</avail>
+     <cost>15000</cost>
+     <source>6e</source>
+     <page>0</page>
+     <addweapon>Tesla Coil</addweapon>
+  </cyberware>
     <!-- 6th Edition Cyberlimbs Addons-->
     <cyberware>
       <id>299af064-5f4c-41ff-853d-4bf58e4f47bd</id>
