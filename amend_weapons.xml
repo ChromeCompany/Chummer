@@ -1959,9 +1959,9 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <spec>Cyber Implants</spec>
       <useskill>Unarmed Combat</useskill>
     </weapon>
-      
-<weapon>
-  <id>051dae7c-07bb-42de-a173-95f38b94edc7</id>
+
+    <weapon>
+      <id>051dae7c-07bb-42de-a173-95f38b94edc7</id>
       <name>Crab Claw</name>
       <category>Cyberweapon</category>
       <type>Melee</type>
@@ -1982,6 +1982,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <spec>Cyber Implants</spec>
       <useskill>Unarmed Combat</useskill>
     </weapon>
+
     <!-- 6th Edition Weapons -->
     <weapon>
       <id>13e8a7a1-b95a-4d23-8045-ef3d10525f5c</id>
