@@ -1745,7 +1745,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <useskill>Unarmed Combat</useskill>
     </weapon>
 
-    <!-- New grenades from the 6e content patch -->
+    <!-- New grenades from 6th Edition -->
     <weapon>
       <id>2468661c-2a8d-456e-970c-5d8b9f1dd077</id>
       <name>Grenade: Corrosive</name>
@@ -2333,4 +2333,4 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
     </accessory>
   </accessories>
-  </chummer
+</chummer>
