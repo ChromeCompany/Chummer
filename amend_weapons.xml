@@ -1935,7 +1935,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <spec>Grenade Launcher</spec>
       <useskill>Heavy Weapons</useskill>
     </weapon>
-    <!-- More 6e stuff in general-->
+
+    <!-- 6th Edition Cyberweapons-->
     <weapon>
       <id>5c60484b-253d-49b4-9cfe-03d84feb7018</id>
       <name>Cyberlimb Hardening</name>
@@ -1958,6 +1959,30 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <spec>Cyber Implants</spec>
       <useskill>Unarmed Combat</useskill>
     </weapon>
+      
+<weapon>
+  <id>051dae7c-07bb-42de-a173-95f38b94edc7</id>
+      <name>Crab Claw</name>
+      <category>Cyberweapon</category>
+      <type>Melee</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>({STR}+2)P</damage>
+      <ap>-2</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>0</avail>
+      <cost>0</cost>
+      <source>6e</source>
+      <page>0</page>
+      <cyberware>True</cyberware>
+      <hide />
+      <spec>Cyber Implants</spec>
+      <useskill>Unarmed Combat</useskill>
+    </weapon>
+    <!-- 6th Edition Weapons -->
     <weapon>
       <id>13e8a7a1-b95a-4d23-8045-ef3d10525f5c</id>
       <name>Ares Predator VI</name>
