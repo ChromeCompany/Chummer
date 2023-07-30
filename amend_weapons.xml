@@ -1977,6 +1977,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <cost>0</cost>
       <source>6e</source>
       <page>0</page>
+      <allowaccessory>False</allowaccessory>
       <cyberware>True</cyberware>
       <hide />
       <spec>Cyber Implants</spec>
@@ -1993,16 +1994,14 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <reach>0</reach>
       <damage>10S(e)</damage>
       <ap>-5</ap>
-      <mode>SF/BF/FA</mode>
+      <mode>SA/BF/FA</mode>
       <rc>0</rc>
       <ammo>10(c) or External Source</ammo>
       <avail>18R</avail>
       <cost>0</cost>
       <source>6e</source>
       <page>0</page>
-      <accessorymounts>
-        <mount>Under</mount>
-      </accessorymounts>
+      <allowaccessory>False</allowaccessory>
       <cyberware>True</cyberware>
       <hide />
       <useskill>Exotic Ranged Weapon</useskill>

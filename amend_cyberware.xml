@@ -816,7 +816,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <category>Ground</category>
           <val>4*Rating</val>
         </runmultiplier>
-    </bonus>
+      </bonus>
     </cyberware>
 
     <!-- 6th Edition Cyberweapons -->
@@ -824,7 +824,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <id>bc0b7c3f-b8e4-4a16-ba3d-dccfdf404c3d</id>
       <name>Crab Claw</name>
       <limit>False</limit>
-      <category>Cyber Implant Weapons</category>
+      <category>Cyber Implant Weapon</category>
       <ess>0.3</ess>
       <capacity>[4]</capacity>
       <avail>10R</avail>
@@ -832,49 +832,26 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>6e</source>
       <page>0</page>
       <addweapon>Crab Claw</addweapon>
-   </cyberware>
-
-   <cyberware>
-     <id>275c14d4-cd3c-4a82-b9eb-27054e090cea</id>
-     <name>Tesla Coil</name>
-     <limit>False</limit>
-     <category>Cyber Implant Weapons</category>
-     <ess>0.4</ess>
-     <capacity>[6]</capacity>
-     <avail>18R</avail>
-     <cost>15000</cost>
-     <source>6e</source>
-     <page>0</page>
-     <addweapon>Tesla Coil</addweapon>
-  </cyberware>
-    <!-- 6th Edition Cyberlimbs Addons-->
-    <cyberware>
-      <id>299af064-5f4c-41ff-853d-4bf58e4f47bd</id>
-      <name>Sinister/Dexter Coprocessor</name>
-      <Limit>False</Limit>
-      <category>Cyberlimb Enhancement</category>
-      <ess>0</ess>
-      <capacity>[2]</capacity>
-      <avail>4</avail>
-      <cost>1000</cost>
-      <source>6e</source>
-      <page>0</page>
-      <bonus>
-        <ambidextrous />
-      </bonus>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
     </cyberware>
 
     <cyberware>
-      <id>3b6f3563-da96-4e5c-b586-888b5d29d3ce</id>
-      <name>Simian Modification</name>
-      <Limit>False</Limit>
-      <category>Cyberlimb Enhancement</category>
-      <ess>0</ess>
-      <capacity>[3]</capacity>
-      <avail>4</avail>
-      <cost>1500</cost>
+      <id>275c14d4-cd3c-4a82-b9eb-27054e090cea</id>
+      <name>Tesla Coil</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapon</category>
+      <ess>0.4</ess>
+      <capacity>[6]</capacity>
+      <avail>18R</avail>
+      <cost>15000</cost>
       <source>6e</source>
       <page>0</page>
+      <addweapon>Tesla Coil</addweapon>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
     </cyberware>
 
     <cyberware>
@@ -910,6 +887,37 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </parentdetails>
       </required>
     </cyberware>
+
+    <!-- 6th Edition Cyberlimbs Addons-->
+    <cyberware>
+      <id>299af064-5f4c-41ff-853d-4bf58e4f47bd</id>
+      <name>Sinister/Dexter Coprocessor</name>
+      <Limit>False</Limit>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>[2]</capacity>
+      <avail>4</avail>
+      <cost>1000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <bonus>
+        <ambidextrous />
+      </bonus>
+    </cyberware>
+
+    <cyberware>
+      <id>3b6f3563-da96-4e5c-b586-888b5d29d3ce</id>
+      <name>Simian Modification</name>
+      <Limit>False</Limit>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>[3]</capacity>
+      <avail>4</avail>
+      <cost>1500</cost>
+      <source>6e</source>
+      <page>0</page>
+    </cyberware>
+
 
     <!-- Codemods-->
 
