@@ -24,6 +24,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <hide />
     </grade>
   </grades>
+
   <biowares>
     <bioware>
       <name>Adapsin</name>
@@ -49,6 +50,25 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <bioware>
       <id>70bd2c89-3432-4270-8e4c-d8d979114148</id>
       <name>Vocal Range Extender</name>
+    </bioware>
+
+    <!-- Add Incompatiblity with Metabolic Arrester -->
+    <bioware>
+      <name>Adrenaline Pump</name>
+        <forbidden amendoperation="append">
+            <oneof>
+              <bioware>Metabolic Arrester</bioware>
+          </oneof>
+      </forbidden>
+    </bioware>
+      
+    <bioware>
+      <name>Suprathyroid Gland</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <bioware>Metabolic Arrester</bioware>
+        </oneof>
+      </forbidden>
     </bioware>
 
     <!--Prevents the genops from getting taken with metagentic improvements-->
@@ -342,5 +362,33 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>HT</source>
       <page>185</page>
     </bioware>
+
+    <!-- 6th Edition Bioware --> 
+    <bioware>
+      <id>6a6f272d-8d57-4075-8bac-9f820ee0033a</id>
+      <name>Metabolic Arrester</name>
+      <limit>False</limit>
+      <category>Basic</category>
+      <ess>0.3</ess>
+      <capacity>0</capacity>
+      <avail>10</avail>
+      <cost>10000</cost>
+      <bonus>
+        <conditionmonitor>
+          <overflow>2</overflow>
+        </conditionmonitor>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <bioware>Suprathyroid Gland</bioware>
+          <bioware>Adrenaline Pump</bioware>
+        </oneof>
+      </forbidden>
+      <source>6e</source>
+      <page>0</page>
+   </bioware>
+
+
+
   </biowares>
 </chummer>
