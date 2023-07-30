@@ -260,6 +260,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <rating>2</rating>
       <minrating>1</minrating>
     </cyberware>
+
     <cyberware>
       <id>7a477d2e-4c0b-4490-98a6-b82aa025a944</id>
       <name>Single Cybereye</name>
@@ -285,6 +286,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </cyberware>
       </subsystems>
     </cyberware>
+
     <cyberware>
       <id>0ea9c04f-34d6-469c-ab1e-1164ee85439c</id>
       <name>Blood Circuit Control System</name>
@@ -303,6 +305,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <page>0</page>
       <allowgear />
     </cyberware>
+
     <cyberware>
       <id>bff50a40-9ef0-4f9c-b761-9e0287af03d1</id>
       <name>Dermal Sheath</name>
@@ -324,6 +327,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </forbidden>
       <rating>3</rating>
     </cyberware>
+
     <cyberware>
       <id>ab6bb42c-478f-4705-9150-9299b726e50e</id>
       <name>Dermal Sheath - Skin Toner Capabilities</name>
@@ -341,6 +345,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>1</rating>
     </cyberware>
+
     <cyberware>
       <id>f72a0070-fdc8-4024-802c-a2e39490cd5c</id>
       <name>Dermal Sheath - Chameleon Processor</name>
@@ -359,6 +364,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </required>
       <rating>1</rating>
     </cyberware>
+
     <cyberware>
       <id>9bc7b7aa-96f4-447d-b947-4f094650f587</id>
       <name>Mark 74 Smartlink</name>
@@ -379,6 +385,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </oneof>
       </forbidden>
     </cyberware>
+
     <cyberware>
       <id>f5e62374-39c7-43c7-aded-88f0ba4eec01</id>
       <name>Bone Lacing (Ceramic)</name>
@@ -404,6 +411,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </forbidden>
       <notes>Bone Lacing does not increase your BOD score, only tests for resisting damage.</notes>
     </cyberware>
+
     <cyberware>
       <id>a9d98be6-1b6b-42a7-b4e9-a5dd2af53c54</id>
       <name>Bone Lacing (Kevlar)</name>
@@ -428,6 +436,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </forbidden>
       <notes>Bone Lacing does not increase your BOD score, only tests for resisting damage.</notes>
     </cyberware>
+
     <cyberware>
       <id>533c9c64-36db-4d38-93ae-62616f2a828a</id>
       <name>Rotational Joints</name>
@@ -458,6 +467,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </parentdetails>
       </required>
     </cyberware>
+
     <cyberware>
       <id>9f0739cd-5a4e-4eae-8a0c-692e7114c3ca</id>
       <name>Eye/Oral Dart</name>
@@ -474,6 +484,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         <category>Cyber Implant Weapon Accessory</category>
       </allowsubsystems>
     </cyberware>
+
     <cyberware>
       <id>002b3820-4cb9-4280-bb5e-17cea35134b8</id>
       <name>Fingertip Dartgun</name>
@@ -490,6 +501,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         <category>Cyber Implant Weapon Accessory</category>
       </allowsubsystems>
     </cyberware>
+
     <cyberware>
       <id>d3119c9e-ee43-47d8-b9fb-fc2d69d486d3</id>
       <name>Oral Gun</name>
@@ -506,6 +518,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         <category>Cyber Implant Weapon Accessory</category>
       </allowsubsystems>
     </cyberware>
+
     <cyberware>
       <id>91f497f6-9bf9-483c-ba22-e67837e277e1</id>
       <name>Squirtgun</name>
@@ -522,6 +535,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         <category>Cyber Implant Weapon Accessory</category>
       </allowsubsystems>
     </cyberware>
+
     <cyberware>
       <id>8f1ca9b8-787c-4383-ae97-a0d1df05f699</id>
       <name>Taser</name>
@@ -538,6 +552,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         <category>Cyber Implant Weapon Accessory</category>
       </allowsubsystems>
     </cyberware>
+
     <cyberware>
       <id>13fff585-f8d8-478a-881f-752a5a0a6e14</id>
       <name>Articulated Weapon Arm</name>
@@ -558,6 +573,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </parentdetails>
       </required>
     </cyberware>
+
     <cyberware>
       <id>384ea312-c2a6-49ac-a0eb-9f857316010e</id>
       <name>External Mount</name>
@@ -617,6 +633,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </cyberware>
       </subsystems>
     </cyberware>
+
     <cyberware>
       <id>fb71097d-1850-48b1-a518-6048e8cfd608</id>
       <name>Additional Eye Mount R2</name>
@@ -833,6 +850,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>6e</source>
       <page>0</page>
     </cyberware>
+
     <cyberware>
       <id>b665edbe-5742-4ded-991f-bb8ab0c259c8</id>
       <name>Cyberlimb Hardening</name>
