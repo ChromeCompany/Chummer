@@ -55,13 +55,13 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <!-- Add Incompatiblity with Metabolic Arrester -->
     <bioware>
       <name>Adrenaline Pump</name>
-        <forbidden amendoperation="append">
-            <oneof>
-              <bioware>Metabolic Arrester</bioware>
-          </oneof>
+      <forbidden amendoperation="append">
+        <oneof>
+          <bioware>Metabolic Arrester</bioware>
+        </oneof>
       </forbidden>
     </bioware>
-      
+
     <bioware>
       <name>Suprathyroid Gland</name>
       <forbidden amendoperation="append">
@@ -367,7 +367,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <bioware>
       <id>6a6f272d-8d57-4075-8bac-9f820ee0033a</id>
       <name>Metabolic Arrester</name>
-      <limit>False</limit>
       <category>Basic</category>
       <ess>0.3</ess>
       <capacity>0</capacity>
@@ -386,9 +385,78 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </forbidden>
       <source>6e</source>
       <page>0</page>
-   </bioware>
+    </bioware>
 
+    <bioware>
+      <id>870f83f2-febb-41a9-b1b5-a7bbb133a7cf</id>
+      <name>Quadmod</name>
+      <category>Cultured</category>
+      <bannedgrades>
+        <grade>Used</grade>
+        <grade>Used (Adapsin)</grade>
+      </bannedgrades>
+      <ess>0.1*Rating</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>7500*Rating</cost>
+      <bonus>
+        <sprintbonus>
+          <category>Ground</category>
+          <val>100*Rating</val>
+        </sprintbonus>
+      </bonus>
+      <rating>3</rating>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
 
+    <bioware>
+      <id>f609916d-1b77-4e7d-b8c0-1a8bb1788f63</id> 
+      <name>Awareness</name>
+      <category>Basic</category>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>12000</cost>
+      <bonus>
+        <surprise>2</surprise> 
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
 
+    <bioware>
+      <name>Gliding Wings</name>
+      <category>Cultured</category>
+      <bannedgrades>
+        <grade>Used</grade>
+        <grade>Used (Adapsin)</grade>
+      </bannedgrades>
+      <ess>1.5</ess>
+      <avail>14</avail>
+      <cost>100000</cost>
+      <bonus>
+        <movementreplace>
+          <category>Fly</category>
+          <speed>sprint</speed>
+          <val>300</val>
+        </movementreplace>
+        <specificattribute>
+          <name>BOD</name> 
+          <max>-1></max>
+          <current>-1</current>
+        </specificattribute>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <cyberware>Bone Density Augmentation</cyberware>
+          <cyberware>Bone Lacing (Plastic)</cyberware>
+          <cyberware>Bone Lacing (Aluminum></cyberware>
+          <cyberware>Bone Lacing (Titanium)</cyberware>
+          <cyberware>Bone Lacing (Kevlar)</cyberware>
+          <cyberware>Bone Lacing (Ceramic)</cyberware>
+        </oneof>
+      </forbidden>
+    </bioware>
   </biowares>
 </chummer>
