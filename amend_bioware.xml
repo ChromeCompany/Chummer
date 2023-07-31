@@ -462,5 +462,30 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>6e</source>
       <page>0</page>
     </bioware>
+
+    <bioware>
+      <id>0a1ebf54-af0b-490a-b8f5-2d7f265509a7</id>
+      <name>Alpha Factor</name>
+      <category>Phenotype Adjustment</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>16F</avail>
+      <cost>45000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <skillcategory>
+          <name>Social Active</name>
+          <bonus>1</bonus>
+        </skillcategory>
+        <skillcategory>
+          <name>Magical Active</name>
+          <bonus>-1</bonus>
+        </skillcategory>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+   </bioware>
+
   </biowares>
 </chummer>
