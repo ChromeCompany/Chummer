@@ -782,7 +782,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <cost>6500*Rating</cost>
       <source>6e</source>
       <page>0</page>
-   </gear>
+    </gear>
 
     <!-- Homunculus Materials -->
     <gear>
