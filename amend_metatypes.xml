@@ -39,16 +39,19 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </metavariant>
       </metavariants>
     </metatype>
+  </metatypes>
 
+
+  <metatypes>
     <!-- Add Valkyries from 6th Edition -->
     <metatype>
       <name>Human</name>
-      <metavariants amendoperation="append">
+      <metavariants amendoperation="addnode">
         <metavariant>
           <id>14af08a1-48f8-4120-8d72-f311a3e8216a</id>
           <name>Valkyrie</name>
           <category>Metavariant</category>
-          <karma>15</karma>
+          <karma>40</karma>
           <bodmin>1</bodmin>
           <bodmax>6</bodmax>
           <bodaug>10</bodaug>
@@ -96,6 +99,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
               <quality>Functional Wings</quality>
               <quality>Wing Claw</quality>
             </positive>
+            <negative />
           </qualities>
           <bonus />
           <source>6e</source>
