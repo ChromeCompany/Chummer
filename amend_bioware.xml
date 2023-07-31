@@ -563,5 +563,31 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <page>0</page>
     </bioware>
 
+    <bioware>
+      <id>b0b2be70-84c6-4340-90d8-c882277af954</id>
+      <name>Minor Transgenic Cosmetic Infusion</name>
+      <category>Transgenics</category>
+      <ess>0</ess>
+      <capacity>0</capacity>
+      <avail>6</avail>
+      <cost>35000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>6e</source>
+      <page>0</page>
+   </bioware>
+
+   <bioware>
+     <id>8d76e97a-9e71-403f-99ec-c58ad144e549</id>
+     <name>Moderate Transgenic Cosmetic Infusion</name>
+     <category>Transgenics</category>
+     <ess>0.2</ess>
+     <avail>9</avail>
+     <cost>55000</cost>
+     <forcegrade>None</forcegrade> 
+     <isgeneware />
+     <source>6e</source>
+     <page>0</page>
+  </bioware>
   </biowares>
 </chummer>
