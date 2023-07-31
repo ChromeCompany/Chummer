@@ -664,6 +664,10 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <quality>Insomnia (Basic)</quality>
           <quality>Young Cannibal</quality>
         </selectquality>
+        <specificskill>
+          <name>Intimidation</name>
+          <bonus>2</bonus>
+        </specificskill>
       </bonus>
       <source>6e</source>
       <page>0</page>
