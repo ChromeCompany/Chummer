@@ -498,13 +498,17 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <forcegrade>None</forcegrade>
       <isgeneware />
       <bonus>
-        <initiativepass precedence="0">Rating</initiativepass>
-        <specificattribute precedence="0">
+        <initiativepass precedence="-1">1</initiativepass>
+        <specificattribute precedence="-1">
           <name>REA</name>
           <val>1</val>
         </specificattribute>
-        <disablequality>3564b678-7721-4a8d-ac79-1600cf92dc14</disablequality>
       </bonus>
+      <required>
+        <oneof>        
+          <bioware>Synaptic Booster</bioware>
+        </oneof>
+      </required>
       <source>6e</source>
       <page>0</page>
     </bioware>
@@ -525,6 +529,11 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <val>1</val>
         </specificattribute>
       </bonus>
+      <required>
+        <oneof>        
+          <bioware>Cerebellum Booster</bioware>
+        </oneof>
+      </required>
       <source>6e</source>
       <page>0</page>
     </bioware>
@@ -545,6 +554,11 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <val>1</val>
         </specificattribute>
       </bonus>
+      <required>
+        <oneof>
+          <bioware>Cerebral Booster</bioware>
+        </oneof>
+      </required>
       <source>6e</source>
       <page>0</page>
     </bioware>
