@@ -580,117 +580,117 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <isgeneware />
       <source>6e</source>
       <page>0</page>
-   </bioware>
+    </bioware>
 
-   <bioware>
-     <id>8d76e97a-9e71-403f-99ec-c58ad144e549</id>
-     <name>Moderate Transgenic Cosmetic Infusion</name>
-     <category>Transgenics</category>
-     <ess>0.2</ess>
-     <avail>9</avail>
-     <cost>55000</cost>
-     <forcegrade>None</forcegrade> 
-     <isgeneware />
-     <source>6e</source>
-     <page>0</page>
-  </bioware>
+    <bioware>
+      <id>8d76e97a-9e71-403f-99ec-c58ad144e549</id>
+      <name>Moderate Transgenic Cosmetic Infusion</name>
+      <category>Transgenics</category>
+      <ess>0.2</ess>
+      <avail>9</avail>
+      <cost>55000</cost>
+      <forcegrade>None</forcegrade> 
+      <isgeneware />
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
 
-  <bioware>
-    <id>d5964806-bd95-4807-a672-f551ba043a3b</id> 
-    <name>Catlike Reflexes</name>
-    <category>Transgenics</category>
-    <ess>0.4</ess>
-    <avail>10</avail>
-    <cost>60000</cost>
-    <forcegrade>None</forcegrade>
-    <isgeneware />
-    <bonus>
-      <specificattribute>
-        <name>AGI</name>
-        <val>1</val>
-      </specificattribute>
-      <specificattribute>
-        <name>REA</name>
-        <val>1</val>
-      </specificattribute>
-      <selectquality>
-        <quality>Reflective Eyes</quality>
-        <quality>Nocturnal</quality>
-      </selectquality> 
-    </bonus>
-    <source>6e</source>
-    <page>0</page>
-  </bioware>
+    <bioware>
+      <id>d5964806-bd95-4807-a672-f551ba043a3b</id> 
+      <name>Catlike Reflexes</name>
+      <category>Transgenics</category>
+      <ess>0.4</ess>
+      <avail>10</avail>
+      <cost>60000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>AGI</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>REA</name>
+          <val>1</val>
+        </specificattribute>
+        <selectquality>
+          <quality>Reflective Eyes</quality>
+          <quality>Nocturnal</quality>
+        </selectquality> 
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
 
-  <bioware>
-    <id>911e6542-c77a-4253-9ea9-61ae1c855486</id>
-    <name>Pulmonary Arcane Arrester</name>
-    <category>Transgenics</category>
-    <ess>0.3</ess>
-    <avail>14</avail>
-    <cost>15000</cost>
-    <forcegrade>None</forcegrade>
-    <isgeneware />
-    <bonus>
-      <spellresistance>2</spellresistance> 
-    </bonus>
-    <source>6e</source>
-    <page>0</page>
- </bioware>
+    <bioware>
+      <id>911e6542-c77a-4253-9ea9-61ae1c855486</id>
+      <name>Pulmonary Arcane Arrester</name>
+      <category>Transgenics</category>
+      <ess>0.3</ess>
+      <avail>14</avail>
+      <cost>15000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <spellresistance>2</spellresistance> 
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
 
- <bioware>
-   <id>82e53118-cfff-493d-a32e-95999d5f798f</id> 
-   <name>Aggression Pack</name>
-   <category>Transgenics</category>
-   <ess>0.6</ess>
-   <avail>12R</avail>
-   <cost>85000</cost>
-   <forcegrade>None</forcegrade>
-   <isgeneware />
-   <bonus>
-     <specificattribute>
-       <name>REA</name>
-       <val>1</val>
-     </specificattribute>
-     <specificattribute>
-       <name>STR</name>
-       <val>1</val>
-     </specificattribute>
-     <specificattribute>
-       <name>BOD</name>
-       <val>1</val>
-     </specificattribute>
-     <selectquality>
-       <quality>Insomnia (Basic)</quality>
-       <quality>Young Cannibal</quality>
-     </selectquality>
-   </bonus>
-   <source>6e</source>
-   <page>0</page>
- </bioware>
+    <bioware>
+      <id>82e53118-cfff-493d-a32e-95999d5f798f</id> 
+      <name>Aggression Pack</name>
+      <category>Transgenics</category>
+      <ess>0.6</ess>
+      <avail>12R</avail>
+      <cost>85000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>REA</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>STR</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>BOD</name>
+          <val>1</val>
+        </specificattribute>
+        <selectquality>
+          <quality>Insomnia (Basic)</quality>
+          <quality>Young Cannibal</quality>
+        </selectquality>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
 
- <bioware>
-   <id>b78ddbd9-b71e-4f68-9a5e-f45881b31286</id> 
-   <name>Digitigrade Legs</name>
-   <category>Transgenics</category>
-   <ess>0.6</ess>
-   <avail>12R</avail>
-   <cost>110000</cost>
-   <forcegrade>None</forcegrade>
-   <isgeneware />
-   <bonus>
-     <limitmodifier>
-       <limit>Physical</limit>
-       <value>2</value>
-       <condition>Stealth Skills Only</condition>
-     </limitmodifier>
-     <runmultiplier>
-       <val>1</val>
-       <category>Ground</category>
-     </runmultiplier>
-   </bonus>
-   <source>6e</source>
-   <page>0</page>
- </bioware>
-</biowares>
+    <bioware>
+      <id>b78ddbd9-b71e-4f68-9a5e-f45881b31286</id> 
+      <name>Digitigrade Legs</name>
+      <category>Transgenics</category>
+      <ess>0.6</ess>
+      <avail>12R</avail>
+      <cost>110000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <limitmodifier>
+          <limit>Physical</limit>
+          <value>2</value>
+          <condition>Stealth Skills Only</condition>
+        </limitmodifier>
+        <runmultiplier>
+          <val>1</val>
+          <category>Ground</category>
+        </runmultiplier>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+  </biowares>
 </chummer>
