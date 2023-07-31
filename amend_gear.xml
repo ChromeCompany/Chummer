@@ -590,7 +590,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </forbidden>
     </gear>
 
-    <!-- 4e Translations -->
+    <!-- 4th Edition Translations -->
     <gear>
       <id>c817fae3-fc11-4f3a-9f84-849696976b40</id>
       <name>Signal Drug</name>
@@ -680,7 +680,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <ammoforweapontype noextra="True">mlauncher</ammoforweapontype>
     </gear>
 
-    <!-- 6e Translations --> 
+    <!-- 6th Edition Translations --> 
     <gear>
       <id>b1a16e65-d455-42e1-ac61-a0ab932c36ee</id>
       <name>Defense Pods</name>
