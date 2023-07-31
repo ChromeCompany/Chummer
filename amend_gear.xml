@@ -773,6 +773,17 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <page>0</page>
     </gear>
 
+    <gear>
+      <id>1b132f28-c3a3-4e52-b8b2-864b775e8148</id>
+      <name>Savior System</name>
+      <category>Hard Nanoware</category>
+      <rating>6</rating>
+      <avail>10</avail>
+      <cost>6500*Rating</cost>
+      <source>6e</source>
+      <page>0</page>
+   </gear>
+
     <!-- Homunculus Materials -->
     <gear>
       <id>20a54429-f68f-4ac8-87dc-e018762dbbd6</id>
