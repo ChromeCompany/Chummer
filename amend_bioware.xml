@@ -466,7 +466,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <bioware>
       <id>0a1ebf54-af0b-490a-b8f5-2d7f265509a7</id>
       <name>Alpha Factor</name>
-      <category>Phenotype Adjustment</category>
+      <category>Transgenics</category>
       <ess>0.2</ess>
       <capacity>0</capacity>
       <avail>16F</avail>
@@ -485,7 +485,69 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </bonus>
       <source>6e</source>
       <page>0</page>
-   </bioware>
+    </bioware>
+
+    <bioware>
+      <id>ea50a675-a058-4d02-aafe-73fc7b52b075</id>
+      <name>Synaptic Booster Enhancer</name>
+      <category>Transgenics</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>95000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <initiativepass precedence="0">Rating</initiativepass>
+        <specificattribute precedence="0">
+          <name>REA</name>
+          <val>1</val>
+        </specificattribute>
+        <disablequality>3564b678-7721-4a8d-ac79-1600cf92dc14</disablequality>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>a38f7843-8c41-428b-a447-3dc2e0b1e4c3</id> 
+      <name>Cerebellum Booster Enhancer</name>
+      <category>Transgenics</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>14R</avail>
+      <cost>55000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>INT</name>
+          <val>1</val>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>d333a2da-e810-4079-a571-6e982762f950</id>
+      <name>Cerebral Booster Enhancer</name>
+      <category>Transgenics</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>14R</avail>
+      <cost>40000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>LOG</name>
+          <val>1</val>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
 
   </biowares>
 </chummer>
