@@ -2129,7 +2129,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
     </quality>
   </qualities>
 
-  <!-- Adds Ork Tusks quality -->
+  <!-- Adds Natural Weapons qualities -->
   <qualities amendoperation="append">
     <!--Ork natural weapon tusks.-->
     <quality>
@@ -2164,6 +2164,40 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <hide />
       <source>CF</source>
       <page>121</page>
+    </quality>
+
+<quality>
+  <id>e8709d36-7d1d-4b0c-b6a0-fbf2186b49e4</id>
+      <name>Wing Claw</name>
+      <karma>0</karma>
+      <category>Positive</category>
+      <naturalweapons>
+        <naturalweapon>
+          <id>9b36eea3-e6dc-4964-9a2a-1369197a59af</id>
+          <name>Wing Claw</name>
+          <category>Bio-Weapon</category>
+          <type>Melee</type>
+          <conceal>0</conceal>
+          <accuracy>Physical</accuracy>
+          <reach>1</reach>
+          <damage>(STR+1)P</damage>
+          <ap>-1</ap>
+          <mode>0</mode>
+          <rc>0</rc>
+          <ammo>0</ammo>
+          <avail>0</avail>
+          <cost>0</cost>
+          <source>6e</source>
+          <page>0</page>
+          <allowaccessory>False</allowaccessory>
+          <hide />
+          <useskill>Unarmed Combat</useskill>
+          <spec>Natural Weapons</spec>
+        </naturalweapon>
+      </naturalweapons>
+      <hide />
+      <source>6e</source>
+      <page>0</page>
     </quality>
 
     <!-- New versions of Mentor's Mask specifically for Adepts and Mages -->
@@ -2624,7 +2658,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <page>1</page>
     </quality>
 
-    <!-- Adds the new metagenic qualities as voted on -->
+    <!-- Adding 5th Edition Qualities as Metagenic Qualities -->
     <quality>
       <id>6c73f283-755e-4b30-9cda-4d52af1bed91</id>
       <name>Metagenic Allergy (Uncommon, Mild)</name>
@@ -3462,7 +3496,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <source>MPR</source>
       <page>0</page>
     </quality>
-    <!-- 6e Qualities -->
+
+    <!-- 6th Edition Qualities -->
     <quality>
       <id>96cc26b0-07a4-4404-96e0-33d1149b432a</id>
       <name>Glass Jaw</name>
@@ -3536,8 +3571,18 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <source>6e</source>
       <page>0</page>
     </quality>
+     
+    <quality>
+      <id>1d1e3493-0775-46b1-8b35-6efcb3b5bb2c</id> 
+      <name>Uncontrolled Metastasis</name>
+      <karma>-10</karma>
+      <category>Negative</category>
+      <rating>2</rating>
+      <source>6e</source>
+      <page>0</page>
+   </quality>
 
-    <!-- 6e Metagenic Quals-->
+    <!-- 6th Edition Metagenic Qualities-->
     <quality>
       <id>8576d03c-eeaf-41a4-bd3d-74a1514b2be1</id>
       <name>Mad Eyes</name>
@@ -3654,6 +3699,42 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <notes>Whenever you suffer fading damage, it is always Physical damage</notes>
       <source>6e</source>
       <page>1</page>
+    </quality>
+
+    <quality>
+      <id>e430ca8a-89a9-4196-8008-ad466a0ba01a</id>
+      <name>Functional Wings</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <bonus>
+        <movementreplace>
+          <category>Fly</category>
+          <speed>walk</speed>
+          <val>1</val>
+        </movementreplace> 
+        <movementreplace>
+          <category>Fly</category>
+          <speed>run</speed>
+          <val>4</val>
+        </movementreplace> 
+        <movementreplace>
+          <category>Fly</category>
+          <speed>sprint</speed>
+          <val>300</val>
+        </movementreplace> 
+        <specificattribute>
+          <name>BOD</name> 
+          <max>-1</max>
+          <val>-1</val>
+        </specificattribute>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <bioware>Skeletal Pneumaticity</bioware>
+        </oneof>
+      </forbidden>
+      <source>6e</source>
+      <page>0</page>
     </quality>
     <!-- Test Geneware Biocomp-->
     <quality>

@@ -121,5 +121,28 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>SR5</source>
       <page>0</page>
     </quality>
+
+
+    <!-- Add Uncontrolled Metastasis Expense Workaround -->
+    <quality>
+      <id>cb627dce-37d9-4f9f-9c13-ccdc1996ac49</id>
+      <name>Uncontrolled Metastasis Treatment 1</name>
+      <category>Positive</cateogry>
+      <lp>0</lp>
+      <allowed>Street, Squatter, Low, Medium, High, Luxury</allowed>
+      <cost>2000</cost>
+      <source>6e</source>
+      <page>0</page>
+    </quality>
+    <quality>
+      <id>265e6bfc-39b3-4ac7-a433-4565bd795bb3</id>
+      <name>Uncontrolled Metastasis Treatment 2</name>
+      <category>Positive</cateogry>
+      <lp>0</lp>
+      <allowed>Street, Squatter, Low, Medium, High, Luxury</allowed>
+      <cost>4000</cost>
+      <source>6e</source>
+      <page>0</page>
+    </quality>
   </qualities>
 </chummer>
