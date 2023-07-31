@@ -62,6 +62,21 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <rating>6</rating>
     </gear>
 
+    <!-- Increase Jammers to R12 -->
+    <gear>
+      <name>Headjammer</name>
+      <rating>12</rating>
+    </gear>
+    <gear>
+      <name>Jammer, Area</name>
+      <rating>12</rating>
+    </gear>
+
+    <gear>
+      <name>Jammer, Directional</name>
+      <rating>12</rating>
+    </gear>
+
     <!-- Removes the 'Vision Magnification' Sensor Fuction -->
     <gear amendoperation="remove">
       <id>c68da753-6ee3-4e14-8234-26676b7735f6</id>
