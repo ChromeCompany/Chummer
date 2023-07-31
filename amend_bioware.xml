@@ -426,6 +426,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     </bioware>
 
     <bioware>
+      <id>cfbff2d0-db6d-428d-9d05-627488150bdd</id>
       <name>Gliding Wings</name>
       <category>Cultured</category>
       <bannedgrades>
@@ -433,6 +434,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         <grade>Used (Adapsin)</grade>
       </bannedgrades>
       <ess>1.5</ess>
+      <capacity>0</capacity>
       <avail>14</avail>
       <cost>100000</cost>
       <bonus>
@@ -443,8 +445,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </movementreplace>
         <specificattribute>
           <name>BOD</name> 
-          <max>-1></max>
-          <current>-1</current>
+          <max>-1</max>
+          <val>-1</val>
         </specificattribute>
       </bonus>
       <forbidden>
@@ -457,6 +459,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <cyberware>Bone Lacing (Ceramic)</cyberware>
         </oneof>
       </forbidden>
+      <source>6e</source>
+      <page>0</page>
     </bioware>
   </biowares>
 </chummer>
