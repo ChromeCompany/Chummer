@@ -3706,6 +3706,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <name>Functional Wings</name>
       <karma>15</karma>
       <category>Positive</category>
+      <metagenic>True</metagenic>
       <bonus>
         <movementreplace>
           <category>Fly</category>
