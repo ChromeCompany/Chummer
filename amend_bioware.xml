@@ -363,6 +363,12 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <page>185</page>
     </bioware>
 
+    <!-- Disable old Transgenic Alteration-->
+    <bioware>
+      <name>Transgenic Alteration</name>
+      <hide />
+    </bioware>
+
     <!-- 6th Edition Bioware --> 
     <bioware>
       <id>6a6f272d-8d57-4075-8bac-9f820ee0033a</id>
@@ -571,7 +577,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <bioware>
       <id>b0b2be70-84c6-4340-90d8-c882277af954</id>
       <name>Minor Transgenic Cosmetic Infusion</name>
-      <category>Transgenics</category>
+      <category>Transgenic Alteration</category>
       <ess>0</ess>
       <capacity>0</capacity>
       <avail>6</avail>
@@ -585,7 +591,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <bioware>
       <id>8d76e97a-9e71-403f-99ec-c58ad144e549</id>
       <name>Moderate Transgenic Cosmetic Infusion</name>
-      <category>Transgenics</category>
+      <category>Transgenic Alteration</category>
       <ess>0.2</ess>
       <avail>9</avail>
       <cost>55000</cost>
