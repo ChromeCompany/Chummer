@@ -870,6 +870,19 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <source>6e</source>
     <page>0</page>
     <addweapon>Crab Claw</addweapon>
+    <blocksmounts>ankle,knee,hip</blocksmounts>
+    <selectside />
+    <required>
+      <parentdetails>
+        <OR>
+          <NONE />
+          <name operation="contains">Arm</name>
+          <name operation="contains">Lower Arm</name>
+          <name operation="contains">Full Arm</name>
+          <name operation="contains">Drone Arm</name>
+        </OR>
+      </parentdetails>
+    </required>
     <allowsubsystems>
       <category>Cyber Implant Weapon Accessory</category>
     </allowsubsystems>
@@ -887,6 +900,19 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <source>6e</source>
     <page>0</page>
     <addweapon>Tesla Coil</addweapon>
+    <blocksmounts>ankle,knee,hip</blocksmounts>
+    <selectside />
+    <required>
+      <parentdetails>
+        <OR>
+          <NONE />
+          <name operation="contains">Arm</name>
+          <name operation="contains">Lower Arm</name>
+          <name operation="contains">Full Arm</name>
+          <name operation="contains">Drone Arm</name>
+        </OR>
+      </parentdetails>
+    </required>
     <allowsubsystems>
       <category>Cyber Implant Weapon Accessory</category>
     </allowsubsystems>
