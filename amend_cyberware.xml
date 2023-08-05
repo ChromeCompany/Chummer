@@ -183,13 +183,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
   <!-- Add Gliding Wings to Bone Lacing and Bone Density forbiddens -->
   <cyberwares>
     <cyberware>
-      <name>Bone Density Augmentation</name>
-      <forbidden amendoperation="append">
-        <bioware>Gliding Wings</bioware>
-      </forbidden>
-    </cyberware>
-
-    <cyberware>
       <name>Bone Lacing (Plastic)</name>
       <forbidden amendoperation="append">
         <bioware>Gliding Wings</bioware>
