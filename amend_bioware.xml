@@ -52,6 +52,14 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <name>Vocal Range Extender</name>
     </bioware>
 
+
+    <bioware>
+      <name>Bone Density Augmentation</name>
+      <forbidden amendoperation="append">
+        <bioware>Gliding Wings</bioware>
+      </forbidden>
+    </bioware>
+
     <!-- Add Incompatiblity with Metabolic Arrester -->
     <bioware>
       <name>Adrenaline Pump</name>
@@ -462,7 +470,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </bonus>
       <forbidden>
         <oneof>
-          <cyberware>Bone Density Augmentation</cyberware>
+          <bioware>Bone Density Augmentation</bioware>
           <cyberware>Bone Lacing (Plastic)</cyberware>
           <cyberware>Bone Lacing (Aluminum></cyberware>
           <cyberware>Bone Lacing (Titanium)</cyberware>

@@ -182,6 +182,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 
   <!-- Add Gliding Wings to Bone Lacing and Bone Density forbiddens -->
   <cyberwares>
+
     <cyberware>
       <name>Bone Lacing (Plastic)</name>
       <forbidden amendoperation="append">
@@ -427,7 +428,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </bonus>
       <forbidden>
         <oneof>
-          <cyberware>Bone Density Augmentation</cyberware>
+          <bioware>Bone Density Augmentation</bioware>
           <cyberware>Bone Lacing (Plastic)</cyberware>
           <cyberware>Bone Lacing (Aluminum)</cyberware>
           <cyberware>Bone Lacing (Titanium)</cyberware>
@@ -454,7 +455,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </bonus>
       <forbidden>
         <oneof>
-          <cyberware>Bone Density Augmentation</cyberware>
+          <bioware>Bone Density Augmentation</bioware>
           <cyberware>Bone Lacing (Plastic)</cyberware>
           <cyberware>Bone Lacing (Aluminum)</cyberware>
           <cyberware>Bone Lacing (Titanium)</cyberware>
@@ -462,1435 +463,1432 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <bioware>Gliding Wings</bioware>
         </oneof>
       </forbidden>
-      <notes>
-      </oneof>
-    </forbidden>
-    <notes>Bone Lacing does not increase your BOD score, only tests for resisting damage.</notes>
-  </cyberware>
+      <notes>Bone Lacing does not increase your BOD score, only tests for resisting damage.</notes>
+    </cyberware>
 
-  <cyberware>
-    <id>533c9c64-36db-4d38-93ae-62616f2a828a</id>
-    <name>Rotational Joints</name>
-    <limit>False</limit>
-    <category>Cyberlimb Enhancement</category>
-    <ess>0</ess>
-    <capacity>[2]</capacity>
-    <avail>8</avail>
-    <cost>5000</cost>
-    <source>4e</source>
-    <page>0</page>
-    <bonus>
-      <specificskill>
-        <name>Escape Artist</name>
-        <bonus>1</bonus>
-      </specificskill>
-    </bonus>
-    <required>
-      <parentdetails>
-        <OR>
-          <name>Centaur Front Leg</name>
-          <name>Centaur Rear Leg</name>
-          <name operation="contains">Full Leg</name>
-          <name operation="contains">Full Arm</name>
-          <name operation="contains">Drone Leg</name>
-          <name operation="contains">Drone Arm</name>
-        </OR>
-      </parentdetails>
-    </required>
-  </cyberware>
-
-  <cyberware>
-    <id>9f0739cd-5a4e-4eae-8a0c-692e7114c3ca</id>
-    <name>Eye/Oral Dart</name>
-    <limit>False</limit>
-    <category>Eyeware</category>
-    <ess>0.25</ess>
-    <capacity>[3]</capacity>
-    <avail>14R</avail>
-    <cost>1500</cost>
-    <source>4e</source>
-    <page>0</page>
-    <addweapon>Eye/Oral Dart</addweapon>
-    <allowsubsystems>
-      <category>Cyber Implant Weapon Accessory</category>
-    </allowsubsystems>
-  </cyberware>
-
-  <cyberware>
-    <id>002b3820-4cb9-4280-bb5e-17cea35134b8</id>
-    <name>Fingertip Dartgun</name>
-    <limit>False</limit>
-    <category>Cyber Implant Weapon</category>
-    <ess>0</ess>
-    <capacity>[4]</capacity>
-    <avail>16R</avail>
-    <cost>1500</cost>
-    <source>4e</source>
-    <page>0</page>
-    <addweapon>Fingertip Dartgun</addweapon>
-    <allowsubsystems>
-      <category>Cyber Implant Weapon Accessory</category>
-    </allowsubsystems>
-  </cyberware>
-
-  <cyberware>
-    <id>d3119c9e-ee43-47d8-b9fb-fc2d69d486d3</id>
-    <name>Oral Gun</name>
-    <limit>False</limit>
-    <category>Cyber Implant Weapon</category>
-    <ess>0.25</ess>
-    <capacity>[3]</capacity>
-    <avail>14R</avail>
-    <cost>1500</cost>
-    <source>4e</source>
-    <page>0</page>
-    <addweapon>Oral Gun</addweapon>
-    <allowsubsystems>
-      <category>Cyber Implant Weapon Accessory</category>
-    </allowsubsystems>
-  </cyberware>
-
-  <cyberware>
-    <id>91f497f6-9bf9-483c-ba22-e67837e277e1</id>
-    <name>Squirtgun</name>
-    <limit>False</limit>
-    <category>Cyber Implant Weapon</category>
-    <ess>0.3</ess>
-    <capacity>[4]</capacity>
-    <avail>10R</avail>
-    <cost>1500</cost>
-    <source>4e</source>
-    <page>0</page>
-    <addweapon>Squirtgun</addweapon>
-    <allowsubsystems>
-      <category>Cyber Implant Weapon Accessory</category>
-    </allowsubsystems>
-  </cyberware>
-
-  <cyberware>
-    <id>8f1ca9b8-787c-4383-ae97-a0d1df05f699</id>
-    <name>Taser</name>
-    <limit>False</limit>
-    <category>Cyber Implant Weapon</category>
-    <ess>0.3</ess>
-    <capacity>[3]</capacity>
-    <avail>8R</avail>
-    <cost>1500</cost>
-    <source>4e</source>
-    <page>0</page>
-    <addweapon>Taser</addweapon>
-    <allowsubsystems>
-      <category>Cyber Implant Weapon Accessory</category>
-    </allowsubsystems>
-  </cyberware>
-
-  <cyberware>
-    <id>13fff585-f8d8-478a-881f-752a5a0a6e14</id>
-    <name>Articulated Weapon Arm</name>
-    <limit>False</limit>
-    <category>Cyberlimb Enhancement</category>
-    <ess>0</ess>
-    <capacity>[8]</capacity>
-    <avail>24F</avail>
-    <cost>1500</cost>
-    <source>4e</source>
-    <page>0</page>
-    <required>
-      <parentdetails>
-        <OR>
-          <name>Synthetic Torso</name>
-          <name>Obvious Torso</name>
-        </OR>
-      </parentdetails>
-    </required>
-  </cyberware>
-
-  <cyberware>
-    <id>384ea312-c2a6-49ac-a0eb-9f857316010e</id>
-    <name>External Mount</name>
-    <limit>False</limit>
-    <category>Cyberlimb Enhancement</category>
-    <ess>0</ess>
-    <capacity>[7]</capacity>
-    <avail>16F</avail>
-    <cost>1500</cost>
-    <source>4e</source>
-    <page>0</page>
-    <required>
-      <parentdetails>
-        <OR>
-          <name operation="contains">Full Arm</name>
-          <name>Synthetic Torso</name>
-          <name operation="contains">Drone Arm</name>
-          <name>Obvious Torso</name>
-        </OR>
-      </parentdetails>
-    </required>
-  </cyberware>
-  <cyberware>
-    <id>969fc010-cc52-45ab-9718-343089974c0d</id>
-    <name>Nano-Biomonitor</name>
-    <category>Nanocybernetics</category>
-    <ess>0.3</ess>
-    <capacity>0</capacity>
-    <avail>8</avail>
-    <cost>10000</cost>
-    <source>4e</source>
-    <page>0</page>
-  </cyberware>
-
-  <!-- Adds the new additional eye mounts for the single cybereyes-->
-  <cyberware>
-    <id>8403c597-c394-4efb-b69e-b97cd21c7a97</id>
-    <name>Additional Eye Mount R1</name>
-    <limit>False</limit>
-    <category>Headware</category>
-    <ess>0.2</ess>
-    <capacity>[2]</capacity>
-    <avail>8</avail>
-    <cost>3000</cost>
-    <source>4e</source>
-    <page>0</page>
-    <bonus>
-      <limitmodifier>
-        <limit>Physical</limit>
-        <value>-1</value>
-      </limitmodifier>
-    </bonus>
-    <subsystems>
-      <cyberware>
-        <name>Single Cybereye</name>
-        <rating>1</rating>
-      </cyberware>
-    </subsystems>
-  </cyberware>
-
-  <cyberware>
-    <id>fb71097d-1850-48b1-a518-6048e8cfd608</id>
-    <name>Additional Eye Mount R2</name>
-    <limit>False</limit>
-    <category>Headware</category>
-    <ess>0.2</ess>
-    <capacity>[2]</capacity>
-    <avail>8</avail>
-    <cost>4000</cost>
-    <source>4e</source>
-    <page>0</page>
-    <bonus>
-      <limitmodifier>
-        <limit>Physical</limit>
-        <value>-1</value>
-      </limitmodifier>
-    </bonus>
-    <subsystems>
-      <cyberware>
-        <name>Single Cybereye</name>
-        <rating>2</rating>
-      </cyberware>
-    </subsystems>
-  </cyberware>
-
-  <!-- 6th Edition Cyberware-->
-  <cyberware>
-    <id>8c42e6dd-1ad4-451c-a898-9894cb0b72c9</id>
-    <name>Cyberwings</name>
-    <Limit>False</Limit>
-    <category>Bodyware</category>
-    <ess>2</ess>
-    <avail>16R</avail>
-    <cost>50000</cost>
-    <bonus>
-      <movementreplace>
-        <category>Fly</category>
-        <speed>walk</speed>
-        <val>1</val>
-      </movementreplace> 
-      <movementreplace>
-        <category>Fly</category>
-        <speed>run</speed>
-        <val>3</val>
-      </movementreplace> 
-      <movementreplace>
-        <category>Fly</category>
-        <speed>sprint</speed>
-        <val>200</val>
-      </movementreplace> 
-    </bonus>
-    <source>6e</source>
-    <page>0</page>
-  </cyberware>
-
-  <cyberware>
-    <id>8ae4a84e-2253-4cf0-a329-7e30bba2faaf</id> 
-    <name>Additional Synthetic Full Arm</name>
-    <category>Cyberlimb</category>
-    <ess>1.2</ess>
-    <capacity>8</capacity>
-    <avail>6</avail>
-    <cost>25000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <allowgear>
-      <gearcategory>Custom</gearcategory>
-      <gearcategory>Sensors</gearcategory>
-    </allowgear>
-    <allowsubsystems>
-      <category>Bodyware</category>
-      <category>Cosmetic Enhancement</category>
-      <category>Cyberlimb</category>
+    <cyberware>
+      <id>533c9c64-36db-4d38-93ae-62616f2a828a</id>
+      <name>Rotational Joints</name>
+      <limit>False</limit>
       <category>Cyberlimb Enhancement</category>
-      <category>Cyberlimb Accessory</category>
-      <category>Cyber Implant Weapon</category>
-      <category>Headware</category>
-      <category>Nanocybernetics</category>
-    </allowsubsystems>
-    <selectside />
-    <bonus>
-      <conditionmonitor>
-        <physical>1</physical>
-      </conditionmonitor>
-    </bonus>
-    <forbidden>
-      <oneof>
-        <cyberware>Smart Articulation</cyberware>
-      </oneof>
-    </forbidden>
-    <limbslot>arm</limbslot>
-    <blocksmounts>wrist,elbow,shoulder</blocksmounts>
-  </cyberware>
+      <ess>0</ess>
+      <capacity>[2]</capacity>
+      <avail>8</avail>
+      <cost>5000</cost>
+      <source>4e</source>
+      <page>0</page>
+      <bonus>
+        <specificskill>
+          <name>Escape Artist</name>
+          <bonus>1</bonus>
+        </specificskill>
+      </bonus>
+      <required>
+        <parentdetails>
+          <OR>
+            <name>Centaur Front Leg</name>
+            <name>Centaur Rear Leg</name>
+            <name operation="contains">Full Leg</name>
+            <name operation="contains">Full Arm</name>
+            <name operation="contains">Drone Leg</name>
+            <name operation="contains">Drone Arm</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
 
-  <cyberware>
-    <id>87af4271-0ecb-4805-8cd0-6a1827df903e</id>
-    <name>Additional Obvious Full Arm</name>
-    <category>Cyberlimb</category>
-    <ess>1.2</ess>
-    <capacity>15</capacity>
-    <avail>6</avail>
-    <cost>20000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <allowgear>
-      <gearcategory>Custom</gearcategory>
-      <gearcategory>Sensors</gearcategory>
-    </allowgear>
-    <allowsubsystems>
-      <category>Bodyware</category>
-      <category>Cosmetic Enhancement</category>
-      <category>Cyberlimb</category>
+    <cyberware>
+      <id>9f0739cd-5a4e-4eae-8a0c-692e7114c3ca</id>
+      <name>Eye/Oral Dart</name>
+      <limit>False</limit>
+      <category>Eyeware</category>
+      <ess>0.25</ess>
+      <capacity>[3]</capacity>
+      <avail>14R</avail>
+      <cost>1500</cost>
+      <source>4e</source>
+      <page>0</page>
+      <addweapon>Eye/Oral Dart</addweapon>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+    </cyberware>
+
+    <cyberware>
+      <id>002b3820-4cb9-4280-bb5e-17cea35134b8</id>
+      <name>Fingertip Dartgun</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapon</category>
+      <ess>0</ess>
+      <capacity>[4]</capacity>
+      <avail>16R</avail>
+      <cost>1500</cost>
+      <source>4e</source>
+      <page>0</page>
+      <addweapon>Fingertip Dartgun</addweapon>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+    </cyberware>
+
+    <cyberware>
+      <id>d3119c9e-ee43-47d8-b9fb-fc2d69d486d3</id>
+      <name>Oral Gun</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapon</category>
+      <ess>0.25</ess>
+      <capacity>[3]</capacity>
+      <avail>14R</avail>
+      <cost>1500</cost>
+      <source>4e</source>
+      <page>0</page>
+      <addweapon>Oral Gun</addweapon>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+    </cyberware>
+
+    <cyberware>
+      <id>91f497f6-9bf9-483c-ba22-e67837e277e1</id>
+      <name>Squirtgun</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapon</category>
+      <ess>0.3</ess>
+      <capacity>[4]</capacity>
+      <avail>10R</avail>
+      <cost>1500</cost>
+      <source>4e</source>
+      <page>0</page>
+      <addweapon>Squirtgun</addweapon>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+    </cyberware>
+
+    <cyberware>
+      <id>8f1ca9b8-787c-4383-ae97-a0d1df05f699</id>
+      <name>Taser</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapon</category>
+      <ess>0.3</ess>
+      <capacity>[3]</capacity>
+      <avail>8R</avail>
+      <cost>1500</cost>
+      <source>4e</source>
+      <page>0</page>
+      <addweapon>Taser</addweapon>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+    </cyberware>
+
+    <cyberware>
+      <id>13fff585-f8d8-478a-881f-752a5a0a6e14</id>
+      <name>Articulated Weapon Arm</name>
+      <limit>False</limit>
       <category>Cyberlimb Enhancement</category>
-      <category>Cyberlimb Accessory</category>
-      <category>Cyber Implant Weapon</category>
-      <category>Headware</category>
+      <ess>0</ess>
+      <capacity>[8]</capacity>
+      <avail>24F</avail>
+      <cost>1500</cost>
+      <source>4e</source>
+      <page>0</page>
+      <required>
+        <parentdetails>
+          <OR>
+            <name>Synthetic Torso</name>
+            <name>Obvious Torso</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
+
+    <cyberware>
+      <id>384ea312-c2a6-49ac-a0eb-9f857316010e</id>
+      <name>External Mount</name>
+      <limit>False</limit>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>[7]</capacity>
+      <avail>16F</avail>
+      <cost>1500</cost>
+      <source>4e</source>
+      <page>0</page>
+      <required>
+        <parentdetails>
+          <OR>
+            <name operation="contains">Full Arm</name>
+            <name>Synthetic Torso</name>
+            <name operation="contains">Drone Arm</name>
+            <name>Obvious Torso</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
+    <cyberware>
+      <id>969fc010-cc52-45ab-9718-343089974c0d</id>
+      <name>Nano-Biomonitor</name>
       <category>Nanocybernetics</category>
-    </allowsubsystems>
-    <selectside />
-    <bonus>
-      <conditionmonitor>
-        <physical>1</physical>
-      </conditionmonitor>
-    </bonus>
-    <forbidden>
-      <oneof>
-        <cyberware>Smart Articulation</cyberware>
-      </oneof>
-    </forbidden>
-    <blocksmounts>wrist,elbow,shoulder</blocksmounts>
-  </cyberware>
+      <ess>0.3</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>10000</cost>
+      <source>4e</source>
+      <page>0</page>
+    </cyberware>
 
-  <cyberware>
-    <id>d90e6b88-a001-40fe-9fde-3bda2b2078eb</id>
-    <name>Medullan Parallel Processors</name>
-    <limit>False</limit>
-    <category>Headware</category>
-    <ess>0.5</ess>
-    <capacity>0</capacity>
-    <avail>4R</avail>
-    <cost>20000</cost>
-    <source>6e</source>
-    <page>0</page>
-  </cyberware>
+    <!-- Adds the new additional eye mounts for the single cybereyes-->
+    <cyberware>
+      <id>8403c597-c394-4efb-b69e-b97cd21c7a97</id>
+      <name>Additional Eye Mount R1</name>
+      <limit>False</limit>
+      <category>Headware</category>
+      <ess>0.2</ess>
+      <capacity>[2]</capacity>
+      <avail>8</avail>
+      <cost>3000</cost>
+      <source>4e</source>
+      <page>0</page>
+      <bonus>
+        <limitmodifier>
+          <limit>Physical</limit>
+          <value>-1</value>
+        </limitmodifier>
+      </bonus>
+      <subsystems>
+        <cyberware>
+          <name>Single Cybereye</name>
+          <rating>1</rating>
+        </cyberware>
+      </subsystems>
+    </cyberware>
 
-  <cyberware>
-    <id>09d51bcf-46f7-440d-ae74-7b3171ccbd11</id>
-    <name>RCC</name>
-    <limit>False</limit>
-    <category>Headware</category>
-    <ess>0.4</ess>
-    <capacity>[4]</capacity>
-    <avail>5R</avail>
-    <cost>5000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <allowgear>
-      <gearcategory>Rigger Command Consoles</gearcategory>
-    </allowgear>
-  </cyberware>
+    <cyberware>
+      <id>fb71097d-1850-48b1-a518-6048e8cfd608</id>
+      <name>Additional Eye Mount R2</name>
+      <limit>False</limit>
+      <category>Headware</category>
+      <ess>0.2</ess>
+      <capacity>[2]</capacity>
+      <avail>8</avail>
+      <cost>4000</cost>
+      <source>4e</source>
+      <page>0</page>
+      <bonus>
+        <limitmodifier>
+          <limit>Physical</limit>
+          <value>-1</value>
+        </limitmodifier>
+      </bonus>
+      <subsystems>
+        <cyberware>
+          <name>Single Cybereye</name>
+          <rating>2</rating>
+        </cyberware>
+      </subsystems>
+    </cyberware>
 
-  <cyberware>
-    <id>b04ff251-b5ea-43d9-9e48-381a6cb74fe9</id>
-    <name>Speed Booster</name>
-    <category>Bodyware</category>
-    <ess>0.2*Rating</ess>
-    <capacity>0</capacity>
-    <avail>12F</avail>
-    <cost>25000*Rating</cost>
-    <source>6e</source>
-    <page>0</page>
-    <rating>2</rating>
-    <minrating>1</minrating>
-    <bonus>
-      <walkmultiplier>
-        <category>Ground</category>
-        <val>2*Rating</val>
-      </walkmultiplier>
-      <runmultiplier>
-        <category>Ground</category>
-        <val>4*Rating</val>
-      </runmultiplier>
-    </bonus>
-  </cyberware>
+    <!-- 6th Edition Cyberware-->
+    <cyberware>
+      <id>8c42e6dd-1ad4-451c-a898-9894cb0b72c9</id>
+      <name>Cyberwings</name>
+      <Limit>False</Limit>
+      <category>Bodyware</category>
+      <ess>2</ess>
+      <avail>16R</avail>
+      <cost>50000</cost>
+      <bonus>
+        <movementreplace>
+          <category>Fly</category>
+          <speed>walk</speed>
+          <val>1</val>
+        </movementreplace> 
+        <movementreplace>
+          <category>Fly</category>
+          <speed>run</speed>
+          <val>3</val>
+        </movementreplace> 
+        <movementreplace>
+          <category>Fly</category>
+          <speed>sprint</speed>
+          <val>200</val>
+        </movementreplace> 
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </cyberware>
 
-  <!-- 6th Edition Cyberweapons -->
-  <cyberware>
-    <id>bc0b7c3f-b8e4-4a16-ba3d-dccfdf404c3d</id>
-    <name>Crab Claw</name>
-    <limit>False</limit>
-    <category>Cyber Implant Weapon</category>
-    <ess>0.3</ess>
-    <capacity>[4]</capacity>
-    <avail>10R</avail>
-    <cost>2000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <addweapon>Crab Claw</addweapon>
-    <blocksmounts>ankle,knee,hip</blocksmounts>
-    <selectside />
-    <required>
-      <parentdetails>
-        <OR>
-          <NONE />
-          <name operation="contains">Arm</name>
-          <name operation="contains">Lower Arm</name>
-          <name operation="contains">Full Arm</name>
-          <name operation="contains">Drone Arm</name>
-        </OR>
-      </parentdetails>
-    </required>
-    <allowsubsystems>
-      <category>Cyber Implant Weapon Accessory</category>
-    </allowsubsystems>
-  </cyberware>
+    <cyberware>
+      <id>8ae4a84e-2253-4cf0-a329-7e30bba2faaf</id> 
+      <name>Additional Synthetic Full Arm</name>
+      <category>Cyberlimb</category>
+      <ess>1.2</ess>
+      <capacity>8</capacity>
+      <avail>6</avail>
+      <cost>25000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <allowgear>
+        <gearcategory>Custom</gearcategory>
+        <gearcategory>Sensors</gearcategory>
+      </allowgear>
+      <allowsubsystems>
+        <category>Bodyware</category>
+        <category>Cosmetic Enhancement</category>
+        <category>Cyberlimb</category>
+        <category>Cyberlimb Enhancement</category>
+        <category>Cyberlimb Accessory</category>
+        <category>Cyber Implant Weapon</category>
+        <category>Headware</category>
+        <category>Nanocybernetics</category>
+      </allowsubsystems>
+      <selectside />
+      <bonus>
+        <conditionmonitor>
+          <physical>1</physical>
+        </conditionmonitor>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <cyberware>Smart Articulation</cyberware>
+        </oneof>
+      </forbidden>
+      <limbslot>arm</limbslot>
+      <blocksmounts>wrist,elbow,shoulder</blocksmounts>
+    </cyberware>
 
-  <cyberware>
-    <id>275c14d4-cd3c-4a82-b9eb-27054e090cea</id>
-    <name>Tesla Coil</name>
-    <limit>False</limit>
-    <category>Cyber Implant Weapon</category>
-    <ess>0.4</ess>
-    <capacity>[6]</capacity>
-    <avail>18R</avail>
-    <cost>15000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <addweapon>Tesla Coil</addweapon>
-    <blocksmounts>ankle,knee,hip</blocksmounts>
-    <selectside />
-    <required>
-      <parentdetails>
-        <OR>
-          <NONE />
-          <name operation="contains">Arm</name>
-          <name operation="contains">Lower Arm</name>
-          <name operation="contains">Full Arm</name>
-          <name operation="contains">Drone Arm</name>
-        </OR>
-      </parentdetails>
-    </required>
-    <allowsubsystems>
-      <category>Cyber Implant Weapon Accessory</category>
-    </allowsubsystems>
-  </cyberware>
+    <cyberware>
+      <id>87af4271-0ecb-4805-8cd0-6a1827df903e</id>
+      <name>Additional Obvious Full Arm</name>
+      <category>Cyberlimb</category>
+      <ess>1.2</ess>
+      <capacity>15</capacity>
+      <avail>6</avail>
+      <cost>20000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <allowgear>
+        <gearcategory>Custom</gearcategory>
+        <gearcategory>Sensors</gearcategory>
+      </allowgear>
+      <allowsubsystems>
+        <category>Bodyware</category>
+        <category>Cosmetic Enhancement</category>
+        <category>Cyberlimb</category>
+        <category>Cyberlimb Enhancement</category>
+        <category>Cyberlimb Accessory</category>
+        <category>Cyber Implant Weapon</category>
+        <category>Headware</category>
+        <category>Nanocybernetics</category>
+      </allowsubsystems>
+      <selectside />
+      <bonus>
+        <conditionmonitor>
+          <physical>1</physical>
+        </conditionmonitor>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <cyberware>Smart Articulation</cyberware>
+        </oneof>
+      </forbidden>
+      <blocksmounts>wrist,elbow,shoulder</blocksmounts>
+    </cyberware>
 
-  <cyberware>
-    <id>b665edbe-5742-4ded-991f-bb8ab0c259c8</id>
-    <name>Cyberlimb Hardening</name>
-    <limit>False</limit>
-    <category>Cyber Implant Weapon</category>
-    <ess>0</ess>
-    <capacity>[2]</capacity>
-    <avail>10R</avail>
-    <cost>2500</cost>
-    <source>6e</source>
-    <page>0</page>
-    <addweapon>Cyberlimb Hardening</addweapon>
-    <allowsubsystems>
-      <category>Cyber Implant Weapon Accessory</category>
-    </allowsubsystems>
-    <required>
-      <parentdetails>
-        <OR>
-          <name>Centaur Front Leg</name>
-          <name>Centaur Rear Leg</name>
-          <name operation="contains">Full Leg</name>
-          <name operation="contains">Full Arm</name>
-          <name>Synthetic Torso</name>
-          <name>Synthetic Skull</name>
-          <name operation="contains">Drone Leg</name>
-          <name operation="contains">Drone Arm</name>
-          <name>Obvious Torso</name>
-          <name>Obvious Skull</name>
-          <name operation="contains">Liminal Body</name>
-        </OR>
-      </parentdetails>
-    </required>
-  </cyberware>
+    <cyberware>
+      <id>d90e6b88-a001-40fe-9fde-3bda2b2078eb</id>
+      <name>Medullan Parallel Processors</name>
+      <limit>False</limit>
+      <category>Headware</category>
+      <ess>0.5</ess>
+      <capacity>0</capacity>
+      <avail>4R</avail>
+      <cost>20000</cost>
+      <source>6e</source>
+      <page>0</page>
+    </cyberware>
 
-  <!-- 6th Edition Cyberlimbs Addons-->
-  <cyberware>
-    <id>299af064-5f4c-41ff-853d-4bf58e4f47bd</id>
-    <name>Sinister/Dexter Coprocessor</name>
-    <Limit>False</Limit>
-    <category>Cyberlimb Enhancement</category>
-    <ess>0</ess>
-    <capacity>[2]</capacity>
-    <avail>4</avail>
-    <cost>1000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <bonus>
-      <ambidextrous />
-    </bonus>
-  </cyberware>
+    <cyberware>
+      <id>09d51bcf-46f7-440d-ae74-7b3171ccbd11</id>
+      <name>RCC</name>
+      <limit>False</limit>
+      <category>Headware</category>
+      <ess>0.4</ess>
+      <capacity>[4]</capacity>
+      <avail>5R</avail>
+      <cost>5000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <allowgear>
+        <gearcategory>Rigger Command Consoles</gearcategory>
+      </allowgear>
+    </cyberware>
 
-  <cyberware>
-    <id>3b6f3563-da96-4e5c-b586-888b5d29d3ce</id>
-    <name>Simian Modification</name>
-    <Limit>False</Limit>
-    <category>Cyberlimb Enhancement</category>
-    <ess>0</ess>
-    <capacity>[3]</capacity>
-    <avail>4</avail>
-    <cost>1500</cost>
-    <source>6e</source>
-    <page>0</page>
-  </cyberware>
+    <cyberware>
+      <id>b04ff251-b5ea-43d9-9e48-381a6cb74fe9</id>
+      <name>Speed Booster</name>
+      <category>Bodyware</category>
+      <ess>0.2*Rating</ess>
+      <capacity>0</capacity>
+      <avail>12F</avail>
+      <cost>25000*Rating</cost>
+      <source>6e</source>
+      <page>0</page>
+      <rating>2</rating>
+      <minrating>1</minrating>
+      <bonus>
+        <walkmultiplier>
+          <category>Ground</category>
+          <val>2*Rating</val>
+        </walkmultiplier>
+        <runmultiplier>
+          <category>Ground</category>
+          <val>4*Rating</val>
+        </runmultiplier>
+      </bonus>
+    </cyberware>
+
+    <!-- 6th Edition Cyberweapons -->
+    <cyberware>
+      <id>bc0b7c3f-b8e4-4a16-ba3d-dccfdf404c3d</id>
+      <name>Crab Claw</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapon</category>
+      <ess>0.3</ess>
+      <capacity>[4]</capacity>
+      <avail>10R</avail>
+      <cost>2000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <addweapon>Crab Claw</addweapon>
+      <blocksmounts>ankle,knee,hip</blocksmounts>
+      <selectside />
+      <required>
+        <parentdetails>
+          <OR>
+            <NONE />
+            <name operation="contains">Arm</name>
+            <name operation="contains">Lower Arm</name>
+            <name operation="contains">Full Arm</name>
+            <name operation="contains">Drone Arm</name>
+          </OR>
+        </parentdetails>
+      </required>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+    </cyberware>
+
+    <cyberware>
+      <id>275c14d4-cd3c-4a82-b9eb-27054e090cea</id>
+      <name>Tesla Coil</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapon</category>
+      <ess>0.4</ess>
+      <capacity>[6]</capacity>
+      <avail>18R</avail>
+      <cost>15000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <addweapon>Tesla Coil</addweapon>
+      <blocksmounts>ankle,knee,hip</blocksmounts>
+      <selectside />
+      <required>
+        <parentdetails>
+          <OR>
+            <NONE />
+            <name operation="contains">Arm</name>
+            <name operation="contains">Lower Arm</name>
+            <name operation="contains">Full Arm</name>
+            <name operation="contains">Drone Arm</name>
+          </OR>
+        </parentdetails>
+      </required>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+    </cyberware>
+
+    <cyberware>
+      <id>b665edbe-5742-4ded-991f-bb8ab0c259c8</id>
+      <name>Cyberlimb Hardening</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapon</category>
+      <ess>0</ess>
+      <capacity>[2]</capacity>
+      <avail>10R</avail>
+      <cost>2500</cost>
+      <source>6e</source>
+      <page>0</page>
+      <addweapon>Cyberlimb Hardening</addweapon>
+      <allowsubsystems>
+        <category>Cyber Implant Weapon Accessory</category>
+      </allowsubsystems>
+      <required>
+        <parentdetails>
+          <OR>
+            <name>Centaur Front Leg</name>
+            <name>Centaur Rear Leg</name>
+            <name operation="contains">Full Leg</name>
+            <name operation="contains">Full Arm</name>
+            <name>Synthetic Torso</name>
+            <name>Synthetic Skull</name>
+            <name operation="contains">Drone Leg</name>
+            <name operation="contains">Drone Arm</name>
+            <name>Obvious Torso</name>
+            <name>Obvious Skull</name>
+            <name operation="contains">Liminal Body</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
+
+    <!-- 6th Edition Cyberlimbs Addons-->
+    <cyberware>
+      <id>299af064-5f4c-41ff-853d-4bf58e4f47bd</id>
+      <name>Sinister/Dexter Coprocessor</name>
+      <Limit>False</Limit>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>[2]</capacity>
+      <avail>4</avail>
+      <cost>1000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <bonus>
+        <ambidextrous />
+      </bonus>
+    </cyberware>
+
+    <cyberware>
+      <id>3b6f3563-da96-4e5c-b586-888b5d29d3ce</id>
+      <name>Simian Modification</name>
+      <Limit>False</Limit>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>[3]</capacity>
+      <avail>4</avail>
+      <cost>1500</cost>
+      <source>6e</source>
+      <page>0</page>
+    </cyberware>
 
 
-  <!-- Codemods-->
+    <!-- Codemods-->
 
-  <cyberware>
-    <id>769ffeaf-ce2e-4001-adc2-93ac71c0322c</id>
-    <name>Attribute Expansion</name>
-    <category>Codemods</category>
-    <ess>0.8</ess>
-    <capacity>0</capacity>
-    <avail>20R</avail>
-    <cost>180000</cost>
-    <bonus>
-      <lifestylecost>25</lifestylecost>
-      <specificattribute>
-        <name>CHA</name>
-        <val>1</val>
-      </specificattribute>
-      <specificattribute>
-        <name>INT</name>
-        <val>1</val>
-      </specificattribute>
-      <specificattribute>
-        <name>LOG</name>
-        <val>1</val>
-      </specificattribute>
-      <specificattribute>
-        <name>WIL</name>
-        <val>1</val>
-      </specificattribute>
-    </bonus>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-  </cyberware>
+    <cyberware>
+      <id>769ffeaf-ce2e-4001-adc2-93ac71c0322c</id>
+      <name>Attribute Expansion</name>
+      <category>Codemods</category>
+      <ess>0.8</ess>
+      <capacity>0</capacity>
+      <avail>20R</avail>
+      <cost>180000</cost>
+      <bonus>
+        <lifestylecost>25</lifestylecost>
+        <specificattribute>
+          <name>CHA</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>INT</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>LOG</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>WIL</name>
+          <val>1</val>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </cyberware>
 
-  <cyberware>
-    <id>612cfe22-f60f-40de-9283-1622e7a87217</id>
-    <name>ASDF Expansion</name>
-    <category>Codemods</category>
-    <ess>0.6</ess>
-    <capacity>0</capacity>
-    <avail>18R</avail>
-    <cost>70000</cost>
-    <bonus>
-      <lifestylecost>25</lifestylecost>
-      <specificattribute>
-        <name>BOD</name>
-        <val>1</val>
-      </specificattribute>
-      <specificattribute>
-        <name>AGI</name>
-        <val>1</val>
-      </specificattribute>
-      <specificattribute>
-        <name>REA</name>
-        <val>1</val>
-      </specificattribute>
-      <specificattribute>
-        <name>STR</name>
-        <val>1</val>
-      </specificattribute>
-    </bonus>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-  </cyberware>
+    <cyberware>
+      <id>612cfe22-f60f-40de-9283-1622e7a87217</id>
+      <name>ASDF Expansion</name>
+      <category>Codemods</category>
+      <ess>0.6</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>70000</cost>
+      <bonus>
+        <lifestylecost>25</lifestylecost>
+        <specificattribute>
+          <name>BOD</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>AGI</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>REA</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>STR</name>
+          <val>1</val>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </cyberware>
 
-  <cyberware>
-    <id>cb5bfafa-d887-408b-aa25-82297f6ac91d</id>
-    <name>Charisma Augmentation</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.35</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 6)</avail>
-    <cost>Rating * 34000</cost>
-    <bonus>
-      <specificattribute>
-        <name>CHA</name>
-        <val>Rating</val>
-      </specificattribute>
-    </bonus>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>4</rating>
-  </cyberware>
+    <cyberware>
+      <id>cb5bfafa-d887-408b-aa25-82297f6ac91d</id>
+      <name>Charisma Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.35</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 6)</avail>
+      <cost>Rating * 34000</cost>
+      <bonus>
+        <specificattribute>
+          <name>CHA</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>4</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>11f3571e-7fc6-4d5f-af6f-1168cf46ef29</id>
-    <name>Intuition Augmentation</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.35</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 6)</avail>
-    <cost>Rating * 34000</cost>
-    <bonus>
-      <specificattribute>
-        <name>INT</name>
-        <val>Rating</val>
-      </specificattribute>
-    </bonus>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>4</rating>
-  </cyberware>
+    <cyberware>
+      <id>11f3571e-7fc6-4d5f-af6f-1168cf46ef29</id>
+      <name>Intuition Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.35</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 6)</avail>
+      <cost>Rating * 34000</cost>
+      <bonus>
+        <specificattribute>
+          <name>INT</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>4</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>770b5def-f3bb-4678-a178-32524a2e046e</id>
-    <name>Logic Augmentation</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.35</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 6)</avail>
-    <cost>Rating * 34000</cost>
-    <bonus>
-      <specificattribute>
-        <name>LOG</name>
-        <val>Rating</val>
-      </specificattribute>
-    </bonus>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>4</rating>
-  </cyberware>
-  <cyberware>
-    <id>bbf71f35-e3d5-48e4-a64b-29e12eafdf60</id>
-    <name>Willpower Augmentation</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.35</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 6)</avail>
-    <cost>Rating * 34000</cost>
-    <bonus>
-      <specificattribute>
-        <name>WIL</name>
-        <val>Rating</val>
-      </specificattribute>
-    </bonus>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>4</rating>
-  </cyberware>
+    <cyberware>
+      <id>770b5def-f3bb-4678-a178-32524a2e046e</id>
+      <name>Logic Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.35</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 6)</avail>
+      <cost>Rating * 34000</cost>
+      <bonus>
+        <specificattribute>
+          <name>LOG</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>4</rating>
+    </cyberware>
+    <cyberware>
+      <id>bbf71f35-e3d5-48e4-a64b-29e12eafdf60</id>
+      <name>Willpower Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.35</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 6)</avail>
+      <cost>Rating * 34000</cost>
+      <bonus>
+        <specificattribute>
+          <name>WIL</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>4</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>adeb301e-aee7-428b-8783-66927263e849</id>
-    <name>Firewall Augmentation</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.25</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 4)</avail>
-    <cost>Rating * 12000</cost>
-    <bonus>
-      <specificattribute>
-        <name>BOD</name>
-        <val>Rating</val>
-      </specificattribute>
-    </bonus>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>4</rating>
-  </cyberware>
+    <cyberware>
+      <id>adeb301e-aee7-428b-8783-66927263e849</id>
+      <name>Firewall Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 4)</avail>
+      <cost>Rating * 12000</cost>
+      <bonus>
+        <specificattribute>
+          <name>BOD</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>4</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>a67d6add-e02c-47e3-bb35-aab02978c418</id>
-    <name>Sleaze Augmentation</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.25</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 4)</avail>
-    <cost>Rating * 12000</cost>
-    <bonus>
-      <specificattribute>
-        <name>AGI</name>
-        <val>Rating</val>
-      </specificattribute>
-    </bonus>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>4</rating>
-  </cyberware>
+    <cyberware>
+      <id>a67d6add-e02c-47e3-bb35-aab02978c418</id>
+      <name>Sleaze Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 4)</avail>
+      <cost>Rating * 12000</cost>
+      <bonus>
+        <specificattribute>
+          <name>AGI</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>4</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>efaf5b07-0951-455a-b428-27ebd83ee8cb</id>
-    <name>Data Processing Augmentation</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.25</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 4)</avail>
-    <cost>Rating * 12000</cost>
-    <bonus>
-      <specificattribute>
-        <name>REA</name>
-        <val>Rating</val>
-      </specificattribute>
-    </bonus>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>4</rating>
-  </cyberware>
+    <cyberware>
+      <id>efaf5b07-0951-455a-b428-27ebd83ee8cb</id>
+      <name>Data Processing Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 4)</avail>
+      <cost>Rating * 12000</cost>
+      <bonus>
+        <specificattribute>
+          <name>REA</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>4</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>163190c8-9fde-4f11-b55b-469f1a26530d</id>
-    <name>Attack Augmentation</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.25</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 4)</avail>
-    <cost>Rating * 12000</cost>
-    <bonus>
-      <specificattribute>
-        <name>STR</name>
-        <val>Rating</val>
-      </specificattribute>
-    </bonus>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>4</rating>
-  </cyberware>
+    <cyberware>
+      <id>163190c8-9fde-4f11-b55b-469f1a26530d</id>
+      <name>Attack Augmentation</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 4)</avail>
+      <cost>Rating * 12000</cost>
+      <bonus>
+        <specificattribute>
+          <name>STR</name>
+          <val>Rating</val>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>4</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>de2abcc4-8abc-47c3-bf00-18fceb848eb9</id>
-    <name>Quantum Processor</name>
-    <category>Codemods</category>
-    <ess>0.5</ess>
-    <capacity>0</capacity>
-    <avail>6R</avail>
-    <cost>40000</cost>
-    <bonus>
-      <matrixinitiativedice>1</matrixinitiativedice>
-      <matrixinitiative>1</matrixinitiative>
-    </bonus>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-  </cyberware>
+    <cyberware>
+      <id>de2abcc4-8abc-47c3-bf00-18fceb848eb9</id>
+      <name>Quantum Processor</name>
+      <category>Codemods</category>
+      <ess>0.5</ess>
+      <capacity>0</capacity>
+      <avail>6R</avail>
+      <cost>40000</cost>
+      <bonus>
+        <matrixinitiativedice>1</matrixinitiativedice>
+        <matrixinitiative>1</matrixinitiative>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </cyberware>
 
-  <cyberware>
-    <id>cf454dc7-4b3a-4ae7-aa76-920eb73007d5</id>
-    <name>Charisma Overclocking</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.15</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 2)</avail>
-    <cost>Rating * 9000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>8</rating>
-  </cyberware>
+    <cyberware>
+      <id>cf454dc7-4b3a-4ae7-aa76-920eb73007d5</id>
+      <name>Charisma Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.15</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 2)</avail>
+      <cost>Rating * 9000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>8</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>5ce303cf-fe77-40af-adae-d35c0e1ad26a</id>
-    <name>Intuition Overclocking</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.15</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 2)</avail>
-    <cost>Rating * 9000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>8</rating>
-  </cyberware>
+    <cyberware>
+      <id>5ce303cf-fe77-40af-adae-d35c0e1ad26a</id>
+      <name>Intuition Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.15</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 2)</avail>
+      <cost>Rating * 9000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>8</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>ed4892ce-652e-47b5-b55b-3cfddf3be753</id>
-    <name>Logic Overclocking</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.15</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 2)</avail>
-    <cost>Rating * 9000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>8</rating>
-  </cyberware>
+    <cyberware>
+      <id>ed4892ce-652e-47b5-b55b-3cfddf3be753</id>
+      <name>Logic Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.15</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 2)</avail>
+      <cost>Rating * 9000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>8</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>0d5fce99-a228-479c-b4b4-6e15507576ab</id>
-    <name>Willpower Overclocking</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.15</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 2)</avail>
-    <cost>Rating * 9000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>8</rating>
-  </cyberware>
+    <cyberware>
+      <id>0d5fce99-a228-479c-b4b4-6e15507576ab</id>
+      <name>Willpower Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.15</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 2)</avail>
+      <cost>Rating * 9000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>8</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>b2d6e457-c75c-4bbf-840f-5fa4df602d34</id>
-    <name>Attack Overclocking</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.1</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 1)</avail>
-    <cost>Rating * 5000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>8</rating>
-  </cyberware>
+    <cyberware>
+      <id>b2d6e457-c75c-4bbf-840f-5fa4df602d34</id>
+      <name>Attack Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 1)</avail>
+      <cost>Rating * 5000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>8</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>840532a2-11b4-45d5-a10d-9bf935b64fc8</id>
-    <name>Sleaze Overclocking</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.1</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 1)</avail>
-    <cost>Rating * 5000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>8</rating>
-  </cyberware>
+    <cyberware>
+      <id>840532a2-11b4-45d5-a10d-9bf935b64fc8</id>
+      <name>Sleaze Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 1)</avail>
+      <cost>Rating * 5000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>8</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>550ddef5-e769-4096-b21c-0e09babf1549</id>
-    <name>Data Processing Overclocking</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.1</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 1)</avail>
-    <cost>Rating * 5000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>8</rating>
-  </cyberware>
+    <cyberware>
+      <id>550ddef5-e769-4096-b21c-0e09babf1549</id>
+      <name>Data Processing Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 1)</avail>
+      <cost>Rating * 5000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>8</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>ffd877cf-0d8b-44e2-bc21-e25930db0da2</id>
-    <name>Firewall Overclocking</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.1</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 1)</avail>
-    <cost>Rating * 5000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>8</rating>
-  </cyberware>
+    <cyberware>
+      <id>ffd877cf-0d8b-44e2-bc21-e25930db0da2</id>
+      <name>Firewall Overclocking</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 1)</avail>
+      <cost>Rating * 5000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>8</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>f86f77aa-8afe-461b-a657-831d272b72e0</id>
-    <name>Core Code Redundancy</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.2</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 4)</avail>
-    <cost>Rating * 12000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>4</rating>
-    <bonus>
-      <conditionmonitor>
-        <stun>Rating</stun>
-      </conditionmonitor>
-    </bonus>
-  </cyberware>
+    <cyberware>
+      <id>f86f77aa-8afe-461b-a657-831d272b72e0</id>
+      <name>Core Code Redundancy</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.2</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 4)</avail>
+      <cost>Rating * 12000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>4</rating>
+      <bonus>
+        <conditionmonitor>
+          <stun>Rating</stun>
+        </conditionmonitor>
+      </bonus>
+    </cyberware>
 
-  <cyberware>
-    <id>6a17edb5-4ad7-4f94-a49c-e38dba734bec</id>
-    <name>Core Code Shielding</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.15</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 3)</avail>
-    <cost>Rating * 3500</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>6</rating>
-  </cyberware>
+    <cyberware>
+      <id>6a17edb5-4ad7-4f94-a49c-e38dba734bec</id>
+      <name>Core Code Shielding</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.15</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 3)</avail>
+      <cost>Rating * 3500</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>6</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>da29f32f-b45c-4eed-9f47-75d11b1668bc</id>
-    <name>Damage Mitigation Protocols</name>
-    <category>Codemods</category>
-    <ess>0.2</ess>
-    <capacity>0</capacity>
-    <avail>15</avail>
-    <cost>18500</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-  </cyberware>
+    <cyberware>
+      <id>da29f32f-b45c-4eed-9f47-75d11b1668bc</id>
+      <name>Damage Mitigation Protocols</name>
+      <category>Codemods</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>15</avail>
+      <cost>18500</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </cyberware>
 
-  <cyberware>
-    <id>3d782427-30e7-4216-84d0-d6559d817457</id>
-    <name>Damage Response Overrides</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.1</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 3)</avail>
-    <cost>Rating * 3000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>12</rating>
-    <bonus>
-      <conditionmonitor>
-        <sharedthresholdoffset>Rating</sharedthresholdoffset>
-      </conditionmonitor>
-    </bonus>
-  </cyberware>
+    <cyberware>
+      <id>3d782427-30e7-4216-84d0-d6559d817457</id>
+      <name>Damage Response Overrides</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 3)</avail>
+      <cost>Rating * 3000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>12</rating>
+      <bonus>
+        <conditionmonitor>
+          <sharedthresholdoffset>Rating</sharedthresholdoffset>
+        </conditionmonitor>
+      </bonus>
+    </cyberware>
 
-  <cyberware>
-    <id>5c2a9c7b-7dbf-4dfa-a9d6-460383aa3efb</id>
-    <name>Data Archive Upgrade</name>
-    <category>Codemods</category>
-    <ess>0.1</ess>
-    <capacity>0</capacity>
-    <avail>10</avail>
-    <cost>4000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <bonus>
-      <addqualities>
-        <addquality>Photographic Memory</addquality>
-      </addqualities>
-    </bonus>
-  </cyberware>
+    <cyberware>
+      <id>5c2a9c7b-7dbf-4dfa-a9d6-460383aa3efb</id>
+      <name>Data Archive Upgrade</name>
+      <category>Codemods</category>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>10</avail>
+      <cost>4000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <bonus>
+        <addqualities>
+          <addquality>Photographic Memory</addquality>
+        </addqualities>
+      </bonus>
+    </cyberware>
 
-  <cyberware>
-    <id>a4dcf8ad-17b4-432f-b642-11818b966efe</id>
-    <name>Optimized Restoration</name>
-    <category>Codemods</category>
-    <ess>0.1</ess>
-    <capacity>0</capacity>
-    <avail>8</avail>
-    <cost>10000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-  </cyberware>
+    <cyberware>
+      <id>a4dcf8ad-17b4-432f-b642-11818b966efe</id>
+      <name>Optimized Restoration</name>
+      <category>Codemods</category>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>10000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </cyberware>
 
-  <cyberware>
-    <id>9387cc16-71b1-4ee2-b4bc-ef155242ef3d</id>
-    <name>RCC Emulator</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.1</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 3)R</avail>
-    <cost>Rating * 7500</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>6</rating>
-  </cyberware>
+    <cyberware>
+      <id>9387cc16-71b1-4ee2-b4bc-ef155242ef3d</id>
+      <name>RCC Emulator</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 3)R</avail>
+      <cost>Rating * 7500</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>6</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>b865eb54-e309-42eb-bfc0-3e2ae5d55f97</id>
-    <name>Sideload Processor</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.1</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 1)R</avail>
-    <cost>Rating * 2000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>12</rating>
-  </cyberware>
+    <cyberware>
+      <id>b865eb54-e309-42eb-bfc0-3e2ae5d55f97</id>
+      <name>Sideload Processor</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 1)R</avail>
+      <cost>Rating * 2000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>12</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>2984ec6f-34cf-447f-867d-bf0f61d2caab</id>
-    <name>Synthetic Skill Driver: Activesoft</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.1</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 2)</avail>
-    <cost>Rating * 25000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>6</rating>
-  </cyberware>
+    <cyberware>
+      <id>2984ec6f-34cf-447f-867d-bf0f61d2caab</id>
+      <name>Synthetic Skill Driver: Activesoft</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 2)</avail>
+      <cost>Rating * 25000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>6</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>09870bb4-dbb0-4ca4-8e5c-164adba3596e</id>
-    <name>Synthetic Skill Driver: Linguasoft</name>
-    <category>Codemods</category>
-    <ess>0.2</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 2)</avail>
-    <cost>Rating * 4000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>4</rating>
-  </cyberware>
+    <cyberware>
+      <id>09870bb4-dbb0-4ca4-8e5c-164adba3596e</id>
+      <name>Synthetic Skill Driver: Linguasoft</name>
+      <category>Codemods</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 2)</avail>
+      <cost>Rating * 4000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>4</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>21506091-c14a-47f9-a88f-f353081109bc</id>
-    <name>Synthetic Skill Driver: Knowsoft</name>
-    <category>Codemods</category>
-    <ess>0.1</ess>
-    <capacity>0</capacity>
-    <avail>6</avail>
-    <cost>5000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-  </cyberware>
+    <cyberware>
+      <id>21506091-c14a-47f9-a88f-f353081109bc</id>
+      <name>Synthetic Skill Driver: Knowsoft</name>
+      <category>Codemods</category>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>6</avail>
+      <cost>5000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </cyberware>
 
-  <cyberware>
-    <id>55c65d90-5863-409e-97b1-0ccd9b865f58</id>
-    <name>Active Signal Filter</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.1</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 3)</avail>
-    <cost>Rating * 7000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>6</rating>
-  </cyberware>
+    <cyberware>
+      <id>55c65d90-5863-409e-97b1-0ccd9b865f58</id>
+      <name>Active Signal Filter</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 3)</avail>
+      <cost>Rating * 7000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>6</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>f284645a-db57-458f-b64c-455b76130b2c</id>
-    <name>ECM Integration</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.1</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 3)F</avail>
-    <cost>Rating * 2500</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>6</rating>
-  </cyberware>
+    <cyberware>
+      <id>f284645a-db57-458f-b64c-455b76130b2c</id>
+      <name>ECM Integration</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.1</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 3)F</avail>
+      <cost>Rating * 2500</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>6</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>0725b73a-4369-4fa5-bab9-8001c8893af7</id>
-    <name>PAN Emulator</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.2</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 6)R</avail>
-    <cost>Rating * 14000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>3</rating>
-  </cyberware>
+    <cyberware>
+      <id>0725b73a-4369-4fa5-bab9-8001c8893af7</id>
+      <name>PAN Emulator</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.2</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 6)R</avail>
+      <cost>Rating * 14000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>3</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>9c1dbb45-493a-4f74-aeb3-0bee547dd057</id>
-    <name>Control Rig Integration</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.8</ess>
-    <capacity>0</capacity>
-    <avail>(Rating * 5)</avail>
-    <cost>Rating * 50000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>3</rating>
-  </cyberware>
+    <cyberware>
+      <id>9c1dbb45-493a-4f74-aeb3-0bee547dd057</id>
+      <name>Control Rig Integration</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.8</ess>
+      <capacity>0</capacity>
+      <avail>(Rating * 5)</avail>
+      <cost>Rating * 50000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>3</rating>
+    </cyberware>
 
-  <cyberware>
-    <id>f9cc6b6e-c525-4dad-98d8-0ebd22b3a1ba</id>
-    <name>Sensor Input Filters</name>
-    <category>Codemods</category>
-    <ess>0.3</ess>
-    <capacity>0</capacity>
-    <avail>8</avail>
-    <cost>3000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <bonus>
-      <limitmodifier>
-        <limit>Mental</limit>
-        <value>1</value>
-        <condition>LimitCondition_SkillsActivePerception</condition>
-      </limitmodifier>
-      <specificskill>
-        <name>Perception</name>
-        <bonus>1</bonus>
-        <condition>Sensor</condition>
-      </specificskill>
-    </bonus>
-  </cyberware>
+    <cyberware>
+      <id>f9cc6b6e-c525-4dad-98d8-0ebd22b3a1ba</id>
+      <name>Sensor Input Filters</name>
+      <category>Codemods</category>
+      <ess>0.3</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>3000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <bonus>
+        <limitmodifier>
+          <limit>Mental</limit>
+          <value>1</value>
+          <condition>LimitCondition_SkillsActivePerception</condition>
+        </limitmodifier>
+        <specificskill>
+          <name>Perception</name>
+          <bonus>1</bonus>
+          <condition>Sensor</condition>
+        </specificskill>
+      </bonus>
+    </cyberware>
 
-  <cyberware>
-    <id>d68542f9-7da2-4064-8c45-3ea1bbd83fae</id>
-    <name>Simsense Integration</name>
-    <category>Codemods</category>
-    <ess>0.1</ess>
-    <capacity>0</capacity>
-    <avail>10R</avail>
-    <cost>7500</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-  </cyberware>
+    <cyberware>
+      <id>d68542f9-7da2-4064-8c45-3ea1bbd83fae</id>
+      <name>Simsense Integration</name>
+      <category>Codemods</category>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>10R</avail>
+      <cost>7500</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+    </cyberware>
 
-  <cyberware>
-    <id>fb745a5a-67ee-4a88-bc02-a5fe6e3194b2</id>
-    <name>Smartlink Adapter</name>
-    <category>Codemods</category>
-    <ess>0.2</ess>
-    <capacity>0</capacity>
-    <avail>8R</avail>
-    <cost>4000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <bonus>
-      <smartlink>2</smartlink>
-    </bonus>
-  </cyberware>
+    <cyberware>
+      <id>fb745a5a-67ee-4a88-bc02-a5fe6e3194b2</id>
+      <name>Smartlink Adapter</name>
+      <category>Codemods</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>8R</avail>
+      <cost>4000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <bonus>
+        <smartlink>2</smartlink>
+      </bonus>
+    </cyberware>
 
-  <cyberware>
-    <id>8dd166e0-a2d3-4904-8a64-58d822fead9b</id>
-    <name>Coherent Neuroconnectivity</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.25</ess>
-    <capacity>0</capacity>
-    <avail>18R</avail>
-    <cost>Rating * 40000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>2</rating>
-    <bonus>
-      <skillgroup>
-        <name>Cracking</name>
-        <bonus>Rating</bonus>
-      </skillgroup>
-      <skillgroup>
-        <name>Electronics</name>
-        <bonus>Rating</bonus>
-      </skillgroup>
-    </bonus>
-    <forbidden>
-      <oneof>
-        <cyberware>Quantum Subroutines</cyberware>
-        <cyberware>Discretionary Fragmentation</cyberware>
-        <cyberware>Sympathetic Consciousness</cyberware>
-        <cyberware>The Infinite Archives</cyberware>
-      </oneof>
-    </forbidden>
-  </cyberware>
+    <cyberware>
+      <id>8dd166e0-a2d3-4904-8a64-58d822fead9b</id>
+      <name>Coherent Neuroconnectivity</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>Rating * 40000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>2</rating>
+      <bonus>
+        <skillgroup>
+          <name>Cracking</name>
+          <bonus>Rating</bonus>
+        </skillgroup>
+        <skillgroup>
+          <name>Electronics</name>
+          <bonus>Rating</bonus>
+        </skillgroup>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <cyberware>Quantum Subroutines</cyberware>
+          <cyberware>Discretionary Fragmentation</cyberware>
+          <cyberware>Sympathetic Consciousness</cyberware>
+          <cyberware>The Infinite Archives</cyberware>
+        </oneof>
+      </forbidden>
+    </cyberware>
 
-  <cyberware>
-    <id>54f422fd-8b7c-4c6f-a1df-9f8f3ba88c8a</id>
-    <name>Quantum Subroutines</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.25</ess>
-    <capacity>0</capacity>
-    <avail>18R</avail>
-    <cost>Rating * 20000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>2</rating>
-    <forbidden>
-      <oneof>
-        <cyberware>Coherent Neuroconnectivity</cyberware>
-        <cyberware>Discretionary Fragmentation</cyberware>
-        <cyberware>Sympathetic Consciousness</cyberware>
-        <cyberware>The Infinite Archives</cyberware>
-      </oneof>
-    </forbidden>
-  </cyberware>
+    <cyberware>
+      <id>54f422fd-8b7c-4c6f-a1df-9f8f3ba88c8a</id>
+      <name>Quantum Subroutines</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>Rating * 20000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>2</rating>
+      <forbidden>
+        <oneof>
+          <cyberware>Coherent Neuroconnectivity</cyberware>
+          <cyberware>Discretionary Fragmentation</cyberware>
+          <cyberware>Sympathetic Consciousness</cyberware>
+          <cyberware>The Infinite Archives</cyberware>
+        </oneof>
+      </forbidden>
+    </cyberware>
 
-  <cyberware>
-    <id>1097c0cf-d70d-4eee-8bbb-02947c21c4a6</id>
-    <name>Sympathetic Consciousness</name>
-    <category>Codemods</category>
-    <ess>Rating * 0.25</ess>
-    <capacity>0</capacity>
-    <avail>18R</avail>
-    <cost>Rating * 40000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <rating>2</rating>
-    <bonus>
-      <judgeintentionsoffense>Rating</judgeintentionsoffense>
-    </bonus>
-    <forbidden>
-      <oneof>
-        <cyberware>Coherent Neuroconnectivity</cyberware>
-        <cyberware>Quantum Subroutines</cyberware>
-        <cyberware>Discretionary Fragmentation</cyberware>
-        <cyberware>The Infinite Archives</cyberware>
-      </oneof>
-    </forbidden>
-  </cyberware>
+    <cyberware>
+      <id>1097c0cf-d70d-4eee-8bbb-02947c21c4a6</id>
+      <name>Sympathetic Consciousness</name>
+      <category>Codemods</category>
+      <ess>Rating * 0.25</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>Rating * 40000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <rating>2</rating>
+      <bonus>
+        <judgeintentionsoffense>Rating</judgeintentionsoffense>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <cyberware>Coherent Neuroconnectivity</cyberware>
+          <cyberware>Quantum Subroutines</cyberware>
+          <cyberware>Discretionary Fragmentation</cyberware>
+          <cyberware>The Infinite Archives</cyberware>
+        </oneof>
+      </forbidden>
+    </cyberware>
 
-  <cyberware>
-    <id>9998312a-6440-4c46-a699-bb9e7a1da5af</id>
-    <name>Discretionary Fragmentation</name>
-    <category>Codemods</category>
-    <ess>0.5</ess>
-    <capacity>0</capacity>
-    <avail>18R</avail>
-    <cost>80000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <forbidden>
-      <oneof>
-        <cyberware>Coherent Neuroconnectivity</cyberware>
-        <cyberware>Quantum Subroutines</cyberware>
-        <cyberware>Sympathetic Consciousness</cyberware>
-        <cyberware>The Infinite Archives</cyberware>
-      </oneof>
-    </forbidden>
-  </cyberware>
-  <cyberware>
-    <id>3aea97f0-cc43-48bf-b81b-e4922b6620aa</id>
-    <name>The Infinite Archives</name>
-    <category>Codemods</category>
-    <ess>0.5</ess>
-    <capacity>0</capacity>
-    <avail>18R</avail>
-    <cost>80000</cost>
-    <source>6e</source>
-    <page>0</page>
-    <required>
-      <oneof>
-        <metatype>AI</metatype>
-      </oneof>
-    </required>
-    <forbidden>
-      <oneof>
-        <cyberware>Coherent Neuroconnectivity</cyberware>
-        <cyberware>Quantum Subroutines</cyberware>
-        <cyberware>Sympathetic Consciousness</cyberware>
-        <cyberware>Discretionary Fragmentation</cyberware>
-      </oneof>
-    </forbidden>
-  </cyberware>
-</cyberwares>
+    <cyberware>
+      <id>9998312a-6440-4c46-a699-bb9e7a1da5af</id>
+      <name>Discretionary Fragmentation</name>
+      <category>Codemods</category>
+      <ess>0.5</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>80000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <forbidden>
+        <oneof>
+          <cyberware>Coherent Neuroconnectivity</cyberware>
+          <cyberware>Quantum Subroutines</cyberware>
+          <cyberware>Sympathetic Consciousness</cyberware>
+          <cyberware>The Infinite Archives</cyberware>
+        </oneof>
+      </forbidden>
+    </cyberware>
+    <cyberware>
+      <id>3aea97f0-cc43-48bf-b81b-e4922b6620aa</id>
+      <name>The Infinite Archives</name>
+      <category>Codemods</category>
+      <ess>0.5</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>80000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </required>
+      <forbidden>
+        <oneof>
+          <cyberware>Coherent Neuroconnectivity</cyberware>
+          <cyberware>Quantum Subroutines</cyberware>
+          <cyberware>Sympathetic Consciousness</cyberware>
+          <cyberware>Discretionary Fragmentation</cyberware>
+        </oneof>
+      </forbidden>
+    </cyberware>
+  </cyberwares>
 </chummer>

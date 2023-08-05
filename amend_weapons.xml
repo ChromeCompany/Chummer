@@ -1987,7 +1987,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <weapon>
       <id>a10b3299-31b3-4fbe-a845-5555ee851280</id>
       <name>Tesla Coil</name>
-      <category>Cyberweapon</category>
+      <category>Exotic Ranged Weapon</category>
       <type>Ranged</type>
       <conceal>0</conceal>
       <accuracy>4</accuracy>
@@ -1996,7 +1996,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <ap>-5</ap>
       <mode>SA/BF/FA</mode>
       <rc>0</rc>
-      <ammo>10(c) or External Source</ammo>
+      <ammo>10(c)</ammo>
       <avail>18R</avail>
       <cost>0</cost>
       <source>6e</source>
@@ -2005,8 +2005,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <cyberware>True</cyberware>
       <hide />
       <useskill>Exotic Ranged Weapon</useskill>
-      <useskillspec>Tesla Coil</spec>
       <range>Tasers</range>
+      <weapontype>energy</weapontype>
     </weapon>
 
     <!-- 6th Edition Weapons -->
