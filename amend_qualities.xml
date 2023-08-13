@@ -904,6 +904,16 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       </bonus>
     </quality>
 
+    <!-- Hidden Banned Qualities -->
+    <quality>
+      <name>Neoteny</name>
+      <hide />
+    </quality>
+
+    <quality>
+      <name>Information Auctioneer</name>
+      <hide />
+    </quality>
 
     <!-- Other Adjustments -->
     <quality>
