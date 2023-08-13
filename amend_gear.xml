@@ -285,7 +285,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <gear>
       <name>Skill Autosoft</name>
       <bonus amendoperation="replace">
-        <selectskill limittoskill="First Aid,Hardware,Instruction,Mechanic,Navigation,Performance" />
+        <selectskill limittoskill="First Aid,Hardware,Instruction,Mechanics,Navigation,Performance" />
       </bonus>
     </gear>
     <gear>
