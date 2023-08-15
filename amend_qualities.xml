@@ -979,7 +979,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <name>Spike Resistance</name>
       <karma amendoperation="replace">5</karma>
     </quality>
-   
+
     <quality>
       <name>Dimmer Bulb</name>
       <forbidden amendoperation="append">
@@ -2176,8 +2176,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <page>121</page>
     </quality>
 
-<quality>
-  <id>e8709d36-7d1d-4b0c-b6a0-fbf2186b49e4</id>
+    <quality>
+      <id>e8709d36-7d1d-4b0c-b6a0-fbf2186b49e4</id>
       <name>Wing Claw</name>
       <karma>0</karma>
       <category>Positive</category>
@@ -3581,7 +3581,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <source>6e</source>
       <page>0</page>
     </quality>
-     
+
     <quality>
       <id>1d1e3493-0775-46b1-8b35-6efcb3b5bb2c</id> 
       <name>Uncontrolled Metastasis</name>
@@ -3590,7 +3590,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <rating>2</rating>
       <source>6e</source>
       <page>0</page>
-   </quality>
+    </quality>
 
     <!-- 6th Edition Metagenic Qualities-->
     <quality>
@@ -3735,7 +3735,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </movementreplace> 
         <specificattribute>
           <name>BOD</name> 
-          <max>-1</max>
           <val>-1</val>
         </specificattribute>
       </bonus>
