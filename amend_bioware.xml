@@ -290,6 +290,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <capacity>0</capacity>
       <avail>6</avail>
       <cost>15000</cost>
+      <isgeneware />
       <forcegrade>None</forcegrade>
       <bonus>
         <lifestylecost>-10</lifestylecost>
@@ -297,6 +298,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>4e</source>
       <page>0</page>
     </bioware>
+
     <bioware>
       <id>d7bb1c5c-c284-4fed-9631-1497c4b6e23f</id>
       <name>Bone Spike (Bone Density 2)</name>
