@@ -2493,6 +2493,70 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     </weaponmount>
   </weaponmounts>
 
+  <!-- Adds exotics to drone mount lists -->
+  <weaponmounts>
+    <weaponmount>
+      <name>Mini (Drone)</name>
+      <weaponcategories>Tasers,Holdouts,Light Pistols,Grenades,Blades,Clubs,Exotic Ranged Weapons</weaponcategories>
+    </weaponmount>
+
+    <weaponmount>
+      <name>Small (Drone)</name>
+      <weaponcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Exotic Ranged Weapons,Laser Weapons</weaponcategories>
+    </weaponmount>
+
+    <weaponmount>
+      <name>Standard (Drone)</name>
+      <weaponcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Exotic Ranged Weapons,Laser Weapons</weaponcategories>
+    </weaponmount>
+
+    <weaponmount>
+      <name>Large (Drone)</name>
+      <weaponcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Submachine Guns,Assault Rifles,Shotguns,Grenade Launchers,Sporting Rifles,Exotic Ranged Weapons,Laser Weapons,Flamethrowers</weaponcategories>
+    </weaponmount>
+
+    <weaponmount>
+      <name>Huge (Drone)</name>
+      <weaponcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Submachine Guns,Assault Rifles,Shotguns,Machine Guns,Grenade Launchers,Laser Weapons,Light Machine Guns,Medium Machine Guns,Sporting Rifles,Sniper Rifles,Exotic Ranged Weapons,Flamethrowers</weaponcategories>
+    </weaponmount>
+
+    <weaponmount>
+      <name>Heavy (Drone)</name>
+      <weaponcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Submachine Guns,Assault Rifles,Shotguns,Machine Guns,Assault Cannons,Grenade Launchers,Missile Launchers,Laser Weapons,Light Machine Guns,Medium Machine Guns,Heavy Machine Guns,Sporting Rifles,Sniper Rifles,Exotic Ranged Weapons,Flamethrowers</weaponcategories>
+    </weaponmount>
+  </weaponmounts>
+
+  <mods>
+    <mod>
+      <name>Mini Weapon Mount (Drone)</name>
+      <weaponmountcategories amendoperation="replace">Tasers,Holdouts,Light Pistols,Grenades,Blades,Clubsi,Exotic Ranged Weapons</weaponmountcategories>
+    </mod>
+
+    <mod>
+      <name>Small Weapon Mount (Drone)</name>
+      <weaponmountcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Exotic Ranged Weapons,Laser Weapons</weaponmountcategories>
+    </mod>
+
+    <mod>
+      <name>Standard Weapon Mount (Drone)</name>
+      <weaponmountcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Exotic Ranged Weapons</weaponmountcategories>
+    </mod>
+
+    <mod>
+      <name>Large Weapon Mount (Drone)</name>
+      <weaponmountcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Submachine Guns,Assault Rifles,Shotguns,Grenade Launchers,Sporting Rifles,Exotic Ranged Weapons,Laser Weapons,Flamethrowers</weaponmountcategories>
+    </mod>
+    <mod>
+      <name>Huge Weapon Mount (Drone)</name>
+      <weaponmountcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Submachine Guns,Assault Rifles,Shotguns,Machine Guns,Grenade Launchers,Laser Weapons,Light Machine Guns,Medium Machine Guns,Sporting Rifles,Sniper Rifles,Exotic Ranged Weapons,Laser Weapons,Flamethrowers</weaponmountcategories>
+    </mod>
+
+    <mod>
+      <name>Heavy Weapon Mount (Drone)</name>
+      <weaponmountcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Submachine Guns,Assault Rifles,Shotguns,Machine Guns,Assault Cannons,Grenade Launchers,Missile Launchers,Laser Weapons,Light Machine Guns,Medium Machine Guns,Heavy Machine Guns,Sporting Rifles,Sniper Rifles,Laser Weapons,Exotic Ranged Weapons,Flamethrowers</weaponmountcategories>
+    </mod>
+  </mods>
+
   <!-- Hides the vehicle ammo bin weapon mount mod for drones -->
   <weaponmountmods>
     <mod>

@@ -2043,6 +2043,71 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
+
+    <!-- Drone mount weapons -->
+    <weapon>
+      <id>0eed90ee-6d5b-40d9-a4ae-d17c2095239d</id>
+      <name>Single-Shot Grenade Launcher</name>
+      <category>Grenade Launchers</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>4</accuracy>
+      <reach>0</reach>
+      <damage>Grenade</damage>
+      <ap>-</ap>
+      <mode>SS</mode>
+      <RC>0</RC>
+      <ammo>1(m)</ammo>
+      <avail>8F</avail>
+      <cost>1200</cost>
+      <source>MPR</source>
+      <page>0</page>
+      <sizecategory>Light Pistols</sizecategory>
+    </weapon>
+
+    <weapon>
+      <id>25c730d7-1518-479e-8175-428ee36f1402</id>
+      <name>Single-Shot Pistol</name>
+      <category>Light Pistols</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>8P</damage>
+      <ap>-1</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>1(m)</ammo>
+      <avail>5R</avail>
+      <cost>250</cost>
+      <source>MPR</source>
+      <page>0</page>
+      <range>Heavy Pistols</range>
+      <sizecategory>Light Pistols</sizecategory>
+    </weapon>
+
+    <weapon>
+      <id>05bd8fbe-4ffc-4169-a252-cf3300c3e65e</id>
+      <name>Single-Shot Dart</name>
+      <category>Exotic Ranged Weapons</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>5</accuracy>
+      <reach>0</reach>
+      <damage>As Drug/Toxin</damage>
+      <ap>0</ap>
+      <mode>SS</mode>
+      <rc>0</rc>
+      <ammo>1(m)</ammo>
+      <avail>4R</avail>
+      <cost>150</cost>
+      <source>MPR</source>
+      <page>0</page>
+      <range>Heavy Pistols</range>
+      <sizecategory>Light Pistols</sizecategory>
+      <useskill>Exotic Ranged Weapon</useskill>
+      <weapontype>dartgun</weapontype>
+    </weapon>
   </weapons>
 
   <!-- Minor changes to certain weapon accessories for various reasons -->
