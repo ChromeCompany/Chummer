@@ -2497,17 +2497,17 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
   <weaponmounts>
     <weaponmount>
       <name>Mini (Drone)</name>
-      <weaponcategories>Tasers,Holdouts,Light Pistols,Grenades,Blades,Clubs,Exotic Ranged Weapons</weaponcategories>
+      <weaponcategories>Tasers,Holdouts,Light Pistols,Grenades,Blades,Clubs,Exotic Ranged Weapons,Micro-Drone Weapons,Mini-Drone Weapons</weaponcategories>
     </weaponmount>
 
     <weaponmount>
       <name>Small (Drone)</name>
-      <weaponcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Exotic Ranged Weapons,Laser Weapons</weaponcategories>
+      <weaponcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Exotic Ranged Weapons,Laser Weapons,Mini-Drone Weapons</weaponcategories>
     </weaponmount>
 
     <weaponmount>
       <name>Standard (Drone)</name>
-      <weaponcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Exotic Ranged Weapons,Laser Weapons</weaponcategories>
+      <weaponcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Exotic Ranged Weapons,Laser Weapons,Mini-Drone Weapons</weaponcategories>
     </weaponmount>
 
     <weaponmount>
