@@ -38,9 +38,30 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <avail>12R</avail>
     </vehicle>
 
+    <vehicle>
+      <name>Thundercloud Morgan</name>
+      <avail>8R</avail>
+    </vehicle>
+
+    <vehicle>
+      <name>Sea Ray Cottonmouth</name>
+      <avail>12R</avail>
+    </vehicle>
+
+    <vehicle>
+      <name>Zodiac Scorpio</name>
+      <avail>8R</avail>
+    </vehicle>
+
+    <vehicle>
+      <name>Federated-Boeing PBY-70 Catalina II</name>
+      <avail>12R</avail>
+    </vehicle>
+
     <!-- Minor vehicle changes -->
     <vehicle>
       <name>BMW Luxus</name>
+      <avail amendoperation="replace">10R</avail>
       <weapons>
         <weapon>
           <name>GE Vindicator Mini-Gun</name>
