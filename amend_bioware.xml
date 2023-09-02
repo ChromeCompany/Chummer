@@ -52,6 +52,10 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <name>Vocal Range Extender</name>
     </bioware>
 
+    <bioware>
+      <name>Qualia</name>
+      <ess>0.1</ess>
+    </bioware>
 
     <bioware>
       <name>Bone Density Augmentation</name>
