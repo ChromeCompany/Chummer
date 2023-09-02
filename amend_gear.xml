@@ -61,6 +61,10 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <name>Anti-Tamper Circuits</name>
       <rating>6</rating>
     </gear>
+    <gear>
+      <name>Kitbashed Sleeper</name>
+      <avail>14R</avail>
+    </gear>
 
     <!-- Increase Jammers to R12 -->
     <gear>
