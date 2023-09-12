@@ -3295,10 +3295,11 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <name>Gaz-Nikki White Eagle</name>
       <page>0</page>
       <source>4e</source>
+      <speed>4</speed>
       <accel>1</accel>
+      <body>6</body>
       <armor>6</armor>
       <avail>6R</avail>
-      <body>6</body>
       <category>Bikes</category>
       <cost>9500</cost>
       <handling>4/4</handling>
