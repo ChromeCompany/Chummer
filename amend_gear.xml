@@ -56,6 +56,12 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <hide />
     </gear>-->
 
+	<gear>
+		<name>Arrow: Monotip Head</name>
+		<weaponbonus>
+			<ap>-4</ap>
+		</weaponbonus>
+	</gear>
     <!-- Increases Antitamper to R6 -->
     <gear>
       <name>Anti-Tamper Circuits</name>
