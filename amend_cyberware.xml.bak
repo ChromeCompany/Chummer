@@ -20,6 +20,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema cyberware.xsd">
   <categories amendoperation = "append">
     <category>Codemods</category>
+	<category>Critterware</category>
   </categories>
   <grades>
     <grade>
@@ -38,6 +39,14 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     </cyberware>
 
     <!-- Changes all cyberweapons from Forbidden to Restricted -->
+	<cyberware>
+		<name>Dermal Plating</name>
+		<ess>Rating * 0.3</ess>
+	</cyberware>
+	<cyberware>
+		<name>Smartskin</name>
+		<ess>Rating * 0.3</ess>
+	</cyberware>
     <cyberware>
       <name>Hand Blade</name>
       <avail>10R</avail>

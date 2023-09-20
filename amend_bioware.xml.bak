@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--This file is part of Chummer5a.
 
-    Chummer5a is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+Chummer5a is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-    Chummer5a is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+Chummer5a is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+You should have received a copy of the GNU General Public License
+along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 
-    You can obtain the full source code for Chummer5a at
-    https://github.com/chummer5a/chummer5a
+  You can obtain the full source code for Chummer5a at
+  https://github.com/chummer5a/chummer5a
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema bioware.xsd">
+	<categories amendoperation = "append">
+		<category>Critterware</category>
+	</categories>
   <grades>
     <grade>
       <name>Omegaware</name>
       <hide />
     </grade>
   </grades>
+
   <biowares>
     <bioware>
       <name>Adapsin</name>
@@ -44,14 +48,45 @@
       <name>Bone Spike (Bone Density 4)</name>
       <addweapon>Bone Spike IV</addweapon>
     </bioware>
-    
+
     <!-- Changes the name of the 'Expander' to 'Extender' because that's what it's called in CF -->
     <bioware>
       <id>70bd2c89-3432-4270-8e4c-d8d979114148</id>
       <name>Vocal Range Extender</name>
     </bioware>
-    
-    <!--Precents the genops from getting taken with metagentic improvements-->
+
+    <bioware>
+      <name>Qualia</name>
+      <ess>0.1</ess>
+    </bioware>
+
+    <bioware>
+      <name>Bone Density Augmentation</name>
+      <forbidden amendoperation="append">
+        <bioware>Gliding Wings</bioware>
+      </forbidden>
+    </bioware>
+
+    <!-- Add Incompatiblity with Metabolic Arrester -->
+    <bioware>
+      <name>Adrenaline Pump</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <bioware>Metabolic Arrester</bioware>
+        </oneof>
+      </forbidden>
+    </bioware>
+
+    <bioware>
+      <name>Suprathyroid Gland</name>
+      <forbidden amendoperation="append">
+        <oneof>
+          <bioware>Metabolic Arrester</bioware>
+        </oneof>
+      </forbidden>
+    </bioware>
+
+    <!--Prevents the genops from getting taken with metagentic improvements-->
     <bioware>
       <name>Genetic Optimization (Body)</name>
       <forbidden amendoperation="append">
@@ -117,7 +152,7 @@
       </forbidden>
     </bioware>
   </biowares>
-  
+
   <!-- 4E Bioware translations -->
   <biowares amendoperation="append">
     <bioware>
@@ -129,7 +164,7 @@
       <avail>10</avail>
       <cost>Rating * 5000</cost>
       <rating>3</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -140,7 +175,7 @@
       <capacity>0</capacity>
       <avail>8</avail>
       <cost>10000</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -151,7 +186,7 @@
       <capacity>0</capacity>
       <avail>6</avail>
       <cost>12000</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -162,7 +197,7 @@
       <capacity>0</capacity>
       <avail>6</avail>
       <cost>2500</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
       <addweapon>Quills (Bio-Weapon)</addweapon>
     </bioware>
@@ -175,7 +210,7 @@
       <avail>Rating * 4</avail>
       <cost>Rating * 12000</cost>
       <rating>4</rating>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -191,7 +226,7 @@
           <bioware>False Front</bioware>
         </oneof>
       </required>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -210,7 +245,7 @@
           <bioware>Orthoskin</bioware>
         </oneof>
       </required>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -226,7 +261,7 @@
           <addquality>Thermal Sensitivity (Bioware)</addquality>
         </addqualities>
       </bonus>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -237,7 +272,10 @@
       <capacity>0</capacity>
       <avail>8</avail>
       <cost>9000</cost>
-      <source>SR5</source>
+      <bonus>
+        <composure>2</composure>
+      </bonus>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
@@ -248,24 +286,26 @@
       <capacity>0</capacity>
       <avail>10</avail>
       <cost>14000</cost>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
     <bioware>
       <id>c807eb48-fc9a-49a2-a80c-03d462179687</id>
       <name>Vegsin</name>
-      <category>Genemods</category>
+      <category>Transgenics</category>
       <ess>0.1</ess>
       <capacity>0</capacity>
       <avail>6</avail>
       <cost>15000</cost>
+      <isgeneware />
       <forcegrade>None</forcegrade>
       <bonus>
         <lifestylecost>-10</lifestylecost>
       </bonus>
-      <source>SR5</source>
+      <source>4e</source>
       <page>0</page>
     </bioware>
+
     <bioware>
       <id>d7bb1c5c-c284-4fed-9631-1497c4b6e23f</id>
       <name>Bone Spike (Bone Density 2)</name>
@@ -302,7 +342,7 @@
       <source>HT</source>
       <page>185</page>
     </bioware>
-	<bioware>
+    <bioware>
       <id>ccb67951-e42e-4f1c-999e-9f25af5e9089</id>
       <name>Bone Spike (Ceramic/Aluminum)</name>
       <limit>False</limit>
@@ -315,13 +355,13 @@
       <required>
         <oneof>
           <cyberware>Bone Lacing (Ceramic)</cyberware>
-		  <cyberware>Bone Lacing (Aluminum)</cyberware>
+          <cyberware>Bone Lacing (Aluminum)</cyberware>
         </oneof>
       </required>
       <source>HT</source>
       <page>185</page>
     </bioware>
-	<bioware>
+    <bioware>
       <id>3436c619-d4fb-465c-8c14-fa0493bf87a2</id>
       <name>Bone Spike (Titanium)</name>
       <limit>False</limit>
@@ -330,7 +370,7 @@
       <capacity>0</capacity>
       <avail>14F</avail>
       <cost>20000</cost>
-      <addweapon>Bone Spike II</addweapon>
+      <addweapon>Bone Spike III</addweapon>
       <required>
         <oneof>
           <cyberware>Bone Lacing (Titanium)</cyberware>
@@ -338,6 +378,413 @@
       </required>
       <source>HT</source>
       <page>185</page>
+    </bioware>
+
+    <!-- Disable old Transgenic Alteration-->
+    <bioware>
+      <name>Transgenic Alteration</name>
+      <hide />
+    </bioware>
+
+    <!-- 6th Edition Bioware --> 
+    <bioware>
+      <id>6a6f272d-8d57-4075-8bac-9f820ee0033a</id>
+      <name>Metabolic Arrester</name>
+      <category>Basic</category>
+      <ess>0.3</ess>
+      <capacity>0</capacity>
+      <avail>10</avail>
+      <cost>10000</cost>
+      <bonus>
+        <conditionmonitor>
+          <overflow>2</overflow>
+        </conditionmonitor>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <bioware>Suprathyroid Gland</bioware>
+          <bioware>Adrenaline Pump</bioware>
+        </oneof>
+      </forbidden>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>870f83f2-febb-41a9-b1b5-a7bbb133a7cf</id>
+      <name>Quadmod</name>
+      <category>Cultured</category>
+      <bannedgrades>
+        <grade>Used</grade>
+        <grade>Used (Adapsin)</grade>
+      </bannedgrades>
+      <ess>0.1*Rating</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>7500*Rating</cost>
+      <bonus>
+        <sprintbonus>
+          <category>Ground</category>
+          <val>100*Rating</val>
+        </sprintbonus>
+      </bonus>
+      <rating>3</rating>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>f609916d-1b77-4e7d-b8c0-1a8bb1788f63</id> 
+      <name>Awareness</name>
+      <category>Basic</category>
+      <ess>0.1</ess>
+      <capacity>0</capacity>
+      <avail>8</avail>
+      <cost>12000</cost>
+      <bonus>
+        <surprise>2</surprise> 
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>cfbff2d0-db6d-428d-9d05-627488150bdd</id>
+      <name>Gliding Wings</name>
+      <category>Cultured</category>
+      <bannedgrades>
+        <grade>Used</grade>
+        <grade>Used (Adapsin)</grade>
+      </bannedgrades>
+      <ess>1.5</ess>
+      <capacity>0</capacity>
+      <avail>14</avail>
+      <cost>100000</cost>
+      <bonus>
+        <movementreplace>
+          <category>Fly</category>
+          <speed>sprint</speed>
+          <val>300</val>
+        </movementreplace>
+        <specificattribute>
+          <name>BOD</name> 
+          <max>-1</max>
+          <val>-1</val>
+        </specificattribute>
+        <movementreplace>
+          <category>Fly</category>
+          <speed>sprint</speed>
+          <val>300</val>
+        </movementreplace>
+      </bonus>
+      <forbidden>
+        <oneof>
+          <bioware>Bone Density Augmentation</bioware>
+          <cyberware>Bone Lacing (Plastic)</cyberware>
+          <cyberware>Bone Lacing (Aluminum></cyberware>
+          <cyberware>Bone Lacing (Titanium)</cyberware>
+          <cyberware>Bone Lacing (Kevlar)</cyberware>
+          <cyberware>Bone Lacing (Ceramic)</cyberware>
+        </oneof>
+      </forbidden>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>0a1ebf54-af0b-490a-b8f5-2d7f265509a7</id>
+      <name>Alpha Factor</name>
+      <category>Transgenics</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>16F</avail>
+      <cost>45000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <skillcategory>
+          <name>Social Active</name>
+          <bonus>1</bonus>
+        </skillcategory>
+        <skillcategory>
+          <name>Magical Active</name>
+          <bonus>-1</bonus>
+        </skillcategory>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>ea50a675-a058-4d02-aafe-73fc7b52b075</id>
+      <name>Synaptic Booster Enhancer</name>
+      <category>Transgenics</category>
+      <ess>0.5</ess>
+      <capacity>0</capacity>
+      <avail>18R</avail>
+      <cost>95000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <initiativepass precedence="-1">1</initiativepass>
+        <specificattribute precedence="-1">
+          <name>REA</name>
+          <val>1</val>
+        </specificattribute>
+      </bonus>
+      <required>
+        <oneof>        
+          <bioware>Synaptic Booster</bioware>
+        </oneof>
+      </required>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>a38f7843-8c41-428b-a447-3dc2e0b1e4c3</id> 
+      <name>Cerebellum Booster Enhancer</name>
+      <category>Transgenics</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>14R</avail>
+      <cost>55000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>INT</name>
+          <val>1</val>
+        </specificattribute>
+      </bonus>
+      <required>
+        <oneof>        
+          <bioware>Cerebellum Booster</bioware>
+        </oneof>
+      </required>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>d333a2da-e810-4079-a571-6e982762f950</id>
+      <name>Cerebral Booster Enhancer</name>
+      <category>Transgenics</category>
+      <ess>0.2</ess>
+      <capacity>0</capacity>
+      <avail>14R</avail>
+      <cost>40000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>LOG</name>
+          <val>1</val>
+        </specificattribute>
+      </bonus>
+      <required>
+        <oneof>
+          <bioware>Cerebral Booster</bioware>
+        </oneof>
+      </required>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>b0b2be70-84c6-4340-90d8-c882277af954</id>
+      <name>Minor Transgenic Cosmetic Infusion</name>
+      <category>Transgenic Alteration</category>
+      <ess>0</ess>
+      <capacity>0</capacity>
+      <avail>6</avail>
+      <cost>35000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>8d76e97a-9e71-403f-99ec-c58ad144e549</id>
+      <name>Moderate Transgenic Cosmetic Infusion</name>
+      <category>Transgenic Alteration</category>
+      <ess>0.2</ess>
+      <avail>9</avail>
+      <cost>55000</cost>
+      <forcegrade>None</forcegrade> 
+      <isgeneware />
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>d5964806-bd95-4807-a672-f551ba043a3b</id> 
+      <name>Catlike Reflexes</name>
+      <category>Transgenics</category>
+      <ess>0.4</ess>
+      <avail>10</avail>
+      <cost>60000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>AGI</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>REA</name>
+          <val>1</val>
+        </specificattribute>
+        <selectquality>
+          <quality>Reflective Eyes</quality>
+          <quality>Nocturnal</quality>
+        </selectquality> 
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>911e6542-c77a-4253-9ea9-61ae1c855486</id>
+      <name>Pulmonary Arcane Arrester</name>
+      <category>Transgenics</category>
+      <ess>0.3</ess>
+      <avail>14</avail>
+      <cost>15000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <spellresistance>2</spellresistance> 
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>82e53118-cfff-493d-a32e-95999d5f798f</id> 
+      <name>Aggression Pack</name>
+      <category>Transgenics</category>
+      <ess>0.6</ess>
+      <avail>12R</avail>
+      <cost>85000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>REA</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>STR</name>
+          <val>1</val>
+        </specificattribute>
+        <specificattribute>
+          <name>BOD</name>
+          <val>1</val>
+        </specificattribute>
+        <selectquality>
+          <quality>Insomnia (Basic)</quality>
+          <quality>Young Cannibal</quality>
+        </selectquality>
+        <specificskill>
+          <name>Intimidation</name>
+          <bonus>2</bonus>
+        </specificskill>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+
+    <bioware>
+      <id>b78ddbd9-b71e-4f68-9a5e-f45881b31286</id> 
+      <name>Digitigrade Legs</name>
+      <category>Transgenics</category>
+      <ess>0.6</ess>
+      <avail>12R</avail>
+      <cost>110000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <limitmodifier>
+          <limit>Physical</limit>
+          <value>2</value>
+          <condition>Stealth Skills Only</condition>
+        </limitmodifier>
+        <runmultiplier>
+          <val>1</val>
+          <category>Ground</category>
+        </runmultiplier>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	
+	<!-- 6e Critterware Scthuf-->
+	<bioware>
+      <id>7a727ee6-4f4a-4fcb-af05-0d0652c52eaf</id> 
+      <name>Awakened Critter Power Enhancement</name>
+      <category>Critterware</category>
+	  <rating>6</rating>
+      <ess>Rating * 0.1</ess>
+      <avail>Rating + 2</avail>
+      <cost>Rating * 10000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>48a4944b-1a21-4734-9105-4996930ff04f</id> 
+      <name>Iron Stomach</name>
+      <category>Critterware</category>
+      <ess>0.2</ess>
+      <avail>4R</avail>
+      <cost>5000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>ccf601c6-e698-4012-8faa-10aab9a2f5e5</id> 
+      <name>Flame Resistant</name>
+      <category>Critterware</category>
+      <ess>0.2</ess>
+      <avail>4R</avail>
+      <cost>5000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>3b45a54e-fb75-4ffe-a8f1-9b9028007f33</id> 
+      <name>Fearless</name>
+      <category>Critterware</category>
+      <ess>0.2</ess>
+      <avail>8R</avail>
+      <cost>5000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>57b7c883-a9c1-4306-b42f-46fc68f25838</id> 
+      <name>Natural Armor Enhancement</name>
+      <category>Critterware</category>
+	  <rating>20</rating>
+      <ess>Rating * 0.1</ess>
+      <avail>Rating + 2R</avail>
+      <cost>Rating * 5000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+	  <bonus>
+		<armor group="0">Rating</armor>
+      </bonus>
+	  <source>6e</source>
+      <page>0</page>
     </bioware>
   </biowares>
 </chummer>
