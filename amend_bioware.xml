@@ -18,6 +18,9 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
   https://github.com/chummer5a/chummer5a
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema bioware.xsd">
+	<categories amendoperation = "append">
+		<category>Critterware</category>
+	</categories>
   <grades>
     <grade>
       <name>Omegaware</name>
@@ -713,6 +716,21 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <category>Ground</category>
         </runmultiplier>
       </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	
+	<!-- 6e Critterware Scthuf-->
+	<bioware>
+      <id>7a727ee6-4f4a-4fcb-af05-0d0652c52eaf</id> 
+      <name>Awakened Critter Power Enhancement</name>
+      <category>Critterware</category>
+	  <rating>6</rating>
+      <ess>Rating * 0.1</ess>
+      <avail>Rating + 2</avail>
+      <cost>Rating * 10000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
       <source>6e</source>
       <page>0</page>
     </bioware>

@@ -62,6 +62,13 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 			<ap>-4</ap>
 		</weaponbonus>
 	</gear>
+	<gear>
+		<name>Arrow: Incendiary Head</name>
+		<weaponbonus amendoperation="replace">
+			<accuracy>-1</accuracy>
+		</weaponbonus>
+	</gear>
+	
     <!-- Increases Antitamper to R6 -->
     <gear>
       <name>Anti-Tamper Circuits</name>
