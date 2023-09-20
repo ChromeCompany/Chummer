@@ -24,6 +24,101 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <rating>100</rating>
     </armor>
 
+
+    <!-- Adding Environmental adaptations-->
+    <armor>
+      <name>Arctic Diving Suit</name>
+      <mods amendoperation="append">
+        <name>Environmental Adaptation (Cold)</name>
+      </mods>
+    </armor>
+
+    <armor>
+      <name>Ares Arctic Forces Suit</name>
+      <mods amendoperation="append">
+        <name>Environmental Adaptation (Cold)</name>
+      </mods>
+    </armor>
+
+    <armor>
+      <name>Ares Armored Coldsuit</name>
+      <mods amendoperation="append">
+        <name>Environmental Adaptation (Cold)</name>
+      </mods>
+    </armor>
+
+    <armor>
+      <name>Ares Polar Sneak Suit</name>
+      <mods amendoperation="append">
+        <name>Environmental Adaptation (Cold)</name>
+      </mods>
+    </armor>
+
+    <armor>
+      <name>Coldsuit</name>
+      <mods amendoperation="append">
+        <name>Environmental Adaptation (Cold)</name>
+      </mods>
+    </armor>
+
+    <armor>
+      <name>Polar Survival Suit</name>
+      <mods amendoperation="append">
+        <name>Environmental Adaptation (Cold)</name>
+      </mods>
+    </armor>
+
+    <armor>
+      <name>Desert Suit</name>
+      <mods amendoperation="append">
+        <name>Environmental Adaptation (Arid)</name>
+      </mods>
+    </armor>
+
+    <armor>
+      <name>Hazmat Suit</name>
+      <mods amendoperation="append">
+        <name>Environmental Adaptation (Irradiated)</name>
+      </mods>
+    </armor>
+
+    <armor>
+      <name>Ares Victory: Big Game Hunter</name>
+      <mods amendoperation="append">
+        <name>Environmental Adaptation</name>
+      </mods>
+    </armor>
+
+    <armor>
+      <name>Ares Victory: Globetrotter Jacket</name>
+      <mods amendoperation="append">
+        <name>Environmental Adaptation</name>
+      </mods>
+    </armor>
+
+    <armor>
+      <name>Ares Victory: Globetrotter Vest</name>
+      <mods amendoperation="append">
+        <name>Environmental Adaptation</name>
+      </mods>
+    </armor>
+
+    <armor>
+      <name>Ares Victory: Globetrotter Clothing</name>
+      <mods amendoperation="append">
+        <name>Environmental Adaptation</name>
+      </mods>
+    </armor>
+
+    <armor>
+      <name>Ares Victory: Wild Hunt</name>
+      <mods amendoperation="append">
+        <name>Environmental Adaptation</name>
+      </mods>
+    </armor>
+
+
+
     <!-- Content from State of the Art ADL -->
     <armor>
       <id>60c7a349-d3a9-4a5c-a9cc-6e9d473c1e20</id>
@@ -141,6 +236,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>MPR</source>
       <page>0</page>
     </mod>
+
     <mod>
       <id>b82281e6-935e-43a2-a0b9-8982eed65abe</id>
       <name>Environmental Adaptation</name>
@@ -153,6 +249,52 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <bonus>
         <selecttext />
       </bonus>
+      <source>MPR</source>
+      <page>0</page>
+    </mod>
+
+    <!-- Hidden environmental for the armors that ship with it -->
+    <mod>
+      <hidden />
+      <id>ff70ad36-09d3-4ca4-a56a-4a92121fd678</id>
+      <name>Environmental Adaptation (Cold)</name>
+      <category>General</category>
+      <armor>0</armor>
+      <maxrating>1</maxrating>
+      <armorcapacity>[0]</armorcapacity>
+      <avail>+3</avail>
+      <cost>1500</cost>
+      <bonus />
+      <source>MPR</source>
+      <page>0</page>
+    </mod>
+
+    <mod>
+      <hidden />
+      <id>b84c19d3-4a79-4572-8a4a-89afc8f71492</id>
+      <name>Environmental Adaptation (Arid)</name>
+      <category>General</category>
+      <armor>0</armor>
+      <maxrating>1</maxrating>
+      <armorcapacity>[0]</armorcapacity>
+      <avail>+3</avail>
+      <cost>1500</cost>
+      <bonus />
+      <source>MPR</source>
+      <page>0</page>
+    </mod>
+
+    <mod>
+      <hidden />
+      <id>3ad59f0e-6dbe-499d-91a2-ef3c313b0c24</id>
+      <name>Environmental Adaptation (Irradiated)</name>
+      <category>General</category>
+      <armor>0</armor>
+      <maxrating>1</maxrating>
+      <armorcapacity>[0]</armorcapacity>
+      <avail>+3</avail>
+      <cost>1500</cost>
+      <bonus />
       <source>MPR</source>
       <page>0</page>
     </mod>
