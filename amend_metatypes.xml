@@ -39,6 +39,27 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </metavariant>
       </metavariants>
     </metatype>
+	<metatype xpathfilter="contains(name,'Shapeshifter')">
+      <metavariants>
+        <metavariant>
+            <powers amendoperation="append">
+				<power>Regeneration</power>
+				<power>Dual Natured</power>
+			</powers>
+        </metavariant>
+      </metavariants>
+    </metatype>
+	<metatype xpathfilter="contains(name,'Shapeshifter')">
+      <metavariants>
+        <metavariant>
+			<qualities>
+				<negative amendoperation="addnode">
+					<quality>Allergy (Uncommon, Severe)</quality>
+				</negative>
+			</qualities>
+        </metavariant>
+      </metavariants>
+    </metatype>
   </metatypes>
 
 
