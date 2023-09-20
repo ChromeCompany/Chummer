@@ -834,7 +834,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>MPR</source>
       <page>0</page>
       <avail>0</avail>
-      <cost>500</cost>
+      <cost>250</cost>
     </gear>
     <gear>
       <id>af5b4c2f-4b03-41af-bed1-690cb56ea4a3</id>
@@ -844,7 +844,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>MPR</source>
       <page>0</page>
       <avail>0</avail>
-      <cost>1000</cost>
+      <cost>500</cost>
     </gear>
     <gear>
       <id>20765e7c-652d-4740-b87f-1ce587c34307</id>
@@ -854,7 +854,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>MPR</source>
       <page>0</page>
       <avail>0</avail>
-      <cost>2500</cost>
+      <cost>1250</cost>
     </gear>
     <gear>
       <id>35220b61-e663-4c0c-8fea-c4376c845165</id>
@@ -864,7 +864,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>MPR</source>
       <page>0</page>
       <avail>0</avail>
-      <cost>5000</cost>
+      <cost>2500</cost>
     </gear>
     <gear>
       <id>5f6e0db7-4bb5-4e6c-849a-2c62b10320eb</id>
@@ -874,11 +874,21 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>MPR</source>
       <page>0</page>
       <avail>0</avail>
-      <cost>10000</cost>
+      <cost>5000</cost>
     </gear>
     <gear>
       <id>59d790d2-fd14-44d5-8151-951a757f7865</id>
       <name>Homunculus Materials - Heavy Structural (9)</name>
+      <category>Magical Supplies</category>
+      <rating>0</rating>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>10000</cost>
+    </gear>
+	<gear>
+      <id>c7e8d87e-cab5-4b45-8d29-e4273a7e5884</id>
+      <name>Homunculus Materials - Reinforced/Armored (9)</name>
       <category>Magical Supplies</category>
       <rating>0</rating>
       <source>MPR</source>
