@@ -20,6 +20,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema cyberware.xsd">
   <categories amendoperation = "append">
     <category>Codemods</category>
+	<category>Critterware</category>
   </categories>
   <grades>
     <grade>
@@ -36,7 +37,35 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <name>Improved Synthskin</name>
       <capacity>[0]</capacity>
     </cyberware>
-
+	<!-- changes the existing critterware to the correct critterware category-->
+	<cyberware>
+		<name>Chameleon Pelt</name>
+		<category>Critterware</category>
+	</cyberware>
+	<cyberware>
+		<name>CAST</name>
+		<category>Critterware</category>
+	</cyberware>
+	<cyberware>
+		<name>CAST w/ Friend or Foe Recognition</name>
+		<category>Critterware</category>
+	</cyberware>
+	<cyberware>
+		<name>Orientation Goad</name>
+		<category>Critterware</category>
+	</cyberware>
+	<cyberware>
+		<name>Stirrup Interface</name>
+		<category>Critterware</category>
+	</cyberware>
+	<cyberware>
+		<name>SEIS</name>
+		<category>Critterware</category>
+	</cyberware>
+	<cyberware>
+		<name>TRACES</name>
+		<category>Critterware</category>
+	</cyberware>
     <!-- Changes all cyberweapons from Forbidden to Restricted -->
 	<cyberware>
 		<name>Dermal Plating</name>
@@ -1898,5 +1927,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </oneof>
       </forbidden>
     </cyberware>
+	<!-- Critterware Scthuf -->
+	
   </cyberwares>
 </chummer>
