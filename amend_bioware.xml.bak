@@ -18,6 +18,9 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
   https://github.com/chummer5a/chummer5a
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema bioware.xsd">
+	<categories amendoperation = "append">
+		<category>Critterware</category>
+	</categories>
   <grades>
     <grade>
       <name>Omegaware</name>
@@ -719,7 +722,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 	
 	<!-- 6e Critterware Scthuf-->
 	<bioware>
-      <id>b78ddbd9-b71e-4f68-9a5e-f45881b31286</id> 
+      <id>7a727ee6-4f4a-4fcb-af05-0d0652c52eaf</id> 
       <name>Awakened Critter Power Enhancement</name>
       <category>Critterware</category>
 	  <rating>6</rating>
@@ -729,6 +732,58 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <forcegrade>None</forcegrade>
       <isgeneware />
       <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>48a4944b-1a21-4734-9105-4996930ff04f</id> 
+      <name>Iron Stomach</name>
+      <category>Critterware</category>
+      <ess>0.2</ess>
+      <avail>4R</avail>
+      <cost>5000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>ccf601c6-e698-4012-8faa-10aab9a2f5e5</id> 
+      <name>Flame Resistant</name>
+      <category>Critterware</category>
+      <ess>0.2</ess>
+      <avail>4R</avail>
+      <cost>5000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>3b45a54e-fb75-4ffe-a8f1-9b9028007f33</id> 
+      <name>Fearless</name>
+      <category>Critterware</category>
+      <ess>0.2</ess>
+      <avail>8R</avail>
+      <cost>5000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>57b7c883-a9c1-4306-b42f-46fc68f25838</id> 
+      <name>Natural Armor Enhancement</name>
+      <category>Critterware</category>
+	  <rating>20</rating>
+      <ess>Rating * 0.1</ess>
+      <avail>Rating + 2R</avail>
+      <cost>Rating * 5000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+	  <bonus>
+		<armor group="0">Rating</armor>
+      </bonus>
+	  <source>6e</source>
       <page>0</page>
     </bioware>
   </biowares>
