@@ -21,6 +21,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
   <categories amendoperation = "append">
     <category>Codemods</category>
 	<category>Critterware</category>
+	<category>Exoframe Modules</category>
   </categories>
   <grades>
     <grade>
@@ -37,7 +38,35 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <name>Improved Synthskin</name>
       <capacity>[0]</capacity>
     </cyberware>
-
+	<!-- changes the existing critterware to the correct critterware category-->
+	<cyberware>
+		<name>Chameleon Pelt</name>
+		<category>Critterware</category>
+	</cyberware>
+	<cyberware>
+		<name>CAST</name>
+		<category>Critterware</category>
+	</cyberware>
+	<cyberware>
+		<name>CAST w/ Friend or Foe Recognition</name>
+		<category>Critterware</category>
+	</cyberware>
+	<cyberware>
+		<name>Orientation Goad</name>
+		<category>Critterware</category>
+	</cyberware>
+	<cyberware>
+		<name>Stirrup Interface</name>
+		<category>Critterware</category>
+	</cyberware>
+	<cyberware>
+		<name>SEIS</name>
+		<category>Critterware</category>
+	</cyberware>
+	<cyberware>
+		<name>TRACES</name>
+		<category>Critterware</category>
+	</cyberware>
     <!-- Changes all cyberweapons from Forbidden to Restricted -->
 	<cyberware>
 		<name>Dermal Plating</name>
@@ -1898,6 +1927,175 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <cyberware>Discretionary Fragmentation</cyberware>
         </oneof>
       </forbidden>
+    </cyberware>
+	<!-- Critterware Scthuf -->
+	<cyberware>
+      <id>543caff2-1a4c-422d-8bc6-bf6d95d5fd34</id>
+      <name>Plastic Exoframe</name>
+      <category>Critterware</category>
+      <ess>0.6</ess>
+      <capacity>4</capacity>
+      <avail>8</avail>
+      <cost>10000</cost>
+      <source>6e</source>
+      <page>0</page>
+	  <allowsubsystems>
+		<category>Exoframe Modules</category>
+	  </allowsubsystems>
+	  <bonus>
+        <armor>1</armor>
+        <damageresistance>1</damageresistance>
+        <unarmeddv>1</unarmeddv>
+        <unarmeddvphysical />
+      </bonus>
+    </cyberware>
+	<cyberware>
+      <id>d70be5c4-72f3-4454-94c8-a99b66985ff9</id>
+      <name>Aluminum Exoframe</name>
+      <category>Critterware</category>
+      <ess>1.3</ess>
+      <capacity>8</capacity>
+      <avail>12</avail>
+      <cost>25000</cost>
+      <source>6e</source>
+      <page>0</page>
+	  <allowsubsystems>
+		<category>Exoframe Modules</category>
+	  </allowsubsystems>
+	  <bonus>
+        <armor>2</armor>
+        <damageresistance>2</damageresistance>
+        <unarmeddv>2</unarmeddv>
+        <unarmeddvphysical />
+      </bonus>
+    </cyberware>
+	<cyberware>
+      <id>378b6326-faa7-42d0-8b9d-bd72833f2dff</id>
+      <name>Titanium Exoframe</name>
+      <category>Critterware</category>
+      <ess>2</ess>
+      <capacity>12</capacity>
+      <avail>15</avail>
+      <cost>50000</cost>
+      <source>6e</source>
+      <page>0</page>
+	  <allowsubsystems>
+		<category>Exoframe Modules</category>
+	  </allowsubsystems>
+	  <bonus>
+        <armor>3</armor>
+        <damageresistance>3</damageresistance>
+        <unarmeddv>3</unarmeddv>
+        <unarmeddvphysical />
+      </bonus>
+    </cyberware>
+	<cyberware>
+      <id>ac06ee11-2ca3-49fa-852d-c8ce30a60c68</id>
+      <name>Turret Mount Ammunition Module</name>
+      <category>Exoframe Modules</category>
+      <ess>0.0</ess>
+      <capacity>[2]</capacity>
+      <avail>6</avail>
+      <cost>1000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <parentdetails>
+          <OR>
+            <name operation="contains">Exoframe</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
+	<cyberware>
+      <id>a117147d-4de8-4962-9d0f-fd7b5d540ffb</id>
+      <name>Turret Mount (Small)</name>
+      <category>Exoframe Modules</category>
+      <ess>0.0</ess>
+      <capacity>[2]</capacity>
+      <avail>4R</avail>
+      <cost>Rating * 1000</cost>
+	  <rating>6</rating>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <parentdetails>
+          <OR>
+            <name operation="contains">Aluminum Exoframe</name>
+			<name operation="contains">Titanium Exoframe</name>
+          </OR>
+        </parentdetails>
+      </required>
+	  <bonus>
+		<selectweapon weapondetails="category='Light Pistols' or category='Machine Pistols'" />
+	  </bonus>
+    </cyberware>
+	<cyberware>
+      <id>1bc5ecb1-c794-44bf-b29c-f7f183fc1608</id>
+      <name>Turret Mount (Medium)</name>
+      <category>Exoframe Modules</category>
+      <ess>0.0</ess>
+      <capacity>[4]</capacity>
+      <avail>6R</avail>
+      <cost>Rating * 2000</cost>
+	  <rating>6</rating>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <parentdetails>
+          <OR>
+            <name operation="contains">Aluminum Exoframe</name>
+			<name operation="contains">Titanium Exoframe</name>
+          </OR>
+        </parentdetails>
+      </required>
+	  <bonus>
+		<selectweapon weapondetails="category='Heavy Pistols' or category='Machine Pistols' or category='Submachine Guns' or name='Light Crossbow' or name='Ares S-III Super Squirt'" />
+	  </bonus>
+    </cyberware>
+	<cyberware>
+      <id>a784e979-c312-4ede-9985-3ed1deb705dc</id>
+      <name>Turret Mount (Large)</name>
+      <category>Exoframe Modules</category>
+      <ess>0.0</ess>
+      <capacity>[6]</capacity>
+      <avail>10R</avail>
+      <cost>Rating * 3000</cost>
+	  <rating>6</rating>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <parentdetails>
+          <OR>
+			<name operation="contains">Titanium Exoframe</name>
+          </OR>
+        </parentdetails>
+      </required>
+	  <bonus>
+		<selectweapon weapondetails="category='Assault Rifles' or category='Sniper Rifles' or category='Shotguns' or name='Medium Crossbow'" />
+	  </bonus>
+    </cyberware>
+	<cyberware>
+      <id>19a6a6fa-0148-457e-b671-5e7b9f0612d8</id>
+      <name>Turret Mount (Heavy)</name>
+      <category>Exoframe Modules</category>
+      <ess>0.0</ess>
+      <capacity>[8]</capacity>
+      <avail>12F</avail>
+      <cost>Rating * 4000</cost>
+	  <rating>6</rating>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <parentdetails>
+          <OR>
+			<name operation="contains">Titanium Exoframe</name>
+          </OR>
+        </parentdetails>
+      </required>
+	  <bonus>
+		<selectweapon weapondetails="category='Light Machine Guns' or category='Medium Machine Guns' or category='Heavy Machine Guns' or category='Grenade Launchers' or category='Missile Launchers'" />
+	  </bonus>
     </cyberware>
   </cyberwares>
 </chummer>

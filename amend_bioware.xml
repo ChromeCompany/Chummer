@@ -804,5 +804,165 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 	  <source>6e</source>
       <page>0</page>
     </bioware>
+	<bioware>
+      <id>53386f0a-6f91-41a6-8b27-fc4563a6ebff</id>
+      <name>Mental Attribute Enhancement (Charisma)</name>
+      <category>Critterware</category>
+      <ess>0.15 * Rating</ess>
+	  <rating>2</rating>
+      <avail>Rating + 2R</avail>
+      <cost>8000 * Rating</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>CHA</name>
+		  <val>Rating</val>
+		  <aug>Rating</aug>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>bc73f811-90eb-4136-bca4-bad73921fb06</id>
+      <name>Mental Attribute Enhancement (Logic)</name>
+      <category>Critterware</category>
+      <ess>0.15 * Rating</ess>
+	  <rating>2</rating>
+      <avail>Rating + 2R</avail>
+      <cost>8000 * Rating</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>LOG</name>
+		  <val>Rating</val>
+		  <aug>Rating</aug>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>fb70efa1-97f9-413c-aefc-b9cbbc97c8ff</id>
+      <name>Mental Attribute Enhancement (Intution)</name>
+      <category>Critterware</category>
+      <ess>0.15 * Rating</ess>
+	  <rating>2</rating>
+      <avail>Rating + 2R</avail>
+      <cost>8000 * Rating</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>INT</name>
+		  <val>Rating</val>
+		  <aug>Rating</aug>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>711f3f1c-c154-4b52-a625-7ee74e597ddb</id>
+      <name>Mental Attribute Enhancement (Willpower)</name>
+      <category>Critterware</category>
+      <ess>0.15 * Rating</ess>
+	  <rating>2</rating>
+      <avail>Rating + 2R</avail>
+      <cost>8000 * Rating</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>WIL</name>
+		  <val>Rating</val>
+		  <aug>Rating</aug>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>6364cd4d-6199-4b51-9b14-e4a7da604ecf</id>
+      <name>Physical Attribute Enhancement (Body)</name>
+      <category>Critterware</category>
+      <ess>0.15 * Rating</ess>
+	  <rating>20</rating>
+      <avail>Rating + 2R</avail>
+      <cost>8000 * Rating</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>BOD</name>
+		  <val>Rating</val>
+		  <aug>Rating</aug>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>22dc71bd-79c1-4036-a7f4-030364efc5d9</id>
+      <name>Physical Attribute Enhancement (Strength)</name>
+      <category>Critterware</category>
+      <ess>0.15 * Rating</ess>
+	  <rating>20</rating>
+      <avail>Rating + 2R</avail>
+      <cost>8000 * Rating</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>STR</name>
+		  <val>Rating</val>
+		  <aug>Rating</aug>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>efe5872a-9789-4d2b-ab59-c6dc1715b874</id>
+      <name>Physical Attribute Enhancement (Agility)</name>
+      <category>Critterware</category>
+      <ess>0.15 * Rating</ess>
+	  <rating>20</rating>
+      <avail>Rating + 2R</avail>
+      <cost>8000 * Rating</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>AGI</name>
+		  <val>Rating</val>
+		  <aug>Rating</aug>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>cc85dcba-8c73-4ac3-bc1c-1f5f03e2971e</id>
+      <name>Physical Attribute Enhancement (Reaction)</name>
+      <category>Critterware</category>
+      <ess>0.15 * Rating</ess>
+	  <rating>20</rating>
+      <avail>Rating + 2R</avail>
+      <cost>8000 * Rating</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <bonus>
+        <specificattribute>
+          <name>REA</name>
+		  <val>Rating</val>
+		  <aug>Rating</aug>
+        </specificattribute>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
   </biowares>
 </chummer>
