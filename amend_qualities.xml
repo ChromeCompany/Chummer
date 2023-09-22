@@ -29,6 +29,30 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </oneof>
       </required>
     </quality>
+
+    <!-- Make Outdoorsman not showing up in a funky way-->
+
+    <quality>
+      <name>Outdoorsman</name>
+      <bonus amendoperation="replace">
+        <specificskill>
+          <name>Perception</name>
+          <bonus>-1</bonus>
+          <condition>Urban</condition>
+        </specificskill>
+        <specificskill>
+          <name>Survival</name>
+          <bonus>-1</bonus>
+          <condition>Urban</condition>
+        </specificskill>
+      </bonus>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>    
+
     <!-- AI Adjustments -->
     <quality>
       <name>Acrobatic Defender</name>
@@ -166,14 +190,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </oneof>
       </forbidden>
     </quality>
-    <quality>
-      <name>Outdoorsman</name>
-      <forbidden amendoperation="append">
-        <oneof>
-          <metatype>AI</metatype>
-        </oneof>
-      </forbidden>
-    </quality>    
     <quality>
       <name>Perceptive Defender</name>
       <forbidden amendoperation="append">
