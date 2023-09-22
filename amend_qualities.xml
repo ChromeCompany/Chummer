@@ -20,15 +20,15 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema qualities.xsd">
   <!--Region Shadowrun Core Positive Qualities -->
   <qualities>
-	<!-- Lets non-magicians take Witness My Hate-->
-	<quality>
-		<name>Witness My Hate</name>
-		<required>
-			<oneof amendoperation="replace">
-				<magenabled />
-			</oneof>
-		</required>
-	</quality>
+    <!-- Lets non-magicians take Witness My Hate-->
+    <quality>
+      <name>Witness My Hate</name>
+      <required>
+        <oneof amendoperation="replace">
+          <magenabled />
+        </oneof>
+      </required>
+    </quality>
     <!-- AI Adjustments -->
     <quality>
       <name>Acrobatic Defender</name>
