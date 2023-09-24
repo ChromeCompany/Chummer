@@ -3733,6 +3733,39 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
     </quality>
 
     <quality>
+      <hidden />
+      <id>177cbd89-63e5-486e-80fb-261588969b8f</id>
+      <name>Functional Wings (Valkyrie)</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <metagenic>True</metagenic>
+      <bonus>
+        <movementreplace>
+          <category>Fly</category>
+          <speed>walk</speed>
+          <val>1</val>
+        </movementreplace> 
+        <movementreplace>
+          <category>Fly</category>
+          <speed>run</speed>
+          <val>4</val>
+        </movementreplace> 
+        <movementreplace>
+          <category>Fly</category>
+          <speed>sprint</speed>
+          <val>300</val>
+        </movementreplace> 
+      </bonus>
+      <forbidden>
+        <oneof>
+          <bioware>Skeletal Pneumaticity</bioware>
+        </oneof>
+      </forbidden>
+      <source>6e</source>
+      <page>0</page>
+    </quality>
+
+    <quality>
       <id>e430ca8a-89a9-4196-8008-ad466a0ba01a</id>
       <name>Functional Wings</name>
       <karma>15</karma>
@@ -3761,6 +3794,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       </bonus>
       <forbidden>
         <oneof>
+          <quality>Functional Wings (Valkyrie)</quality>
           <bioware>Skeletal Pneumaticity</bioware>
         </oneof>
       </forbidden>
