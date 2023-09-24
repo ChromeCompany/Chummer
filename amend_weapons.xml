@@ -2044,6 +2044,26 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </accessorymounts>
       <spec>Semi-Automatics</spec>
     </weapon>
+	<weapon>
+      <id>0cfc1fa6-7f33-435f-8c0f-499c315f8c0c</id>
+      <name>Shock Module</name>
+      <category>Blades</category>
+      <type>Melee</type>
+      <conceal>4</conceal>
+      <accuracy>6</accuracy>
+      <reach>0</reach>
+      <damage>9S(e)</damage>
+      <ap>-5</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>9R</avail>
+      <cost>750</cost>
+      <source>4e</source>
+      <page>0</page>
+      <spec>Electrical-Stun</spec>
+	  <hide />
+    </weapon>
 
     <!-- Drone mount weapons -->
     <weapon>

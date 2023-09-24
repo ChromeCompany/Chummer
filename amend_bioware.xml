@@ -964,5 +964,50 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>6e</source>
       <page>0</page>
     </bioware>
+	<bioware>
+      <id>e26d18c5-d8a1-468b-8e76-e2edb9c661e8</id>
+      <name>Echolocation Receptors</name>
+      <category>Critterware</category>
+      <ess>0.25</ess>
+      <avail>8</avail>
+      <cost>8000</cost>
+      <bonus>
+		<critterpowers>
+			<power select="Hearing, Ultrasound">Enhanced Senses</power>
+		</critterpowers>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>3aca7b97-2654-42fe-b1bb-4c89d59232e4</id>
+      <name>Dog's Ears</name>
+      <category>Critterware</category>
+      <ess>0.1</ess>
+      <avail>4</avail>
+      <cost>4000</cost>
+      <bonus>
+		<critterpowers>
+			<power select="Hearing">Enhanced Senses</power>
+		</critterpowers>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
+	<bioware>
+      <id>054e3e5d-ce01-4775-98f4-29ae8b35359f</id>
+      <name>Hound's Nose</name>
+      <category>Critterware</category>
+      <ess>0.1</ess>
+      <avail>4</avail>
+      <cost>4000</cost>
+      <bonus>
+		<critterpowers>
+			<power select="Smell">Enhanced Senses</power>
+		</critterpowers>
+      </bonus>
+      <source>6e</source>
+      <page>0</page>
+    </bioware>
   </biowares>
 </chummer>

@@ -2016,6 +2016,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <avail>4R</avail>
       <cost>Rating * 1000</cost>
 	  <rating>6</rating>
+	  <minrating>2</minrating>
       <source>6e</source>
       <page>0</page>
       <required>
@@ -2039,6 +2040,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <avail>6R</avail>
       <cost>Rating * 2000</cost>
 	  <rating>6</rating>
+	  <minrating>2</minrating>
       <source>6e</source>
       <page>0</page>
       <required>
@@ -2062,6 +2064,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <avail>10R</avail>
       <cost>Rating * 3000</cost>
 	  <rating>6</rating>
+	  <minrating>2</minrating>
       <source>6e</source>
       <page>0</page>
       <required>
@@ -2084,6 +2087,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <avail>12F</avail>
       <cost>Rating * 4000</cost>
 	  <rating>6</rating>
+	  <minrating>2</minrating>
       <source>6e</source>
       <page>0</page>
       <required>
@@ -2096,6 +2100,265 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 	  <bonus>
 		<selectweapon weapondetails="category='Light Machine Guns' or category='Medium Machine Guns' or category='Heavy Machine Guns' or category='Grenade Launchers' or category='Missile Launchers'" />
 	  </bonus>
+    </cyberware>
+	<cyberware>
+      <id>dea364ec-0579-4e25-aeea-cb90b7dcb3bf</id>
+      <name>Shock Module</name>
+      <category>Exoframe Modules</category>
+      <ess>0.0</ess>
+      <capacity>[2]</capacity>
+	  <rating>4</rating>
+      <avail>8R</avail>
+      <cost>Rating * 750</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <parentdetails>
+          <OR>
+            <name operation="contains">Exoframe</name>
+          </OR>
+        </parentdetails>
+      </required>
+	  <addweapon>Shock Module</addweapon>
+    </cyberware>
+	<cyberware>
+      <id>b680e154-81a7-4851-91d7-5475da4ef207</id>
+      <name>Jump Jets</name>
+      <category>Exoframe Modules</category>
+      <ess>0.0</ess>
+      <capacity>[8]</capacity>
+      <avail>10R</avail>
+      <cost>12000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+        <parentdetails>
+          <OR>
+            <name operation="contains">Exoframe</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
+	<cyberware>
+      <id>50795fa7-2f6a-48be-bd9f-e1e0def18f27</id>
+      <name>Critterjack</name>
+      <category>Critterware</category>
+      <ess>0.1 * Rating</ess>
+      <capacity>0</capacity>
+	  <rating>6</rating>
+      <avail>12R</avail>
+      <cost>5000 * Rating</cost>
+      <source>6e</source>
+      <page>0</page>
+    </cyberware>
+	<cyberware>
+      <id>cc30b5b9-e9cb-48be-8855-cde96cb0d7f3</id>
+      <name>Glider Wings</name>
+      <category>Exoframe Modules</category>
+      <ess>0.0</ess>
+      <capacity>[4]</capacity>
+      <avail>8</avail>
+      <cost>6500</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+		<parentdetails>
+          <OR>
+            <name operation="contains">Exoframe</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
+	<cyberware>
+      <id>539f0ed0-c72f-45ce-b68d-5b88301c3c03</id>
+      <name>Electronics Systems Module</name>
+      <category>Exoframe Modules</category>
+      <ess>0.0</ess>
+	  <rating>6</rating>
+      <capacity>[Rating]</capacity>
+      <avail>8</avail>
+      <cost>Rating * 1500</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+		<parentdetails>
+          <OR>
+            <name operation="contains">Exoframe</name>
+          </OR>
+        </parentdetails>
+      </required>
+	  <allowgear>
+        <gearcategory>Commlinks</gearcategory>
+        <gearcategory>Sensors</gearcategory>
+		<gearcategory>Cyberdecks</gearcategory>
+        <gearcategory>Rigger Command Consoles</gearcategory>
+		<gearcategory>PI-Tac</gearcategory>
+      </allowgear>
+    </cyberware>
+	<cyberware>
+      <id>ee62cef3-523a-4f63-bd3e-8f1eb929a115</id>
+      <name>Cargo Module</name>
+      <category>Exoframe Modules</category>
+      <ess>0.0</ess>
+	  <rating>2</rating>
+      <capacity>[Rating]</capacity>
+      <avail>4</avail>
+      <cost>Rating * 500</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+		<parentdetails>
+          <OR>
+            <name operation="contains">Exoframe</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
+	<cyberware>
+      <id>6d229e07-bbb4-40ee-a3fd-323908ac3b63</id>
+      <name>Armor Plating Module, Hardened</name>
+      <category>Exoframe Modules</category>
+      <ess>0.0</ess>
+	  <rating>6</rating>
+      <capacity>[Rating * 2]</capacity>
+      <avail>12F</avail>
+      <cost>Rating * 3000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+		<parentdetails>
+          <OR>
+            <name operation="contains">Exoframe</name>
+          </OR>
+        </parentdetails>
+      </required>
+	  <bonus>
+		<armor>Rating</armor>
+	  </bonus>
+    </cyberware>
+  <cyberware>
+      <id>788defe4-d472-42ce-a7a7-f93420273a55</id>
+      <name>Armor Plating Module</name>
+      <category>Exoframe Modules</category>
+      <ess>0.0</ess>
+	  <rating>8</rating>
+      <capacity>[Rating]</capacity>
+      <avail>6R</avail>
+      <cost>Rating * 1000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+		<parentdetails>
+          <OR>
+            <name operation="contains">Exoframe</name>
+          </OR>
+        </parentdetails>
+      </required>
+	  <bonus>
+		<armor>Rating</armor>
+	  </bonus>
+    </cyberware>
+	<cyberware>
+      <id>07cd6693-5887-40c8-83f2-e5b05fc78658</id>
+      <name>Aqua Jets</name>
+      <category>Exoframe Modules</category>
+      <ess>0.0</ess>
+      <capacity>[4]</capacity>
+      <avail>8</avail>
+      <cost>8000</cost>
+      <source>6e</source>
+      <page>0</page>
+      <required>
+		<parentdetails>
+          <OR>
+            <name operation="contains">Exoframe</name>
+          </OR>
+        </parentdetails>
+      </required>
+	  <bonus>
+        <walkmultiplier>
+          <category>Swim</category>
+          <percent>200</percent>
+        </walkmultiplier>
+      </bonus>
+    </cyberware>
+	<cyberware>
+      <id>65d479cf-5fd9-49fa-9202-b0ee7e9adf49</id>
+      <name>Natural Weapon Sheathing</name>
+      <category>Critterware</category>
+      <ess>0.2 * Rating</ess>
+      <capacity>0</capacity>
+	  <rating>6</rating>
+      <avail>12R</avail>
+      <cost>4500 * Rating</cost>
+      <source>6e</source>
+      <page>0</page>
+	  <bonus>
+		<unarmeddv>Rating</unarmeddv>
+	  </bonus>
+    </cyberware>
+	<cyberware>
+      <id>a9798038-ba98-4a85-a6d7-77b682b1dcdc</id>
+      <name>Bio-Drone Harness</name>
+      <category>Critterware</category>
+      <ess>0.5 * Rating</ess>
+      <capacity>0</capacity>
+	  <rating>6</rating>
+      <avail>FixedValues(3R,6R,9R,12R,15F,18F)</avail>
+      <cost>7500 * Rating</cost>
+      <source>6e</source>
+      <page>0</page>
+    </cyberware>
+	<cyberware>
+      <id>189ea819-072c-4c8e-8316-4cfffe8b4369</id>
+      <name>Enhanced Movement (Critter)</name>
+      <limit>{leg}</limit>
+      <category>Cyberlimb Enhancement</category>
+      <ess>0</ess>
+      <capacity>[Rating]</capacity>
+	  <rating>3</rating>
+      <avail>Rating * 4</avail>
+      <cost>5000 * Rating</cost>
+      <source>6e</source>
+      <page>0</page>
+      <blocksmounts>ankle,knee,hip</blocksmounts>
+      <pairbonus>
+        <walkmultiplier>
+          <category>Ground</category>
+          <val>Rating</val>
+        </walkmultiplier>
+        <runmultiplier>
+          <category>Ground</category>
+          <val>Rating</val>
+        </runmultiplier>
+		<sprintbonus>
+          <category>Ground</category>
+          <val>100 * Rating</val>
+        </sprintbonus>
+      </pairbonus>
+      <required>
+        <parentdetails>
+          <OR>
+            <name operation="contains">Foot</name>
+            <name operation="contains">Lower Leg</name>
+            <name operation="contains">Full Leg</name>
+            <name>Centaur Front Leg</name>
+            <name>Centaur Rear Leg</name>
+            <name operation="contains">Drone Leg</name>
+          </OR>
+        </parentdetails>
+      </required>
+    </cyberware>
+	<cyberware>
+      <id>1ef67bd2-2d66-4d82-8b10-eb56b6e19ede</id>
+      <name>Corrosive Spit Gland</name>
+      <category>Critterware</category>
+      <ess>0.3</ess>
+      <capacity>0</capacity>
+      <avail>10F</avail>
+      <cost>10000</cost>
+      <source>6e</source>
+      <page>0</page>
     </cyberware>
   </cyberwares>
 </chummer>
