@@ -100,7 +100,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           <inimin>2</inimin>
           <inimax>12</inimax>
           <iniaug>20</iniaug>
-          <edgmin>2</edgmin>
+          <edgmin>1</edgmin>
           <edgmax>6</edgmax>
           <edgaug>6</edgaug>
           <magmin>1</magmin>
