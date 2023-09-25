@@ -3733,7 +3733,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
     </quality>
 
     <quality>
-      <hidden />
+      <hide />
       <id>177cbd89-63e5-486e-80fb-261588969b8f</id>
       <name>Functional Wings (Valkyrie)</name>
       <karma>15</karma>
