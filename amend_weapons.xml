@@ -532,6 +532,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <hide />
       <source>4e</source>
       <page>1</page>
+      <cyberware>True</cyberware>
       <spec>Cyber Implants</spec>
       <useskill>Unarmed Combat</useskill>
     </weapon>
