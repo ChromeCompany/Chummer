@@ -759,6 +759,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <cyberware>
       <id>8ae4a84e-2253-4cf0-a329-7e30bba2faaf</id> 
       <name>Additional Synthetic Full Arm</name>
+      <limit>{arm}</limit>
       <category>Cyberlimb</category>
       <ess>1.2</ess>
       <capacity>8</capacity>
@@ -798,6 +799,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <cyberware>
       <id>87af4271-0ecb-4805-8cd0-6a1827df903e</id>
       <name>Additional Obvious Full Arm</name>
+      <limit>{arm}</limit>
       <category>Cyberlimb</category>
       <ess>1.2</ess>
       <capacity>15</capacity>
