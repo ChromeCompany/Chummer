@@ -61,7 +61,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <!-- Fix Changed Safety System -->
 
     <vehicle>
-      <name> Airbus A140</name>
+      <name>Airbus A140</name>
       <mods amendoperation="replace">
         <name rating="3">Anti-Theft System</name>
         <name>Amenities (Middle)</name>
