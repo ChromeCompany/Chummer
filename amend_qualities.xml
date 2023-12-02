@@ -3789,7 +3789,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </movementreplace> 
         <specificattribute>
           <name>BOD</name> 
-          <val>-1</val>
+          <min>-1</min>
+          <max>-1</max>
         </specificattribute>
       </bonus>
       <forbidden>
