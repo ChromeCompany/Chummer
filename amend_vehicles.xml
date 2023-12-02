@@ -3188,7 +3188,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <accel>1</accel>
       <armor>8</armor>
       <avail>4</avail>
-      <body>4</body>
+      <body>0</body>
       <category>Drones: Micro</category>
       <cost>1000</cost>
       <handling>4</handling>
