@@ -58,6 +58,19 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <avail>12R</avail>
     </vehicle>
 
+    <!-- Fix Changed Safety System -->
+
+    <vehicle>
+      <name> Airbus A140</name>
+      <mods amendoperation="replace">
+        <name rating="3">Anti-Theft System</name>
+        <name>Amenities (Middle)</name>
+        <name>Interior Cameras</name>
+        <name rating="1">Life Support</name>
+        <name>Extra Entry/Exit Points</name>
+      </mods>
+    </vehicle>
+
     <!-- Minor vehicle changes -->
     <vehicle>
       <name>BMW Luxus</name>
@@ -3906,7 +3919,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </mods>
       <seats>1</seats>
     </vehicle>
-    <!-- The missing stuff from the German Content (Where even are these????????)-->
+    <!-- The missing stuff from the German Content -->
+
     <vehicle>
       <id>27dec13b-f9fa-4edb-88ff-a1d02840289f</id>
       <name>BMW M8</name>
