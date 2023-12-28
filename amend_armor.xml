@@ -48,6 +48,13 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     </armor>
 
     <armor>
+      <name>Ares Armored Survivalist</name>
+      <mods amendoperation="append">
+        <name>Environmental Adaptation</name>
+      </mods>
+    </armor>
+
+    <armor>
       <name>Ares Polar Sneak Suit</name>
       <mods amendoperation="append">
         <name>Environmental Adaptation (Cold)</name>
