@@ -3840,6 +3840,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <source>MPR</source>
       <page>0</page>
     </quality>
+
     <!-- Pure homebrew qualities -->
     <quality>
       <id>e6dc258d-9c8d-4761-952c-ac0b7bfd0495</id>
@@ -3855,10 +3856,21 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <source>MPR</source>
       <page>0</page>
     </quality>
+
     <quality>
       <id>de3c4987-5727-47ee-bcd5-edc3f79b1d9d</id>
       <name>Clinical Depression</name>
       <karma>-10</karma>
+      <category>Negative</category>
+      <source>MPR</source>
+      <page>0</page>
+    </quality>
+
+    <quality>
+      <id>83b34f3b-c6e9-49ae-bca3-7a37896b8988</id>
+      <name>Impulsive</name>
+      <karma>-4</karma>
+      <limit>3</limit>
       <category>Negative</category>
       <source>MPR</source>
       <page>0</page>
