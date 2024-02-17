@@ -33,12 +33,30 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <hide />
     </grade>
   </grades>
+
+
+<!-- Core ware balance tweaks-->
   <cyberwares>
     <cyberware>
       <name>Improved Synthskin</name>
       <capacity>[0]</capacity>
     </cyberware>
-    <!-- changes the existing critterware to the correct critterware category-->
+  </cyberwares>
+
+  <cyberwares>
+    <cyberware>
+      <name>Obvious Torso</name>
+      <ess>1.0</ess>
+    </cyberware>
+
+    <cyberware>
+      <name>Synthetic Torso</name>
+      <ess>1.0</ess>
+    </cyberware>
+  </cyberwares>
+
+  <!-- changes the existing critterware to the correct critterware category-->
+  <cyberwares>
     <cyberware>
       <name>Chameleon Pelt</name>
       <category>Critterware</category>
