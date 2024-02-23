@@ -1996,7 +1996,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <reach>0</reach>
       <damage>10S(e)</damage>
       <ap>-5</ap>
-      <mode>SA/BF/FA</mode>
+      <mode>SS</mode>
       <rc>0</rc>
       <ammo>10(c)</ammo>
       <avail>18R</avail>
