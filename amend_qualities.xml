@@ -3874,6 +3874,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <source>MPR</source>
       <page>0</page>
     </quality>
+  </qualities>
+  <qualities amendoperation="append">
 
     <!-- AI Qualities from the presumed 6e translations -->
     <quality>
@@ -4006,6 +4008,17 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </oneof>
       </required>
       <source>6e</source>
+      <page>0</page>
+    </quality>
+  </qualities>
+
+  <qualities amendoperation="append">
+    <quality>
+      <id>7d0fd493-7bea-4202-bb58-e4abc0ef3370</id>
+      <name>Earner</name>
+      <category>Positive</category>
+      <karma>5</karma>
+      <source>MPR</source>
       <page>0</page>
     </quality>
   </qualities>
