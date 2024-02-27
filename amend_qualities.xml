@@ -4018,6 +4018,14 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <name>Earner</name>
       <category>Positive</category>
       <karma>5</karma>
+      <bonus>
+        <addcontact>
+          <forcedloyalty>3</forcedloyalty>
+          <forcegroup />
+          <free />
+          <group />
+        </addcontact>
+      </bonus>
       <source>MPR</source>
       <page>0</page>
     </quality>
