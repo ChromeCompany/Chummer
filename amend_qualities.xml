@@ -18,7 +18,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
   https://github.com/chummer5a/chummer5a
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema qualities.xsd">
-  <!--Region Shadowrun Core Positive Qualities -->
+
+  <!-- Quality Tweaks -->
   <qualities>
     <!-- Lets non-magicians take Witness My Hate-->
     <quality>
@@ -53,7 +54,15 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       </forbidden>
     </quality>    
 
-    <!-- AI Adjustments -->
+    <!-- Community Connection for non orks-->
+    <quality>
+      <name>Community Connection</name>
+      <required amendoperation="replace"></required>
+    </quality>
+  </qualities>
+
+  <!-- AI Adjustments -->
+  <qualities>
     <quality>
       <name>Acrobatic Defender</name>
       <forbidden amendoperation="append">
@@ -1690,7 +1699,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
     <!--<quality>
       <name>Hedge Witch/Wizard</name>
       <bonus amendoperation="append">
-      <limitspellcategory>Rituals</limitspellcategory>
+        <limitspellcategory>Rituals</limitspellcategory>
       </bonus>
     </quality>-->
     <quality>
