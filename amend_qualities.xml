@@ -2160,9 +2160,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
     </quality>
   </qualities>
 
-  <!-- Adds Natural Weapons qualities -->
   <qualities amendoperation="append">
-    <!--Ork natural weapon tusks.-->
+    <!-- Adds Natural Weapons qualities -->
     <quality>
       <id>5caec3b1-21d0-4df7-98a7-7ca24f12e8b3</id>
       <name>Tusks</name>
@@ -4007,6 +4006,23 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </oneof>
       </required>
       <source>6e</source>
+      <page>0</page>
+    </quality>
+  </qualities>
+
+  <!--Shifter Quality-->
+  <qualities amendoperation="append">
+    <quality>
+      <id>9c856d01-44c1-4dc9-992b-1bac1ac1d2c1</id>
+      <name>Shapeshifter Reject</name>
+      <category>Positive</category>
+      <karma>0</karma>
+      <required>
+        <oneof>
+          <metatypecategory>Shapeshifter</metatypecategory>
+        </oneof>
+      </required>
+      <source>MPR</source> 
       <page>0</page>
     </quality>
   </qualities>
