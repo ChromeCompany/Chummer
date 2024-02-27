@@ -695,6 +695,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <avail>16F</avail>
       <cost>1000</cost>
     </gear>
+
     <gear>
       <id>725c1b82-9bc5-4365-93ca-ce05309946d4</id>
       <name>Arbelast II MAW Rocket Launcher Canister</name>
@@ -2502,6 +2503,49 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <avail>0</avail>
       <cost>0</cost>
       <bonus/>
+    </gear>
+  </gears>
+
+  <!-- New BTLs-->
+  <gears amendoperation="append">
+    <gear>
+      <id>fccb8d8e-802b-4ca4-a66d-fe2b6082d8bb</id>
+      <name>Vulcan</name>
+      <category>BTLs</category>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>8F</avail>
+      <cost>200</cost>
+    </gear>
+
+    <gear>
+      <id>32f0c6be-9d3b-4e1a-ba26-9433d44204f6</id>
+      <name>God Chip</name>
+      <category>BTLs</category>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>8F</avail>
+      <cost>200</cost>
+    </gear>
+
+    <gear>
+      <id>9849cc96-c4d5-44f0-a141-6a961bbcfe10</id> 
+      <name>Casanova</name>
+      <category>BTLs</category>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>8F</avail>
+      <cost>200</cost>
+    </gear>
+
+    <gear>
+      <id>af77c26c-b587-47a0-b218-68c7a244e77e</id>
+      <name>Fear Free</name>
+      <category>BTLs</category>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>8F</avail>
+      <cost>200</cost>
     </gear>
   </gears>
 </chummer>
