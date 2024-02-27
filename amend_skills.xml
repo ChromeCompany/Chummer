@@ -78,6 +78,10 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <name>Demolitions</name>
       <skillgroup amendoperation="append">Engineering</skillgroup>
     </skill >
+    <skill>
+      <name>Artisan</name>
+      <default>True</default>
+    </skill>
 
   </skills>
   <skills amendoperation="append">
