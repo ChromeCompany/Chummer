@@ -31,7 +31,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       </required>
     </quality>
 
-    <!-- Make Outdoorsman not showing up in a funky way-->
+    <!-- Make Outdoorsman not show up in a funky way-->
 
     <quality>
       <name>Outdoorsman</name>
@@ -45,6 +45,33 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
           <name>Survival</name>
           <bonus>-1</bonus>
           <condition>Urban</condition>
+        </specificskill>
+      </bonus>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>    
+
+    <!-- Make City Slicker not show up in a funky way -->
+    <quality>
+      <name>City Slicker</name>
+      <bonus amendoperation="replace">
+        <skillgroup>
+          <name>Outdoors</name>
+          <bonus>1</bonus>
+          <condition>Urban</condition>
+        </skillgroup>
+        <specificskill>
+          <name>Perception</name>
+          <bonus>-1</bonus>
+          <condition>Not Urban</condition>
+        </specificskill>
+        <specificskill>
+          <name>Survival</name>
+          <bonus>-1</bonus>
+          <condition>Not Urban</condition>
         </specificskill>
       </bonus>
       <forbidden amendoperation="append">
