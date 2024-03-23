@@ -2573,7 +2573,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 
     <mod>
       <name>Standard Weapon Mount (Drone)</name>
-      <weaponmountcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Exotic Ranged Weapons</weaponmountcategories>
+      <weaponmountcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Exotic Ranged Weapons,Submachine Guns</weaponmountcategories>
     </mod>
 
     <mod>

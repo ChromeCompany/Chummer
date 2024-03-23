@@ -2541,7 +2541,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 
     <weaponmount>
       <name>Standard (Drone)</name>
-      <weaponcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Exotic Ranged Weapons,Laser Weapons,Mini-Drone Weapons</weaponcategories>
+      <weaponcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Exotic Ranged Weapons,Laser Weapons,Mini-Drone Weapons,Submachine Guns</weaponcategories>
     </weaponmount>
 
     <weaponmount>
@@ -2573,7 +2573,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 
     <mod>
       <name>Standard Weapon Mount (Drone)</name>
-      <weaponmountcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Exotic Ranged Weapons, Submachine Guns</weaponmountcategories>
+      <weaponmountcategories amendoperation="replace">Blades,Clubs,Improvised Weapons,Exotic Melee Weapons,Cyberweapon,Bio-Weapon,Unarmed,Tasers,Holdouts,Light Pistols,Heavy Pistols,Machine Pistols,Exotic Ranged Weapons,Submachine Guns</weaponmountcategories>
     </mod>
 
     <mod>
