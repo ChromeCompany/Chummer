@@ -1153,6 +1153,17 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <cost>15</cost>
       <costfor>1</costfor>
     </gear>
+    <gear>
+      <id>56c3e681-30ec-430e-80ce-8e49f11f51e8</id>
+      <name>Minigrenade: Halloweener Molotov Cocktail</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>TSG</source>
+      <page>29</page>
+      <avail>4F</avail>
+      <addweapon>Minigrenade: Halloweener Molotov Cocktail</addweapon>
+      <cost>50</cost>
+    </gear>
 
     <gear></gear>
     <gear>

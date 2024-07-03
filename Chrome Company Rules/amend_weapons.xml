@@ -1895,6 +1895,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <spec>Grenade Launcher</spec>
       <useskill>Heavy Weapons</useskill>
     </weapon>
+
     <weapon>
       <id>4ef621af-4b43-42f7-952c-b1bff3d533da</id>
       <name>Minigrenade: Molotov Cocktail</name>
@@ -1912,6 +1913,28 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <cost>15</cost>
       <source>NF</source>
       <page>172</page>
+      <range>Grenade Launchers</range>
+      <spec>Grenade Launcher</spec>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+
+    <weapon>
+      <id>e54b4d0f-fd20-4b51-9693-a534063eccae</id>
+      <name>Minigrenade: Halloweener Molotov Cocktail</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>9P (-3/m)</damage>
+      <ap>-6</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>4F</avail>
+      <cost>50</cost>
+      <source>TSG</source>
+      <page>29</page>
       <range>Grenade Launchers</range>
       <spec>Grenade Launcher</spec>
       <useskill>Heavy Weapons</useskill>
