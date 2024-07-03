@@ -42,8 +42,9 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <mentor>
       <name>Horse</name>
       <advantage>All: +2 Running or Pilot (Ground) tests (choose one)</advantage>
+      <disadvantage>Followers of the Horse can't sit still for long nor be confined indoors. They must spend at least four hours a day outside and be able to run or drive around (any method of travel faster than walking). If followers are not able to meet this condition, they suffer –1 die to all actions. This penalty is cumulative, meaning if the follower is stuck at a desk all day (indoors and not moving around) for two days in a a row, they suffer –2 to all actions until they get that free time in.</disadvantage>
       <bonus amendoperation="replace"></bonus>
-      <choices>
+      <choices amendoperation="replace">
         <choice>
           <name>+2 to Running</name>
           <bonus>
@@ -63,7 +64,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
           </bonus>
         </choice>
         <choice set="2">
-          <name>Magician: +2 dice for Summoning or Binding Spirits of Beast</name>
+          <name>Magician: +2 dice for Summoning, Binding or Banishing Spirits of Beast</name>
           <bonus>
             <specificskill>
               <name>Summoning</name>
