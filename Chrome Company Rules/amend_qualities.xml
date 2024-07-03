@@ -4078,6 +4078,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
     <quality>
       <id>936d9aa3-d034-4d42-b5b5-4dfa7abe7530</id> 
       <name>Negative Rep I</name>
+      <category>Negative</category>
       <karma>-2</karma>
       <limit>False</limit>
       <bonus>
@@ -4090,6 +4091,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
     <quality>
       <id>8854347d-0dc4-48c4-bd46-8165a9657116</id> 
       <name>Negative Rep II</name>
+      <category>Negative</category>
       <karma>-4</karma>
       <limit>False</limit>
       <bonus>
