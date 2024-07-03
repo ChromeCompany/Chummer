@@ -41,7 +41,57 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     </mentor> -->
     <mentor>
       <name>Horse</name>
-      <hide />
+      <advantage>All: +2 Running or Pilot (Ground) tests (choose one)</advantage>
+      <bonus amendoperation="replace"></bonus>
+      <choices>
+        <choice>
+          <name>+2 to Running</name>
+          <bonus>
+            <specificskill>
+              <name>Running</name>
+              <bonus>2</bonus>
+            </specificskill>
+          </bonus>
+        </choice>
+        <choice>
+          <name>+2 to Pilot Groundcraft</name>
+          <bonus>
+            <specificskill>
+              <name>Pilot Groundcraft</name>
+              <bonus>2</bonus>
+            </specificskill>
+          </bonus>
+        </choice>
+        <choice set="2">
+          <name>Magician: +2 dice for Summoning or Binding Spirits of Beast</name>
+          <bonus>
+            <specificskill>
+              <name>Summoning</name>
+              <bonus>2</bonus>
+              <condition>Spirits of Beasts</condition>
+            </specificskill>
+            <specificskill>
+              <name>Binding</name>
+              <bonus>2</bonus>
+              <condition>Spirits of Beasts</condition>
+            </specificskill>
+            <specificskill>
+              <name>Banishing</name>
+              <bonus>2</bonus>
+              <condition>Spirits of Beasts</condition>
+            </specificskill>
+          </bonus>
+        </choice>
+        <choice set="2">
+          <name>Adept: 2 free levels of Dash</name>
+          <bonus>
+            <specificpower>
+              <name>Dash</name>
+              <val>2</val>
+            </specificpower>
+          </bonus>
+        </choice>
+      </choices>
     </mentor>
     <mentor>
       <name>Planar Entity</name>
