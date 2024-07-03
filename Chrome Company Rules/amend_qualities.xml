@@ -1726,7 +1726,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
     <!--<quality>
       <name>Hedge Witch/Wizard</name>
       <bonus amendoperation="append">
-        <limitspellcategory>Rituals</limitspellcategory>
+      <limitspellcategory>Rituals</limitspellcategory>
       </bonus>
     </quality>-->
     <quality>
@@ -4061,6 +4061,39 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
           <free />
           <group />
         </addcontact>
+      </bonus>
+      <source>MPR</source>
+      <page>0</page>
+    </quality>
+
+    <quality>
+      <id>0493ad57-6ef1-4d5f-8447-81223500fd03</id>
+      <name>Outta Time</name>
+      <category>Negative</category>
+      <karma>-5</karma>
+      <source>MPR</source>
+      <page>0</page>
+    </quality>
+
+    <quality>
+      <id>936d9aa3-d034-4d42-b5b5-4dfa7abe7530</id> 
+      <name>Negative Rep I</name>
+      <karma>-2</karma>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>0</page>
+    </quality>
+
+    <quality>
+      <id>8854347d-0dc4-48c4-bd46-8165a9657116</id> 
+      <name>Negative Rep II</name>
+      <karma>-4</karma>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
       </bonus>
       <source>MPR</source>
       <page>0</page>
