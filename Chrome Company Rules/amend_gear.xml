@@ -1115,7 +1115,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <rating>0</rating>
       <source>6e</source>
       <page>1</page>
-      <avail>8R</avail>
+      <avail>2R</avail>
       <addweapon>Grenade: Zapper</addweapon>
       <cost>200</cost>
     </gear>
@@ -1141,6 +1141,20 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <addweapon>Grenade: Cryo, Aerodynamic</addweapon>
       <cost>200</cost>
     </gear>
+    <gear>
+      <id>9b6011de-4036-4cea-aa7b-45935a0cc095</id>
+      <name>Minigrenade: Molotov Cocktail</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <avail>6F</avail>
+      <source>NF</source>
+      <page>172</page>
+      <addweapon>Minigrenade: Molotov Cocktail</addweapon>
+      <cost>15</cost>
+      <costfor>1</costfor>
+    </gear>
+
+    <gear></gear>
     <gear>
       <id>2167ba95-4855-4762-9032-a94b495fc384</id>
       <name>Grenade: Zapper, Aerodynamic</name>
