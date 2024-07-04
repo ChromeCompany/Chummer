@@ -101,6 +101,95 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>SR5</source>
       <page>1</page>
     </skill>
+	<!--Exotic Skill Rework, taken from NA's Rules-->
+	<skill>
+			<id>5d9c796d-2eff-4ad6-beb6-e2e309c237d9</id>
+			<name>Directed Energy</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Ares Screech Sonic Rifle</spec>
+				<spec>Fichetti Pain Inducer</spec>
+				<spec>Laser Weapons</spec>
+				<spec>Microwave</spec>
+				<spec>Narcoject PEP</spec>
+				<spec>Tesla Coil</spec>
+			</specs>
+			<source>MPR</source>
+			<page>0</page>
+		</skill>
+		<skill>
+			<id>cb9d98b4-d6d6-4c33-8404-0f1b79a3b922</id>
+			<name>Exotic Ballistic</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup>Hunting</skillgroup>
+			<specs>
+				<spec>Blowgun</spec>
+				<spec>Grapple Gun</spec>
+				<spec>Net Guns</spec>
+				<spec>Bola</spec>
+			</specs>
+			<source>MPR</source>
+			<page>0</page>
+		</skill>
+		<skill>
+			<id>1f73c685-e5a3-41af-bb68-6b7a1d3485c9</id>
+			<name>Spray Weapons</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Ares S-III Super Squirt</spec>
+				<spec>Atomizer</spec>
+				<spec>BioSprayer</spec>
+				<spec>Flamethrowers</spec>
+				<spec>Hold-Fast Sprayer</spec>
+				<spec>Narcoject Gas Gun</spec>
+				<spec>Narcoject Trackstopper</spec>
+				<spec>Spray Pen</spec>
+			</specs>
+			<source>MPR</source>
+			<page>4</page>
+		</skill>
+		<skill>
+			<id>9eb154f1-8406-40ba-8710-5bd1ffde30eb</id>
+			<name>Flexile Melee</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Kusarigama</spec>
+				<spec>Whips</spec>
+				<spec>Oral Slasher</spec>
+				<spec>Yo-Yo</spec>
+			</specs>
+			<source>MPR</source>
+			<page>0</page>
+		</skill>
+		<skill>
+			<id>be47ec7b-03ba-41c1-b231-09214001f2e5</id>
+			<name>Atypical Melee</name>
+			<attribute>AGI</attribute>
+			<category>Combat Active</category>
+			<default>False</default>
+			<skillgroup />
+			<specs>
+				<spec>Chainsaw</spec>
+				<spec>Injection</spec>
+				<spec>Rolling Blades</spec>
+				<spec>Shields</spec>
+				<spec>Krime Stun Lance</spec>
+				<spec>Battering Rams</spec>
+			</specs>
+			<source>MPR</source>
+			<page>0</page>
+		</skill>
   </skills>
 
 

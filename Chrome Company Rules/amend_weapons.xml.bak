@@ -73,16 +73,279 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <weapon>
       <name>Pepper Punch Pen</name>
       <range>Spray Pens</range>
+	  <useskill>Spray Weapons</useskill>
+	  <spec>Spray Pen</spec>
     </weapon>
     <weapon>
       <name>Modified Spray Pen</name>
       <range>Spray Pens</range>
+	  <useskill>Spray Weapons</useskill>
+	  <spec>Spray Pen</spec>
     </weapon>
 
-    <!-- Changes the P.E.P slightly to use 'Energy' instead of 'energy' -->
+	<!-- Exotic Weapon skill changes (also throughout this doc as some weapons already have an entry)-->
+	<weapon>
+      <name>Ares Screech Sonic Rifle</name>
+      <useskill>Directed Energy</useskill>
+    </weapon>
+	<weapon>
+      <name>Fichetti Pain Inducer</name>
+      <useskill>Directed Energy</useskill>
+    </weapon>
+	<weapon>
+	  <name>Ares Redline</name>
+      <useskill>Directed Energy</useskill>
+    </weapon>
+	<weapon>
+	  <name>Ares Lancer MP Laser</name>
+      <useskill>Directed Energy</useskill>
+    </weapon>
+	<weapon>
+	  <name>Ares Archon Heavy MP Laser</name>
+      <useskill>Directed Energy</useskill>
+    </weapon>
+	<weapon>
+	  <name>Ares Armatus</name>
+      <useskill>Directed Energy</useskill>
+    </weapon>
+	<weapon>
+	  <name>Repeating Laser</name>
+      <useskill>Directed Energy</useskill>
+    </weapon>
+	<weapon>
+	  <name>Microwave Gun, High Frequency</name>
+      <useskill>Directed Energy</useskill>
+    </weapon>
+	<weapon>
+	  <name>Microwave Gun, Low Frequency</name>
+      <useskill>Directed Energy</useskill>
+    </weapon>
+	<weapon>
+	  <name>Blowgun</name>
+      <useskill>Exotic Ballistic</useskill>
+    </weapon>
+	<weapon>
+	  <name>Grapple Gun</name>
+      <useskill>Exotic Ballistic</useskill>
+    </weapon>
+	<weapon>
+	  <name>Tactical Grapple Gun</name>
+      <useskill>Exotic Ballistic</useskill>
+    </weapon>
+	<weapon>
+	  <name>Grapple Fist</name>
+      <useskill>Exotic Ballistic</useskill>
+    </weapon>
+	<weapon>
+	  <name>SA Retarius Net Gun</name>
+      <useskill>Exotic Ballistic</useskill>
+	  <spec>Net Guns</spec>
+    </weapon>
+	<weapon>
+	  <name>SA Retarius Net Gun XL</name>
+      <useskill>Exotic Ballistic</useskill>
+	  <spec>Net Guns</spec>
+    </weapon>
+	<weapon>
+	  <name>Underbarrel Bola Launcher</name>
+      <useskill>Exotic Ballistic</useskill>
+    </weapon>
+	<weapon>
+	  <name>Ares S-III Super Squirt</name>
+      <useskill>Spray Weapons</useskill>
+    </weapon>
+	<weapon>
+	  <name>Halloweener Barbecue Lighter</name>
+      <useskill>Spray Weapons</useskill>
+    </weapon>
+	<weapon>
+	  <name>Shiawase Arms Incinerator</name>
+      <useskill>Spray Weapons</useskill>
+    </weapon>
+	<weapon>
+	  <name>Shiawase Blazer</name>
+      <useskill>Spray Weapons</useskill>
+    </weapon>
+	<weapon>
+	  <name>Flame Bracer</name>
+      <useskill>Spray Weapons</useskill>
+	  <spec>Flamethrowers</spec>
+    </weapon>
+	<weapon>
+	  <name>Flametosser</name>
+      <useskill>Spray Weapons</useskill>
+    </weapon>
+	<weapon>
+	  <name>Narcoject Gas Gun</name>
+      <useskill>Spray Weapons</useskill>
+    </weapon>
+	<weapon>
+	  <name>Narcoject Trackstopper</name>
+      <useskill>Spray Weapons</useskill>
+    </weapon>
+	<weapon>
+			<name>Hold-Fast Sprayer</name>
+			<useskill>Spray Weapons</useskill>
+			<spec>Hold-Fast Sprayer</spec>
+	</weapon>
+	<weapon>
+	  <name>Oral Slasher</name>
+      <useskill>Flexile Melee</useskill>
+    </weapon>
+	<weapon>
+	  <name>Monofilament Whip</name>
+      <useskill>Flexile Melee</useskill>
+	  <spec>Whips</spec>
+    </weapon>
+	<weapon>
+	  <name>Bullwhip</name>
+      <useskill>Flexile Melee</useskill>
+	  <spec>Whips</spec>
+    </weapon>
+	<weapon>
+			<name>Bladed Yo-Yo</name>
+			<useskill>Flexile Melee</useskill>
+			<spec>Yo-Yo</spec>
+		</weapon>
+		<weapon>
+			<name>Hardened Yo-Yo</name>
+			<useskill>Flexile Melee</useskill>
+			<spec>Yo-Yo</spec>
+		</weapon>
+		<weapon>
+			<name>Monofilament Yo-Yo</name>
+			<useskill>Flexile Melee</useskill>
+			<spec>Yo-Yo</spec>
+		</weapon>
+		<weapon>
+			<name>Chain</name>
+			<useskill>Flexile Melee</useskill>
+			<spec>Improvised</spec>
+		</weapon>
+		<weapon>
+			<name>Oral Slasher</name>
+			<useskill>Flexile Melee</useskill>
+			<spec>Oral Slasher</spec>
+		</weapon>
+		<weapon>
+			<name>Monofilament Chainsaw</name>
+			<useskill>Atypical Melee</useskill>
+			<spec>Chainsaws</spec>
+		</weapon>
+		<weapon>
+			<name>Chainsaw</name>
+			<useskill>Atypical Melee</useskill>
+			<spec>Chainsaws</spec>
+		</weapon>
+		<weapon>
+			<name>Ash Arms Combat Chainsaw</name>
+			<useskill>Atypical Melee</useskill>
+			<spec>Chainsaws</spec>
+		</weapon>
+		<weapon>
+			<name>Ash Arms Monofilament Chainsaw</name>
+			<useskill>Atypical Melee</useskill>
+			<spec>Chainsaws</spec>
+		</weapon>
+		<weapon>
+			<name>Injector Pen</name>
+			<useskill>Atypical Melee</useskill>
+			<spec>Injection</spec>
+		</weapon>
+		<weapon>
+			<name>Krime Stun Lance</name>
+			<useskill>Atypical Melee</useskill>
+			<spec>Krime Stun Lance</spec>
+		</weapon>
+		<weapon>
+			<name>Hardened Skateboard</name>
+			<useskill>Atypical Melee</useskill>
+			<spec>Rolling Blades</spec>
+		</weapon>
+		<weapon>
+			<name>Bladed Skateboard</name>
+			<useskill>Atypical Melee</useskill>
+			<spec>Rolling Blades</spec>
+		</weapon>
+		<weapon>
+			<name>Rolling Blades</name>
+			<useskill>Atypical Melee</useskill>
+			<spec>Rolling Blades</spec>
+		</weapon>
+		<weapon>
+			<name>Ballistic Shield</name>
+			<useskill>Atypical Melee</useskill>
+			<spec>Shields</spec>
+		</weapon>
+		<weapon>
+			<name>Blast Shield</name>
+			<useskill>Atypical Melee</useskill>
+			<spec>Shields</spec>
+		</weapon>
+		<weapon>
+			<name>Riot Shield</name>
+			<useskill>Atypical Melee</useskill>
+		</weapon>
+		<weapon>
+			<name>Ares Briefcase Shield</name>
+			<useskill>Atypical Melee</useskill>
+		</weapon>
+		<weapon>
+			<name>Bola</name>
+			<useskill>Throwing Weapons</useskill>
+		</weapon>
+		<weapon>
+			<!-- Chakram (Melee) -->
+			<id>dc18811b-eb07-43d8-8d95-d5c468f048f4</id>
+			<useskill>Blades</useskill>
+		</weapon>
+		<weapon>
+			<name>FN-AAL Gyrojet Pistol</name>
+			<useskill>Pistols</useskill>
+		</weapon>
+		<weapon>
+			<name>Knockoff Gun Cane</name>
+			<useskill>Pistols</useskill>
+		</weapon>
+		<weapon>
+			<name>Mortimer of London 'Trafalger' Gun Cane</name>
+			<useskill>Pistols</useskill>
+		</weapon>
+		<weapon>
+			<name>Micro Flare Launcher</name>
+			<useskill>Pistols</useskill>
+		</weapon>
+		<weapon>
+			<name>Parashield Dart Pistol</name>
+			<useskill>Pistols</useskill>
+		</weapon>
+		<weapon>
+			<name>Parashield Dart Rifle</name>
+			<useskill>Longarms</useskill>
+		</weapon>
+		<weapon>
+			<name>Shiawase Arms Simoom</name>
+			<useskill>Pistols</useskill>
+		</weapon>
+		<weapon>
+			<name>Parashield Dart Rifle</name>
+			<useskill>Longarms</useskill>
+		</weapon>
+		<weapon>
+			<name>Stimtouch Hosiery</name>
+			<useskill>Unarmed Combat</useskill>
+		</weapon>
+		<weapon>
+			<name>Throwing Syringe</name>
+			<useskill>Throwing Weapons</useskill>
+		</weapon>
+	
+
+    <!-- Changes the P.E.P slightly to use 'Energy' instead of 'energy' (also exotic change) -->
     <weapon>
       <name>Narcoject PEP</name>
       <weapontype>Energy</weapontype>
+	  <useskill>Directed Energy</useskill>
     </weapon>	  
 
     <!-- Corrects Run and Gun stat blocks -->
@@ -91,7 +354,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <rc>0</rc>
     </weapon>
 
-    <!-- TODO: Add Atomizer too? -->
+    
 
     <!--Adds the Semi-auto spec to the Gemini-->
     <weapon>
@@ -532,6 +795,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <hide />
       <source>4e</source>
       <page>1</page>
+      <cyberware>True</cyberware>
       <spec>Cyber Implants</spec>
       <useskill>Unarmed Combat</useskill>
     </weapon>
@@ -1561,6 +1825,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <cost>75</cost>
       <source>4e</source>
       <page>0</page>
+	  <useskill>Blades</useskill>
     </weapon>
     <weapon>
       <id>2e192f7d-a938-4945-8a5d-d23b703764d0</id>
@@ -1581,6 +1846,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <page>0</page>
       <addweapon>Kusarigama Sickle</addweapon>
       <addweapon>Kusarigama Weighted Chain</addweapon>
+	  <useskill>Flexile Melee</useskill>
     </weapon>
     <weapon>
       <id>2be05107-751e-437f-a5b3-e48eab7965a2</id>
@@ -1600,6 +1866,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>4e</source>
       <page>0</page>
       <hide />
+	  <useskill>Flexile Melee</useskill>
     </weapon>
     <weapon>
       <id>066f0176-8815-4cc7-b85a-9adb22c6e4ef</id>
@@ -1619,6 +1886,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>4e</source>
       <page>0</page>
       <hide />
+	  <useskill>Flexile Melee</useskill>
     </weapon>
     <!-- 4e Improvised weapons (cause I'm a god)-->
     <weapon>
@@ -1797,7 +2065,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <conceal>0</conceal>
       <accuracy>Physical</accuracy>
       <reach>0</reach>
-      <damage>8P(a) (-1/m)</damage>
+      <damage>10S(a)</damage>
       <ap>-5</ap>
       <mode>0</mode>
       <rc>0</rc>
@@ -1818,7 +2086,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <conceal>0</conceal>
       <accuracy>Physical</accuracy>
       <reach>0</reach>
-      <damage>8P(a) (-2/m)</damage>
+      <damage>14P(a) (-3/m)</damage>
       <ap>-4</ap>
       <mode>0</mode>
       <rc>0</rc>
@@ -1839,7 +2107,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <conceal>0</conceal>
       <accuracy>Physical</accuracy>
       <reach>0</reach>
-      <damage>12P(c) (-1/m)</damage>
+      <damage>16P(c) (-2/m)</damage>
       <ap>-3</ap>
       <mode>0</mode>
       <rc>0</rc>
@@ -1894,6 +2162,51 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <spec>Grenade Launcher</spec>
       <useskill>Heavy Weapons</useskill>
     </weapon>
+
+    <weapon>
+      <id>4ef621af-4b43-42f7-952c-b1bff3d533da</id>
+      <name>Minigrenade: Molotov Cocktail</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>8P (-4/m)</damage>
+      <ap>-6</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>6F</avail>
+      <cost>15</cost>
+      <source>NF</source>
+      <page>172</page>
+      <range>Grenade Launchers</range>
+      <spec>Grenade Launcher</spec>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+
+    <weapon>
+      <id>e54b4d0f-fd20-4b51-9693-a534063eccae</id>
+      <name>Minigrenade: Halloweener Molotov Cocktail</name>
+      <category>Gear</category>
+      <type>Ranged</type>
+      <conceal>0</conceal>
+      <accuracy>Physical</accuracy>
+      <reach>0</reach>
+      <damage>9P (-3/m)</damage>
+      <ap>-6</ap>
+      <mode>0</mode>
+      <rc>0</rc>
+      <ammo>0</ammo>
+      <avail>4F</avail>
+      <cost>50</cost>
+      <source>TSG</source>
+      <page>29</page>
+      <range>Grenade Launchers</range>
+      <spec>Grenade Launcher</spec>
+      <useskill>Heavy Weapons</useskill>
+    </weapon>
+
     <weapon>
       <id>e70c1ebe-0846-4e35-be7e-3bca8b1c6eba</id>
       <name>Minigrenade: Fragmentation</name>
@@ -1995,9 +2308,10 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <reach>0</reach>
       <damage>10S(e)</damage>
       <ap>-5</ap>
-      <mode>SA/BF/FA</mode>
+      <mode>SS</mode>
       <rc>0</rc>
       <ammo>10(c)</ammo>
+	  <useskill>Directed Energy</useskill>
       <avail>18R</avail>
       <cost>0</cost>
       <source>6e</source>
@@ -2064,7 +2378,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <spec>Electrical-Stun</spec>
 	  <hide />
     </weapon>
-    <weapon>
 
     <!-- Drone mount weapons -->
     <weapon>

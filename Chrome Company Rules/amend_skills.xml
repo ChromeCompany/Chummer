@@ -101,6 +101,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <source>SR5</source>
       <page>1</page>
     </skill>
+	<!--Exotic Skill Rework, taken from NA's Rules-->
 	<skill>
 			<id>5d9c796d-2eff-4ad6-beb6-e2e309c237d9</id>
 			<name>Directed Energy</name>
@@ -130,7 +131,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 				<spec>Blowgun</spec>
 				<spec>Grapple Gun</spec>
 				<spec>Net Guns</spec>
-				<spec>Bola Launchers</spec>
+				<spec>Bola</spec>
 			</specs>
 			<source>MPR</source>
 			<page>0</page>
@@ -179,7 +180,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 			<default>False</default>
 			<skillgroup />
 			<specs>
-				<spec>Chainsaw</spec>
+				<spec>Chainsaws</spec>
 				<spec>Injection</spec>
 				<spec>Rolling Blades</spec>
 				<spec>Shields</spec>
