@@ -612,6 +612,38 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <name>Remington Roomsweeper</name>
       <damage>8P</damage>
     </weapon>
+	<weapon>
+      <name>Ares Redline</name>
+      <damage>7P</damage>
+	  <ap>-12</ap>
+	  <conceal>+0</conceal>
+    </weapon>
+	<weapon>
+      <name>Ares Lancer MP Laser</name>
+      <damage>9P</damage>
+	  <ap>-12</ap>
+	  <conceal>+2</conceal>
+    </weapon>
+	<weapon>
+      <name>Ares Archon Heavy MP Laser</name>
+      <damage>12P</damage>
+	  <ap>-12</ap>
+	  <conceal>+10</conceal>
+    </weapon>
+	<weapon>
+      <name>Ares Armatus</name>
+      <damage>10P</damage>
+	  <ap>-5</ap>
+	  <conceal>+6</conceal>
+    </weapon>
+	<weapon>
+      <name>Repeating Laser</name>
+      <damage>7P</damage>
+	  <ap>-12</ap>
+	  <conceal>+6</conceal>
+	  <cost>30000</cost>
+    </weapon>
+	
 
     <!-- Banned items from the Krime Katalog-->
     <weapon>

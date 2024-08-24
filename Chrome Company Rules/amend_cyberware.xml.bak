@@ -1035,6 +1035,28 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     </cyberware>
 
 
+	<!-- The tesla coil requires its own version of the battery since it can't have accessories-->
+	<cyberware>
+      <id>09f9b1b0-074a-4350-807f-6004633c5eb8</id>
+      <name>Tesla Coil Power Clip</name>
+      <limit>False</limit>
+      <category>Cyber Implant Weapon Accessory</category>
+      <ess>0</ess>
+      <addtoparentess />
+      <capacity>[0]</capacity>
+      <addtoparentcapacity />
+      <addparentweaponaccessory>Peak-Discharge Battery Pack, Power Clip</addparentweaponaccessory>
+      <avail>14F</avail>
+      <cost>400</cost>
+      <source>RG</source>
+      <page>52</page>
+      <required>
+        <parentdetails>
+          <name>Tesla Coil</name>
+        </parentdetails>
+      </required>
+    </cyberware>
+
     <!-- Codemods-->
 
     <cyberware>

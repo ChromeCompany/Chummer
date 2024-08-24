@@ -190,21 +190,5 @@
         <selecttext />
       </bonus>
     </spell>
-	<spell>
-		<name>Lash</name>
-		<dv>F-3</dv>
-	</spell>
-	<spell>
-		<name>Slash</name>
-		<dv>F-1</dv>
-	</spell>
-	<spell>
-		<name>Claw</name>
-		<dv>F-3</dv>
-	</spell>
-	<spell>
-		<name>Barrage</name>
-		<dv>F-1</dv>
-	</spell>
   </spells>
 </chummer>

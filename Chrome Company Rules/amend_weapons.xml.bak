@@ -295,6 +295,10 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 			<useskill>Throwing Weapons</useskill>
 		</weapon>
 		<weapon>
+			<name>Monofilament Bola</name>
+			<useskill>Throwing Weapons</useskill>
+		</weapon>
+		<weapon>
 			<!-- Chakram (Melee) -->
 			<id>dc18811b-eb07-43d8-8d95-d5c468f048f4</id>
 			<useskill>Blades</useskill>
@@ -608,6 +612,13 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <name>Remington Roomsweeper</name>
       <damage>8P</damage>
     </weapon>
+	<weapon>
+      <name>Ares Redline</name>
+      <damage>7P</damage>
+	  <ap>-12</ap>
+	  <conceal>+0</conceal>
+    </weapon>
+	
 
     <!-- Banned items from the Krime Katalog-->
     <weapon>

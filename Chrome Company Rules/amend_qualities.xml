@@ -32,7 +32,10 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
     </quality>
 
     <!-- Make Outdoorsman not show up in a funky way-->
-
+	<quality>
+		<name>Focused Concentration</name>
+		<karma>3</karma>
+	</quality>
     <quality>
       <name>Outdoorsman</name>
       <bonus amendoperation="replace">
@@ -3463,6 +3466,16 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
           <quality>Reduced Sense (Sight)</quality>
         </oneof>
       </forbidden>
+      <source>MPR</source>
+      <page>0</page>
+    </quality>
+	
+	<quality>
+      <id>393236a6-002c-4fa6-a8d3-81eeb7ef6482</id>
+      <name>Tip of My Tongue</name>
+      <karma>-2</karma>
+	  <limit>3</limit>
+      <category>Negative</category>
       <source>MPR</source>
       <page>0</page>
     </quality>

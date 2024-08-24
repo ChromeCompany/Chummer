@@ -18,9 +18,81 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
   https://github.com/chummer5a/chummer5a
 -->
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema qualities.xsd">
-  <!--Region Shadowrun Core Positive Qualities -->
+
+  <!-- Quality Tweaks -->
   <qualities>
-    <!-- AI Adjustments -->
+    <!-- Lets non-magicians take Witness My Hate-->
+    <quality>
+      <name>Witness My Hate</name>
+      <required>
+        <oneof amendoperation="replace">
+          <magenabled />
+        </oneof>
+      </required>
+    </quality>
+
+    <!-- Make Outdoorsman not show up in a funky way-->
+	<quality>
+		<name>Focused Concentration</name>
+		<karma>3</karma>
+	</quality>
+    <quality>
+      <name>Outdoorsman</name>
+      <bonus amendoperation="replace">
+        <specificskill>
+          <name>Perception</name>
+          <bonus>-1</bonus>
+          <condition>Urban</condition>
+        </specificskill>
+        <specificskill>
+          <name>Survival</name>
+          <bonus>-1</bonus>
+          <condition>Urban</condition>
+        </specificskill>
+      </bonus>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>    
+
+    <!-- Make City Slicker not show up in a funky way -->
+    <quality>
+      <name>City Slicker</name>
+      <bonus amendoperation="replace">
+        <skillgroup>
+          <name>Outdoors</name>
+          <bonus>1</bonus>
+          <condition>Urban</condition>
+        </skillgroup>
+        <specificskill>
+          <name>Perception</name>
+          <bonus>-1</bonus>
+          <condition>Not Urban</condition>
+        </specificskill>
+        <specificskill>
+          <name>Survival</name>
+          <bonus>-1</bonus>
+          <condition>Not Urban</condition>
+        </specificskill>
+      </bonus>
+      <forbidden amendoperation="append">
+        <oneof>
+          <metatype>AI</metatype>
+        </oneof>
+      </forbidden>
+    </quality>    
+
+    <!-- Community Connection for non orks-->
+    <quality>
+      <name>Community Connection</name>
+      <required amendoperation="replace"></required>
+    </quality>
+  </qualities>
+
+  <!-- AI Adjustments -->
+  <qualities>
     <quality>
       <name>Acrobatic Defender</name>
       <forbidden amendoperation="append">
@@ -157,14 +229,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </oneof>
       </forbidden>
     </quality>
-    <quality>
-      <name>Outdoorsman</name>
-      <forbidden amendoperation="append">
-        <oneof>
-          <metatype>AI</metatype>
-        </oneof>
-      </forbidden>
-    </quality>    
     <quality>
       <name>Perceptive Defender</name>
       <forbidden amendoperation="append">
@@ -2135,9 +2199,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
     </quality>
   </qualities>
 
-  <!-- Adds Natural Weapons qualities -->
   <qualities amendoperation="append">
-    <!--Ork natural weapon tusks.-->
+    <!-- Adds Natural Weapons qualities -->
     <quality>
       <id>5caec3b1-21d0-4df7-98a7-7ca24f12e8b3</id>
       <name>Tusks</name>
@@ -3406,6 +3469,15 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <source>MPR</source>
       <page>0</page>
     </quality>
+	
+	<quality>
+      <id>393236a6-002c-4fa6-a8d3-81eeb7ef6482</id>
+      <name>Tip of My Tongue</name>
+      <karma>-2</karma>
+      <category>Negative</category>
+      <source>MPR</source>
+      <page>0</page>
+    </quality>
 
     <!-- Qualities to fix AI to work properly as per CC -->
     <quality>
@@ -3708,6 +3780,39 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
     </quality>
 
     <quality>
+      <hide />
+      <id>177cbd89-63e5-486e-80fb-261588969b8f</id>
+      <name>Functional Wings (Valkyrie)</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <metagenic>True</metagenic>
+      <bonus>
+        <movementreplace>
+          <category>Fly</category>
+          <speed>walk</speed>
+          <val>1</val>
+        </movementreplace> 
+        <movementreplace>
+          <category>Fly</category>
+          <speed>run</speed>
+          <val>4</val>
+        </movementreplace> 
+        <movementreplace>
+          <category>Fly</category>
+          <speed>sprint</speed>
+          <val>300</val>
+        </movementreplace> 
+      </bonus>
+      <forbidden>
+        <oneof>
+          <bioware>Skeletal Pneumaticity</bioware>
+        </oneof>
+      </forbidden>
+      <source>6e</source>
+      <page>0</page>
+    </quality>
+
+    <quality>
       <id>e430ca8a-89a9-4196-8008-ad466a0ba01a</id>
       <name>Functional Wings</name>
       <karma>15</karma>
@@ -3731,11 +3836,13 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </movementreplace> 
         <specificattribute>
           <name>BOD</name> 
-          <val>-1</val>
+          <min>-1</min>
+          <max>-1</max>
         </specificattribute>
       </bonus>
       <forbidden>
         <oneof>
+          <quality>Functional Wings (Valkyrie)</quality>
           <bioware>Skeletal Pneumaticity</bioware>
         </oneof>
       </forbidden>
@@ -3780,6 +3887,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <source>MPR</source>
       <page>0</page>
     </quality>
+
     <!-- Pure homebrew qualities -->
     <quality>
       <id>e6dc258d-9c8d-4761-952c-ac0b7bfd0495</id>
@@ -3795,6 +3903,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <source>MPR</source>
       <page>0</page>
     </quality>
+
     <quality>
       <id>de3c4987-5727-47ee-bcd5-edc3f79b1d9d</id>
       <name>Clinical Depression</name>
@@ -3803,6 +3912,18 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <source>MPR</source>
       <page>0</page>
     </quality>
+
+    <quality>
+      <id>83b34f3b-c6e9-49ae-bca3-7a37896b8988</id>
+      <name>Impulsive</name>
+      <karma>-4</karma>
+      <limit>3</limit>
+      <category>Negative</category>
+      <source>MPR</source>
+      <page>0</page>
+    </quality>
+  </qualities>
+  <qualities amendoperation="append">
 
     <!-- AI Qualities from the presumed 6e translations -->
     <quality>
@@ -3935,6 +4056,77 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </oneof>
       </required>
       <source>6e</source>
+      <page>0</page>
+    </quality>
+  </qualities>
+
+  <qualities amendoperation="append">
+    <quality>
+      <id>7d0fd493-7bea-4202-bb58-e4abc0ef3370</id>
+      <name>Earner</name>
+      <category>Positive</category>
+      <karma>5</karma>
+      <bonus>
+        <addcontact>
+          <forcedloyalty>3</forcedloyalty>
+          <forcegroup />
+          <free />
+          <group />
+        </addcontact>
+      </bonus>
+      <source>MPR</source>
+      <page>0</page>
+    </quality>
+
+    <quality>
+      <id>0493ad57-6ef1-4d5f-8447-81223500fd03</id>
+      <name>Outta Time</name>
+      <category>Negative</category>
+      <karma>-5</karma>
+      <source>MPR</source>
+      <page>0</page>
+    </quality>
+
+    <quality>
+      <id>936d9aa3-d034-4d42-b5b5-4dfa7abe7530</id> 
+      <name>Negative Rep I</name>
+      <category>Negative</category>
+      <karma>-2</karma>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>0</page>
+    </quality>
+
+    <quality>
+      <id>8854347d-0dc4-48c4-bd46-8165a9657116</id> 
+      <name>Negative Rep II</name>
+      <category>Negative</category>
+      <karma>-4</karma>
+      <limit>False</limit>
+      <bonus>
+        <selecttext />
+      </bonus>
+      <source>MPR</source>
+      <page>0</page>
+    </quality>
+  </qualities>
+
+  <!--Shifter Quality-->
+  <qualities amendoperation="append">
+    <quality>
+      <id>9c856d01-44c1-4dc9-992b-1bac1ac1d2c1</id>
+      <name>Shapeshifter Reject</name>
+      <category>Positive</category>
+      <karma>0</karma>
+      <required>
+        <oneof>
+          <metatypecategory>Shapeshifter</metatypecategory>
+        </oneof>
+      </required>
+      <source>MPR</source> 
       <page>0</page>
     </quality>
   </qualities>
