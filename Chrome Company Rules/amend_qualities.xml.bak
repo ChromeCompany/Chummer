@@ -3474,6 +3474,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <id>393236a6-002c-4fa6-a8d3-81eeb7ef6482</id>
       <name>Tip of My Tongue</name>
       <karma>-2</karma>
+	  <limit>3</limit>
       <category>Negative</category>
       <source>MPR</source>
       <page>0</page>
