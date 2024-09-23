@@ -428,7 +428,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
   <gears amendoperation="append">
     <gear>
       <id>530ccb21-8ac1-4e1e-b421-9ee98ce1d544</id>
-      <name>Hard Case Briefcase Shielding Mod</name>
+      <name>Briefcase/Bag Shielding Mod</name>
       <category>Explosives</category>
       <rating>0</rating>
       <source>MPR</source>
@@ -440,6 +440,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         <geardetails>
           <OR>
             <name>Hard-Shell Briefcase</name>
+			<name>Krime Baggie</name>
+			<name>Reactive Myomer Pack</name>
           </OR>
         </geardetails>
       </required>
@@ -447,6 +449,17 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         <selecttext />
       </bonus>
     </gear>
+	<gear>
+	  <id>d965f185-1fbe-48af-b66c-dc480710e395</id>
+	  <name>Krime Baggie</name>
+	  <category>Tools</category>
+	  <avail>10R</avail>
+	  <cost>500</cost>
+	  <rating>0</rating>
+	  <devicerating>0</devicerating>
+      <source>MPR</source>
+      <page>0</page>
+	</gear>
     <!-- Specialized Hardware Implementation-->
     <gear>
       <id>37d5c1a2-9749-4ebf-9986-165d3c1af57d</id>

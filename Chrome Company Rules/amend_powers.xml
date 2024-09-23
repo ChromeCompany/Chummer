@@ -26,6 +26,24 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <limit>1</limit>
       <maxlevels>100</maxlevels>
     </power>
+	<power>
+      <name>Enhanced Accuracy (skill)</name>
+      <bonus>
+        <weaponskillaccuracy amenoperation="replace">
+          <selectskill skillcategory="Combat Active" />
+          <value>1</value>
+        </weaponskillaccuracy>
+      </bonus>
+    </power>
+	<power>
+      <name>Critical Strike</name>
+      <bonus>
+        <weaponcategorydv amendoperation="replace">
+          <selectskill limittoskill="Astral Combat,Blades,Clubs,Unarmed Combat,Atypical Melee,Flexile Melee" />
+          <bonus>1</bonus>
+        </weaponcategorydv>
+      </bonus>
+    </power>
   </powers>
 
 

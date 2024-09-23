@@ -68,12 +68,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 			<accuracy>-1</accuracy>
 		</weaponbonus>
 	</gear>
-	<gear>
-		<name>Bolt: Incendiary Head</name>
-		<weaponbonus amendoperation="replace">
-			<accuracy>-1</accuracy>
-		</weaponbonus>
-	</gear>
+	
     <!-- Increases Antitamper to R6 -->
     <gear>
       <name>Anti-Tamper Circuits</name>
@@ -433,7 +428,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
   <gears amendoperation="append">
     <gear>
       <id>530ccb21-8ac1-4e1e-b421-9ee98ce1d544</id>
-      <name>Hard Case Briefcase Shielding Mod</name>
+      <name>Briefcase/Bag Shielding Mod</name>
       <category>Explosives</category>
       <rating>0</rating>
       <source>MPR</source>
@@ -445,6 +440,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         <geardetails>
           <OR>
             <name>Hard-Shell Briefcase</name>
+			<name>Krime Baggie</name>
+			<name>Reactive Myomer Pack</name>
           </OR>
         </geardetails>
       </required>
@@ -452,6 +449,16 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         <selecttext />
       </bonus>
     </gear>
+	<gear>
+	  <id>d965f185-1fbe-48af-b66c-dc480710e395</id>
+	  <name>Krime Baggie</name>
+	  <category>Tools</category>
+	  <avail>10R</avail>
+	  <cost>500</cost>
+	  <rating>0</rating>
+      <source>MPR</source>
+      <page>0</page>
+	</gear>
     <!-- Specialized Hardware Implementation-->
     <gear>
       <id>37d5c1a2-9749-4ebf-9986-165d3c1af57d</id>
@@ -700,6 +707,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <avail>16F</avail>
       <cost>1000</cost>
     </gear>
+
     <gear>
       <id>725c1b82-9bc5-4365-93ca-ce05309946d4</id>
       <name>Arbelast II MAW Rocket Launcher Canister</name>
@@ -1119,7 +1127,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <rating>0</rating>
       <source>6e</source>
       <page>1</page>
-      <avail>8R</avail>
+      <avail>2R</avail>
       <addweapon>Grenade: Zapper</addweapon>
       <cost>200</cost>
     </gear>
@@ -1145,6 +1153,31 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <addweapon>Grenade: Cryo, Aerodynamic</addweapon>
       <cost>200</cost>
     </gear>
+    <gear>
+      <id>9b6011de-4036-4cea-aa7b-45935a0cc095</id>
+      <name>Minigrenade: Molotov Cocktail</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <avail>6F</avail>
+      <source>NF</source>
+      <page>172</page>
+      <addweapon>Minigrenade: Molotov Cocktail</addweapon>
+      <cost>15</cost>
+      <costfor>1</costfor>
+    </gear>
+    <gear>
+      <id>56c3e681-30ec-430e-80ce-8e49f11f51e8</id>
+      <name>Minigrenade: Halloweener Molotov Cocktail</name>
+      <category>Ammunition</category>
+      <rating>0</rating>
+      <source>TSG</source>
+      <page>29</page>
+      <avail>4F</avail>
+      <addweapon>Minigrenade: Halloweener Molotov Cocktail</addweapon>
+      <cost>50</cost>
+    </gear>
+
+    <gear></gear>
     <gear>
       <id>2167ba95-4855-4762-9032-a94b495fc384</id>
       <name>Grenade: Zapper, Aerodynamic</name>
@@ -2507,6 +2540,49 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <avail>0</avail>
       <cost>0</cost>
       <bonus/>
+    </gear>
+  </gears>
+
+  <!-- New BTLs-->
+  <gears amendoperation="append">
+    <gear>
+      <id>fccb8d8e-802b-4ca4-a66d-fe2b6082d8bb</id>
+      <name>Vulcan</name>
+      <category>BTLs</category>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>8F</avail>
+      <cost>200</cost>
+    </gear>
+
+    <gear>
+      <id>32f0c6be-9d3b-4e1a-ba26-9433d44204f6</id>
+      <name>God Chip</name>
+      <category>BTLs</category>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>8F</avail>
+      <cost>200</cost>
+    </gear>
+
+    <gear>
+      <id>9849cc96-c4d5-44f0-a141-6a961bbcfe10</id> 
+      <name>Casanova</name>
+      <category>BTLs</category>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>8F</avail>
+      <cost>200</cost>
+    </gear>
+
+    <gear>
+      <id>af77c26c-b587-47a0-b218-68c7a244e77e</id>
+      <name>Fear Free</name>
+      <category>BTLs</category>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>8F</avail>
+      <cost>200</cost>
     </gear>
   </gears>
 </chummer>

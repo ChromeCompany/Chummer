@@ -23,8 +23,14 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <name>Critter Body Armor</name>
       <rating>100</rating>
     </armor>
-
-
+	<armor>
+	  <name>Vashon Island: Sleeping Tiger</name>
+	  <mods amendoperation="replace">
+        <name>Custom Fit</name>
+        <name>Newest Model</name>
+        <name>Electrochromic Clothing</name>
+      </mods>
+	</armor>
     <!-- Adding Environmental adaptations-->
     <armor>
       <name>Arctic Diving Suit</name>
@@ -215,6 +221,10 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <name>Grey Mana Integration</name>
       <avail>FixedValues(6R,6R,6R,9R,9R,9R)</avail>
     </mod>
+	<mod>
+	  <name>Full Body Armor: Chemical Seal</name>
+	  <hide />
+	</mod>
   </mods>
 
   <!-- Adds the new armor mods based on the house rules -->
