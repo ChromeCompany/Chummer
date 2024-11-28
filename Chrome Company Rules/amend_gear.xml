@@ -2585,5 +2585,24 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <avail>8F</avail>
       <cost>200</cost>
     </gear>
+	<!-- Test for Skill Group Foci, will be commented out for eternity unless approved
+	<gear>
+      <id>ebf8fdee-3a67-4bfd-96c1-3974573a6a0b</id>
+      <name>Sorcery Focus</name>
+      <category>Foci</category>
+      <rating>18</rating>
+      <source>SR5</source>
+      <page>319</page>
+      <avail>(Rating * 3)R</avail>
+      <bonus>
+        <skillgroup>
+          <name>Sorcery</name>
+          <bonus>Rating</bonus>
+        </skillgroup>
+		<selecttradition />
+      </bonus>
+      <cost>Rating * 18000</cost>
+    </gear>
+	-->
   </gears>
 </chummer>
