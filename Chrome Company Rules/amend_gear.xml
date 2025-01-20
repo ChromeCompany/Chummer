@@ -2585,6 +2585,64 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <avail>8F</avail>
       <cost>200</cost>
     </gear>
+	
+	<gear>
+      <id>92f048f7-2143-434f-8afd-7951c69d53ec</id>
+      <name>Antidepressants (1 Month)</name>
+      <category>Biotech</category>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>2000</cost>
+    </gear>
+	
+	<gear>
+      <id>4f3d0055-49c0-4a5f-861a-c475f0055531</id>
+      <name>Illness Medication (Mild) (1 Month)</name>
+      <category>Biotech</category>
+      <source>BB</source>
+      <page>12</page>
+      <avail>0</avail>
+      <cost>1000</cost>
+    </gear>
+	<gear>
+      <id>9dfc9c81-c593-499a-9473-0cbede19a4bc</id>
+      <name>Illness Medication (Moderate) (1 Month)</name>
+      <category>Biotech</category>
+      <source>BB</source>
+      <page>12</page>
+      <avail>0</avail>
+      <cost>2000</cost>
+    </gear>
+	<gear>
+      <id>e7bcf70d-5ad0-4484-abd6-4eca3c455502</id>
+      <name>Illness Medication (Severe) (1 Month)</name>
+      <category>Biotech</category>
+      <source>BB</source>
+      <page>12</page>
+      <avail>0</avail>
+      <cost>3000</cost>
+    </gear>
+	<gear>
+      <id>acde4dc3-079f-4bc7-b749-0da7ad773c0f</id>
+      <name>Illness Medication (Moderate) (1 Week)</name>
+      <category>Biotech</category>
+      <source>BB</source>
+      <page>12</page>
+      <avail>0</avail>
+      <cost>500</cost>
+    </gear>
+	<gear>
+      <id>1a57dc83-d2d5-40fe-a333-f28618bcc812</id>
+      <name>Illness Medication (Severe) (1 Day)</name>
+      <category>Biotech</category>
+      <source>BB</source>
+      <page>12</page>
+      <avail>0</avail>
+      <cost>100</cost>
+    </gear>
+	
+	
 	<!-- Test for Skill Group Foci, will be commented out for eternity unless approved
 	<gear>
       <id>ebf8fdee-3a67-4bfd-96c1-3974573a6a0b</id>

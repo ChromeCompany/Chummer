@@ -154,8 +154,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <lp>0</lp>
       <allowed>Street, Squatter, Low, Medium, High, Luxury</allowed>
       <cost>1000</cost>
-      <source>6e</source>
-      <page>0</page>
+      <source>BB</source>
+      <page>12</page>
     </quality>
     <quality>
       <id>92429938-446e-4551-afce-fd7102f2a5e2</id>
@@ -164,8 +164,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <lp>0</lp>
       <allowed>Street, Squatter, Low, Medium, High, Luxury</allowed>
       <cost>2000</cost>
-      <source>6e</source>
-      <page>0</page>
+      <source>BB</source>
+      <page>12</page>
     </quality>
     <quality>
       <id>5df11c4b-4f19-4eda-b655-9e0fc8aff8e4</id>
@@ -174,8 +174,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <lp>0</lp>
       <allowed>Street, Squatter, Low, Medium, High, Luxury</allowed>
       <cost>3000</cost>
-      <source>6e</source>
-      <page>0</page>
+      <source>BB</source>
+      <page>12</page>
     </quality>
     <quality>
       <id>20dacf49-0dc9-489a-9d19-2ae73748bf71</id>
