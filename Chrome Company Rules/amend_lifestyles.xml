@@ -87,6 +87,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <name>Skillsoft Network, Platinum</name>
       <cost>15000</cost>
     </quality>
+	
   </qualities>
 
   <qualities amendoperation="append">
@@ -127,7 +128,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <quality>
       <id>cb627dce-37d9-4f9f-9c13-ccdc1996ac49</id>
       <name>Uncontrolled Metastasis Treatment 1</name>
-      <category>Positive</cateogry>
+      <category>Positive</category>
       <lp>0</lp>
       <allowed>Street, Squatter, Low, Medium, High, Luxury</allowed>
       <cost>2000</cost>
@@ -137,11 +138,53 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <quality>
       <id>265e6bfc-39b3-4ac7-a433-4565bd795bb3</id>
       <name>Uncontrolled Metastasis Treatment 2</name>
-      <category>Positive</cateogry>
+      <category>Positive</category>
       <lp>0</lp>
       <allowed>Street, Squatter, Low, Medium, High, Luxury</allowed>
       <cost>4000</cost>
       <source>6e</source>
+      <page>0</page>
+    </quality>
+	
+	<!-- Add Illness and Clinical Depression Medications -->
+    <quality>
+      <id>110402b6-7299-415a-9f70-f0d419242749</id>
+      <name>Illness Medication (Mild)</name>
+      <category>Positive</category>
+      <lp>0</lp>
+      <allowed>Street, Squatter, Low, Medium, High, Luxury</allowed>
+      <cost>1000</cost>
+      <source>BB</source>
+      <page>12</page>
+    </quality>
+    <quality>
+      <id>92429938-446e-4551-afce-fd7102f2a5e2</id>
+      <name>Illness Medication (Moderate)</name>
+      <category>Positive</category>
+      <lp>0</lp>
+      <allowed>Street, Squatter, Low, Medium, High, Luxury</allowed>
+      <cost>2000</cost>
+      <source>BB</source>
+      <page>12</page>
+    </quality>
+    <quality>
+      <id>5df11c4b-4f19-4eda-b655-9e0fc8aff8e4</id>
+      <name>Illness Medication (Severe)</name>
+      <category>Positive</category>
+      <lp>0</lp>
+      <allowed>Street, Squatter, Low, Medium, High, Luxury</allowed>
+      <cost>3000</cost>
+      <source>BB</source>
+      <page>12</page>
+    </quality>
+    <quality>
+      <id>20dacf49-0dc9-489a-9d19-2ae73748bf71</id>
+      <name>Antidepressants</name>
+      <category>Positive</category>
+      <lp>0</lp>
+      <allowed>Street, Squatter, Low, Medium, High, Luxury</allowed>
+      <cost>2000</cost>
+      <source>MPR</source>
       <page>0</page>
     </quality>
   </qualities>
