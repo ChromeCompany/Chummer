@@ -66,6 +66,9 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <skill amendoperation="remove">
       <name>Nautical Mechanic</name>
     </skill >
+	<skill amendoperation="remove">
+	  <name>Escape Artist</name>
+	</skill>
     <skill>
       <name>Armorer</name>
       <skillgroup amendoperation="append">Engineering</skillgroup>
