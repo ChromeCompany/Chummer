@@ -426,6 +426,57 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 
   <!-- New gear, such as the plugin for the briefcase shielding -->
   <gears amendoperation="append">
+  <!-- Ritual Components for Necro Mages-->
+    <gear>
+      <id>246f0df7-a2e2-4290-80d1-d7eeae33712a</id>
+      <name>Animal Carcass (Necro Magic)</name>
+      <category>Magical Supplies</category>
+      <rating>20</rating>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>6</avail>
+      <cost>100 * Rating</cost>
+    </gear>
+	<gear>
+      <id>06f742b3-4c7e-431b-852b-3c4f6fb7f4a9</id>
+      <name>Metahuman Body (Necro Magic)</name>
+      <category>Magical Supplies</category>
+      <rating>20</rating>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>10F</avail>
+      <cost>200 * Rating</cost>
+    </gear>
+	<gear>
+      <id>98c7f31b-fd26-4d8b-af9e-1da993af8272</id>
+      <name>Lifeless Earth (Necro Magic)</name>
+      <category>Magical Supplies</category>
+      <rating>20</rating>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>4</avail>
+      <cost>50 * Rating</cost>
+    </gear>
+	<gear>
+      <id>a5a445b1-e0c1-4f6b-b912-3109e425dc79</id>
+      <name>Ashes (Necro Magic)</name>
+      <category>Magical Supplies</category>
+      <rating>20</rating>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>4</avail>
+      <cost>50 * Rating</cost>
+    </gear>
+	<gear>
+      <id>e2f013c6-dd9d-49b4-bd5d-8b8345bcc10d</id>
+      <name>Ashes (Necro Magic)</name>
+      <category>Magical Supplies</category>
+      <rating>20</rating>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>4</avail>
+      <cost>50 * Rating</cost>
+    </gear>
     <gear>
       <id>530ccb21-8ac1-4e1e-b421-9ee98ce1d544</id>
       <name>Briefcase/Bag Shielding Mod</name>
@@ -2585,7 +2636,65 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <avail>8F</avail>
       <cost>200</cost>
     </gear>
-	<!-- Test for Skill Group Foci, will be commented out for eternity unless approved-->
+	
+	<gear>
+      <id>92f048f7-2143-434f-8afd-7951c69d53ec</id>
+      <name>Antidepressants (1 Month)</name>
+      <category>Biotech</category>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>0</avail>
+      <cost>2000</cost>
+    </gear>
+	
+	<gear>
+      <id>4f3d0055-49c0-4a5f-861a-c475f0055531</id>
+      <name>Illness Medication (Mild) (1 Month)</name>
+      <category>Biotech</category>
+      <source>BB</source>
+      <page>12</page>
+      <avail>0</avail>
+      <cost>1000</cost>
+    </gear>
+	<gear>
+      <id>9dfc9c81-c593-499a-9473-0cbede19a4bc</id>
+      <name>Illness Medication (Moderate) (1 Month)</name>
+      <category>Biotech</category>
+      <source>BB</source>
+      <page>12</page>
+      <avail>0</avail>
+      <cost>2000</cost>
+    </gear>
+	<gear>
+      <id>e7bcf70d-5ad0-4484-abd6-4eca3c455502</id>
+      <name>Illness Medication (Severe) (1 Month)</name>
+      <category>Biotech</category>
+      <source>BB</source>
+      <page>12</page>
+      <avail>0</avail>
+      <cost>3000</cost>
+    </gear>
+	<gear>
+      <id>acde4dc3-079f-4bc7-b749-0da7ad773c0f</id>
+      <name>Illness Medication (Moderate) (1 Week)</name>
+      <category>Biotech</category>
+      <source>BB</source>
+      <page>12</page>
+      <avail>0</avail>
+      <cost>500</cost>
+    </gear>
+	<gear>
+      <id>1a57dc83-d2d5-40fe-a333-f28618bcc812</id>
+      <name>Illness Medication (Severe) (1 Day)</name>
+      <category>Biotech</category>
+      <source>BB</source>
+      <page>12</page>
+      <avail>0</avail>
+      <cost>100</cost>
+    </gear>
+	
+	
+	<!-- Test for Skill Group Foci, will be commented out for eternity unless approved
 	<gear>
       <id>ebf8fdee-3a67-4bfd-96c1-3974573a6a0b</id>
       <name>Sorcery Focus</name>
@@ -2603,5 +2712,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       </bonus>
       <cost>Rating * 18000</cost>
     </gear>
+	-->
   </gears>
 </chummer>

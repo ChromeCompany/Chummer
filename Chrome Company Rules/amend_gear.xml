@@ -426,6 +426,57 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
 
   <!-- New gear, such as the plugin for the briefcase shielding -->
   <gears amendoperation="append">
+  <!-- Ritual Components for Necro Mages-->
+    <gear>
+      <id>246f0df7-a2e2-4290-80d1-d7eeae33712a</id>
+      <name>Animal Carcass (Necro Magic)</name>
+      <category>Magical Supplies</category>
+      <rating>20</rating>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>6</avail>
+      <cost>100 * Rating</cost>
+    </gear>
+	<gear>
+      <id>06f742b3-4c7e-431b-852b-3c4f6fb7f4a9</id>
+      <name>Metahuman Body (Necro Magic)</name>
+      <category>Magical Supplies</category>
+      <rating>20</rating>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>10F</avail>
+      <cost>200 * Rating</cost>
+    </gear>
+	<gear>
+      <id>98c7f31b-fd26-4d8b-af9e-1da993af8272</id>
+      <name>Lifeless Earth (Necro Magic)</name>
+      <category>Magical Supplies</category>
+      <rating>20</rating>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>4</avail>
+      <cost>50 * Rating</cost>
+    </gear>
+	<gear>
+      <id>a5a445b1-e0c1-4f6b-b912-3109e425dc79</id>
+      <name>Ashes (Necro Magic)</name>
+      <category>Magical Supplies</category>
+      <rating>20</rating>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>4</avail>
+      <cost>50 * Rating</cost>
+    </gear>
+	<gear>
+      <id>e2f013c6-dd9d-49b4-bd5d-8b8345bcc10d</id>
+      <name>Dead Plant (Necro Magic)</name>
+      <category>Magical Supplies</category>
+      <rating>20</rating>
+      <source>MPR</source>
+      <page>0</page>
+      <avail>4</avail>
+      <cost>50 * Rating</cost>
+    </gear>
     <gear>
       <id>530ccb21-8ac1-4e1e-b421-9ee98ce1d544</id>
       <name>Briefcase/Bag Shielding Mod</name>
