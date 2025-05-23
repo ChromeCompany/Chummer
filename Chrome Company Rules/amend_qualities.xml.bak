@@ -978,6 +978,11 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <name>Information Auctioneer</name>
       <hide />
     </quality>
+	
+	<quality>
+      <name>First Impression</name>
+      <hide />
+    </quality>
 
     <!-- Other Adjustments -->
     <quality>
@@ -2088,10 +2093,17 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
         </oneof>
       </required>
     </quality>
-    <quality>
+    <quality amendoperation="replace">
       <name>Fragmentation</name>
       <karma>-15</karma>
       <limit>6</limit>
+	  <bonus>
+        <essencemax>-1</essencemax>
+		<skillcategory>
+          <name>Social Active</name>
+          <bonus>-1</bonus>
+        </skillcategory>
+      </bonus>
     </quality>
     <!-- End Region -->
     <!-- Region Better Than Bad -->

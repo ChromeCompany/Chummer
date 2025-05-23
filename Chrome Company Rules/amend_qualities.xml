@@ -2097,6 +2097,13 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <name>Fragmentation</name>
       <karma>-15</karma>
       <limit>6</limit>
+	  <bonus amendoperation="replace">
+        <essencemax>-1</essencemax>
+		<skillcategory>
+          <name>Social Active</name>
+          <bonus>-1</bonus>
+        </skillcategory>
+      </bonus>
     </quality>
     <!-- End Region -->
     <!-- Region Better Than Bad -->
