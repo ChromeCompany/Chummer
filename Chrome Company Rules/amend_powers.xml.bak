@@ -35,6 +35,25 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </weaponskillaccuracy>
       </bonus>
     </power>
+	<power>
+      <name>Critical Strike</name>
+      <bonus>
+        <weaponcategorydv amendoperation="replace">
+          <selectskill limittoskill="Astral Combat,Blades,Clubs,Unarmed Combat,Atypical Melee,Flexile Melee" />
+          <bonus>1</bonus>
+        </weaponcategorydv>
+      </bonus>
+    </power>
+	<power>
+	  <name>Osmosis</name>
+	  <points>0.5</points>
+	  <maxlevels>1</maxlevels>
+	</power>
+	<power>
+	  <name>Mimic</name>
+	  <points>0.5</points>
+	  <maxlevels>1</maxlevels>
+	</power>
   </powers>
 
 

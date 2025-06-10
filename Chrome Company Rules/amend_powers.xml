@@ -44,6 +44,18 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         </weaponcategorydv>
       </bonus>
     </power>
+	<power>
+	  <name>Osmosis</name>
+	  <points>0.5</points>
+	  <levels>False</levels>
+	  <maxlevels>1</maxlevels>
+	</power>
+	<power>
+	  <name>Mimic</name>
+	  <points>0.5</points>
+	  <levels>False</levels>
+	  <maxlevels>1</maxlevels>
+	</power>
   </powers>
 
 
