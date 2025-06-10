@@ -95,6 +95,7 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <cyberware>
       <name>Smartskin</name>
       <ess>Rating * 0.3</ess>
+	  <avail>(Rating * 5)R</avail>
     </cyberware>
     <cyberware>
       <name>Hand Blade</name>
