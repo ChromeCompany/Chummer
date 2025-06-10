@@ -499,13 +499,6 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
       <name>Stoner-Ares M-22A1</name>
       <hide />
     </weapon>
-
-    <weapon>
-      <name>Underbarrel Grenade Launcher</name>
-      <avail>10F</avail>
-      <cost>3500</cost>
-    </weapon>
-
     <!-- Krime Katalog Adjustments -->
     <weapon>
       <name>Krime Heater</name>
@@ -607,6 +600,8 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <weapon>
       <name>Underbarrel Grenade Launcher</name>
       <accuracy>4</accuracy>
+	  <avail>10F</avail>
+      <cost>3500</cost>
     </weapon>
     <weapon>
       <name>Remington Roomsweeper</name>
