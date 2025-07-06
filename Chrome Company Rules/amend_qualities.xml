@@ -21,6 +21,19 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
 
   <!-- Quality Tweaks -->
   <qualities>
+	<!-- Spirit Hunter Karma change-->
+	<quality>
+	  <name>Spirit Hunter I</name>
+	  <karma>10</karma>
+	</quality>
+	<quality>
+	  <name>Spirit Hunter II</name>
+	  <karma>10</karma>
+	</quality>
+	<quality>
+	  <name>Spirit Hunter III</name>
+	  <karma>10</karma>
+	</quality>
     <!-- Lets non-magicians take Witness My Hate-->
     <quality>
       <name>Witness My Hate</name>
@@ -3934,6 +3947,21 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses />.
       <category>Negative</category>
       <source>MPR</source>
       <page>0</page>
+    </quality>
+	<quality>
+      <id>eb66052a-d2cc-4834-8f7c-f3f652d9732d</id>
+      <name>Overbearing Mentor</name>
+      <karma>-2</karma>
+      <category>Negative</category>
+      <limit>3</limit>
+      <category>Negative</category>
+      <source>MPR</source>
+      <page>0</page>
+	  <required>
+        <oneof>
+          <quality>Mentor Spirit</quality>
+        </oneof>
+      </required>
     </quality>
   </qualities>
   <qualities amendoperation="append">
