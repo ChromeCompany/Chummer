@@ -309,6 +309,12 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
         <selectskill limittoskill="First Aid,Hardware,Instruction,Mechanics,Navigation,Performance" />
       </bonus>
     </gear>
+	<gear>
+      <name>Skill Autosoft (Restricted)</name>
+      <bonus amendoperation="replace">
+        <selectskill limittoskill="Chemistry,Demolitions,Electronic Warfare,Locksmith,Medicine" />
+      </bonus>
+    </gear>
     <gear>
       <name>[Model] Evasion Autosoft</name>
       <bonus amendoperation="replace">

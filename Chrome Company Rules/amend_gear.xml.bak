@@ -237,7 +237,11 @@ along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
     <gear xpathfilter="contains(name,'Individualized')">
       <hide />
     </gear>
-
+	<!-- Cry wolf ban-->
+	<gear>
+	  <name>Cry Wolf</name>
+	  <hide />
+	</gear>
     <!-- Chrome Flesh Nanotech -->
     <gear>
       <name>Carcerand-Plus</name>
